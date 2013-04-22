@@ -42,8 +42,9 @@
         <div class="misc vcard">
           <h4>about</h4>
           <ul>
+            <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span></address></li>
             {% if site.author.email %}
-            <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
+            <li><address><span class="fn email">{{ site.author.email }}</span></address></li>
             {% endif %}
             {% if site.author.github %}
             <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>

@@ -21,73 +21,66 @@ tags: []
 [Selenide](http://selenide.org) - это обёртка вокруг Selenium WebDriver, позволяющая быстро и просто его использовать при написании тестов, сосредоточившись на логике, а не суете с браузером.
 
 Вот пример теста. Как видите, код минимален. Вызвал "open" - и браузер открылся.
-```java
-@Test
-public void testLogin() {
-  open("/login");
-  $(By.name("user.name")).sendKeys("johny");
-  $("#submitButton").click();
-  waitUntil(By.id("username"), hasText("Hello, Johny!"));
-  $("#username").shouldHave(cssClass("green-text"));
 
-  assertThat($("#insuranceDetailsHeader").getText(), equalTo("Страховые полисы"));
-  assertThat($$("#paymentScheduleTable tr").size(), equalTo(7));
-}
-```
+    @Test
+    public void testLogin() {
+      open("/login");
+      $(By.name("user.name")).sendKeys("johny");
+      $("#submitButton").click();
+      waitUntil(By.id("username"), hasText("Hello, Johny!"));
+      $("#username").shouldHave(cssClass("green-text"));
+
+      assertThat($("#insuranceDetailsHeader").getText(), equalTo("Страховые полисы"));
+      assertThat($$("#paymentScheduleTable tr").size(), equalTo(7));
+    }
 
 При вызове метода open Selenide сам запускает браузер и открывает страницу http://localhost:8080/login (порт и хост конфигурируется, естественно). А также заботится о том, чтобы в конце браузер закрылся.
 
 ### Дополнительные вкусности Selenide ###
 Selenide предоставляет дополнительные методы для действий, которые невозможно сделать одной командой Selenium WebDriver. Это выбор радио-кнопки, выбор элемента из выпадающего списка, создание снимка экрана, очистка кэша браузера и т.п.
 
-```java
-@Test
-public void canFillComplexForm() {
-  open("/client/registration");
-  setValue(By.name("user.name"), "johny");
-  selectRadio("user.gender", "male");
-  selectOption(By.name("user.preferredLayout"), "plain");
-  selectOptionByText(By.name("user.securityQuestion"), "What is my first car?");
-  followLink(By.id("submit"));
-  takeScreenShot("complex-form.png");
-}
+    @Test
+    public void canFillComplexForm() {
+      open("/client/registration");
+      setValue(By.name("user.name"), "johny");
+      selectRadio("user.gender", "male");
+      selectOption(By.name("user.preferredLayout"), "plain");
+      selectOptionByText(By.name("user.securityQuestion"), "What is my first car?");
+      followLink(By.id("submit"));
+      takeScreenShot("complex-form.png");
+    }
 
-@Before
-public void clearCache() {
-  clearBrowserCache();
-}
-```
+    @Before
+    public void clearCache() {
+      clearBrowserCache();
+    }
 
 И особняком стоит вопрос Ajax: при тестировании приложений, использующих Ajax, приходится изобретать код, который чего-то ждёт (когда кнопка станет зелёной). Selenide предоставляет богатый API для ожидания наступления различных событий:
 
-```java
-@Test
-public void pageUsingAjax() {
-  waitFor("#username");
-  waitUntil("#username", hasText("Hello, Johny!"));
-  waitUntil("#username", hasAttribute("name", "user.name"));
-  waitUntil("#username", hasClass("green-button"));
-  waitUntil("#username", hasValue("Carlson"));
-  waitUntil("#username", appears);
-  waitUntil("#username", disappears);
-}
-```
+    @Test
+    public void pageUsingAjax() {
+      waitFor("#username");
+      waitUntil("#username", hasText("Hello, Johny!"));
+      waitUntil("#username", hasAttribute("name", "user.name"));
+      waitUntil("#username", hasClass("green-button"));
+      waitUntil("#username", hasValue("Carlson"));
+      waitUntil("#username", appears);
+      waitUntil("#username", disappears);
+    }
 
 ### Я хочу попробовать, с чего начать?
 
 Добавь в свой проект зависимость Selenide:
-```xml
-<dependency>
-    <groupId>com.codeborne</groupId>
-    <artifactId>selenide</artifactId>
-    <version>1.6</version>
-</dependency>
-```
+
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>1.6</version>
+        </dependency>
 
 Импортируй нужный класс:
-```java
-include static com.codeborne.selenide.Selenide.*
-```
+
+        include static com.codeborne.selenide.Selenide.*
 
 И готово! Пиши тесты, едрён-батон!
 

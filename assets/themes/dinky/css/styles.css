@@ -411,4 +411,6 @@ footer {
   }
 }
 
-img[alt="right"] { float: right; }
+img[alt="right"] {
+  float: right;
+}

@@ -18,10 +18,6 @@ tags: []
 ### Что такое Selenide
 [Selenide](http://selenide.org) - это обёртка вокруг Selenium WebDriver, позволяющая быстро и просто его использовать при написании тестов, сосредоточившись на логике, а не суете с браузером.
 
-```javascript
-var test="TEST";
-```
-
 Вот пример теста. Как видите, код минимален. Вызвал метод `open` - и браузер открылся.
 
 ```java
@@ -43,48 +39,56 @@ public void testLogin() {
 ### Дополнительные вкусности Selenide ###
 Selenide предоставляет дополнительные методы для действий, которые невозможно сделать одной командой Selenium WebDriver. Это выбор радио-кнопки, выбор элемента из выпадающего списка, создание снимка экрана, очистка кэша браузера и т.п.
 
-    @Test
-    public void canFillComplexForm() {
-      open("/client/registration");
-      setValue(By.name("user.name"), "johny");
-      selectRadio("user.gender", "male");
-      selectOption(By.name("user.preferredLayout"), "plain");
-      selectOptionByText(By.name("user.securityQuestion"), "What is my first car?");
-      followLink(By.id("submit"));
-      takeScreenShot("complex-form.png");
-    }
+```java
+@Test
+public void canFillComplexForm() {
+  open("/client/registration");
+  setValue(By.name("user.name"), "johny");
+  selectRadio("user.gender", "male");
+  selectOption(By.name("user.preferredLayout"), "plain");
+  selectOptionByText(By.name("user.securityQuestion"), "What is my first car?");
+  followLink(By.id("submit"));
+  takeScreenShot("complex-form.png");
+}
 
-    @Before
-    public void clearCache() {
-      clearBrowserCache();
-    }
+@Before
+public void clearCache() {
+  clearBrowserCache();
+}
+```
 
 И особняком стоит вопрос Ajax: при тестировании приложений, использующих Ajax, приходится изобретать код, который чего-то ждёт (когда кнопка станет зелёной). Selenide предоставляет богатый API для ожидания наступления различных событий:
 
-    @Test
-    public void pageUsingAjax() {
-      waitFor("#username");
-      waitUntil("#username", hasText("Hello, Johny!"));
-      waitUntil("#username", hasAttribute("name", "user.name"));
-      waitUntil("#username", hasClass("green-button"));
-      waitUntil("#username", hasValue("Carlson"));
-      waitUntil("#username", appears);
-      waitUntil("#username", disappears);
-    }
+```java
+@Test
+public void pageUsingAjax() {
+  waitFor("#username");
+  waitUntil("#username", hasText("Hello, Johny!"));
+  waitUntil("#username", hasAttribute("name", "user.name"));
+  waitUntil("#username", hasClass("green-button"));
+  waitUntil("#username", hasValue("Carlson"));
+  waitUntil("#username", appears);
+  waitUntil("#username", disappears);
+}
+```
 
 ### Я хочу попробовать, с чего начать?
 
 Добавь в свой проект зависимость Selenide:
 
-        <dependency>
-            <groupId>com.codeborne</groupId>
-            <artifactId>selenide</artifactId>
-            <version>1.6</version>
-        </dependency>
+```xml
+<dependency>
+    <groupId>com.codeborne</groupId>
+    <artifactId>selenide</artifactId>
+    <version>1.6</version>
+</dependency>
+```
 
 Импортируй нужный класс:
 
-        include static com.codeborne.selenide.Selenide.*
+```java
+include static com.codeborne.selenide.Selenide.*
+```
 
 И готово! Пиши тесты, едрён-батон!
 

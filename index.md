@@ -44,3 +44,7 @@ This theme is still unfinished. If you'd like to be added as a contributor, [ple
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
+<footer>
+  <p>Проект поддерживается фирмой <a href="https://github.com/codeborne"><img src="../images/codeborne-logo.png"/></a></p>
+  <p><small>Данный сайт бегает на GitHub Pages &mdash; Стиль создан <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+</footer>

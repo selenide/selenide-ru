@@ -410,3 +410,5 @@ footer {
     color:#444;
   }
 }
+
+img[alt="right"] { float: right; }

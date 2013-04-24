@@ -94,6 +94,7 @@ include static com.codeborne.selenide.Selenide.*
 
 ### Кто-нибудь это реально использует?
 Да, мы <a href="http://ru.codeborne.com/" target="_blank">в фирме Codeborne</a> используем Selenide в нескольких реальных проектах:
+
 *   Java + ANT + JUnit
 *   Java + Gradle + JUnit
 *   Scala + ANT + ScalaTest
@@ -105,6 +106,7 @@ include static com.codeborne.selenide.Selenide.*
 Библиотека Selenium взяла своё название от химического элемента (Селен). А селениды - это соединения селена с  другими элементами.
 
 Вот и у нас:
+
 *   Selenide = Selenium + JUnit
 *   Selenide = Selenium + TestNG
 *   Selenide = Selenium + ScalaTest

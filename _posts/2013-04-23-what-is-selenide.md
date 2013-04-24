@@ -18,27 +18,25 @@ tags: []
 ### Что такое Selenide
 [Selenide](http://selenide.org) - это обёртка вокруг Selenium WebDriver, позволяющая быстро и просто его использовать при написании тестов, сосредоточившись на логике, а не суете с браузером.
 
-```
-var test="TEST";
-```
-
 ```javascript
 var test="TEST";
 ```
 
 Вот пример теста. Как видите, код минимален. Вызвал метод `open` - и браузер открылся.
 
-    @Test
-    public void testLogin() {
-      open("/login");
-      $(By.name("user.name")).sendKeys("johny");
-      $("#submitButton").click();
-      waitUntil(By.id("username"), hasText("Hello, Johny!"));
-      $("#username").shouldHave(cssClass("green-text"));
+```java
+@Test
+public void testLogin() {
+  open("/login");
+  $(By.name("user.name")).sendKeys("johny");
+  $("#submitButton").click();
+  waitUntil(By.id("username"), hasText("Hello, Johny!"));
+  $("#username").shouldHave(cssClass("green-text"));
 
-      assertThat($("#insuranceDetailsHeader").getText(), equalTo("Страховые полисы"));
-      assertThat($$("#paymentScheduleTable tr").size(), equalTo(7));
-    }
+  assertThat($("#insuranceDetailsHeader").getText(), equalTo("Страховые полисы"));
+  assertThat($$("#paymentScheduleTable tr").size(), equalTo(7));
+}
+```
 
 При вызове метода open Selenide сам запускает браузер и открывает страницу `http://localhost:8080/login` (порт и хост конфигурируется, естественно). А также заботится о том, чтобы в конце браузер закрылся.
 

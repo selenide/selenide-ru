@@ -26,11 +26,8 @@ public void testLogin() {
   open("/login");
   $(By.name("user.name")).sendKeys("johny");
   $("#submitButton").click();
-  waitUntil(By.id("username"), hasText("Hello, Johny!"));
+  $("#username").shouldHave(text("Hello, Johny!"));
   $("#username").shouldHave(cssClass("green-text"));
-
-  assertThat($("#insuranceDetailsHeader").getText(), equalTo("Страховые полисы"));
-  assertThat($$("#paymentScheduleTable tr").size(), equalTo(7));
 }
 ```
 

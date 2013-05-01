@@ -413,4 +413,5 @@ footer {
 
 img[alt="right"] {
   float: right;
+  vertical-align: sub;
 }

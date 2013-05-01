@@ -1,50 +1,51 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Selenide.org
+tagline: Лаконичные UI тесты на Java
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+![right]({{ BASE_PATH }}/images/selenide-logo-100x100.png)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Selenide - это библиотека для написания коротких и выразительных, свободных от
+мусора тестов на Java с использованием Selenium WebDriver.
 
-## Update Author Attributes
+## Сразу пример
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+```java
+@Test
+public void userCanLoginByUsername() {
+  open("/login");
+  $(By.name("user.name")).setValue("johny");
+  $("#submit").click();
+  $(".loading_progress").should(disappear); // Само подождёт, пока элемент исчезнет
+  $("#username").shouldHave(text("Hello, Johny!")); // Само подождёт, пока у элемента появится нужный текст
+}
+```
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+## Что даёт Selenide?
+Selenide - это обёртка вокруг <a href="http://seleniumhq.org/projects/webdriver/">Selenium WebDriver</a>, дающая:
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
++  Автоматическое управление жизненным циклом бразера (открыть/закрыть/рестартануть)
++  Селекторы для элементов в стиле jQuery
++  Поддержка Ajax
 
-    $ rm -rf _posts/core-samples
+Вот так Selenide позволяет писать лаконичные тесты. Вам больше не нужно заботиться о
+том, как открыть и закрыть браузер, не надо беспокоиться о таймаутах, не надо писать монструозный код для
+ожидания наступления событий - сконцентрируйтесь на бизнес-логике!
 
-Here's a sample "posts list".
+## С чего начать?
+Просто добавьте <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/2.1/selenide-2.1.jar">selenide.jar</a> в ваш проект. Для пользователей Maven, Ivy, Gradle и т.п.:
+```xml
+<dependency org="com.codeborne" name="selenide" revision="2.1"/>
+```
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+Дальше смотри <a href="https://github.com/codeborne/selenide/wiki/Quick-Start">Quick Start guide</a>, там немножко больше деталей.
+
+## Контакты
+
+<ul>
+  <li><a href="https://github.com/codeborne/selenide">Заглянуть на <strong>GitHub</strong></a></li>
+  <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22">Поискать в <strong>Maven</strong></a></li>
+  <li><a href="http://twitter.com/jselenide">Следить в <strong>Twitter</strong></a></li>
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
-<footer>
-  <p>Проект поддерживается фирмой <a href="https://github.com/codeborne"><img src="../images/codeborne-logo.png"/></a></p>
-  <p><small>Данный сайт бегает на GitHub Pages &mdash; Стиль создан <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-</footer>

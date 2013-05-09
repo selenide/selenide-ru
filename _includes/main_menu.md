@@ -13,5 +13,5 @@
 <div class="archive">
   {% assign posts_collate = site.posts %}
   {% include JB/posts_collate %}
-  <a href="archive.html" class="right small">Весь архив блога</a>
+  <a href="{{ BASE_PATH }}/archive.html" class="right small">Весь архив блога</a>
 </div>

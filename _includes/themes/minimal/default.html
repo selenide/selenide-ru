@@ -23,12 +23,6 @@
     <h1 class="header"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
     <p class="header">{{ site.tagline }}</p>
 
-    <ul class="gray-boxes">
-      <li><a href="https://github.com/codeborne/selenide" target="_blank">View On <strong>GitHub</strong></a></li>
-      <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank">Search In <strong>Maven</strong></a></li>
-      <li><a href="http://twitter.com/jselenide" target="_blank">Follow at <strong>Twitter</strong></a></li>
-    </ul>
-
     {% if site.ads.google %}
     <div class="misc ad">
       <script type="text/javascript"><!--
@@ -42,16 +36,7 @@
     </div>
     {% endif %}
 
-    <ul class="main-menu-pages">
-      <li><a href="quick-start.html">С чего начать?</a></li>
-    </ul>
-
-    <h3>Блог</h3>
-    <div class="archive">
-      {% assign posts_collate = site.posts %}
-      {% include JB/posts_collate %}
-      <a href="archive.html" class="right small">Весь архив блога</a>
-    </div>
+    {% include main_menu.md %}
   </header>
 
   <section>

@@ -62,13 +62,13 @@ public void userCanLoginByUsername() {
   open("/login");
   $(By.name("user.name")).setValue("johny");
   $("#submit").click();
-  $(".loading_progress").should(disappear); // Waits until element disappears
-  $("#username").shouldHave(text("Hello, Johny!")); // Waits until element gets text
+  $(".loading_progress").should(disappear); // Само подождёт, пока элемент исчезнет
+  $("#username").shouldHave(text("Hello, Johny!")); // Само подождёт, пока у элемента появится нужный текст
 }
 ```
 
 И готово!
 
-Можно использовать любой фреймворк по вкусу: JUnit, TestNG - что душа пожелает.
+Можно использовать любой фреймворк по вкусу: JUnit, TestNG, Cucumber, ScalaTest, JBehave - что душа пожелает.
 
 Запускать как обычные юнит-тесты. Можно из IDE, можно ANT скриптом, можно "mvn test".

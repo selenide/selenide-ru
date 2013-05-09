@@ -95,6 +95,19 @@ img {
   max-width:100%;
 }
 
+.main-menu-pages {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.right {
+    float: right;
+}
+
+.small {
+    font-size: small;
+}
+
 header {
   width:270px;
   float:left;

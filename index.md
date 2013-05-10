@@ -1,16 +1,11 @@
 ---
 layout: page
-title: Selenide.org
+title:
 tagline: Лаконичные UI тесты на Java
 ---
 {% include JB/setup %}
 
-![right]({{ BASE_PATH }}/images/selenide-logo-100x100.png)
-
-Selenide - это библиотека для написания коротких и выразительных, свободных от
-мусора тестов на Java с использованием Selenium WebDriver.
-
-## Сразу пример
+<h4>{{ site.tagline }}</h4>
 
 ```java
 @Test
@@ -41,12 +36,4 @@ Selenide - это обёртка вокруг <a href="http://seleniumhq.org/pro
 <dependency org="com.codeborne" name="selenide" revision="2.1"/>
 ```
 
-Дальше смотри <a href="https://github.com/codeborne/selenide/wiki/Quick-Start">Quick Start guide</a>, там немножко больше деталей.
-
-## Контакты
-
-<ul>
-  <li><a href="https://github.com/codeborne/selenide">Заглянуть на <strong>GitHub</strong></a></li>
-  <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22">Поискать в <strong>Maven</strong></a></li>
-  <li><a href="http://twitter.com/jselenide">Следить в <strong>Twitter</strong></a></li>
-</ul>
+Дальше смотри [Quick Start guide]({{ BASE_PATH }}/quick-start.html), там немножко больше деталей.

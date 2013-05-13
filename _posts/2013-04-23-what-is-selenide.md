@@ -147,7 +147,11 @@ include static com.codeborne.selenide.Selenide.*
 *   и т.д.
 
 Так что можете быть уверены, проект не сырой, реально используется и поддерживается.
-Есть ещё небольшой эталонный open-source проект, в котором используется Selenide: [игра Виселица](https://github.com/asolntsev/hangman).
+
+### Покажите мне работающий пример!
+
+Есть небольшой эталонный open-source проект, в котором используется Selenide: [игра Виселица](https://github.com/asolntsev/hangman).
+
 А также мы создали проект [Selenide examples](https://github.com/codeborne/selenide_examples), где мы храним примеры использования
 Selenide для тестирования [Gmail](https://github.com/codeborne/selenide_examples/tree/master/gmail/test/org/selenide/examples/gmail),
 [Github](https://github.com/codeborne/selenide_examples/tree/master/github/test/org/selenide/examples/github)

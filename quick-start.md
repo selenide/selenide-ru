@@ -72,3 +72,17 @@ public void userCanLoginByUsername() {
 Можно использовать любой фреймворк по вкусу: JUnit, TestNG, Cucumber, ScalaTest, JBehave - что душа пожелает.
 
 Запускать как обычные юнит-тесты. Можно из IDE, можно ANT скриптом, можно "mvn test".
+
+### Хотите увидеть работающий пример?
+
+Есть небольшой эталонный open-source проект, в котором используется Selenide: [игра Виселица](https://github.com/asolntsev/hangman).
+
+А также мы создали проект [Selenide examples](https://github.com/codeborne/selenide_examples), где мы храним примеры использования
+Selenide для тестирования [Gmail](https://github.com/codeborne/selenide_examples/tree/master/gmail/test/org/selenide/examples/gmail),
+[Github](https://github.com/codeborne/selenide_examples/tree/master/github/test/org/selenide/examples/github)
+и других классических примеров.
+
+### Поделитесь с нами своими примерами!
+
+Если у вас есть свои примеры использования Selenide, смело присылайте их нам!
+Нам было бы очень интересно на них взглянуть.

@@ -101,7 +101,11 @@ img {
 }
 
 .right {
-    float: right;
+  float: right;
+}
+
+.text-right {
+  text-align: right;
 }
 
 a.black:link {

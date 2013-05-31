@@ -125,7 +125,7 @@ public void pageUsingAjax() {
 Импортируй нужный класс:
 
 ```java
-include static com.codeborne.selenide.Selenide.*
+import static com.codeborne.selenide.Selenide.*
 ```
 
 И готово! Пиши тесты, едрён-батон!

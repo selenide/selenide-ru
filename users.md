@@ -20,6 +20,16 @@ group: navigation
 <br/>
 <br/>
 
+<a href="http://www.proekspert.ee/" target="_blank">
+  <img src="{{ BASE_PATH }}/images/proekspert_logo.png" alt="Proekspert"/>
+</a>
+
+<div class="text-right">Ведущий разработчик программного обеспечения промышленной автоматизации в Эстонии. Мы вдыхаем жизнь в оборудование.</div>
+
+<br/>
+<br/>
+<br/>
+
 
 <a href="http://ru.codeborne.com" target="_blank">
   <img src="{{ BASE_PATH }}/images/codeborne-logo.png" alt="Codeborne" height="40"/>

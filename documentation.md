@@ -1,41 +1,43 @@
 ---
 layout: page
-title : Selenide documentation
-header : Documentation
+title : Документация Selenide
+header : Документация
 group: navigation
 ---
 {% include JB/setup %}
 
-# Documentation
+# Документация
 
-Poor software <span class="red">does not have</span> documentation. <br/>
-Brillian software <span class="green">does not <em>need</em></span> documentation.
+Плохой софт <span class="red">не имеет</span> документации. <br/>
+Отличный софт <span class="green"><em>не нуждается</em></span> в документации.
 
-## Simplicity
-Selenide is so simple that you don't need to read tons of documentation.
+## Простота
+Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.
 
-The whole work with Selenide consists of three simple things:
+Вся работа с Selenide состоит всего из трёх простых вещей:
 
-1.  Open the page
-2.  $(find element).doAction()
-3.  $(find element).checkCondition()
+1.  Открыть страницу
+2.  $(найти элемент).совершитьДействие()
+3.  $(найти элемент).проверитьУсловие()
 
 ```java
   open("/login");
   $("#submit").click();
-  $(".message").shouldHave(text("Hello"));
+  $(".message").shouldHave(text("Привет!"));
 ```
 
 ## Selenide API
 
-Selenide API consists of few classes. We suggest you to stop reading, open your IDE and start typing.
+Весь Selenide API состоит из небольшого числа классов. Мы предлагаем прекратить читать, открыть вашу любимую IDE и просто начать печатать.
 
-Just type: `$(selector).` - and IDE suggest you all the options.
+Просто набери: `$(selector).` - и IDE предложит все возможные опции.
 
-<img src="{{ BASE_PATH }}/images/ide-just-start-typing.png" alt="Selenide API: Just start typing"/>
+<img src="{{ BASE_PATH }}/images/ide-just-start-typing.png" alt="Selenide API: Просто начни писать"/>
+
+Используй всю мощь современных средств разработки вместо того, чтобы забивать себе голову!
 
 <br/>
-Just for reference, these are Selenide classes:
+Для справки, ниже приведены некоторые классы Selenide, которые вам, возможно, придётся использовать:
 
 ### com.codeborne.selenide.Selenide <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selenide.java">[src]</a>
 
@@ -46,11 +48,11 @@ Just for reference, these are Selenide classes:
 *  title()
 *  sleep(long milliseconds)
 
-The main method us certainly $ - it has a variety of parameters, but returns SelenideElement.
+Главный метод, конечно, `$` - у него может быть куча разных параметров, но возвращает он всегда SelenideElement.
 
 ### com.codeborne.selenide.SelenideElement <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/SelenideElement.java">[src]</a>
 
-SelenideElement is a wrapper around Selenium WebElement, giving it some additional convenient method:
+Класс SelenideElement - обёртка вокруг is a wrapper around Selenium WebElement, giving it some additional convenient method:
 
 *  should(Condition)
 *  shouldBe(Condition)
@@ -117,4 +119,4 @@ To be continued...
 
 
 
-Stay tuned!
+Не переключайтесь!

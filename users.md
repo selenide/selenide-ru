@@ -21,10 +21,21 @@ group: navigation
 <br/>
 
 <a href="http://www.proekspert.ee/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/proekspert_logo.png" alt="Proekspert"/>
+  <img src="{{ BASE_PATH }}/images/proekspert_logo.png" alt="Proekspert" width="350px"/>
 </a>
 
 <div class="text-right">Ведущий разработчик программного обеспечения промышленной автоматизации в Эстонии. Мы вдыхаем жизнь в оборудование.</div>
+
+<br/>
+<br/>
+<br/>
+
+<a href="http://www.regio.ee/" target="_blank">
+  <img src="{{ BASE_PATH }}/images/regio-logo.jpg" alt="Regio"/>
+</a>
+
+<div class="text-right">A premium provider of location-based solutions in the Eastern Hemisphere for telecom, transport and infrastructure sectors.</div>
+
 
 <br/>
 <br/>

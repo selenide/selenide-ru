@@ -6,13 +6,12 @@ group: navigation
 ---
 {% include JB/setup %}
 
-# Документация
-
 Плохой софт <span class="red">не имеет</span> документации. <br/>
-Отличный софт <span class="green"><em>не нуждается</em></span> в документации.
+Отличный софт <span class="green">не нуждается</span> в документации.
 
-## Простота
 Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.
+
+## Три простые вещи
 
 Вся работа с Selenide состоит всего из трёх простых вещей:
 
@@ -26,7 +25,7 @@ group: navigation
   $(".message").shouldHave(text("Привет!"));
 ```
 
-## Selenide API
+## Используй мощь IDE!
 
 Весь Selenide API состоит из небольшого числа классов. Мы предлагаем прекратить читать, открыть вашу любимую IDE и просто начать печатать.
 
@@ -37,7 +36,10 @@ group: navigation
 Используй всю мощь современных средств разработки вместо того, чтобы забивать себе голову!
 
 <br/>
+## Selenide API
+
 Для справки, ниже приведены некоторые классы Selenide, которые вам, возможно, придётся использовать:
+
 
 ### com.codeborne.selenide.Selenide <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selenide.java">[src]</a>
 

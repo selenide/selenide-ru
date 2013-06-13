@@ -76,7 +76,7 @@ public void userCanLoginByUsername() {
 
 ### Хотите увидеть работающий пример?
 
-Есть небольшой эталонный open-source проект, в котором используется Selenide: [игра Виселица](https://github.com/asolntsev/hangman).
+Есть небольшой эталонный open-source проект, в котором используется Selenide: [игра Виселица](https://github.com/asolntsev/hangman/blob/master/test/uitest/selenide/HangmanSpec.java).
 
 А также мы создали проект [Selenide examples](https://github.com/codeborne/selenide_examples), где мы храним примеры использования
 Selenide для тестирования [Gmail](https://github.com/codeborne/selenide_examples/tree/master/gmail/test/org/selenide/examples/gmail),

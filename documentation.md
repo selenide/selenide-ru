@@ -38,6 +38,8 @@ group: navigation
 <br/>
 ## Selenide API
 
+Здесь можно найти <a href="http://selenide.org/javadoc/2.3" target="_blank">Selenide javadoc</a>.
+
 Для справки, ниже приведены некоторые классы Selenide, которые вам, возможно, придётся использовать:
 
 

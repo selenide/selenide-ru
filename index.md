@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Selenide - Лаконичные UI тесты на Java
 tagline: Лаконичные UI тесты на Java
 ---
 {% include JB/setup %}

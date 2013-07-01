@@ -105,13 +105,13 @@ group: navigation
   <a target="_blank" href="{{ BASE_PATH }}/javadoc/2.3/com/codeborne/selenide/Condition.html">[javadoc]</a>
 </h3>
 
-*   visible | appear   // e.g. $("input").shouldBe(visible)
+*   visible | appear   // например, $("input").shouldBe(visible)
 *   present | exist
 *   hidden | disappear | not(visible)
-*   readonly           // e.g. $("input").shouldBe(readonly)
+*   readonly           // например, $("input").shouldBe(readonly)
 *   attribute(String)
-*   name               // e.g. $("input").shouldHave(name("fname"))
-*   value              // e.g. $("input").shouldHave(value("John"))
+*   name               // например, $("input").shouldHave(name("fname"))
+*   value              // например, $("input").shouldHave(value("John"))
 *   type               // $("#input").shouldHave(type("checkbox"))
 *   id                 // $("#input").shouldHave(id("myForm"))
 *   empty              // $("h2").shouldBe(empty)
@@ -128,9 +128,6 @@ group: navigation
 *   exactTextCaseSensitive(String wholeText)
 
 Вы можете легко добавлять свои условие, реализовав интерфейс `com.codeborne.selenide.Condition`.
-
-
-Продолжение следует...
 
 <h3>com.codeborne.selenide.Selectors
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selectors.java">[src]</a>
@@ -150,6 +147,16 @@ group: navigation
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/ElementsCollection.java">[src]</a>
   <a target="_blank" href="{{ BASE_PATH }}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>
 </h3>
+
+Этот класс, который возвращает метод `$$`. Содержит список веб-элементов и несколько полезных методов::
+
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - например, `$$(".errors").shouldBe(empty)`
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - например, `$$("#mytable tbody tr").shouldHave(size(2))`
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - например, `$$("#multirowTable tr").findBy(text("Norris"))`
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - например, `$$("#multirowTable tr").filterBy(text("Norris"))`
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - например, `$$("#multirowTable tr").excludeWith(text("Chack"))`
+
+Продолжение следует...
 
 <h3>com.codeborne.selenide.CollectionCondition
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/CollectionCondition.java">[src]</a>

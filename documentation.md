@@ -137,6 +137,15 @@ group: navigation
   <a target="_blank" href="{{ BASE_PATH }}/javadoc/2.3/com/codeborne/selenide/Selectors.html">[javadoc]</a>
 </h3>
 
+Класс содержит некоторые `By` селекторы для поиска элементов по тексту или атрибуту (которых не хватает в стандартном Selenium WebDriver API):
+
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/Selectors.html#byText(java.lang.String)">byText</a>     - поиск элемента по тексту (подстроке)
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/Selectors.html#withText(java.lang.String)">withText</a>   - поиск элемента по точному тексту
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/Selectors.html#by(java.lang.String, java.lang.String)">by</a>    - поиск элемента по атрибуту
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/Selectors.html#byTitle(java.lang.String)">byTitle</a>   - поиск по атрибуту "title"
+*   <a href="{{BASE_PATH}}/javadoc/2.3/com/codeborne/selenide/Selectors.html#byValue(java.lang.String)">byValue</a>   - поиск по атрибуту "value"
+
+
 <h3>com.codeborne.selenide.ElementsCollection
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/ElementsCollection.java">[src]</a>
   <a target="_blank" href="{{ BASE_PATH }}/javadoc/2.3/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>

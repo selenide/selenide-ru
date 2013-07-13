@@ -10,6 +10,16 @@ group: navigation
 
 <br/>
 
+<a href="https://i.bspb.ru/home" target="_blank">
+  <img src="{{ BASE_PATH }}/images/bspb-logo.png" alt="Банк Санкт-Петербург"/>
+</a>
+
+<div class="text-right">В ТОП-3 лучших российских интернет-банков</div>
+
+<br/>
+<br/>
+<br/>
+
 <a href="https://www.energia.ee/ru/avaleht" target="_blank">
   <img src="{{ BASE_PATH }}/images/ee_logo.png" alt="Eesti Energia"/>
 </a>

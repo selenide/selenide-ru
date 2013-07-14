@@ -14,7 +14,7 @@ group: navigation
   <img src="{{ BASE_PATH }}/images/bspb-logo.png" alt="Банк Санкт-Петербург"/>
 </a>
 
-<div class="text-right">В ТОП-3 лучших российских интернет-банков</div>
+<div class="text-right">В <a href="http://markswebb.ru/rating/internet-banking-rank/" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
 
 <br/>
 <br/>

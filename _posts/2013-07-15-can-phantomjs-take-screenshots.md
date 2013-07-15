@@ -7,13 +7,13 @@ tags: []
 ---
 {% include JB/setup %}
 
-Many people think that PhantomJS (as a headless browser) cannot take screenshots.
+Многие думают, что PhantomJS как headless-браузер не умеет делать снимки экрана.
 
-This is not true!
+А вот и неправда!
 
-According to [PhantomJS documentation](https://github.com/ariya/phantomjs/wiki/Screen-Capture), it can take screenshots.
+Согласно [документации PhantomJS](https://github.com/ariya/phantomjs/wiki/Screen-Capture), он умеет делать скриншоты.
 
-Let's try to do that.
+Давайте-ка попробуем.
 
 ```java
 import static com.codeborne.selenide.Selenide.*;
@@ -28,15 +28,15 @@ public class TestPhantomScreenshot {
 }
 ```
 
-It works!
+Это работает!
 
-Though, it does not work ideally. Well, screenshots of [google.com]({{ BASE_PATH }}/images/2013/07/google-com-screenshot.png),
-[habrahabr.ru]({{ BASE_PATH }}/images/2013/07/habrahabr-ru-screenshot.png) and
-[skype.com]({{ BASE_PATH }}/images/2013/07/skype-com-screenshot.png) look good, but screenshot of
-[selenide.org]({{ BASE_PATH }}/images/2013/07/selenide-org-screenshot.png) is quite strange.
+Впрочем, работает неидеально. Скриншоты [google.com]({{ BASE_PATH }}/images/2013/07/google-com-screenshot.png),
+[habrahabr.ru]({{ BASE_PATH }}/images/2013/07/habrahabr-ru-screenshot.png) и
+[skype.com]({{ BASE_PATH }}/images/2013/07/skype-com-screenshot.png) выглядят неплохо, но вот скриншот
+[selenide.org]({{ BASE_PATH }}/images/2013/07/selenide-org-screenshot.png) смотрится весьма странно.
 
-Does it mean that PhantomJS is not mature enough yet?
-I don't know. But at least PhantomJS can do screenshots.
+Значит ли это, что PhantomJS ещё недостаточно зрелый продукт?
+Не знаю. Но всяком случае теперь мы знаем точно, что PhantomJS умеет делать скриншоты.
 
 [![google.com]({{ BASE_PATH }}/images/2013/07/google-com-screenshot.thumb.png)]({{ BASE_PATH }}/images/2013/07/google-com-screenshot.png)
 [![habrahabr.ru]({{ BASE_PATH }}/images/2013/07/habrahabr-ru-screenshot.thumb.png)]({{ BASE_PATH }}/images/2013/07/habrahabr-ru-screenshot.png)

@@ -16,6 +16,7 @@
   <li><a href="{{ BASE_PATH }}/users.html">Кто использует Selenide?</a></li>
   <li><a href="{{ BASE_PATH }}/quotes.html">Что говорят о Selenide?</a></li>
   <li><a href="{{ BASE_PATH }}/contacts.html">Расскажи о себе!</a></li>
+  <li><a href="{{ BASE_PATH }}/thanks.html">Мы говорим спасибо</a></li>
 </ul>
 
 <h3>Блог</h3>

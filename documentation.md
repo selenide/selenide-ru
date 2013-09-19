@@ -1,28 +1,45 @@
 ---
 layout: page
-title : Документация Selenide
+title :
 header : Документация
 group: navigation
 ---
 {% include JB/setup %}
 
-> Плохой софт <span class="red">не имеет</span> документации. <br/>
-> Отличный софт <span class="green">не нуждается</span> в документации.
 
-Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.
 
-## Три простые вещи
+<div class="short docs">
+<div class="wrapper-color-content">
 
-Вся работа с Selenide состоит всего из трёх простых вещей:
+<h3>Документация</h3>
+<h4>Плохой софт <span class="bold">не имеет</span> документации.
+Отличный софт <span class="bold">не нуждается</span> в документации.</h4>
 
-1.  Открыть страницу
-2.  $(найти элемент).совершитьДействие()
-3.  $(найти элемент).проверитьУсловие()
+Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.<br/>
+Вся работа с Selenide состоит всего из трёх простых вещей:<br>
+</div></div>
+
+<div class="quicklinks">
+<div class="wrapper-color-content">
+<ul class="gray-boxes">
+  <li><a href="https://github.com/codeborne/selenide" target="_blank"><span class="ql"><h3>View on</h3> <strong><h4>GitHub</h4></strong></span></a></li>
+  <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank"><span class="ql"><h3>Search in</h3> <strong><h4>Maven</h4></strong></span></a></li>
+  <li><a href="{{ BASE_PATH }}/archive.html"><span class="ql"><h3>Read our</h3> <strong><h4>Blog</h4></strong></span></a></li>
+  <li><a href="http://twitter.com/jselenide" target="_blank"><span class="ql"><h3>Follow at</h3><strong><h4>Twitter</h4></strong></span></a></li>
+  <li><a href="{{ BASE_PATH }}/rss.xml"><span class="ql"><h3>Subscribe to</h3><strong><h4>RSS</h4></strong></span></a></li>
+</ul>
+</div>
+</div>
+<div class="wrapper-content">
+## Три простые вещи:
+<strong>1.</strong>  Открыть страницу   <br>
+<strong>2.</strong>  $(элемент).совершитьДействие()<br>
+<strong>3.</strong>  $(элемент).проверитьУсловие()<br>
 
 ```java
   open("/login");
   $("#submit").click();
-  $(".message").shouldHave(text("Привет!"));
+  $(".message").shouldHave(text("Привет"));
 ```
 
 ## Используй мощь IDE!
@@ -33,15 +50,15 @@ group: navigation
 
 <img src="{{ BASE_PATH }}/images/ide-just-start-typing.png" alt="Selenide API: Просто начни писать"/>
 
-Используй всю мощь современных средств разработки вместо того, чтобы забивать себе голову!
+Используй всю мощь современных средств разработки вместо того, чтобы забивать себе голову документацией!
 
 <br/>
+
 ## Selenide API
 
-Здесь можно найти <a href="http://selenide.org/javadoc/2.4" target="_blank">Selenide javadoc</a>.
+Здесь можно найти <a href="/javadoc/2.4" target="_blank">Selenide javadoc</a>.
 
 Для справки, ниже приведены некоторые классы Selenide, которые вам, возможно, придётся использовать:
-
 
 <h3>com.codeborne.selenide.Selenide
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selenide.java">[src]</a>
@@ -64,7 +81,6 @@ group: navigation
 <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/Selenide.html#sleep(long)">sleep()</a>,
 <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/Selenide.html#refresh()">refresh()</a>,
 <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/Selenide.html#title()">title()</a>.
-
 
 <h3>com.codeborne.selenide.SelenideElement
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/SelenideElement.java">[src]</a>
@@ -129,6 +145,7 @@ group: navigation
 
 Вы можете легко добавлять свои условие, реализовав интерфейс `com.codeborne.selenide.Condition`.
 
+
 <h3>com.codeborne.selenide.Selectors
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selectors.java">[src]</a>
   <a target="_blank" href="{{ BASE_PATH }}/javadoc/2.4/com/codeborne/selenide/Selectors.html">[javadoc]</a>
@@ -142,7 +159,6 @@ group: navigation
 *   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/Selectors.html#byTitle(java.lang.String)">byTitle</a>   - поиск по атрибуту "title"
 *   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/Selectors.html#byValue(java.lang.String)">byValue</a>   - поиск по атрибуту "value"
 
-
 <h3>com.codeborne.selenide.ElementsCollection
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/ElementsCollection.java">[src]</a>
   <a target="_blank" href="{{ BASE_PATH }}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>
@@ -150,11 +166,11 @@ group: navigation
 
 Этот класс, который возвращает метод `$$`. Содержит список веб-элементов и несколько полезных методов::
 
-*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - например, `$$(".errors").shouldBe(empty)`
-*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - например, `$$("#mytable tbody tr").shouldHave(size(2))`
-*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - например, `$$("#multirowTable tr").findBy(text("Norris"))`
-*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - например, `$$("#multirowTable tr").filterBy(text("Norris"))`
-*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - например, `$$("#multirowTable tr").excludeWith(text("Chack"))`
+*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
+*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
+*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`
+*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - e.g. `$$("#multirowTable tr").filterBy(text("Norris"))`
+*   <a href="{{BASE_PATH}}/javadoc/2.4/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - e.g. `$$("#multirowTable tr").excludeWith(text("Chack"))`
 
 Продолжение следует...
 

@@ -1,39 +1,72 @@
 ---
 layout: page
-title: Selenide - Лаконичные UI тесты на Java
-tagline: Лаконичные UI тесты на Java
+title:
+tagline:
 ---
 {% include JB/setup %}
 
-<h4>{{ site.tagline }}</h4>
+<div class="short wiki">
+<div class="wrapper-color-content">
 
-```java
-@Test
-public void userCanLoginByUsername() {
-  open("/login");
-  $(By.name("user.name")).setValue("johny");
-  $("#submit").click();
-  $(".loading_progress").should(disappear); // Само подождёт, пока элемент исчезнет
-  $("#username").shouldHave(text("Hello, Johny!")); // Само подождёт, пока у элемента появится нужный текст
-}
-```
+<h3>Что такое Selenide?</h3>
+<h4>Selenide - это обёртка вокруг <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая:</h4>
 
-## Что даёт Selenide?
-Selenide - это обёртка вокруг <a href="http://seleniumhq.org/projects/webdriver/">Selenium WebDriver</a>, дающая:
-
-+  Изящный API для тестов
-+  Автоматическое управление жизненным циклом бразера (открыть/закрыть/рестартануть)
-+  Селекторы для элементов в стиле jQuery
-+  Поддержка Ajax
-
+✓ Изящный API для тестов&nbsp;&nbsp;
+✓ Поддержка Ajax&nbsp;&nbsp;
+✓ Автостарт браузера&nbsp;&nbsp;
+✓ Селекторы в стиле jQuery<br>
 Вот так Selenide позволяет писать лаконичные тесты. Вам больше не нужно заботиться о
 том, как открыть и закрыть браузер, не надо беспокоиться о таймаутах, не надо писать монструозный код для
-ожидания наступления событий - **сконцентрируйтесь на бизнес-логике**!
+ожидания наступления событий - <b>сконцентрируйтесь на бизнес-логике</b>!<br>
 
-## С чего начать?
-Просто добавьте <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/2.1/selenide-2.1.jar">selenide.jar</a> в ваш проект. Для пользователей Maven, Ivy, Gradle и т.п.:
-```xml
-<dependency org="com.codeborne" name="selenide" revision="2.1"/>
-```
+<a href="https://github.com/codeborne/selenide/wiki" target="_blank"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+</div></div>
 
-Дальше смотри [Quick Start guide]({{ BASE_PATH }}/quick-start.html), там немножко больше деталей.
+
+
+<div class="quicklinks">
+<div class="wrapper-color-content">
+<ul class="gray-boxes">
+  <li><a href="https://github.com/codeborne/selenide" target="_blank"><span class="ql"><h3>View on</h3> <strong><h4>GitHub</h4></strong></span></a></li>
+  <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank"><span class="ql"><h3>Search in</h3> <strong><h4>Maven</h4></strong></span></a></li>
+  <li><a href="{{ BASE_PATH }}/archive.html"><span class="ql"><h3>Read our</h3> <strong><h4>Blog</h4></strong></span></a></li>
+  <li><a href="http://twitter.com/jselenide" target="_blank"><span class="ql"><h3>Follow at</h3><strong><h4>Twitter</h4></strong></span></a></li>
+  <li><a href="{{ BASE_PATH }}/rss.xml"><span class="ql"><h3>Subscribe to</h3><strong><h4>RSS</h4></strong></span></a></li>
+</ul>
+</div>
+</div>
+
+<div class="short howto">
+<div class="wrapper-color-content">
+
+<h3>С чего начать?</h3>
+<h4>Начать использовать Selenide невероятно просто.</h4>
+
+Просто добавьте <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/2.4/selenide-2.4.jar">selenide.jar</a> в ваш проект. И начинайте писать тесты!<br>
+
+<a href="{{ BASE_PATH }}/quick-start.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+</div></div>
+
+<div class="short docs">
+<div class="wrapper-color-content">
+
+<h3>Документация</h3>
+<h4>Плохой софт <span class="bold">не имеет</span> документации.
+Отличный софт <span class="bold">не нуждается</span> в документации.</h4>
+
+Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.<br/>
+Вся работа с Selenide состоит всего из трёх простых вещей.<br>
+<a href="selenide.org"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+</div></div>
+
+<div class="short testimonials">
+<div class="wrapper-color-content">
+
+<h3>Отзывы</h3>
+<h4>"Selenide really blew my mind. Who needs testers with a software like that?"</h4>
+
+Андрей Солнцев<br/>
+Senior software engineer @ Codeborne<br>
+<a href="{{ BASE_PATH }}/users.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+</div></div>
+

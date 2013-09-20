@@ -10,10 +10,9 @@ group: navigation
 <div class="wrapper-color-content">
 
 <h3>Отзывы</h3>
-<h4>"Selenide really blew my mind. Who needs testers with a software like that?"</h4>
+<h4>"Супер полезная вещь. Очень сильно облегчает написание понятных, коротких и чётких тестов."</h4>
 
-Andrey Solntsev<br/>
-Senior software engineer @ Codeborne<br>
+<a href="http://habrahabr.ru/post/192742/#comment_6697466">Kumarunster</a><br>
 </div></div>
 
 <div class="quicklinks">

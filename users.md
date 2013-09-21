@@ -79,8 +79,8 @@ group: navigation
 
 <div>Единственная софтверная компания в Эстонии, использующая TDD и другие практики XP
 от звонка до звонка. Создатели open-source библиотек
-<a href="https://github.com/jarmo/WatirSplash" target="_blank">WatirSplash</a> и
-<a href="http://ru.selenide.org">Selenide</a>.</div>
+<a href="http://ru.selenide.org">Selenide</a> и
+<a href="http://github.com/codeborne/mobileid" target="_blank">MobileID</a>.</div>
 
 <br/>
 <br/>

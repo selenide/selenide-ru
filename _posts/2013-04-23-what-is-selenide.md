@@ -118,7 +118,7 @@ public void pageUsingAjax() {
 <dependency>
     <groupId>com.codeborne</groupId>
     <artifactId>selenide</artifactId>
-    <version>2.4</version>
+    <version>{{site.SELENIDE_VERSION}}</version>
 </dependency>
 ```
 

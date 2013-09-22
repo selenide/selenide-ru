@@ -42,7 +42,7 @@ tagline:
 <h3>С чего начать?</h3>
 <h4>Начать использовать Selenide невероятно просто.</h4>
 
-Просто добавьте <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/2.4/selenide-2.4.jar">selenide.jar</a> в ваш проект. И начинайте писать тесты!<br>
+Просто добавьте <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/{{site.SELENIDE_VERSION}}/selenide-{{site.SELENIDE_VERSION}}.jar">selenide.jar</a> в ваш проект. И начинайте писать тесты!<br>
 
 <a href="{{ BASE_PATH }}/quick-start.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
 </div></div>

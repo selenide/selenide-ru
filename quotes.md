@@ -3,6 +3,9 @@ layout: page
 title : Что говорят о Selenide
 header : Что говорят о Selenide
 group: navigation
+cssClass: quotes
+header-text:
+
 ---
 {% include JB/setup %}
 

@@ -3,34 +3,16 @@ layout: page
 title :
 header : Документация
 group: navigation
+cssClass: docs
+header-text: >
+  <h4>Плохой софт <span class="bold">не имеет</span> документации.
+  Отличный софт <span class="bold">не нуждается</span> в документации.</h4>
+
+  Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.<br/>
+  Вся работа с Selenide состоит всего из трёх простых вещей:
 ---
 {% include JB/setup %}
 
-
-
-<div class="short docs">
-<div class="wrapper-color-content">
-
-<h3>Документация</h3>
-<h4>Плохой софт <span class="bold">не имеет</span> документации.
-Отличный софт <span class="bold">не нуждается</span> в документации.</h4>
-
-Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.<br/>
-Вся работа с Selenide состоит всего из трёх простых вещей:<br>
-</div></div>
-
-<div class="quicklinks">
-<div class="wrapper-color-content">
-<ul class="gray-boxes">
-  <li><a href="https://github.com/codeborne/selenide" target="_blank"><span class="ql"><h3>View on</h3> <strong><h4>GitHub</h4></strong></span></a></li>
-  <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank"><span class="ql"><h3>Search in</h3> <strong><h4>Maven</h4></strong></span></a></li>
-  <li><a href="{{ BASE_PATH }}/archive.html"><span class="ql"><h3>Read our</h3> <strong><h4>Blog</h4></strong></span></a></li>
-  <li><a href="http://twitter.com/jselenide" target="_blank"><span class="ql"><h3>Follow at</h3><strong><h4>Twitter</h4></strong></span></a></li>
-  <li><a href="{{ BASE_PATH }}/rss.xml"><span class="ql"><h3>Subscribe to</h3><strong><h4>RSS</h4></strong></span></a></li>
-</ul>
-</div>
-</div>
-<div class="wrapper-content">
 ## Три простые вещи:
 <strong>1.</strong>  Открыть страницу   <br>
 <strong>2.</strong>  $(элемент).совершитьДействие()<br>

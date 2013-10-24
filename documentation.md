@@ -125,7 +125,27 @@ header-text: >
 *   textCaseSensitive(String substring)
 *   exactTextCaseSensitive(String wholeText)
 
-Вы можете легко добавлять свои условие, реализовав интерфейс `com.codeborne.selenide.Condition`.
+<br/>
+Вы можете легко добавлять свои условие, реализовав подкласс `com.codeborne.selenide.Condition`.
+
+Например:
+
+```java
+public static Condition css(final String propName, final String propValue) {
+    @Override
+    public boolean apply(WebElement element) {
+      return propValue.equalsIgnoreCase(element.getCssValue(propName));
+    }
+
+    @Override
+    public String actualValue(WebElement element) {
+        return element.getCssValue(propName);
+    }
+};
+
+// Example usage:
+$("h1").shouldHave(css("font-size", "16px"));
+```
 
 
 <h3>com.codeborne.selenide.Selectors

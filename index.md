@@ -56,7 +56,7 @@ tagline:
 
 Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.<br/>
 Вся работа с Selenide состоит всего из трёх простых вещей.<br>
-<a href="selenide.org"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+<a href="{{ BASE_PATH }}/documentation.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
 </div></div>
 
 <div class="short testimonials">

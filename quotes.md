@@ -36,4 +36,4 @@ Selenide: удобные тесты на Selenium WebDriver. Есть пароч
 </blockquote>
 <div class="right"><a href="http://zeroturnaround.com/rebellabs/if-you-use-selenium-for-browser-based-ui-acceptance-testing-you-might-like-selenide/">KAUR MÄTAS</a>, <br/> Инженер LiveRebel в ZeroTurnaround</div>
 
-<div style="height: 100px;"></div>
+<div class="vspace"></div>

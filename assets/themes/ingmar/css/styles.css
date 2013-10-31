@@ -507,6 +507,10 @@ color: #46A3D1;
   font-weight: bold;
 }
 
+.vspace {
+  height: 100px;
+}
+
 hr.divider {
   width: 40%;
   height: 2px;

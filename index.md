@@ -63,9 +63,11 @@ tagline:
 <div class="wrapper-color-content">
 
 <h3>Отзывы</h3>
-<h4>"Супер полезная вещь. Очень сильно облегчает написание понятных, коротких и чётких тестов."</h4>
+<h4>"Selenide - мощный инструмент для написания функциональных тестов. Рекомендую."</h4>
 
-<a href="http://habrahabr.ru/post/192742/#comment_6697466">Kumarunster</a><br>
+KAUR MÄTAS, <br>
+Инженер LiveRebel в ZeroTurnaround<br>
+
 <a href="{{ BASE_PATH }}/users.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
 </div></div>
 

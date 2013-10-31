@@ -1,16 +1,12 @@
 ---
 layout: page
-title :
+title : Кто использует Selenide
 header : Кто использует Selenide
 group: navigation
 cssClass: testimonials
-header-text: >
-  <h4>"Супер полезная вещь. Очень сильно облегчает написание понятных, коротких и чётких тестов."</h4>
-  <a href="http://habrahabr.ru/post/192742/#comment_6697466">Kumarunster</a><br>
+header-text:
 ---
 {% include JB/setup %}
-
-### Кто использует Selenide
 
 <br/>
 

@@ -511,6 +511,10 @@ color: #46A3D1;
   height: 100px;
 }
 
+.center {
+  text-align: center;
+}
+
 hr.divider {
   width: 40%;
   height: 2px;

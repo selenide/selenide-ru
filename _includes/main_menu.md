@@ -3,9 +3,9 @@
   <li><a href="{{ BASE_PATH }}/documentation.html">Документация</a></li>
   <li><a href="https://github.com/codeborne/selenide/wiki" target="_blank">Wiki</a></li>
   <li><a href="{{ BASE_PATH }}/javadoc.html">Javadoc</a></li>
-  <li><a href="{{ BASE_PATH }}/users.html">Отзывы</a></li>
+  <li><a href="{{ BASE_PATH }}/users.html">Пользователи</a></li>
   <li style="display:none;"><a href="{{ BASE_PATH }}/quotes.html">Что говорят о Selenide?</a></li>
-  <li><a href="{{ BASE_PATH }}/contacts.html">Расскажи о себе!</a></li>
+  <li><a href="{{ BASE_PATH }}/contacts.html">Кто ты?</a></li>
   <li style="display:none;"><a href="{{ BASE_PATH }}/thanks.html">Мы говорим спасибо</a></li>
 </ul>
 

@@ -7,7 +7,7 @@ cssClass: howto
 header-text: >
   <h4>Начать использовать Selenide очень просто. Не нужно читать тонны документации. Не нужно покупать тренинг.</h4>
 
-   Просто добавь в проект <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/2.5/selenide-2.5.jar">selenide.jar</a> и начинай писать тест.<br>
+   Просто добавь в проект <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/2.6.1/selenide-2.6.1.jar">selenide.jar</a> и начинай писать тест.<br>
 
 ---
 {% include JB/setup %}
@@ -19,7 +19,7 @@ header-text: >
 <dependency>
     <groupId>com.codeborne</groupId>
     <artifactId>selenide</artifactId>
-    <version>2.5</version>
+    <version>2.6.1</version>
 </dependency>
 ```
 
@@ -30,7 +30,7 @@ header-text: >
 ```xml
 <ivy-module>
   <dependencies>
-    <dependency org="com.codeborne" name="selenide" rev="2.5"/>
+    <dependency org="com.codeborne" name="selenide" rev="2.6.1"/>
   </dependencies>
 </ivy-module>
 ```
@@ -41,7 +41,7 @@ header-text: >
 
 ```groovy
 dependencies {
-  testCompile 'com.codeborne:selenide:2.5'
+  testCompile 'com.codeborne:selenide:2.6.1'
 }
 ```
 

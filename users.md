@@ -10,6 +10,19 @@ header-text:
 
 <br/>
 
+<a href="http://www.tieto.ee/" target="_blank">
+  <img src="{{ BASE_PATH }}/images/tieto.png" style="width: 96px; margin-left: 64px;" alt="Tieto Eesti AS" align="right"/>
+</a>
+<br/>
+
+<div class="text-left">
+  Tieto – крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному
+  и корпоративному сектору. Разработки Tieto находят глобальное применение, а сервисные центры компании расположены
+  в различных уголках мира.
+</div>
+
+<hr class="divider"/>
+
 <a href="http://bellwood.ru/" target="_blank">
   <img src="{{ BASE_PATH }}/images/bellwood-logo.png" alt="Bellwood systems"/>
 </a>

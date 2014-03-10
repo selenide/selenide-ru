@@ -1,7 +1,7 @@
 <ul class="main-menu-pages">
   <li><a href="{{ BASE_PATH }}/quick-start.html">С чего начать?</a></li>
   <li><a href="{{ BASE_PATH }}/documentation.html">Документация</a></li>
-  <li><a href="https://github.com/codeborne/selenide/wiki" target="_blank">Wiki</a></li>
+  <li><a href="{{ BASE_PATH }}/blog.html">Блог</a></li>
   <li><a href="{{ BASE_PATH }}/javadoc.html">Javadoc</a></li>
   <li><a href="{{ BASE_PATH }}/users.html">Пользователи</a></li>
   <li style="display:none;"><a href="{{ BASE_PATH }}/quotes.html">Что говорят о Selenide?</a></li>

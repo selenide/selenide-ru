@@ -77,3 +77,14 @@ takeScreenshot("my_file_name");
 ```
 
 При этом Selenide создаст два файла: `my_file_name.png` и `my_file_name.html`
+
+
+
+## Вкладки/окна браузера
+
+> Как переключаться между разными окошками / вкладками браузера?
+
+Для этого можно использовать API самого Selenium WebDriver.
+
+  * `getWebDriver().getWindowHandles()` - возвращает множество всех вкладок или окон
+  * `getWebDriver().getWindowHandle()` - возвращает уникальный идентификатор активной вкладки или окна.

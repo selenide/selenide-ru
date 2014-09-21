@@ -20,6 +20,7 @@ header-text: >
     <groupId>com.codeborne</groupId>
     <artifactId>selenide</artifactId>
     <version>{{site.SELENIDE_VERSION}}</version>
+    <scope>test</scope>
 </dependency>
 ```
 

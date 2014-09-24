@@ -10,6 +10,10 @@
   <li style="display:none;"><a href="{{ BASE_PATH }}/thanks.html">Мы говорим спасибо</a></li>
 </ul>
 
+<div class="news">
+  <a class="video" href="http://vimeo.com/106867878">Как написать UI тест за 10 минут</a>
+</div>
+
 <h3 style="display:none">Блог</h3>
 <div class="archive" style="display:none">
   {% assign posts_collate = site.posts %}

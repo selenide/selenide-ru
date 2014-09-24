@@ -11,6 +11,10 @@ header-text: >
 
 ---
 {% include JB/setup %}
+<a class="video right" href="http://vimeo.com/106867878">
+  Как написать UI тест за 10 минут
+</a>
+
 ### Для пользователей Maven:
 
 Добавь в файл pom.xml:
@@ -89,3 +93,6 @@ Selenide для тестирования [Gmail](https://github.com/codeborne/se
 
 Если у вас есть свои примеры использования Selenide, смело присылайте их нам!
 Нам было бы очень интересно на них взглянуть.
+
+### Видеоурок
+<iframe src="//player.vimeo.com/video/106867878" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/106867878">Как написать UI тест за 10 минут</a> from <a href="http://vimeo.com/user20427140">Selenide</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p>Туториал по Selenide</p>

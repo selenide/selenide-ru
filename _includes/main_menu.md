@@ -11,7 +11,8 @@
 </ul>
 
 <div class="news">
-  <a class="video" href="http://vimeo.com/106867878">Как написать UI тест за 10 минут</a>
+  <div class="news-line"><a class="video" href="//www.youtube.com/watch?v=MTHhflyh8Ck">Selenide: лаконичные и стабильные UI тесты на Java</a></div>
+  <div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

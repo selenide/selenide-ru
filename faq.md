@@ -13,7 +13,7 @@ header-text: Часто задаваемые вопросы
  
 Да! Вы можете использовать Пэдж Обжекты с Selenide.
 
-Более того, с Selenide ваши page objects станут короче и читабельнее. Вот [пример на гитхабе](https://github.com/codeborne/selenide_examples/blob/master/github/test/org/selenide/examples/github/SearchPage.java).
+Более того, с Selenide ваши page objects станут короче и читабельнее. [Тут подробоности](/documentation/page-objects.html).
 
 ## Мотивация
 

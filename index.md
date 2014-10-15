@@ -75,14 +75,19 @@ tagline:
 </div></div>
 
 <div class="short testimonials">
-<div class="wrapper-color-content">
+  <div class="wrapper-color-content">
+  
+    <h3>Отзывы</h3>
+    <h4>"Selenide - мощный инструмент для написания функциональных тестов. Рекомендую."</h4>
+    
+    KAUR MÄTAS, <br>
+    Инженер LiveRebel в ZeroTurnaround<br>
+    
+    <a href="{{ BASE_PATH }}/users.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+  </div>
+</div>
 
-<h3>Отзывы</h3>
-<h4>"Selenide - мощный инструмент для написания функциональных тестов. Рекомендую."</h4>
-
-KAUR MÄTAS, <br>
-Инженер LiveRebel в ZeroTurnaround<br>
-
-<a href="{{ BASE_PATH }}/users.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
-</div></div>
-
+<div class="short">
+  <a class="twitter-timeline" href="https://twitter.com/jselenide" data-widget-id="397446026996359168">Tweets by @jselenide</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>

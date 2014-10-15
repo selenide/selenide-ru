@@ -8,6 +8,13 @@ header-text: Часто задаваемые вопросы
 ---
 {% include JB/setup %}
 
+## Page Objects
+> Можно ли использовать Пэдж Обжекты с Selenide?
+ 
+Да! Вы можете использовать Пэдж Обжекты с Selenide.
+
+Более того, с Selenide ваши page objects станут короче и читабельнее. Вот [пример на гитхабе](https://github.com/codeborne/selenide_examples/blob/master/github/test/org/selenide/examples/github/SearchPage.java).
+
 ## Мотивация
 
 > Почему недостаточно Selenium webdriver

@@ -5,7 +5,7 @@
   <li><a href="{{ BASE_PATH }}/blog.html">Блог</a></li>
   <li><a href="{{ BASE_PATH }}/javadoc.html">Javadoc</a></li>
   <li><a href="{{ BASE_PATH }}/users.html">Пользователи</a></li>
-  <li style="display:none;"><a href="{{ BASE_PATH }}/quotes.html">Что говорят о Selenide?</a></li>
+  <li><a href="{{ BASE_PATH }}/quotes.html">Отзывы</a></li>
   <li><a href="{{ BASE_PATH }}/contacts.html">Кто ты?</a></li>
   <li style="display:none;"><a href="{{ BASE_PATH }}/thanks.html">Мы говорим спасибо</a></li>
 </ul>

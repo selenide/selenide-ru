@@ -23,19 +23,21 @@ tagline:
 <div class="short wiki">
 <div class="wrapper-color-content">
 
-<h3>Что такое Selenide?</h3>
-<h4>Selenide - это обёртка вокруг <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая:</h4>
-
-✓ Изящный API для тестов&nbsp;&nbsp;
-✓ Поддержка Ajax&nbsp;&nbsp;
-✓ тру Page Objects&nbsp;&nbsp;
-✓ Селекторы в стиле jQuery<br>
-Вот так Selenide позволяет писать лаконичные тесты. Вам больше не нужно заботиться о
-том, как открыть и закрыть браузер, не надо беспокоиться о таймаутах, не надо писать монструозный код для
-ожидания наступления событий - <b>сконцентрируйтесь на бизнес-логике</b>!<br>
-
-<a href="https://github.com/codeborne/selenide/wiki" target="_blank"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
-</div></div>
+  <h3>Что такое Selenide?</h3>
+  <h4>Selenide - это обёртка вокруг <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая:</h4>
+  <div class="highlights">
+    <a href="/documentation.html">Изящный API для тестов</a>
+    <span>Поддержка Ajax</span>
+    <a href="/documentation/page-objects.html">тру Page Objects</a>
+    <span>Селекторы в стиле jQuery</span>
+  </div>
+  Selenide позволяет писать лаконичные тесты. Вам больше не нужно заботиться о
+  том, как открыть и закрыть браузер, не надо беспокоиться о таймаутах, не надо писать монструозный код для
+  ожидания наступления событий - <b>сконцентрируйтесь на бизнес-логике</b>!<br>
+  
+  <a href="/quick-start.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
+</div>
+</div>
 
 
 

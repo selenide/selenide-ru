@@ -5,10 +5,10 @@
 
   <br/>
   <div>Ресурсы</div>
-  <div>✓ <a href="http://prezi.com/d18jggopjyaj/selenide-shorten-your-code/" target="_blank">Shorten your code!</a> (2014)</div>
-  <div>✓ <a href="http://www.methodsandtools.com/tools/selenide.php" target="_blank">Methods & Tools</a> (2013)</div>
-  <div>✓ <a href="http://zeroturnaround.com/rebellabs/if-you-use-selenium-for-browser-based-ui-acceptance-testing-you-might-like-selenide/" target="_blank">Selenide @ RebelLabs</a> (2013)</div>
-  <div>✓ <a href="http://habrahabr.ru/post/143269/" target="_blank">habrahabr</a> (2012)</div>
+  <div>✓ <a href="http://prezi.com/d18jggopjyaj/selenide-shorten-your-code/" target="_blank">Shorten your code!</a></div>
+  <div>✓ <a href="http://www.methodsandtools.com/tools/selenide.php" target="_blank">Methods & Tools</a></div>
+  <div>✓ <a href="http://zeroturnaround.com/rebellabs/if-you-use-selenium-for-browser-based-ui-acceptance-testing-you-might-like-selenide/" target="_blank">Selenide @ RebelLabs</a></div>
+  <div>✓ <a href="http://habrahabr.ru/post/143269/" target="_blank">habrahabr</a></div>
 
   <br/>
   <div>Видео</div>

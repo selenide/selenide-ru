@@ -2,6 +2,7 @@
   <div>Доки</div>
   <div>✓ <a href="/documentation.html">API</a></div>
   <div>✓ <a href="/documentation/page-objects.html">Page Objects</a></div>
+  <div>✓ <a href="/documentation/screenshots.html">Скриншоты</a></div>
 
   <br/>
   <div>Ресурсы</div>

@@ -56,34 +56,11 @@ Selenide можно запукать с любым браузером, для к
 На [Wiki page](https://github.com/codeborne/selenide/wiki/Build-script/) есть несколько примеров на Ant и Gradle.
 
 
-## Скриншоты
+## Скриншоты (снимок экрана)
 
 > Как сделать скриншот в тесте?
 
-Обычно это не нужно, так как Selenide сама автоматически делает скриншоты при падении тестов. Это очень удобно для анализа ошибки.
-
-Для пользователей JUnit и TestNG мы сделали дополнительную поддержку.
-
-Для JUnit:
-
-```java
-@Rule // автоматически сделает скришот после каждого упавшего (и даже зелёного) теста
-public ScreenShooter makeScreenshotOnFailure = ScreenShooter.failedTests().succeededTests();
-```
-
-Для TestNG:
-
-```java
-@Listeners({ ScreenShooter.class})
-```
-
-Вы также можете сделать скриншот в любом месте теста одной строчкой:
-
-```java
-takeScreenshot("my_file_name");
-```
-
-При этом Selenide создаст два файла: `my_file_name.png` и `my_file_name.html`
+См. [документация](/documentation.html) -> [Скриншоты](/documentation/screenshots.html)
 
 
 

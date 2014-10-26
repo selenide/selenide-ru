@@ -10,13 +10,24 @@ header-text:
 
 <br/>
 
+<a href="http://plumbr.eu/" target="_blank">
+  <img src="{{ BASE_PATH }}/images/plumbr-logo.jpeg" style="width: 150px;" alt="Plumbr – Java memory leak detection"/>
+</a>
+<br/>
+
+<div class="text-right">
+  <a href="http://plumbr.eu/" target="_blank">Plumbr</a> – Инструмент для обнаружения утечек памяти в Java приложениях
+</div>
+
+<hr class="divider"/>
+
 <a href="http://www.tieto.ee/" target="_blank">
   <img src="{{ BASE_PATH }}/images/tieto.png" style="width: 96px; margin-left: 64px;" alt="Tieto Eesti AS" align="right"/>
 </a>
 <br/>
 
 <div class="text-left">
-  Tieto – крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному
+  <a href="http://www.tieto.ee/" target="_blank">Tieto</a> – крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному
   и корпоративному сектору. Разработки Tieto находят глобальное применение, а сервисные центры компании расположены
   в различных уголках мира.
 </div>

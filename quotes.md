@@ -57,4 +57,10 @@ Selenide: удобные тесты на Selenium WebDriver. Есть пароч
 
 <div class="vspace"></div>
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="wrapper-content center">
+  <section>
+    <br/>
+    <a class="twitter-timeline" href="https://twitter.com/jselenide" data-widget-id="397446026996359168">Tweets by @jselenide</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </section>
+</div>

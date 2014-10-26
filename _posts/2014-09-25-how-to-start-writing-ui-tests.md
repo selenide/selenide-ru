@@ -21,7 +21,7 @@ tags: []
 </center>
 
 
-<a href="/contacts.html">Конструктивная критика</a> приветствуется. 
+<a href="/users.html#contact">Конструктивная критика</a> приветствуется. 
 
 
 <br />

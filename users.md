@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title : Кто использует Selenide
 header : Кто использует Selenide
 group: navigation
@@ -8,140 +8,224 @@ header-text:
 ---
 {% include JB/setup %}
 
+{% include themes/ingmar/_title.html %}
+
+<br/>
 <br/>
 
-<a href="http://plumbr.eu/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/plumbr-logo.jpeg" style="width: 150px;" alt="Plumbr – Java memory leak detection"/>
-</a>
-<br/>
-
-<div class="text-right">
-  <a href="http://plumbr.eu/" target="_blank">Plumbr</a> – Инструмент для обнаружения утечек памяти в Java приложениях
+<div class="wrapper-content">
+  <section>
+    <a href="http://plumbr.eu/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/plumbr-logo.jpeg" style="width: 150px;" alt="Plumbr – Java memory leak detection"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="http://plumbr.eu/" target="_blank">Plumbr</a> – Инструмент для обнаружения утечек памяти в Java приложениях
+    </div>
+    
+    <hr class="divider"/>
+    
+    <a href="http://www.ubrr.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/ubrr-logo.jpeg" style="width: 150px;" alt="УБРиР - Уральский банк реконструкции и развития"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="http://www.ubrr.ru/" target="_blank">УБРиР</a> – Уральский банк реконструкции и развития
+    </div>
+    
+    <hr class="divider"/>
+    
+    <a href="http://www.tieto.ee/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/tieto.png" style="width: 96px; margin-left: 64px;" alt="Tieto Eesti AS" align="right"/>
+    </a>
+    <br/>
+    
+    <div class="text-left">
+      <a href="http://www.tieto.ee/" target="_blank">Tieto</a> – крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному
+      и корпоративному сектору. Разработки Tieto находят глобальное применение, а сервисные центры компании расположены
+      в различных уголках мира.
+    </div>
+    
+    <hr class="divider"/>
+    
+    <a href="http://bellwood.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/bellwood-logo.png" alt="Bellwood systems"/>
+    </a>
+    
+    <div class="text-right">
+      разработчик систем скоринга и андеррайтинга для финансовых продуктов.
+    </div>
+    
+    <hr class="divider"/>
+    
+    <a href="http://zeroturnaround.com" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-zt.png" alt="Zeroturnaround"/>
+      <img src="{{ BASE_PATH }}/images/logo-liverebel-dark-small.png" alt="LiveRebel" align="right"/>
+    </a>
+    
+    <div class="text-right">
+      <a href="http://zeroturnaround.com/rebellabs/if-you-use-selenium-for-browser-based-ui-acceptance-testing-you-might-like-selenide/" target="_blank">Zeroturnaround</a>
+      - создатели известных на весь мир продуктов JRebel и LiveRebel,<br/> номинанты премии Jolt Awards.
+    </div>
+    
+    <hr class="divider"/>
+    
+    
+    <a href="https://i.bspb.ru/home" target="_blank">
+      <img src="{{ BASE_PATH }}/images/bspb_logo.jpg" alt="Банк Санкт-Петербург"/>
+    </a>
+    
+    <div class="text-right">В <a href="http://markswebb.ru/rating/internet-banking-rank/" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
+    
+    <hr class="divider"/>
+    
+    
+    <a href="https://www.energia.ee/ru/avaleht" target="_blank">
+      <img src="{{ BASE_PATH }}/images/ee_logo.png" alt="Eesti Energia"/>
+    </a>
+    
+    <div class="text-right">Крупнейший поставщик электричества в Эстонии</div>
+    
+    <hr class="divider"/>
+    
+    
+    <a href="http://www.proekspert.ee/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/proekspert_logo.png" alt="Proekspert" width="350px"/>
+    </a>
+    
+    <div>Ведущий разработчик программного обеспечения промышленной автоматизации в Эстонии. Мы вдыхаем жизнь в оборудование.</div>
+    
+    <hr class="divider"/>
+    
+    
+    <a href="http://www.regio.ee/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/regio-logo.jpg" alt="Regio"/>
+    </a>
+    
+    <div>A premium provider of location-based solutions in the Eastern Hemisphere for telecom, transport and infrastructure sectors.</div>
+    
+    
+    <hr class="divider"/>
+    
+    
+    
+    <a href="http://ru.codeborne.com" target="_blank">
+      <img src="{{ BASE_PATH }}/images/codeborne-logo-small.png" alt="Codeborne" width="240"/>
+    </a>
+    
+    <div>Единственная софтверная компания в Эстонии, использующая TDD и дрqугие практики XP
+    от звонка до звонка. Создатели open-source библиотек
+    <a href="http://ru.selenide.org">Selenide</a> и
+    <a href="http://github.com/codeborne/mobileid" target="_blank">MobileID</a>.</div>
+    
+    <br/>
+  </section>
 </div>
 
-<hr class="divider"/>
-
-<a href="http://www.ubrr.ru/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/ubrr-logo.jpeg" style="width: 150px;" alt="УБРиР - Уральский банк реконструкции и развития"/>
-</a>
-<br/>
-
-<div class="text-right">
-  <a href="http://www.ubrr.ru/" target="_blank">УБРиР</a> – Уральский банк реконструкции и развития
-</div>
-
-<hr class="divider"/>
-
-<a href="http://www.tieto.ee/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/tieto.png" style="width: 96px; margin-left: 64px;" alt="Tieto Eesti AS" align="right"/>
-</a>
-<br/>
-
-<div class="text-left">
-  <a href="http://www.tieto.ee/" target="_blank">Tieto</a> – крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному
-  и корпоративному сектору. Разработки Tieto находят глобальное применение, а сервисные центры компании расположены
-  в различных уголках мира.
-</div>
-
-<hr class="divider"/>
-
-<a href="http://bellwood.ru/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/bellwood-logo.png" alt="Bellwood systems"/>
-</a>
-
-<div class="text-right">
-  разработчик систем скоринга и андеррайтинга для финансовых продуктов.
-</div>
-
-<hr class="divider"/>
-
-<a href="http://zeroturnaround.com" target="_blank">
-  <img src="{{ BASE_PATH }}/images/logo-zt.png" alt="Zeroturnaround"/>
-  <img src="{{ BASE_PATH }}/images/logo-liverebel-dark-small.png" alt="LiveRebel" align="right"/>
-</a>
-
-<div class="text-right">
-  <a href="http://zeroturnaround.com/rebellabs/if-you-use-selenium-for-browser-based-ui-acceptance-testing-you-might-like-selenide/" target="_blank">Zeroturnaround</a>
-  - создатели известных на весь мир продуктов JRebel и LiveRebel,<br/> номинанты премии Jolt Awards.
-</div>
-
-<hr class="divider"/>
-
-
-<a href="https://i.bspb.ru/home" target="_blank">
-  <img src="{{ BASE_PATH }}/images/bspb_logo.jpg" alt="Банк Санкт-Петербург"/>
-</a>
-
-<div class="text-right">В <a href="http://markswebb.ru/rating/internet-banking-rank/" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
-
-<hr class="divider"/>
-
-
-<a href="https://www.energia.ee/ru/avaleht" target="_blank">
-  <img src="{{ BASE_PATH }}/images/ee_logo.png" alt="Eesti Energia"/>
-</a>
-
-<div class="text-right">Крупнейший поставщик электричества в Эстонии</div>
-
-<hr class="divider"/>
-
-
-<a href="http://www.proekspert.ee/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/proekspert_logo.png" alt="Proekspert" width="350px"/>
-</a>
-
-<div>Ведущий разработчик программного обеспечения промышленной автоматизации в Эстонии. Мы вдыхаем жизнь в оборудование.</div>
-
-<hr class="divider"/>
-
-
-<a href="http://www.regio.ee/" target="_blank">
-  <img src="{{ BASE_PATH }}/images/regio-logo.jpg" alt="Regio"/>
-</a>
-
-<div>A premium provider of location-based solutions in the Eastern Hemisphere for telecom, transport and infrastructure sectors.</div>
-
-
-<hr class="divider"/>
-
-
-
-<a href="http://ru.codeborne.com" target="_blank">
-  <img src="{{ BASE_PATH }}/images/codeborne-logo-small.png" alt="Codeborne" width="240"/>
-</a>
-
-<div>Единственная софтверная компания в Эстонии, использующая TDD и дрqугие практики XP
-от звонка до звонка. Создатели open-source библиотек
-<a href="http://ru.selenide.org">Selenide</a> и
-<a href="http://github.com/codeborne/mobileid" target="_blank">MobileID</a>.</div>
-
-<br/>
-<br/>
-<br/>
-
-### Сообщите о себе!
-
-Хотите увидеть здесь и свой логотип?  [Напишите нам!](mailto:andrei.solntsev@gmail.com)
 
 
 <div class="vspace"></div>
 
-# Мы говорим СПАСИБО:  <br> <br>
-# JetBrains
+<div class="short feedback">
+  <div class="wrapper-color-content">
+    <h3>Мы говорим СПАСИБО:</h3>
+  </div>
+</div>
 
-JetBrains поддерживает проект Selenide своей [лучшей в мире](http://habrahabr.ru/post/112749/) средой разработки [Intellij IDEA](http://www.jetbrains.com/idea/).
+<div class="wrapper-content">
+  <section>
 
-<a href="http://www.jetbrains.com/idea/features/javascript.html" style="display:block; background:#fff url(http://www.jetbrains.com/idea/opensource/img/all/banners/idea468x60_white.gif) no-repeat 0 7px; border:solid 1px #0d3a9e; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers" title="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers"><span style="margin: 5px 0 0 61px;padding: 0;float: left;font-size: 12px;cursor:pointer;  background-image:none;border:0;color: #0d3a9e; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">Developed with</span><span style="margin:0 0 0 205px;padding:18px 0 2px 0; line-height:13px;font-size:11px;cursor:pointer;  background-image:none;border:0;display:block; width:255px; color:#0d3a9e; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">Java IDE with advanced HTML/CSS/JS<br/>editor for hardcore web-developers</span></a>
+    <h3>JetBrains</h3>
+    
+    <div>
+      JetBrains поддерживает проект Selenide своей <a href="http://habrahabr.ru/post/112749/">лучшей в мире</a> средой 
+      разработки <a href="http://www.jetbrains.com/idea/">Intellij IDEA</a>.
+    </div>
+    
+    <div class="center">
+      <br/>
+      <a href="http://www.jetbrains.com/idea/features/javascript.html" 
+         style="display:block; background:#fff url(http://www.jetbrains.com/idea/opensource/img/all/banners/idea468x60_white.gif) no-repeat 0 7px; border:solid 1px #0d3a9e; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers" title="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers">
+         <span style="margin: 5px 0 0 61px;padding: 0;float: left;font-size: 12px;cursor:pointer;  background-image:none;border:0;color: #0d3a9e; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">
+           Developed with</span>
+         <span style="margin:0 0 0 205px;padding:18px 0 2px 0; line-height:13px;font-size:11px;cursor:pointer;  background-image:none;border:0;display:block; width:255px; color:#0d3a9e; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">
+           Java IDE with advanced HTML/CSS/JS<br/>
+           editor for hardcore web-developers
+         </span>
+      </a>
+    </div>
+    
+    <hr class="divider"/>
+    
+    <h3>YourKit</h3>
+    
+    <div>YourKit поддерживает проект Selenide своим профилировщиком Java.</div>
+    
+    <div>
+      YourKit, LLC - создатель инновационных профилировщиков для Java и .NET. Обратите внимание на два главных инструмента YourKit:
+      <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> и 
+      <a href="http://www.yourkit.com/.net/profiler/index.jsp">YourKit .NET Profiler</a>.
+    </div>
+    
+    <div class="center">
+      <br/>
+      <img src="{{BASE_PATH}}/images/yourkit.png" alt="YourKit" style="width: 150px;"/>
+    </div>
 
-<hr class="divider"/>
+    <h3>Selenium</h3>
+    
+    <div>И конечно, сам Selenium WebDriver!</div>
+    
+    <div class="center">
+      <br/>
+      <img src="{{BASE_PATH}}/images/selenium-logo.png" alt="YourKit" style="width: 150px;"/>
+    </div>
 
-# YourKit
-
-YourKit поддерживает проект Selenide своим профилировщиком Java.
-
-YourKit, LLC - создатель инновационных профилировщиков для Java и .NET. Обратите внимание на два главных инструмента YourKit:
-[YourKit Java Profiler](http://www.yourkit.com/java/profiler/index.jsp) и [YourKit .NET Profiler](http://www.yourkit.com/.net/profiler/index.jsp)</a>.
-
-![YourKit]({{BASE_PATH}}/images/yourkit.png)
+  </section>
+</div>
 
 <div class="vspace"></div>
+
+
+<a name="contact"></a>
+
+<div class="short feedback">
+  <div class="wrapper-color-content">
+    <h3>Сообщи о себе!</h3>
+    <h4>Поделись с нами опытом!</h4>
+  </div>
+</div>
+
+<div class="wrapper-content center">
+  <section>
+    <br/>
+    <div>Хотите увидеть здесь и свой логотип? <a href="mailto:andrei.solntsev@gmail.com">Напишите нам!</a></div>
+    <div>Нам чертовски интересно узнать про вас: что пробовали, что получилось, какие встретили проблемы.</div>
+    <br/>
+    <div>Задай свои вопросы или оставь отзыв!</div>
+  </section>
+</div>
+
+<div class="quicklinks">
+  <div class="wrapper-color-content">
+    <ul class="gray-boxes">
+      <li><a href="mailto:selenide@googlegroups.com" target="_blank">
+        <span class="ql"><h3>Спроси у</h3> <strong><h4>людей</h4></strong></span></a>
+      </li>
+      <li><a href="https://groups.google.com/forum/?fromgroups#!forum/selenide-ru" target="_blank" title="Архив гуглогруппы selenide-ru">
+        <span class="ql"><h3>Читай</h3> <strong><h4>ГГруппу</h4></strong></span></a>
+      </li>
+      <li><a href="mailto:andrei.solntsev@gmail.com" target="_blank">
+        <span class="ql"><h3>Напиши</h3> <strong><h4>мне</h4></strong></span></a>
+      </li>
+      <li><a href="https://twitter.com/jselenide" target="_blank" title="Twitter #jselenide">
+        <span class="ql"><h3>Пиши в</h3> <h4>твиттер</h4></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+{% include JB/comments %}

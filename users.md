@@ -128,6 +128,8 @@ header-text:
 
 <div class="vspace"></div>
 
+<a name="thanks"></a>
+
 <div class="short feedback">
   <div class="wrapper-color-content">
     <h3>Мы говорим СПАСИБО:</h3>
@@ -140,13 +142,13 @@ header-text:
     <h3>JetBrains</h3>
     
     <div>
-      JetBrains поддерживает проект Selenide своей <a href="http://habrahabr.ru/post/112749/">лучшей в мире</a> средой 
-      разработки <a href="http://www.jetbrains.com/idea/">Intellij IDEA</a>.
+      JetBrains поддерживает проект Selenide своей <a href="http://habrahabr.ru/post/112749/" target="_blank">лучшей в мире</a> средой 
+      разработки <a href="http://www.jetbrains.com/idea/" target="_blank">Intellij IDEA</a>.
     </div>
     
     <div class="center">
       <br/>
-      <a href="http://www.jetbrains.com/idea/features/javascript.html" 
+      <a href="http://www.jetbrains.com/idea/features/javascript.html" target="_blank" 
          style="display:block; background:#fff url(http://www.jetbrains.com/idea/opensource/img/all/banners/idea468x60_white.gif) no-repeat 0 7px; border:solid 1px #0d3a9e; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers" title="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers">
          <span style="margin: 5px 0 0 61px;padding: 0;float: left;font-size: 12px;cursor:pointer;  background-image:none;border:0;color: #0d3a9e; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">
            Developed with</span>
@@ -165,22 +167,22 @@ header-text:
     
     <div>
       YourKit, LLC - создатель инновационных профилировщиков для Java и .NET. Обратите внимание на два главных инструмента YourKit:
-      <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> и 
-      <a href="http://www.yourkit.com/.net/profiler/index.jsp">YourKit .NET Profiler</a>.
+      <a href="http://www.yourkit.com/java/profiler/index.jsp" target="_blank">YourKit Java Profiler</a> и 
+      <a href="http://www.yourkit.com/.net/profiler/index.jsp" target="_blank">YourKit .NET Profiler</a>.
     </div>
     
     <div class="center">
       <br/>
-      <img src="{{BASE_PATH}}/images/yourkit.png" alt="YourKit" style="width: 150px;"/>
+      <img src="{{BASE_PATH}}/images/yourkit.png" target="_blank" alt="YourKit" style="width: 150px;"/>
     </div>
 
     <h3>Selenium</h3>
     
-    <div>И конечно, сам Selenium WebDriver!</div>
+    <div>И конечно, сам <a href="http://www.seleniumhq.org/" target="_blank">Selenium WebDriver</a>!</div>
     
     <div class="center">
       <br/>
-      <img src="{{BASE_PATH}}/images/selenium-logo.png" alt="YourKit" style="width: 150px;"/>
+      <img src="{{BASE_PATH}}/images/selenium-logo.png" alt="Selenium WebDriver" style="width: 150px;"/>
     </div>
 
   </section>
@@ -191,7 +193,7 @@ header-text:
 
 <a name="contact"></a>
 
-<div class="short feedback">
+<div class="short howto">
   <div class="wrapper-color-content">
     <h3>Сообщи о себе!</h3>
     <h4>Поделись с нами опытом!</h4>

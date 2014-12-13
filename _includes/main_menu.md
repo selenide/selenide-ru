@@ -11,8 +11,7 @@
 
 <div class="news">
   <!--<div class="news-line"><a class="video" href="//www.youtube.com/watch?v=MTHhflyh8Ck">Selenide: лаконичные и стабильные UI тесты на Java</a></div>-->
-  <!--<div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>-->
-  <div class="news-line"><a href="/2014/11/03/selenide-2.15/">Вышла Selenide 2.15: <br>Sizzle селекторы, multifile upload, BrowserMob proxy, зуминг!</a></div>
+  <div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

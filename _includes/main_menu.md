@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <!--<div class="news-line"><a class="video" href="//www.youtube.com/watch?v=MTHhflyh8Ck">Selenide: лаконичные и стабильные UI тесты на Java</a></div>-->
+  <div class="news-line"><a href="/2014/12/28/how-to-test-gmail/">Как тестировать GMail</a></div>
   <div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>
 </div>
 

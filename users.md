@@ -126,7 +126,7 @@ header-text:
       <img src="{{ BASE_PATH }}/images/codeborne-logo-small.png" alt="Codeborne" width="240"/>
     </a>
     
-    <div>Единственная софтверная компания в Эстонии, использующая TDD и дрqугие практики XP
+    <div>Единственная софтверная компания в Эстонии, использующая TDD и другие практики XP
     от звонка до звонка. Создатели open-source библиотек
     <a href="http://ru.selenide.org">Selenide</a> и
     <a href="http://github.com/codeborne/mobileid" target="_blank">MobileID</a>.</div>

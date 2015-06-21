@@ -10,8 +10,8 @@
 </ul>
 
 <div class="news">
+  <div class="news-line"><a href="/2015/06/21/selenide-2.19/">Изменения в Selenide 2.19</a></div>
   <div class="news-line"><a href="/2015/05/06/selenide-2.18/">Изменения в Selenide 2.18</a></div>
-  <div class="news-line"><a href="/2015/05/05/selenide-2.16-and-2.17/">Изменения в Selenide 2.16 и 2.17</a></div>
   <!--<div class="news-line"><a href="/2014/12/28/how-to-test-gmail/">Как тестировать GMail</a></div>-->
   <div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>
 </div>

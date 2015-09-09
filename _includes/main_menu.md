@@ -10,11 +10,8 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2015/08/29/selenide-2.22/">Зарелизили Selenide 2.22!</a></div>
-  <!--<div class="news-line"><a href="/2015/07/27/selenide-2.20/">Зарелизили Selenide 2.20!</a></div>-->
-  <!--<div class="news-line"><a href="/2015/06/21/selenide-2.19/">Зарелизили Selenide 2.19!</a></div>-->
-  <!--<div class="news-line"><a href="/2014/12/28/how-to-test-gmail/">Как тестировать GMail</a></div>-->
-  <div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>
+  <div class="news-line"><a href="https://t.co/Ih8FQ7VJMj">Презентация Selenide на SeleniumConf 2015 в Портланде!</a></div>
+  <!--<div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>-->
 </div>
 
 <h3 style="display:none">Блог</h3>

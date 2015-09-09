@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="https://t.co/Ih8FQ7VJMj">Презентация Selenide на SeleniumConf 2015 в Портланде!</a></div>
+  <div class="news-line"><a href="https://t.co/Ih8FQ7VJMj">Презентация Selenide на SeleniumConf 2015 в Портленде!</a></div>
   <!--<div class="news-line"><a class="video" href="//vimeo.com/106867878">Как написать UI тест за 10 минут</a></div>-->
 </div>
 

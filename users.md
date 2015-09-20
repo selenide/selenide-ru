@@ -15,6 +15,17 @@ header-text:
 
 <div class="wrapper-content">
   <section>
+    <a href="http://www.citadele.lv/ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/citadele-banka.png" style="width: 150px;" alt="Банк Citadele"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="http://www.citadele.lv/ru/" target="_blank">Банк Citadele</a> – латвийский банк, партнёр American Express® в странах Балтии
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="http://plumbr.eu/" target="_blank">
       <img src="{{ BASE_PATH }}/images/plumbr-logo.jpeg" style="width: 150px;" alt="Plumbr – Java memory leak detection"/>
     </a>

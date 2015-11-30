@@ -76,6 +76,21 @@ tagline:
 <a href="{{ BASE_PATH }}/documentation.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
 </div></div>
 
+<div class="short feedback">
+<div class="wrapper-color-content">
+
+  <h3>Контакты</h3>
+  <h4>Ты хочешь поговорить об этом?</h4>
+
+  <div>Где можно задать вопрос или обсудить любой вопрос насчёт Selenide на русском языке:</div>
+  <div class="highlights">
+    <a href="mailto:selenide-ru@googlegroups.com">Гуглогруппа</a>
+    <a href="http://automated-testing.info/c/webdriver/selenide">раздел Selenide на automated-testing.info</a>
+    <a href="mailto:andrei тчк solntsev сбк gmail тчк com">Мой email</a>
+  </div>
+
+</div></div>
+
 <div class="short testimonials">
   <div class="wrapper-color-content">
   

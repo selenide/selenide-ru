@@ -62,6 +62,9 @@ Selenide можно запукать с любым браузером, для к
 
 См. [документация](/documentation.html) -> [Скриншоты](/documentation/screenshots.html)
 
+> Как сказать Selenide сохранять скриншоты в другую папку?
+
+См. [документация](/documentation.html) -> [Скриншоты](/documentation/screenshots.html)
 
 
 ## Вкладки/окна браузера

@@ -9,6 +9,10 @@ header-text:
 ---
 {% include JB/setup %}
 
+<blockquote><p>"<a href="http://qiita.com/kazuki-ma/items/d6432fc41c82538a61bd">Волшебный враппер для повышения продуктивности</a>"</p><a href="http://qiita.com/kazuki-ma">kazuki-ma</a></blockquote>
+
+<hr class="divider"/>
+
 <blockquote><p>Наконец-то приличный фреймворк для вебдрайвера.</p>Philippe Cambien</blockquote>
 
 <hr class="divider"/>

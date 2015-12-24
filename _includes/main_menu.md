@@ -10,7 +10,8 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2015/11/30/selenide-2.25/">Зарелизили Selenide 2.25!</a></div>
+  <div class="news-line"><a href="/2015/11/30/selenide-3.0/">Вышла Selenide 3.0!</a></div>
+  <!--<div class="news-line"><a href="/2015/11/30/selenide-2.25/">Зарелизили Selenide 2.25!</a></div>-->
   <!--<div class="news-line"><a class="video" href="//www.youtube.com/watch?v=BjEW08vDUfI">Презентация Selenide на Devoxx 2015</a></div>-->
   <!--<div class="news-line"><a href="/2015/11/08/selenide-2.24/">Зарелизили Selenide 2.24</a></div>-->
   <!--<div class="news-line"><a href="/2015/09/23/selenide-on-seleniumconf/">Доклад о Selenide на SeleniumConf 2015</a></div>-->

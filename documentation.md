@@ -9,13 +9,13 @@ header-text: >
   Отличный софт <span class="bold">не нуждается</span> в документации.</h4>
 
   Мы с гордостью заявляем, что Selenide настолько прост, что вам не нужно читать тонны документации, чтобы начать с ним работать.<br/>
-  Вся работа с Selenide состоит всего из трёх простых вещей:
+  Вся работа с Selenide состоит всего из трёх простых шагов:
 ---
 {% include JB/setup %}
 
 {% include documentation-menu.md %}
 
-## Три простые вещи:
+## Три простых шага:
 <strong>1.</strong>  Открыть страницу   <br>
 <strong>2.</strong>  $(элемент).совершитьДействие()<br>
 <strong>3.</strong>  $(элемент).проверитьУсловие()<br>
@@ -49,7 +49,7 @@ header-text: >
   <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html">[javadoc]</a>
 </h3>
 
-Ядро библиотеки Selenide. Два основных метода - это `open` и `доллар`:
+Ядро библиотеки Selenide. Основные методы - это `open`, `$` и `$$`:
 <ul>
   <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#open(java.lang.String)">open(URL)</a>, и</li>
   <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$(java.lang.String)">$(String cssSelector)</a>   - возвращает первый SelenideElement</li>
@@ -73,11 +73,11 @@ header-text: >
   <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/SelenideElement.html">[javadoc]</a>
 </h3>
 
-Класс SelenideElement - обёртка вокруг Selenium WebElement. 
+Класс SelenideElement - обёртка вокруг Selenium WebElement, которая добавляет несколько весьма полезных методов.
 
 Вы можете связать объекты SelenideElements в цепочку с помощью `$`, например `$("#page").$("#table").$("#header")`, и это не вызовет поиск по DOM.  
 
-Assertions (утверждения) вызывают поиск по DOM, и возвращают объекты SelenideElement которые реализуют нативный интерфейс. Так же, SelenideElement добавляет несколько весьма полезных методов:
+Assertions (проверки) вызывают поиск по DOM и возвращают объекты SelenideElement, позволяя использовать цепочки вызовов.
 
 *  should(Condition)
 *  shouldBe(Condition)
@@ -199,15 +199,15 @@ $(By.xpath("//div[text()='Login']")).shouldBe(visible); // можно испол
   <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>
 </h3>
 
-Этот класс, который возвращает метод `$$`. Содержит список веб-элементов и несколько полезных методов::
+Этот класс, который возвращает метод `$$`. Содержит список веб-элементов и несколько полезных методов:
 
-Assertions (утверждения), которые вызывают поиск по DOM и могут быть безопасно сохранены в переменной.
+Assertions (проверки), которые вызывают поиск по DOM.
 
 *   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
 *   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
 
 
-Дополнительная фильтрация, не вызывает поиск по DOM и может быть безопасно сохранена в переменную
+Дополнительная фильтранция, не вызывает поиск по DOM и может быть безопасно сохранена в переменную.
 
 *   get(int) - возвращает n-ый элемент как `SelenideElement` и *не* вызывает поиск по DOM или граничную проверку коллекции
 *   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`

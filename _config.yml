@@ -5,14 +5,14 @@ SELENIDE_VERSION : "3.0"
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: true
+highlighter: pygments
 markdown: redcarpet
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Selenide
-tagline: Лаконичные UI тесты на Java
+tagline: Лаконичные и стабильные UI тесты на Java
 author :
   name : Andrei Solntsev
   email : andrei.solntsev@gmail.com

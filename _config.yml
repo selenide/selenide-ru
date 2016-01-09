@@ -12,7 +12,7 @@ markdown: redcarpet
 # so be sure to set them if your theme uses them.
 #
 title : Selenide
-tagline: Лаконичные UI тесты на Java
+tagline: Лаконичные и стабильные UI тесты на Java
 author :
   name : Andrei Solntsev
   email : andrei.solntsev@gmail.com

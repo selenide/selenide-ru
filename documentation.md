@@ -207,7 +207,7 @@ Assertions (проверки), которые вызывают поиск по D
 *   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
 
 
-Дополнительная фильтранция, не вызывает поиск по DOM и может быть безопасно сохранена в переменную.
+Дополнительная фильтрация, не вызывает поиск по DOM и может быть безопасно сохранена в переменную.
 
 *   get(int) - возвращает n-ый элемент как `SelenideElement` и *не* вызывает поиск по DOM или граничную проверку коллекции
 *   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`

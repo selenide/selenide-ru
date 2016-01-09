@@ -66,44 +66,65 @@ header-text: >
 <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#refresh()">refresh()</a>,
 <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#title()">title()</a>.
 
+Более подробная информация доступна в Wiki (скоро).
+
 <h3>com.codeborne.selenide.SelenideElement
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/SelenideElement.java">[src]</a>
   <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/SelenideElement.html">[javadoc]</a>
 </h3>
 
-Класс SelenideElement - обёртка вокруг Selenium WebElement, добавляющая ему несколько весьма полезных методов:
+Класс SelenideElement - обёртка вокруг Selenium WebElement. 
+
+Вы можете связать объекты SelenideElements в цепочку с помощью `$`, например `$("#page").$("#table").$("#header")`, и это не вызовет поиск по DOM.  
+
+Assertions (утверждения) вызывают поиск по DOM, и возвращают объекты SelenideElement которые реализуют нативный интерфейс. Так же, SelenideElement добавляет несколько весьма полезных методов:
 
 *  should(Condition)
 *  shouldBe(Condition)
 *  shouldHave(Condition)
 *  shouldNot(Condition)
 *  shouldNotBe(Condition)
-*  shouldNotHave(Condition)<br/>
-*  waitUntil(Condition, milliseconds)
-*  waitWhile(Condition, milliseconds)<br/>
-*  find(String | By)
-*  findAll(String | By)<br/>
+*  shouldNotHave(Condition)
+
+Действия над элементами:
+
+*  click()
+*  doubleClick()
+*  pressEnter(String)
+*  selectOption(String text)
+*  selectOptionByValue(String value)
 *  setValue(String)
 *  val(String)
 *  append(String)
-*  pressEnter(String)<br/>
+
+
+Получение статусов и значений элементов:
+
 *  val()
 *  data()
 *  text()
 *  isDisplayed()
-*  exists()<br/>
-*  selectOption(String text)
-*  selectOptionByValue(String value)
+*  exists()
 *  getSelectedOption()
 *  getSelectedText()
 *  getSelectedValue()<br/>
+
+Другие полезные команды:
+
+*  waitUntil(Condition, milliseconds)
+*  waitWhile(Condition, milliseconds)
 *  uploadFromClasspath(String fileName)
+*  download()
 *  toWebElement()
+
+Более подробная информация доступна в Wiki (скоро).
 
 <h3>com.codeborne.selenide.Condition
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Condition.java">[src]</a>
   <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Condition.html">[javadoc]</a>
 </h3>
+
+Условия используются в конструкциях should/waitUntil/waitWhile. Мы рекомендуем статически импортировать com.codeborne.selenide.Condition.* чтобы получить все преимущества читаемого кода.
 
 *   visible | appear   // например, $("input").shouldBe(visible)
 *   present | exist
@@ -127,8 +148,9 @@ header-text: >
 *   textCaseSensitive(String substring)
 *   exactTextCaseSensitive(String wholeText)
 
-<br/>
-Вы можете легко добавлять свои условие, реализовав подкласс `com.codeborne.selenide.Condition`.
+Более подробная информация доступна в Wiki (скоро).
+
+Вы можете легко добавлять свои условия, реализовав подкласс `com.codeborne.selenide.Condition`.
 
 Например:
 
@@ -145,7 +167,7 @@ public static Condition css(final String propName, final String propValue) {
     }
 };
 
-// Example usage:
+// Пример использования:
 $("h1").shouldHave(css("font-size", "16px"));
 ```
 
@@ -163,6 +185,15 @@ $("h1").shouldHave(css("font-size", "16px"));
 *   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byTitle(java.lang.String)">byTitle</a>   - поиск по атрибуту "title"
 *   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byValue(java.lang.String)">byValue</a>   - поиск по атрибуту "value"
 
+```java
+// Пример использования:
+$(byText("Login")).shouldBe(visible));
+$(By.xpath("//div[text()='Login']")).shouldBe(visible); // можно использовать любой org.openqa.selenium.By.* селектор
+```
+
+Более подробная информация доступна в Wiki (скоро).
+
+
 <h3>com.codeborne.selenide.ElementsCollection
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/ElementsCollection.java">[src]</a>
   <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>
@@ -170,11 +201,54 @@ $("h1").shouldHave(css("font-size", "16px"));
 
 Этот класс, который возвращает метод `$$`. Содержит список веб-элементов и несколько полезных методов::
 
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - e.g. `$$("#multirowTable tr").filterBy(text("Norris"))`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - e.g. `$$("#multirowTable tr").excludeWith(text("Chack"))`
+Assertions (утверждения), которые вызывают поиск по DOM и могут быть безопасно сохранены в переменной.
 
+*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
+*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
+
+
+Дополнительная фильтрация, не вызывает поиск по DOM и может быть безопасно сохранена в переменную
+
+*   get(int) - возвращает n-ый элемент как `SelenideElement` и *не* вызывает поиск по DOM или граничную проверку коллекции
+*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`
+*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - e.g. `$$("#multirowTable tr").filterBy(text("Norris"))`
+*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - e.g. `$$("#multirowTable tr").excludeWith(text("Chuck"))`
+
+Более подробная информация доступна в Wiki (скоро).
+
+<h3>com.codeborne.selenide.WebDriverRunner
+  <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/WebDriverRunner.java">[src]</a>
+  <a target="_blank" href="{{ BASE_PATH }}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
+</h3>
+
+Этот класс содержит некоторые функции относящиеся к браузеру :
+
+*  isChrome()
+*  isFirefox()
+*  isHeadless()
+*  url() - возвращает текущий url
+*  source() - возвращает исходный HTML текущего окна
+*  getWebDriver()
+
+
+Более подробная информация доступна в Wiki (скоро).
+
+<h3>com.codeborne.selenide.Configuration
+  <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Configuration.java">[src]</a>
+  <a target="_blank" href="{{ BASE_PATH }}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
+</h3>
+
+Этот класс содержит конфигурации для запуска тестов например:
+
+*  timeout - (String) может быть изменен во время исполнения
+*  browser (напр. chrome, ie, firefox)
+*  baseUrl
+*  reportsFolder
+
+Вы так же можете передать конфигурационные параметры как system properties для использования в CI (continiuous integration) задачах (напр. -Dselenide.baseUrl=http://staging-server.com/start)
+
+Более подробная информация доступна в Wiki (скоро).
 
 Более подробно эти и другие классы описаны в [javadoc]({{ BASE_PATH }}/javadoc.html)
+
+Оставайтесь на связи!

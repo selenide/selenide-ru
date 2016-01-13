@@ -24,16 +24,15 @@ tagline:
 <div class="wrapper-color-content">
 
   <h3>Что такое Selenide?</h3>
-  <h4>Selenide - это обёртка вокруг <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая:</h4>
+  <h4>Selenide - это обёртка вокруг <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая следующие преимущества:</h4>
   <div class="highlights">
     <a href="/documentation.html">Изящный API для тестов</a>
-    <span>Поддержка Ajax</span>
-    <a href="/documentation/page-objects.html">тру Page Objects</a>
-    <span>Селекторы в стиле jQuery</span>
+    <span>Поддержка Ajax для стабильных тестов</span>
+    <span>Мощные селекторы</span>
+    <a href="/documentation/page-objects.html">Настоящие Page Objects</a>
+    
   </div>
-  Selenide позволяет писать лаконичные тесты. Вам больше не нужно заботиться о
-  том, как открыть и закрыть браузер, не надо беспокоиться о таймаутах, не надо писать монструозный код для
-  ожидания наступления событий - <b>сконцентрируйтесь на бизнес-логике</b>!<br>
+  Вам больше не нужно заботиться о том, как закрыть браузер, обработать таймауты и StaleElement Exceptions или искать соответствующую строку в логах, отлаживая свои тесты  - <b> Просто сконцентрируйтесь на бизнес-логике и позвольте Selenide сделать все остальное</b>!<br>
   
   <a href="/quick-start.html"> <img style="margin-top: 15px; margin-bottom: -33px" src="{{ BASE_PATH }}/images/arrow-down.png" width="30" height="55" border="0"/> </a>
 </div>

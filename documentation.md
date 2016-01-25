@@ -218,7 +218,7 @@ Assertions (проверки), которые вызывают поиск по D
 
 <h3>com.codeborne.selenide.WebDriverRunner
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/WebDriverRunner.java">[src]</a>
-  <a target="_blank" href="{{ BASE_PATH }}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
+  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
 </h3>
 
 Этот класс содержит некоторые функции относящиеся к браузеру :
@@ -235,7 +235,7 @@ Assertions (проверки), которые вызывают поиск по D
 
 <h3>com.codeborne.selenide.Configuration
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Configuration.java">[src]</a>
-  <a target="_blank" href="{{ BASE_PATH }}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
+  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
 </h3>
 
 Этот класс содержит конфигурации для запуска тестов например:
@@ -249,6 +249,6 @@ Assertions (проверки), которые вызывают поиск по D
 
 Более подробная информация доступна в Wiki (скоро).
 
-Более подробно эти и другие классы описаны в [javadoc]({{ BASE_PATH }}/javadoc.html)
+Более подробно эти и другие классы описаны в [javadoc](http://selenide.org/javadoc.html)
 
 Оставайтесь на связи!

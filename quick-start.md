@@ -7,7 +7,7 @@ cssClass: howto
 header-text: >
   <h4>Начать использовать Selenide очень просто. Не нужно читать тонны документации. Не нужно покупать тренинг.</h4>
 
-   Просто добавь в проект <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/3.1.3/selenide-3.1.3.jar">selenide.jar</a> и начинай писать тест.<br>
+   Просто добавь в проект <a href="http://search.maven.org/remotecontent?filepath=com/codeborne/selenide/3.2/selenide-3.2.jar">selenide.jar</a> и начинай писать тест.<br>
 
 ---
 {% include JB/setup %}

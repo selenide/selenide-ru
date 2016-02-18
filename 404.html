@@ -13,8 +13,8 @@ header-text: Страница не найдена<br/><br/><a href="/faq.html">�
     return text.indexOf(suffix, text.length - suffix.length) !== -1;
   }
 
-  if (endsWith(window.location.href, '/')) {
-    window.location = window.location.href.substr(0, window.location.href.length - 1);
+  if (endsWith(window.location.pathname, '/')) {
+    window.location = window.location.pathname.substr(0, window.location.pathname.length - 1) + window.location.hash;
   }
 </script> 
 

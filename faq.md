@@ -22,7 +22,31 @@ header-text: Часто задаваемые вопросы
  
 Да! Вы можете использовать Пэдж Обжекты с Selenide.
 
-Более того, с Selenide ваши page objects станут короче и читабельнее. [Тут подробности](/documentation/page-objects.html).
+Более того, с Selenide ваши page objects станут **короче и читабельнее**. [Тут подробности](/documentation/page-objects.html).
+
+## Настройки
+> Где я могу найти все доступные настройки Selenide?
+
+Описание всех настроек и значений по умолчанию можно найти в [javadoc](http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html).
+
+> Как задать настройки Selenide?
+
+Selenide имеет очень разумные настройки по умолчанию, которые должны быть 
+удобны для большинства "нормальных" проектов. 
+
+Но если всё-таки захочется запустить тесты с другими настройками, это можно сделать либо через System property:
+
+```
+-Dselenide.timeout=6000
+```
+
+либо программно, прямо в тестах:
+
+```java
+public void setUp() {
+  Configuration.timeout = 6000;
+}
+```
 
 ## Браузеры
 >Можно ли запустить тесты Selenide на Internet Explorer? А headless-браузере?

@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400italic,700italic,400,700);
 @import url(http://fonts.googleapis.com/css?family=Parisienne);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700);
-@import url(http://fonts.googleapis.com/css?family=Courgette);
 
 * {
   padding: 0;
@@ -165,7 +164,6 @@ a small {
 }
 
 .short h4 {
-  font-family: 'Courgette', cursive;
   margin-top: 18px;
   margin-bottom: 18px;
   font-size: 30px;
@@ -176,7 +174,6 @@ a small {
 }
 
 .short h4 .bold {
-  font-family: 'Courgette', cursive;
   font-weight: 900;
   letter-spacing: -1px;
 }

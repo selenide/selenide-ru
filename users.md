@@ -15,6 +15,19 @@ header-text:
 
 <div class="wrapper-content">
   <section>
+
+    <a href="http://qa3s.com/ru/company/about" target="_blank">
+      <img src="{{ BASE_PATH }}/images/qa3s-logo.png" style="width: 150px;" alt="QA Service"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      Департамент <a href="http://qa3s.com/repository/pdf/QA_Service_eng.pdf" target="_blank">QA Service</a> входит в состав компании Softengi – 
+      поставщика услуг в области ИT аутсорсинга на европейских и американских рынках.
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="http://www.xsolve.pl/" target="_blank">
       <img src="{{ BASE_PATH }}/images/xsolve-logo.jpg" style="width: 150px;" alt="XSolve"/>
     </a>

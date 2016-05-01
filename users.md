@@ -16,6 +16,18 @@ header-text:
 <div class="wrapper-content">
   <section>
 
+    <a href="https://rencredit.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/rencredit-logo.png" style="width: 150px;" alt="КБ «Ренессанс Кредит»"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://rencredit.ru/" target="_blank">КБ «Ренессанс Кредит» (ООО)</a> 
+      входит в ТОП-100 крупнейших банков России <br/>и активно развивает собственное IT подразделение.
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="http://qa3s.com/ru/company/about" target="_blank">
       <img src="{{ BASE_PATH }}/images/qa3s-logo.png" style="width: 150px;" alt="QA Service"/>
     </a>

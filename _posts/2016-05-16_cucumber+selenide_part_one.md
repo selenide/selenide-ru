@@ -40,9 +40,10 @@
 ###Разберем первую, простую часть simple_selenide_cucumber.
 ####Структура проекта:
 
-<strong>Добавить рисунок</strong>
-[dsfdsf](file:///C:/Users/vkov/Desktop/Reports/Article%20Selenide+Cucumber/structure_part_one.png)
- 
+<center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_strucure_part_one.png"/>
+</center>
+
 Используем Intellij IDEA, Maven и Junit.
 В [*mail.txt*](http://github.com/selenide-examples/airtickets.ru/blob/master/src/test/com/sidenis/vasidzius/TestBuyingTickets.java) записаны логины, пароли аккаунтов для работы с тестом. <strong>ВНИМАНИЕ:</strong> если будете запускать у себя, имейте ввиду, что система выкинет одного из юзеров, которые будут логиниться под одним логином/паролем. Поменяйте мейл
 

@@ -54,7 +54,7 @@ Dependency в pom.xml:
 ```
 По сравнению с первой частью, добавлен `cucumber-junit` – библиотека для запуска *Junit* тестов с *Cucumber*. Есть такая же, как минимум, для *TestNG*
 
-Добавлен пакет *runners*. В нем лежит класс [SmokeTest](link!!!), который воспринимается *Junit*-ом как тест, который будет запускаться по команде *mvn test*. Рассмотрим этот класс подробнее
+Добавлен пакет *runners*. В нем лежит класс [SmokeTest](https://github.com/vasidzius/RiskMarket/blob/master/complex_selenide_cucumber/src/test/java/ru/riskmarket/runners/SmokeTest.java), который воспринимается *Junit*-ом как тест, который будет запускаться по команде *mvn test*. Рассмотрим этот класс подробнее
 
 ```java
 @RunWith(Cucumber.class)
@@ -98,13 +98,13 @@ System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.e
 Configuration.browser = "chrome";
 ```
 
-Если решили поменять браузер, то не забудьте скачать нужный вам драйвер с сайта [Selenium](!!!link) и указать его местоположение. Сейчас в качестве примера оставляю закомменчеными строки в раннере.
+Если решили поменять браузер, то не забудьте скачать нужный вам драйвер с сайта [Selenium](http://www.seleniumhq.org/download/) и указать его местоположение. Сейчас в качестве примера оставляю закомменчеными строки в раннере.
 
-Степы в фиче [smoketest](!!!link) повторяют действия из фичи из первой части, но написаны немного по-другому, т.к. теперь используем *PageObject*. 
+Степы в фиче [smoketest](https://github.com/vasidzius/RiskMarket/blob/master/complex_selenide_cucumber/src/test/java/ru/riskmarket/features/smoketest%231.feature) повторяют действия из фичи из первой части, но написаны немного по-другому, т.к. теперь используем *PageObject*. 
 
 <strong>PageObject</strong> – это паттерн, который подразумевает, что существуют классы отдельных страниц, которые содержат определения необходимых для тестов элементов, с указанными селекторами. Тогда в логике степов используются не селекторы, а определенные ранее элементы. Это нужно на случай изменения html-структуры проекта. Если изменение происходит, то меняются только селекторы в *PageObject*, и не приходиться искать по всем *StepDefinition*, какие селекторы теперь рабочие, а какие нет.
 
-В нашем тесте есть три страницы, которые указаны в пакете [ru.riskmarket.pageobjects](!!!link). Принято писать *pageobjects* в *main/java* (в сорцах), потому что *pages* – это не сами тесты. В каждой странице указаны принадлежащие ей элементы, с которыми взаимодействует тест.
+В нашем тесте есть три страницы, которые указаны в пакете [ru.riskmarket.pageobjects](https://github.com/vasidzius/RiskMarket/tree/master/complex_selenide_cucumber/src/main/java/ru/riskmarket/pageobjects). Принято писать *pageobjects* в *main/java* (в сорцах), потому что *pages* – это не сами тесты. В каждой странице указаны принадлежащие ей элементы, с которыми взаимодействует тест.
 
 ####Добавление своей аннотации
 

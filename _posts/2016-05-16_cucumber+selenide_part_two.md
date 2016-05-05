@@ -145,7 +145,7 @@ public void typeToInputText(String nameOfElement, String text)
 ```
 Метод `get(nameOfElement)` с помощью рефлексии находит по имени поле в классе страницы, а дальше срабатывает `@FindBy` от *Selenium* и возвращается элемент на странице.
 
-Метод `get(nameOfElement)` определен в классе [`AbstractPage.java`](link!!!), который наследуется всеми страницами.
+Метод `get(nameOfElement)` определен в классе [`AbstractPage.java`](https://github.com/vasidzius/RiskMarket/blob/master/complex_selenide_cucumber/src/main/java/ru/riskmarket/pageobjects/AbstractPage.java), который наследуется всеми страницами.
 
 ####Поговорим про изменения в MyStepDef. 
 
@@ -176,7 +176,7 @@ Screenshot: file:/C:/Users/vkov/Documents/GitHub/RiskMarket/complex_selenide_cuc
 
 Как видите, логирование происходит по аналогии с `assertThat` – пишется что должно было быть, что было по факту.
 
-Для большинства случаев уже написан нужный вам `Condition`, поищите, прежде чем использовать `assertThat`. В крайнем случае, если нужного `Condition` нет, а скриншот делать надо, можно создать свой собственный. Простой пример такого лежит в классе [`CustomCondition`](link!!!). Он повторяет действия, который выполняет `Condition.appear`.
+Для большинства случаев уже написан нужный вам `Condition`, поищите, прежде чем использовать `assertThat`. В крайнем случае, если нужного `Condition` нет, а скриншот делать надо, можно создать свой собственный. Простой пример такого лежит в классе [`CustomCondition`](https://github.com/vasidzius/RiskMarket/blob/master/complex_selenide_cucumber/src/main/java/ru/riskmarket/pageobjects/CustomConditions.java). Он повторяет действия, который выполняет `Condition.appear`.
 
 Для `should()` можно добавить свое описание, которое залогируется:
 ```java
@@ -203,7 +203,7 @@ somePage.get("Имя элемента").shouldBe(Condition.visible.because("По
 
 #### Поговорим об отчетах
 
-Вернемся к классу-раннеру [`SmokeTestRunner.java'](Link!!!)
+Вернемся к классу-раннеру [`SmokeTestRunner.java'](https://github.com/vasidzius/RiskMarket/blob/master/complex_selenide_cucumber/src/test/java/ru/riskmarket/runners/SmokeTest.java)
 ```java
 @RunWith(Cucumber.class)
 
@@ -228,7 +228,9 @@ public class SmokeTest
 
 `plugin = {“ html:target/cucumber-report/smoketest”}` создает отчеты в таком виде:
 
-### Добавить рисунок!!!
+<center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber_inner_report.png"/>
+</center>
 
 Зеленым обозначены степы, которые прошли успешно, красным – свалились, бирюзовым – не начались выполняться. Еще бывает желтый – это значит, что степ не определен, напоминание для вас. На красном фоне можно найти линк на скриншот и весь остальной *StackTrace*. 
 
@@ -280,17 +282,29 @@ public class SmokeTest
 
 Модуль работает только через *mvn clean install*. После исполнения в *target/cucumber-html-reports* откройте *feature-overview.html* и получите такие штуки: 
  
- ### Добавить рисунок !!!
- 
- 
+ <center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_1.png"/>
+</center>
+
+ <center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_2.png"/>
+</center>
+
+ <center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_3.png"/>
+</center>
+
+ <center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_4.png"/>
+</center>
  
 Во вкладке *Steps* (последний скриншот) оценки по времени для анализа степов на предмет рефакторинга.
 
-Вообще модуль был написан для [*CI Jenkins*](link!!!). Как получить такие отчеты в Jenkins смотрите тут: https://github.com/damianszczepanik/cucumber-reporting 
+Вообще модуль был написан для [*CI Jenkins*](https://jenkins.io/). Как получить такие отчеты в Jenkins смотрите тут: https://github.com/damianszczepanik/cucumber-reporting 
 
 Для Bamboo он не настроен, поэтому можно использовать модуль, описанный в этой статье, и просто указать место положение отчета как артифакт.
 
 На этом всё. Понятных, не падающих тестов вам!
 
-*P.S. В статью не влезло использование параметризованных степов (Scenario Outline:, Examples: ) Если надумали использовать Cucumber у себя, [почитайте про это здесь](link!!!).*
+*P.S. В статью не влезло использование параметризованных степов (Scenario Outline:, Examples: ) Если надумали использовать Cucumber у себя, [почитайте про это здесь](https://cucumber.io/docs/reference).*
 

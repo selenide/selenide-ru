@@ -37,7 +37,6 @@
 <iframe src="http://youtu.be/sA_9UYIVHf4" height="473" width="630" allowfullscreen="" frameborder="0"></iframe>
 </center>
 
-
 ###Разберем первую, простую часть simple_selenide_cucumber.
 ####Структура проекта:
 

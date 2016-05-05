@@ -1,6 +1,6 @@
 #Часть 2
 
-Продолжение [статьи](link!!!>) о написании UI тестов на <strong>Cucumber</strong> с помощью <strong>Selenide</strong>. В первой части был разобран простейший пример smoke-теста для [riskmarket.ru](http://risk,arket.ru). В этой части апгрейдим тест до полноценного проекта с отчетами, поговорим о скриншотах, кастомных `Condition`, проаннотируем элементы, введем *PageObject*.
+Продолжение [статьи](link!!!>) о написании UI тестов на <strong>Cucumber</strong> с помощью <strong>Selenide</strong>. В первой части был разобран простейший пример smoke-теста для [riskmarket.ru](http://riskmarket.ru). В этой части апгрейдим тест до полноценного проекта с отчетами, поговорим о скриншотах, кастомных `Condition`, проаннотируем элементы, введем *PageObject*.
  
 Получившийся проект вполне можно использовать как фундамент для ваших UI тестов.
 
@@ -8,18 +8,19 @@
 
 [Видео исполнения теста на youtube](https://youtu.be/sA_9UYIVHf4)
 
-<!--!!!
 <center>
-<iframe src="https://youtu.be/sA_9UYIVHf4" height="473" width="630" allowfullscreen="" frameborder="0"></iframe>
+<iframe src="http://youtu.be/sA_9UYIVHf4" height="473" width="630" allowfullscreen="" frameborder="0"></iframe>
 </center>
--->
+
 ####Структура проекта:
 
-<strong>Добавить рисунок!!!</strong>
-[dsfdsf](file:///C:/Users/vkov/Desktop/Reports/Article%20Selenide+Cucumber/structure_part_one.png)
- 
+<center>
+  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_strucure_part_two.png"/>
+</center>
+
 Используем *Intellij IDEA*, *Maven* и *Junit*.
-В [*mail.txt*](https://github.com/selenide-examples/airtickets.ru/blob/master/src/test/com/sidenis/vasidzius/TestBuyingTickets.java) записаны логины, пароли аккаунтов для работы с тестом. <strong>ВНИМАНИЕ:</strong> если будете запускать у себя, имейте ввиду, что система выкинет одного из юзеров, которые будут логиниться под одним логином/паролем. Поменяйте мейл
+
+В [*mail.txt*](https://github.com/vasidzius/RiskMarket/blob/master/complex_selenide_cucumber/src/main/resources/mail.txt) записаны логины, пароли аккаунтов для работы с тестом. <strong>ВНИМАНИЕ:</strong> если будете запускать у себя, имейте ввиду, что система выкинет одного из юзеров, которые будут логиниться под одним логином/паролем. Поменяйте мейл
 
 Dependency в pom.xml:
 ```java

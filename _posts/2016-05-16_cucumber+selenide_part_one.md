@@ -31,13 +31,12 @@
 
 [Проект на гитхабе](http://www.github.com/vasidzius/RiskMarket)
 
-[Видео исполнения теста на youtube](http://youtu.be/sA_9UYIVHf4)
+[Видео исполнения теста на youtube](https://youtu.be/sA_9UYIVHf4)
 
-<!--
 <center>
 <iframe src="http://youtu.be/sA_9UYIVHf4" height="473" width="630" allowfullscreen="" frameborder="0"></iframe>
 </center>
--->
+
 
 ###Разберем первую, простую часть simple_selenide_cucumber.
 ####Структура проекта:

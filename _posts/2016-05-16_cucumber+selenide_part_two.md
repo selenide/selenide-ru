@@ -187,18 +187,18 @@ somePage.get("Имя элемента").shouldBe(Condition.visible.because("По
 Для коллекций элементов также написаны `should()`. Пример из проекта:
 
 1.	Вид в фиче: 
-    ```java
-    Then collection of "Результаты поиска" should not be empty
-    ```
-    Вид в MyStepdefs:
-    ```java
-    @Then("^collection of \"([^\"]*)\" should not be empty$")
-    public void collectionOfShouldNotBeEmpty(String collection)
-    {
-        ElementsCollection selenideElements = secondPage.getCollection(collection);
-        selenideElements.shouldHave(CollectionCondition.sizeGreaterThan(0));
-    }
-    ```
+```java
+Then collection of "Результаты поиска" should not be empty
+```
+Вид в MyStepdefs:
+```java
+@Then("^collection of \"([^\"]*)\" should not be empty$")
+public void collectionOfShouldNotBeEmpty(String collection)
+{
+ElementsCollection selenideElements = secondPage.getCollection(collection);
+selenideElements.shouldHave(CollectionCondition.sizeGreaterThan(0));
+}
+```
 Объяснения излишни, все ясно из кода.
 
 #### Поговорим об отчетах

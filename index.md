@@ -24,7 +24,7 @@ tagline:
 <div class="wrapper-color-content">
 
   <h3>Что такое Selenide?</h3>
-  <h4>Selenide - это фреймворк для автоматизированго тестирования веб-приложений на основе <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая следующие преимущества:</h4>
+  <h4>Selenide - это фреймворк для автоматизированного тестирования веб-приложений на основе <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающий следующие преимущества:</h4>
   <div class="highlights">
     <a href="/documentation.html">Изящный API</a>
     <span>Поддержка Ajax для стабильных тестов</span>

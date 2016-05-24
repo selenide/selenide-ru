@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Доклад про Selenide на конференции ConfeT&QA"
+title: "Доклад про Selenide на конференции ConfeT&amp;QA"
 description: ""
 category:
 header-text: "Selenide: лаконичные и стабильные UI тесты на Java"

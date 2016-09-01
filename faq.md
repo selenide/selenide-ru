@@ -64,7 +64,7 @@ Selenide можно запускать с любым браузером, для 
 
 >Можно ли использовать Selenide в связке с Selenium Grid?
 
-Да, Selenide поддерживает Selenium Grid. Просто добавьте проперти `-Dremote=http://localhost:5678/hub` при запуске тестов.
+Да, Selenide поддерживает Selenium Grid. Просто добавьте проперти `-Dremote=http://localhost:5678/wd/hub` при запуске тестов.
 
 <br/>
 

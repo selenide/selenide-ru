@@ -152,7 +152,6 @@ header-text:
     
     <hr class="divider"/>
     
-    
     <a href="https://i.bspb.ru/home" target="_blank">
       <img src="{{ BASE_PATH }}/images/bspb_logo.jpg" alt="Банк Санкт-Петербург"/>
     </a>
@@ -203,8 +202,6 @@ header-text:
     <br/>
   </section>
 </div>
-
-
 
 <div class="vspace"></div>
 
@@ -293,17 +290,25 @@ header-text:
 <div class="quicklinks">
   <div class="wrapper-color-content">
     <ul class="gray-boxes">
-      <li><a href="mailto:selenide@googlegroups.com" target="_blank">
-        <span class="ql"><h3>Спроси у</h3> <strong><h4>людей</h4></strong></span></a>
+      <li>
+        <a href="mailto:selenide@googlegroups.com" target="_blank">
+          <span class="ql"><h3>Спроси у</h3> <strong><h4>людей</h4></strong></span>
+        </a>
       </li>
-      <li><a href="https://groups.google.com/forum/?fromgroups#!forum/selenide-ru" target="_blank" title="Архив гуглогруппы selenide-ru">
-        <span class="ql"><h3>Читай</h3> <strong><h4>ГГруппу</h4></strong></span></a>
+      <li>
+        <a href="https://groups.google.com/forum/?fromgroups#!forum/selenide-ru" target="_blank" title="Архив гуглогруппы selenide-ru">
+          <span class="ql"><h3>Читай</h3> <strong><h4>ГГруппу</h4></strong></span>
+        </a>
       </li>
-      <li><a href="mailto:andrei.solntsev@gmail.com" target="_blank">
-        <span class="ql"><h3>Напиши</h3> <strong><h4>мне</h4></strong></span></a>
+      <li>
+        <a href="mailto:andrei.solntsev@gmail.com" target="_blank">
+          <span class="ql"><h3>Напиши</h3> <strong><h4>мне</h4></strong></span>
+        </a>
       </li>
-      <li><a href="https://twitter.com/jselenide" target="_blank" title="Twitter #jselenide">
-        <span class="ql"><h3>Пиши в</h3> <h4>твиттер</h4></a>
+      <li>
+        <a href="https://twitter.com/jselenide" target="_blank" title="Twitter #jselenide">
+          <span class="ql"><h3>Пиши в</h3> <h4>твиттер</h4></span>
+        </a>
       </li>
     </ul>
   </div>

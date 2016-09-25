@@ -9,6 +9,19 @@ header-text:
 ---
 {% include JB/setup %}
 
+<blockquote>
+    <p>
+        "Selenide похож на подарок от близкого чуткого друга: надёжный, полезный и удобный. 
+        Сразу видно, что его создали настоящие профессионалы, знакомые с предметом. 
+        У нас ОЧЕНЬ много автоматизации и динамичный темп разработки. 
+        Selenide помогает держать скорость на каждом этапе - от проектирования до обслуживания."
+    </p>
+    Александр Седых<br/>
+    Отдел контроля качества <a href="http://infotech.group/" target="_blank">Infotech Group</a>
+</blockquote>
+
+<hr class="divider"/>
+
 <blockquote><p>"<a href="http://ru.selenide.org/quotes.html#comment-1949629758">Парни, это здорово! Жаль что раньше не попробовал Selenide. Это то что нужно в любом проекте!</a>"</p><a href="https://disqus.com/by/ilyaslabiy/">Илья Слабый</a></blockquote>
 
 <hr class="divider"/>

@@ -11,6 +11,7 @@
 
 <div class="news">
   <!--<div class="news-line"><a href="/2016/09/03/selenide-3.9.2">Вышла Selenide 3.9.2!</a></div>-->
+  <div class="news-line">Вышла Selenide 3.10!</div>
 </div>
 
 <h3 style="display:none">Блог</h3>

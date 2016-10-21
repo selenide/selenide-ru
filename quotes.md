@@ -11,6 +11,16 @@ header-text:
 
 <blockquote>
     <p>
+        "Андрей, спасибо за селенид, это просто бомба!!"
+    </p>
+    Aleksey Bobrutskov<br/> 
+    QA engineer
+</blockquote>
+
+<hr class="divider"/>
+
+<blockquote>
+    <p>
         "С Selenide я смог сделать очень приличную автоматизацию UI 
         даже с моими ограниченными познаниями в Java."
     </p>

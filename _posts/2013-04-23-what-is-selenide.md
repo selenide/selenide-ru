@@ -159,9 +159,9 @@ import static com.codeborne.selenide.Selenide.*
 
 Есть небольшой эталонный open-source проект, в котором используется Selenide: [игра Виселица](https://github.com/asolntsev/hangman).
 
-А также мы создали проект [Selenide examples](https://github.com/codeborne/selenide_examples), где мы храним примеры использования
-Selenide для тестирования [Gmail](https://github.com/codeborne/selenide_examples/tree/master/gmail/test/org/selenide/examples/gmail),
-[Github](https://github.com/codeborne/selenide_examples/tree/master/github/test/org/selenide/examples/github)
+А также мы создали проект [Selenide examples](https://github.com/selenide-examples), где мы храним примеры использования
+Selenide для тестирования [Gmail](https://github.com/selenide-examples/gmail),
+[Google](https://github.com/selenide-examples/google)
 и других классических примеров.
 
 ### Откуда такое название - Selenide?

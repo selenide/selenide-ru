@@ -10,7 +10,7 @@ tags: []
 Наш доклад про Selenide на конференции [SeleniumCamp 2013](http://seleniumcamp.com/materials/) в Киеве
 
 Часть первая, введение в Selenide:
-<div class="video"><iframe width="800" height="490" frameborder="0" src="https://youtu.be/4TegXkNWbqw"></iframe></div>
+<iframe src="//www.youtube.com/embed/4TegXkNWbqw" width="800" height="490" frameborder="0"></iframe>
 
 Часть вторая, живая демонстрация Selenide:
 
@@ -18,4 +18,4 @@ tags: []
 *   ping-pong programming
 *   программируем настоящий интернет-банк
 
-<div class="video"><iframe width="800" height="490" frameborder="0" src="https://youtu.be/x3osTlsU82g"></iframe></div>
+<iframe src="//www.youtube.com/embed/x3osTlsU82g" width="800" height="490" frameborder="0"></iframe>

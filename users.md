@@ -168,7 +168,7 @@ header-text:
       <img src="{{ BASE_PATH }}/images/bspb_logo.jpg" alt="Банк Санкт-Петербург"/>
     </a>
     
-    <div class="text-right">В <a href="http://markswebb.ru/rating/internet-banking-rank/" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
+    <div class="text-right">В <a href="http://markswebb.ru/e-finance/mobile-banking-rank-2012/" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
     
     <hr class="divider"/>
     

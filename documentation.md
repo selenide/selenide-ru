@@ -60,19 +60,24 @@ header-text: >
 
 Обычно, когда ты получаешь с помощью доллара объект SelenideElement, ты можешь либо
 совершить с ним какое-то действие:
+
 * `$(byText("Sign in")).click();`
 
 и даже несколько действий сразу:
+
 * `$(byName("password")).setValue("qwerty").pressEnter();`
 
-либо проверить какое-то условие: 
+либо проверить какое-то условие:
+
 * `$(".wellcome-message").shouldHave(text("Welcome, user!"))`.
 
 "Два доллара" же может быть удобно использовать когда нужный элемент является одним из группы однотипных элементов. Например вместо:
+
 ```java
 $(byXpath("//*[@id='search-results']//a[contains(text(),'selenide.org')]")).click();
 ```
 можно использовать более читабельный и лаконичный вариант:
+
 ```java
 $$("#search-results a").findBy(text("selenide.org")).click();
 ```
@@ -106,6 +111,7 @@ $$("#search-results a").findBy(text("selenide.org")).click();
 Здесь $ и $$ просто лаконичные "алиасы" (синонимы) для соответствующих команд.
 
 Таким образом, можно пошагово уточнять - какой внутренний элемент необходимо получить внутри внешнего элемента, строя цепочку последовательних вызовов, например:
+
 ```java
 $("#header").find("#menu").findAll(".item")
 ```
@@ -118,6 +124,7 @@ $("#header").find("#menu").findAll(".item")
 *  shouldNot(Condition) / shouldNotBe(Condition) / shouldNotHave(Condition)
 
 Рекомендуется выбирать такой метод, чтобы строка кода легко воспринималась, как обычная фраза, например:
+
 ```java
 $("input").should(exist);  
 $("input").shouldBe(visible);

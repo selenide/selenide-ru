@@ -98,10 +98,10 @@ $$("#search-results a").findBy(text("selenide.org")).click();
 Методы поиска внутренних элементов
 </h4>
 
-* find(String cssSelector) | $(String cssSelector)
-* find(By) | $(By)
-* findAll(String cssSelector) | $$(String cssSelector)
-* findAll(By) | $$(By)
+* find(String cssSelector) / $(String cssSelector)
+* find(By) / $(By)
+* findAll(String cssSelector) / $$(String cssSelector)
+* findAll(By) / $$(By)
 
 Здесь $ и $$ просто лаконичные "алиасы" (синонимы) для соответствующих команд.
 
@@ -114,8 +114,8 @@ $("#header").find("#menu").findAll(".item")
 Методы-проверки состояния элемента - assertions
 </h4>
 
-*  should(Condition) | shouldBe(Condition) | shouldHave(Condition)
-*  shouldNot(Condition) | shouldNotBe(Condition) | shouldNotHave(Condition)
+*  should(Condition) / shouldBe(Condition) / shouldHave(Condition)
+*  shouldNot(Condition) / shouldNotBe(Condition) / shouldNotHave(Condition)
 
 Рекомендуется выбирать такой метод, чтобы строка кода легко воспринималась, как обычная фраза, например:
 ```java
@@ -157,7 +157,7 @@ $("input").shouldHave(exactText("Some text"));
 Методы получения статусов элементов и значений их атрибутов
 </h4>
 
-*  getValue() | val()
+*  getValue() / val()
 *  data()
 *  attr(String)
 *  text()        // возвращает "видимый текст на странице"
@@ -186,9 +186,9 @@ $("input").shouldHave(exactText("Some text"));
 
 Условия используются в конструкциях should / shouldNot / waitUntil / waitWhile. Мы рекомендуем статически импортировать используемые условия, чтобы получить все преимущества читаемого кода.
 
-*   visible | appear   // e.g. $("input").shouldBe(visible)
-*   present | exist    // условия присутствия элемента в DOM 
-*   hidden | disappear | not(visible)
+*   visible / appear   // e.g. $("input").shouldBe(visible)
+*   present / exist    // условия присутствия элемента в DOM 
+*   hidden / disappear | not(visible)
 *   readonly           // e.g. $("input").shouldBe(readonly)
 *   name               // e.g. $("input").shouldHave(name("fname"))
 *   value              // e.g. $("input").shouldHave(value("John"))

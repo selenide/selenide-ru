@@ -188,8 +188,7 @@ $("input").shouldHave(exactText("Some text"));
 
 *   visible / appear   // e.g. $("input").shouldBe(visible)
 *   present / exist    // условия присутствия элемента в DOM 
-*   hidden / disappear 
-not(visible)
+*   hidden / disappear // not(visible)
 *   readonly           // e.g. $("input").shouldBe(readonly)
 *   name               // e.g. $("input").shouldHave(name("fname"))
 *   value              // e.g. $("input").shouldHave(value("John"))

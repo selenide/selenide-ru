@@ -15,6 +15,18 @@ header-text:
 
 <div class="wrapper-content">
   <section>
+    
+    <a href="http://sportstg.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/sportstg-logo.png" style="width: 150px;" alt="SportsTG"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="http://sportstg.com/" target="_blank">SportsTG</a> 
+      SportsTG - австралийская компания, ведущий поставщик ПО для индустрии спорта.
+    </div>
+    
+    <hr class="divider"/>
 
     <a href="http://infotech.group/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-infotech-group.svg" style="width: 150px;" alt="Infotech Group"/>

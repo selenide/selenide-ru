@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line">Вышла Selenide 4.2</div>
+  <div class="news-line"><a href="/2016/12/30/selenide-4.2/">Вышла Selenide 4.2</a></div>
   <!--
   <div class="news-line"><a href="/2016/12/01/selenide-4.1/">Вышла Selenide 4.1</a></div>
   <div class="news-line"><a href="https://www.surveymonkey.com/r/RWPN56G">Заполните опросник про Selenide!</a></div>

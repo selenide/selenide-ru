@@ -58,7 +58,7 @@ Selenide можно запускать с любым браузером, для 
 
 <br/>
 Например, чтобы запустить тесты с браузером PhantomJS:
-```-Dbrowser=phantomjs```
+```-Dselenide.browser=phantomjs```
 
 <br/>
 

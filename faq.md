@@ -27,7 +27,7 @@ header-text: Часто задаваемые вопросы
 ## Настройки
 > Где я могу найти все доступные настройки Selenide?
 
-Описание всех настроек и значений по умолчанию можно найти в [javadoc](http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html).
+Описание всех настроек и значений по умолчанию можно найти в [javadoc](http://selenide.org/javadoc/current//com/codeborne/selenide/Configuration.html).
 
 > Как задать настройки Selenide?
 

@@ -309,10 +309,6 @@ a.black:visited {
 }
 
 
-.service-links {
-  width:100%;
-}
-
 ul.gray-boxes {
   list-style:none;
   padding:0;
@@ -537,22 +533,30 @@ footer div {
   margin-right: auto;
 }
 
-#languages {
+.service-links {
   z-index: 1;
-  position: relative;
-  float: right;
+  position: absolute;
   top: 15px;
+  right: 40px;
+  width: 615px;
 }
 
-#languages a {
+.service-links #support {
+  text-decoration: underline;
+}
+
+.service-links a {
   color: #444;
   padding: 1px 7px 1px 7px;
 }
 
-#languages a:hover {
-color: #46A3D1;
+#languages {
+  float: right;
 }
 
+#languages a:hover {
+  color: #46A3D1;
+}
 
 .green {
   color: green;

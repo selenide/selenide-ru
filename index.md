@@ -84,7 +84,7 @@ tagline:
   <div class="highlights">
     <a href="mailto:selenide-ru@googlegroups.com">Гуглогруппа</a>
     <a href="http://automated-testing.info/c/webdriver/selenide">раздел Selenide на automated-testing.info</a>
-    <a href="mailto:andrei тчк solntsev сбк gmail тчк com">Мой email</a>
+    <a href="mailto:info@selenide.org">Email</a>
   </div>
 
 </div></div>

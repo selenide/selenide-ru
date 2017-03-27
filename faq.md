@@ -27,7 +27,7 @@ header-text: Часто задаваемые вопросы
 ## Настройки
 > Где я могу найти все доступные настройки Selenide?
 
-Описание всех настроек и значений по умолчанию можно найти в [javadoc](http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html).
+Описание всех настроек и значений по умолчанию можно найти в [javadoc](http://selenide.org/javadoc/current//com/codeborne/selenide/Configuration.html).
 
 > Как задать настройки Selenide?
 
@@ -54,11 +54,11 @@ public void setUp() {
 Да.
 Selenide можно запускать с любым браузером, для которого существует webdriver. Самые популярные браузеры
 поддерживаются из коробки (chrome, firefox, ie, phantomjs, htmlunit, safari, opera).
-Другие браузеры тоже можно испльзовать, передав имя класса вебдрайвера.
+Другие браузеры тоже можно использовать, передав имя класса вебдрайвера.
 
 <br/>
 Например, чтобы запустить тесты с браузером PhantomJS:
-```-Dbrowser=phantomjs```
+```-Dselenide.browser=phantomjs```
 
 <br/>
 
@@ -120,3 +120,10 @@ Selenide можно запускать с любым браузером, для 
 
 Selenide - __бесплатный__ продукт с __открытым исходным кодом__, распространяемый [по лицензии MIT](https://github.com/codeborne/selenide/blob/master/LICENSE).
 Проще говоря, это значит, что вы можете делать с ним всё что угодно.
+
+> А точно вы не сделаете Selenide платным?
+
+Точно. Selenide всегда будет бесплатным. 
+
+* Во-первых, потому, что мы верим в open-source. 
+* Во-вторых, потому, что мы не верим, что на этом можно заработать. :)

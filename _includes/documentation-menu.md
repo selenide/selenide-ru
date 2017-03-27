@@ -1,7 +1,6 @@
 <div class="left-menu">
   <div>Доки</div>
   <div>✓ <a href="/documentation.html">API</a></div>
-  <div>✓ <a href="/documentation/page-objects.html">Page Objects</a></div>
   <div>✓ <a href="/documentation/screenshots.html">Скриншоты</a></div>
   <div>✓ <a href="/documentation/selenide-vs-selenium.html">Selenide vs Selenium</a></div>
 

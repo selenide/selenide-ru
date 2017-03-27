@@ -29,8 +29,7 @@ tagline:
     <a href="/documentation.html">Изящный API</a>
     <span>Поддержка Ajax для стабильных тестов</span>
     <span>Многофункциональные селекторы</span>
-    <a href="/documentation/page-objects.html">Настоящие Page Objects</a>
-    
+    <span>Простая конфигурация</span>
   </div>
   Вам больше не нужно заботиться о том, как закрыть браузер, обработать таймауты и StaleElement Exceptions или искать соответствующую строку в логах, отлаживая свои тесты  - <b> Просто сконцентрируйтесь на бизнес-логике и позвольте Selenide сделать все остальное</b>!<br>
   
@@ -85,7 +84,7 @@ tagline:
   <div class="highlights">
     <a href="mailto:selenide-ru@googlegroups.com">Гуглогруппа</a>
     <a href="http://automated-testing.info/c/webdriver/selenide">раздел Selenide на automated-testing.info</a>
-    <a href="mailto:andrei тчк solntsev сбк gmail тчк com">Мой email</a>
+    <a href="mailto:info@selenide.org">Email</a>
   </div>
 
 </div></div>

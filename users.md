@@ -16,6 +16,20 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="https://www.pipedrive.com/ru" target="_blank">
+      <img src="{{ BASE_PATH }}/images/pipedrive-logo.svg" style="width: 200px;" alt="Pipedrive"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://www.pipedrive.com/ru" target="_blank">Pipedrive</a> -
+      инструмент управления продажами, один из самых успешных эстонских стартапов. 
+      <br/>       
+      Более 50 000 клиентов, среди них Amazon, SkyScanner, Vimeo.
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="https://www.omniva.ee/" target="_blank">
       <img src="{{ BASE_PATH }}/images/omniva-logo.png" style="width: 100px;" alt="Omniva"/>
     </a>

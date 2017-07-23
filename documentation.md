@@ -40,7 +40,7 @@ header-text: >
 
 ## Selenide API
 
-Здесь можно найти <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}" target="_blank">Selenide javadoc</a>.
+Здесь можно найти <a href="{{ BASE_PATH }}/javadoc.html" target="_blank">Selenide javadoc</a>.
 
 Для справки, ниже приведены некоторые классы Selenide с описанием основных определенных в них методов, которые тебе, возможно, понадобятся:
 

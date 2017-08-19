@@ -12,10 +12,10 @@ tags: []
 
 Выложу [презентацию про Selenide](http://topconf.com/tallinn-2016/trackevent/selenide-concise-ui-tests-in-java/) на недавней конференции TopConf в Таллинне.
 
-Видео доклада пока не готово, но будет. 
+Видео доклада:
+<iframe src="//www.youtube.com/embed/hHwFIONnVRs" width="960" height="569" frameborder="0"></iframe> 
 
-
-А пока презентация:
+И презентация:
 
 <div class="wrapper-content center">
 <iframe src="https://docs.google.com/presentation/d/1kH4tQuZujMYgW_gcHI0-ekNxV7dGspZbNIb4DVUgURs/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

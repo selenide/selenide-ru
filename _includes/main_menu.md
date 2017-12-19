@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2017/10/08/selenide-4.8/">Вышла Selenide 4.8</a></div>
+  <div class="news-line">Вышла Selenide 4.9</div>
 </div>
 
 <h3 style="display:none">Блог</h3>

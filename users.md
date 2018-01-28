@@ -16,6 +16,18 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="https://www.ubs.com/global/en.html" target="_blank">
+      <img src="{{ BASE_PATH }}/images/ubs-logo.png" style="width: 200px;" alt="UBS AG"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://www.ubs.com/global/en.html" target="_blank">UBS AG</a> -
+      крупнейший швейцарский финансовый холдинг, <br/>предоставляющий различные финансовые услуги по всему миру.
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="https://alfabank.ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/alfa-bank-logo.png" style="width: 200px;" alt="Alfa bank"/>
     </a>

@@ -16,6 +16,19 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="http://propellerads.com" target="_blank">
+      <img src="{{ BASE_PATH }}/images/propeller-logo.png" style="width: 200px;" alt="Propeller Ads"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="http://propellerads.com" target="_blank">Propeller Ads</a> 
+      это международная рекламная сеть, основные усилия которой направлены на создание самой удобной, 
+      эффективной и надежной рекламной платформы.
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="https://www.ubs.com/global/en.html" target="_blank">
       <img src="{{ BASE_PATH }}/images/ubs-logo.png" style="width: 200px;" alt="UBS AG"/>
     </a>

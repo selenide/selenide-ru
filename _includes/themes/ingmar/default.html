@@ -31,17 +31,19 @@
 <h1 style="display: none">{{ page.title }}</h1>
 <div class="head">
 <div class="wrapper">
-  <div class="service-links">
-    <a id="support" href="/support">Коммерческая поддержка</a>
-    <div id="languages">
-      <a id="lang_eng" href="http://selenide.org">EN</a>
-      <a id="lang_rus" href="http://ru.selenide.org">RU</a>
-    </div>
-  </div>
-  <div style="clear: both"></div>
   <header>
 
-    <a href="{{ BASE_PATH }}/index.html"><img src="{{ BASE_PATH }}/images/selenide-logo-big.png" border="0" width="352" height="186"/></a>
+    <a href="{{ BASE_PATH }}/index.html">
+      <img src="{{ BASE_PATH }}/images/selenide-logo-big.png" border="0" width="352" height="186"/>
+    </a>
+
+    <div class="service-links">
+      <a id="support" href="/support">Коммерческая поддержка</a>
+      <div id="languages">
+        <a id="lang_eng" href="http://selenide.org">EN</a>
+        <a id="lang_rus" href="http://ru.selenide.org">RU</a>
+      </div>
+    </div>
 
     {% if site.ads.google %}
     <div class="misc ad">
@@ -56,6 +58,7 @@
     {% endif %}
 
     {% include main_menu.md %}
+    <div style="clear: both"></div>
   </header>
   </div>
 </div>

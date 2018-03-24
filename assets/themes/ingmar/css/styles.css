@@ -535,14 +535,14 @@ footer div {
 
 .service-links {
   z-index: 1;
-  position: absolute;
-  top: 15px;
-  right: 40px;
-  width: 615px;
+  margin-top: 5px;
+  float: right;
+  width: 605px;
 }
 
 .service-links #support {
   text-decoration: underline;
+  float: left;
 }
 
 .service-links a {

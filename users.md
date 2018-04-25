@@ -16,6 +16,20 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="https://ru.semrush.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/semrush-logo.png" style="width: 200px;" alt="SEMrush"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://ru.semrush.com/" target="_blank">SEMrush</a> 
+       - это платформа, объединяющая в себе большой набор инструментов для digital-маркетолога, а также для 
+       профессионалов в области SEO, PPC и контент-маркетинга по всему миру. 
+       Входит в ТОП-3 маркетинговых сервисов мира.
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="http://propellerads.com" target="_blank">
       <img src="{{ BASE_PATH }}/images/propeller-logo.png" style="width: 200px;" alt="Propeller Ads"/>
     </a>

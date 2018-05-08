@@ -1,1 +1,1 @@
-bundle exec jekyll serve --port=4002
+bundle exec jekyll serve --incremental --port=4002

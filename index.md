@@ -24,7 +24,7 @@ tagline:
 <div class="wrapper-color-content">
 
   <h3>Что такое Selenide?</h3>
-  <h4>Selenide - это фреймворк для автоматизированного тестирования веб-приложений на основе <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающий следующие преимущества:</h4>
+  <h4>Selenide - это фреймворк для автоматизированного тестирования веб-приложений на основе <a href="https://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающий следующие преимущества:</h4>
   <div class="highlights">
     <a href="/documentation.html">Изящный API</a>
     <span>Поддержка Ajax для стабильных тестов</span>
@@ -43,7 +43,7 @@ tagline:
 <div class="wrapper-color-content">
 <ul class="gray-boxes">
   <li><a href="https://github.com/codeborne/selenide" target="_blank"><span class="ql"><h3>View on</h3> <strong><h4>GitHub</h4></strong></span></a></li>
-  <li><a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank"><span class="ql"><h3>Search in</h3> <strong><h4>Maven</h4></strong></span></a></li>
+  <li><a href="https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank"><span class="ql"><h3>Search in</h3> <strong><h4>Maven</h4></strong></span></a></li>
   <li><a href="{{ BASE_PATH }}/blog.html"><span class="ql"><h3>Read our</h3> <strong><h4>Blog</h4></strong></span></a></li>
   <li><a href="https://twitter.com/jselenide" target="_blank"><span class="ql"><h3>Follow at</h3><strong><h4>Twitter</h4></strong></span></a></li>
   <li><a href="{{ BASE_PATH }}/rss.xml"><span class="ql"><h3>Subscribe to</h3><strong><h4>RSS</h4></strong></span></a></li>

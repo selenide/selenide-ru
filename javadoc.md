@@ -7,4 +7,4 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<iframe src="http://selenide.org/javadoc/current/" style="width: 100%" height="600px" seamless="true"></iframe>
+<iframe src="https://selenide.org/javadoc/current/" style="width: 100%" height="600px" seamless="true"></iframe>

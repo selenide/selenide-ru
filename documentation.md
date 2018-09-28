@@ -46,16 +46,16 @@ header-text: >
 
 <h3>com.codeborne.selenide.Selenide
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selenide.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html">[javadoc]</a>
 </h3>
 
 Ядро библиотеки Selenide. Основные методы - это `open`, `$` и `$$`:
 <ul>
-  <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#open(java.lang.String)">open(URL)</a></li>
-  <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$(java.lang.String)">$(String cssSelector)</a>   - возвращает объект типа SelenideElement, который представляет первый найденный по CSS селектору элемент на странице</li>
-  <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$(org.openqa.selenium.By)">$(By)</a>   - возвращает "первый SelenideElement" по локатору типа By</li>
-  <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$$(java.lang.String)">$$(String cssSelector)</a>   - возвращает объект типа ElementsCollection, который представляет коллекцию всех элементов найденных по CSS селектру</li>
-  <li><a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$$(org.openqa.selenium.By)">$$(By)</a>   - возвращает "коллекцию элементов" по локатору типа By</li>
+  <li><a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#open(java.lang.String)">open(URL)</a></li>
+  <li><a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$(java.lang.String)">$(String cssSelector)</a>   - возвращает объект типа SelenideElement, который представляет первый найденный по CSS селектору элемент на странице</li>
+  <li><a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$(org.openqa.selenium.By)">$(By)</a>   - возвращает "первый SelenideElement" по локатору типа By</li>
+  <li><a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$$(java.lang.String)">$$(String cssSelector)</a>   - возвращает объект типа ElementsCollection, который представляет коллекцию всех элементов найденных по CSS селектру</li>
+  <li><a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selenide.html#$$(org.openqa.selenium.By)">$$(By)</a>   - возвращает "коллекцию элементов" по локатору типа By</li>
 </ul>
 
 Обычно, когда ты получаешь с помощью доллара объект SelenideElement, ты можешь либо
@@ -94,7 +94,7 @@ $$("#search-results a").findBy(text("selenide.org")).click();
 
 <h3>com.codeborne.selenide.SelenideElement
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/SelenideElement.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/SelenideElement.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/SelenideElement.html">[javadoc]</a>
 </h3>
 
 Класс SelenideElement - описывает элемент найденный на странице. Его обьект можно например получить с помощью команды `$`.  В классе описанны следующие полезные методы.
@@ -188,7 +188,7 @@ $("input").shouldHave(exactText("Some text"));
 
 <h3>com.codeborne.selenide.Condition
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Condition.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Condition.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Condition.html">[javadoc]</a>
 </h3>
 
 Условия используются в конструкциях should / shouldNot / waitUntil / waitWhile. Мы рекомендуем статически импортировать используемые условия, чтобы получить все преимущества читаемого кода.
@@ -219,16 +219,16 @@ $("input").shouldHave(exactText("Some text"));
 
 <h3>com.codeborne.selenide.Selectors
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Selectors.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html">[javadoc]</a>
 </h3>
 
 Класс содержит некоторые `By` селекторы для поиска элементов по тексту или атрибуту (которых не хватает в стандартном Selenium WebDriver API):
 
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byText(java.lang.String)">byText</a>     - поиск элемента по точному тексту
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#withText(java.lang.String)">withText</a>   - поиск элемента по тексту (подстроке)
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#by(java.lang.String, java.lang.String)">by</a>    - поиск элемента по атрибуту
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byTitle(java.lang.String)">byTitle</a>   - поиск по атрибуту "title"
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byValue(java.lang.String)">byValue</a>   - поиск по атрибуту "value"
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byText(java.lang.String)">byText</a>     - поиск элемента по точному тексту
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#withText(java.lang.String)">withText</a>   - поиск элемента по тексту (подстроке)
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#by(java.lang.String, java.lang.String)">by</a>    - поиск элемента по атрибуту
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byTitle(java.lang.String)">byTitle</a>   - поиск по атрибуту "title"
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Selectors.html#byValue(java.lang.String)">byValue</a>   - поиск по атрибуту "value"
 
 ```java
 // Пример использования:
@@ -242,7 +242,7 @@ $(byXpath("//div[text()='Login']")).shouldBe(visible); // или его анал
 
 <h3>com.codeborne.selenide.ElementsCollection
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/ElementsCollection.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html">[javadoc]</a>
 </h3>
 
 Класс ElementsCollection - описывает коллекцию элементов на странице, которую обычно можно получить с помощью вызова `$$`. Класс предоставляет набор весьма полезных методов.
@@ -251,8 +251,8 @@ $(byXpath("//div[text()='Login']")).shouldBe(visible); // или его анал
 Методы-проверки - assertions
 </h4>
 
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
 
 Проверки играют роль явных ожиданий (explicit waits). Они **ждут** до удовлетворения условия (size, empty) пока не истечет таймаут (значение `Configuration.collectionsTimeout`, которое установлено по умолчанию в 6000 миллисекунд).
 
@@ -268,16 +268,16 @@ $(byXpath("//div[text()='Login']")).shouldBe(visible); // или его анал
 Методы выборки внутренних элементов
 </h4>
 
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#filterBy(com.codeborne.selenide.Condition)">filterBy(Condition)</a>  возвращает коллекцию (как ElementsCollection) из только тех элементов оригинальной коллекции, которые удовлетворяют условию - например `$$("#multirowTable tr").filterBy(text("Norris"))`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#excludeWith(com.codeborne.selenide.Condition)">excludeWith(Condition)</a>     - например `$$("#multirowTable tr").excludeWith(text("Chuck"))`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#get(int)">get(int)</a> - возвращает n-ый элемент как `SelenideElement`
-*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#findBy(com.codeborne.selenide.Condition)">findBy(Condition)</a> - возвращает элемент коллекции как `SelenideElement` который удовлетворяет условию
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#filterBy(com.codeborne.selenide.Condition)">filterBy(Condition)</a>  возвращает коллекцию (как ElementsCollection) из только тех элементов оригинальной коллекции, которые удовлетворяют условию - например `$$("#multirowTable tr").filterBy(text("Norris"))`
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#excludeWith(com.codeborne.selenide.Condition)">excludeWith(Condition)</a>     - например `$$("#multirowTable tr").excludeWith(text("Chuck"))`
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#get(int)">get(int)</a> - возвращает n-ый элемент как `SelenideElement`
+*   <a href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#findBy(com.codeborne.selenide.Condition)">findBy(Condition)</a> - возвращает элемент коллекции как `SelenideElement` который удовлетворяет условию
 
 Более подробная информация доступна в [Selenide gitbook](https://selenide.gitbooks.io/user-guide/content/ru/selenide-api/elements-collection.html)
 
 <h3>com.codeborne.selenide.CollectionCondition
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/CollectionCondition.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/CollectionCondition.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/CollectionCondition.html">[javadoc]</a>
 </h3>
 
 Условия используются в конструкциях shouldBe / shouldHave для коллекции - объекта ElementsCollection. Рекомендуется статически импортировать используемые условия, чтобы получить все преимущества читаемого кода.
@@ -297,7 +297,7 @@ $(byXpath("//div[text()='Login']")).shouldBe(visible); // или его анал
 
 <h3>com.codeborne.selenide.WebDriverRunner
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/WebDriverRunner.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
 </h3>
 
 Этот класс содержит некоторые функции, относящиеся к браузеру :
@@ -315,7 +315,7 @@ $(byXpath("//div[text()='Login']")).shouldBe(visible); // или его анал
 
 <h3>com.codeborne.selenide.Configuration
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Configuration.java">[src]</a>
-  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
+  <a target="_blank" href="https://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
 </h3>
 
 Этот класс содержит конфигурации для запуска тестов, например:

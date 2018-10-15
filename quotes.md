@@ -11,6 +11,18 @@ header-text:
 
 <blockquote>
     <p>
+        "Selenide is an open-source library that can make a huge impact on and accelerate software delivery by introducing a concise API, shorter expressions, and many other capabilities. It is a wrapper around Selenium WebDriver and is designed to solve problems that Selenium cannot address."
+    </p>
+    Hima Bindu Peteti, Senior SDET at Fannie Mae<br/>
+    a former developer who moved to test automation to focus on her passion.
+    
+    from https://www.meetup.com/NOVA-Software-Quality-Engineering-and-Automation-Meetup/events/254691657/
+</blockquote>
+
+<hr class="divider"/>
+
+<blockquote>
+    <p>
         "Андрей, спасибо за селенид, это просто бомба!!"
     </p>
     Aleksey Bobrutskov<br/> 

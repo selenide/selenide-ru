@@ -22,8 +22,8 @@ header-text: >
 
 ### Можно ли сказать Selenide сохранять скриншоты в другую папку?
 
-Да. Для этого используйте ключик `-Dselenide.reports=test-result/reports` и укажите путь к нужной папке.
-
+Да. Для этого используйте ключик `-Dselenide.reportsFolder=test-result/reports` и укажите путь к нужной папке.
+Для версии 4 и ниже используйте `-Dselenide.selenide.reports=test-result/reports`
 Альтернативный вариант - установить путь к скриншотам прямо в своём коде:
 
 ```java

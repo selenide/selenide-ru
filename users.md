@@ -16,6 +16,17 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="https://bcs.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/bcs-logo.jpeg" style="width: 200px;" alt="БКС"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://bcs.ru/" target="_blank">БКС</a> - один из лидеров российского рынка брокерских услуг
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="https://ru.semrush.com/" target="_blank">
       <img src="{{ BASE_PATH }}/images/semrush-logo.png" style="width: 200px;" alt="SEMrush"/>
     </a>

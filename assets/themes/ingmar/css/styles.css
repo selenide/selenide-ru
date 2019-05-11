@@ -540,11 +540,6 @@ footer div {
   width: 605px;
 }
 
-.service-links #support {
-  text-decoration: underline;
-  float: left;
-}
-
 .service-links a {
   color: #444;
   padding: 1px 7px 1px 7px;

@@ -114,6 +114,7 @@ tagline:
 <a name="thanks"></a>
 <div class="short thanks">
   <h4>Большое спасибо:</h4>
+  <a href="https://www.jetbrains.com/?from=selenide.org"><img src="{{BASE_PATH}}/images/jetbrains.svg" alt="JetBrains. Intellij IDEA - лучшая IDE для Java на Млечном Пути!"></a>
   <img src="{{BASE_PATH}}/images/yourkit.png" target="_blank" alt="YourKit" style="width: 150px;"/>
   <img src="https://www.browserstack.com/images/mail/browserstack-logo-footer.png"/>
 </div>

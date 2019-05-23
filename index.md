@@ -28,7 +28,7 @@ tagline:
   <div class="highlights">
     <a href="/documentation.html">Изящный API</a>
     <span>Поддержка Ajax для стабильных тестов</span>
-    <span>Многофункциональные селекторы</span>
+    <span>Мощные селекторы</span>
     <span>Простая конфигурация</span>
   </div>
   Вам больше не нужно заботиться о том, как закрыть браузер, обработать таймауты и StaleElement Exceptions или искать соответствующую строку в логах, отлаживая свои тесты  - <b> Просто сконцентрируйтесь на бизнес-логике и позвольте Selenide сделать все остальное</b>!<br>
@@ -114,7 +114,9 @@ tagline:
 <a name="thanks"></a>
 <div class="short thanks">
   <h4>Большое спасибо:</h4>
-  <a href="https://www.jetbrains.com/?from=selenide.org"><img src="{{BASE_PATH}}/images/jetbrains.svg" alt="JetBrains. Intellij IDEA - лучшая IDE для Java на Млечном Пути!"></a>
+  <a href="https://www.jetbrains.com/?from=selenide.org">
+    <img src="{{BASE_PATH}}/images/jetbrains.svg" alt="JetBrains. Intellij IDEA - лучшая IDE для Java на Млечном Пути!"/>
+  </a>
   <img src="{{BASE_PATH}}/images/yourkit.png" target="_blank" alt="YourKit" style="width: 150px;"/>
   <img src="https://www.browserstack.com/images/mail/browserstack-logo-footer.png"/>
 </div>

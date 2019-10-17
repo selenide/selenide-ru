@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/10/16/selenide-5.4.0/">Selenide 5.4.0: Статики победили</a></div>
+  <div class="news-line"><a href="/2019/10/16/selenide-5.4.0/">Selenide <del>5.4.0</del> 5.4.1: Статики победили</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

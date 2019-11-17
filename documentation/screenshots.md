@@ -35,15 +35,19 @@ Configuration.reportsFolder = "test-result/reports";
 
 Для пользователей JUnit и TestNG мы сделали дополнительную поддержку.
 
-### Для JUnit:
+### Для JUnit 4:
 
 Чтобы автоматически делать скриншот после каждого упавшего теста:
 
 ```java
 import com.codeborne.selenide.junit.ScreenShooter;
 
-@Rule
-public ScreenShooter makeScreenshotOnFailure = ScreenShooter.failedTests();
+public class MyTest {
+  @Rule
+  public ScreenShooter makeScreenshotOnFailure = ScreenShooter.failedTests();
+
+  // ...
+}
 ```
 
 В общем-то это рудимент, Selenide уже давно делает это автоматически. 
@@ -61,11 +65,53 @@ public ScreenShooter makeScreenshotOnFailure = ScreenShooter.failedTests().succe
 import com.codeborne.selenide.testng.ScreenShooter;
 
 @Listeners({ ScreenShooter.class})
+public class MyTest {
+  // ...
+}
 ```
 
 Чтобы делать скриншоты после зелёных тестов, нужно вызвать такую команду перед запуском тестов:
 ```java
 ScreenShooter.captureSuccessfulTests = true;
+```
+
+### Для JUnit 5:
+
+#### Как использовать в Java:
+
+```java
+  @ExtendWith({ScreenShooterExtension.class})
+  public class MyTest {
+    // ...
+  }
+```
+
+Как использовать в (с тонкими настройками):
+```java
+  public class MyTest {
+    @RegisterExtension
+    static ScreenShooterExtension screenshotEmAll = new ScreenShooterExtension(true);
+  }
+```
+
+#### Как использовать в Kotlin:
+```kotlin
+  @ExtendWith(ScreenShooterExtension::class)
+  class MyTest {
+    // ...
+  }
+``` 
+ 
+Как использовать в Kotlin (с тонкими настройками):
+
+```kotlin
+  class MyTest {
+    companion object {
+      @JvmField
+      @RegisterExtension
+      val screenshotEmAll: ScreenShooterExtension = ScreenShooterExtension(true);
+    }
+  }
 ```
 
 ### В любом месте

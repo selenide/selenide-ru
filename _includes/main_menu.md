@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/11/29/selenide-5.5.1/">Вышла Selenide 5.5.1</a></div>
+  <div class="news-line"><a href="/2019/12/01/advent-calendar-main-algorithm/">Selenide Advent Calendar: Главный Алгоритм</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

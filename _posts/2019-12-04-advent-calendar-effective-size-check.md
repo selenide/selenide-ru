@@ -79,7 +79,7 @@ private int sizeOf(String cssSelector) {
 
 ```java
 @Test {
-  assertEquals(1, sizeOf(".offer:visible"));
+  assertEquals(1, sizeOf("#books .book:visible"));
 }
 ```
 

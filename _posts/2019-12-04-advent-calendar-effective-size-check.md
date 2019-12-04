@@ -67,8 +67,7 @@ tags: []
 
 ```java
 private int sizeOf(String cssSelector) {
-  Number count = executeJavaScript(
-    "return $(arguments[0]).length", cssSelector);
+  Number count = executeJavaScript("return $(arguments[0]).length", cssSelector);
   return count.intValue();
 }
 ```

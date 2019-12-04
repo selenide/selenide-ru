@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/12/03/advent-calendar-set-webdriver-vs-webdriver-provider/">Selenide Advent Calendar: <br/>setWebDriver или WebDriverProvider?</a></div>
+  <div class="news-line"><a href="/2019/12/04/advent-calendar-effective-size-check/">Selenide Advent Calendar: <br/>Как быстро проверить размер?</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

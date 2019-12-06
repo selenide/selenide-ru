@@ -41,16 +41,16 @@ tags: []
 
 ```java
 #{if test}
-<script>
-  function onClick(event) {
-    var e = event || window.event;
-    var target = e.target || e.srcElement;
-    target.style['box-sizing'] = 'border-box';
-    target.style['border'] = '2px solid green';
-  }
-
-  document.addEventListener('click', onClick);
-</script>
+    <script>
+      function onClick(event) {
+        var e = event || window.event;
+        var target = e.target || e.srcElement;
+        target.style['box-sizing'] = 'border-box';
+        target.style['border'] = '2px solid green';
+      }
+    
+      document.addEventListener('click', onClick);
+    </script>
 #{/if}
 ```
 

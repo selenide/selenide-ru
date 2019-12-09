@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/12/07/advent-calendar-csrf-protection/">Selenide Advent Calendar: <br/>Как протестировать защиту от CSRF атаки</a></div>
+  <div class="news-line"><a href="/2019/12/09/advent-calendar-statics/">Selenide Advent Calendar: <br/>Почему статики запретили, а потом разрешили?</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

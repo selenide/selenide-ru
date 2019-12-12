@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/12/10/advent-calendar-download-files/">Selenide Advent Calendar: <br/>Как скачивать файлы</a></div>
+  <div class="news-line"><a href="/2019/12/12/advent-calendar-actions/">Selenide Advent Calendar: <br/>Actions</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

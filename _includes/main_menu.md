@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/12/12/advent-calendar-actions/">Selenide Advent Calendar: <br/>Actions</a></div>
+  <div class="news-line"><a href="/2019/12/15/advent-calendar-drag-and-drop/">Selenide Advent Calendar: <br/>Drag'n'Drop</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

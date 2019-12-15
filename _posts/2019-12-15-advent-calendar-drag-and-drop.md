@@ -10,7 +10,6 @@ tags: []
 
 Привет!
 
-Увы, 
 В сегодняшнем выпуске рождественского календаря мы посмотрим короткое, но весёлое видео о том, как перетаскивать элементы в Selenide. 
 
 ### Селенид умеет перетаскивать элементы?
@@ -24,8 +23,7 @@ tags: []
 
 А вот весёленькое описание от Martin Škarbala:
 
-<iframe src="//www.youtube.com/watch?v=OSnwiosrMq0" width="800" height="490" frameborder="0"></iframe>
-
+<iframe width="800" height="490" src="https://www.youtube.com/embed/OSnwiosrMq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Вот это подача!
 

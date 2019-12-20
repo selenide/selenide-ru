@@ -10,7 +10,8 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/12/18/advent-calendar-network-logs-with-proxy/">Selenide Advent Calendar: <br/>Как получить сетевые запросы с помощью прокси</a></div>
+  <div class="news-line"><a href="/2019/12/20/advent-calendar-big-wait-theory/">Selenide Advent Calendar: <br/>Теория большого вейта</a></div>
+  <!--<div class="news-line"><a href="/2019/12/21/advent-calendar-javascript-tricks/">Selenide Advent Calendar: <br/>Трюки с JavaScript</a></div>-->
 </div>
 
 <h3 style="display:none">Блог</h3>

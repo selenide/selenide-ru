@@ -63,7 +63,7 @@ maven `pom.xml`
 systemProp.chromeoptions.prefs=intl.accept_languages=de
 ```
 
-### Команднай строка
+### Командная строка
 
 Вы можете переопределять значения при запуске `mvn test` или `gradle test` определяя новое значение в `-Dchromeoptions.prefs=intl.accept_languages=ru`
 

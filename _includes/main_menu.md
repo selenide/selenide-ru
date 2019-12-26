@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2019/12/24/advent-calendar-javascript-tricks/">Selenide Advent Calendar: <br/>Трюки с JavaScript</a></div>
+  <div class="news-line"><a href="/2019/12/26/selenide-5.6.0/">Вышла Selenide 5.6.0</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

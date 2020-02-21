@@ -30,10 +30,10 @@ tags: []
 - Ну или - просто воспользуйтесь Chrome preference "intl.accept_languages" установив её значение на "de" (немецкий язык).
 
 Разумеется, вы можете легко сделать это в Selenide.
-Установите значение системной переменной `chromeoptions.prefs=intl.accept_langugages=de` или в коде:
+Установите значение системной переменной `chromeoptions.prefs=intl.accept_languages=de` или в коде:
 
 ```java
-System.setProperty("chromeoptions.prefs","intl.accept_langugages=de");
+System.setProperty("chromeoptions.prefs","intl.accept_languages=de");
 ```
 
 или, лучше, в конфигурационных файлах Maven или Gradle
@@ -49,7 +49,7 @@ maven `pom.xml`
         <configuration>
           <systemPropertyVariables>
             ...
-            <chromeoptions.prefs>intl.accept_langugages=de</chromeoptions.prefs>
+            <chromeoptions.prefs>intl.accept_languages=de</chromeoptions.prefs>
           </systemPropertyVariables>
         </configuration>
     </plugin>

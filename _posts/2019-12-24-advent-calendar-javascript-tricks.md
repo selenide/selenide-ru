@@ -155,7 +155,8 @@ $(By.name("operationCode")).execute(selectBootstrap("11100"));
 void setMaxYearlyFee(int value) {
   executeJavaScript(
     "$('#sld').data('slider').value[0] = arguments[0];" +
-    "$('#sld').triggerHandler('slide');"
+    "$('#sld').triggerHandler('slide');", 
+    value
   );
 }
 ```

@@ -188,24 +188,24 @@ header-text:
     
     <hr class="divider"/>
     
-    <a href="http://dpi.solutions/" target="_blank">
+    <a href="https://dpi.solutions/" target="_blank">
       <img src="{{ BASE_PATH }}/images/dpi-solutions-logo.png" style="width: 150px;" alt="DPI solutions"/>
     </a>
     <br/>
     
     <div class="text-right">
-      <a href="http://dpi.solutions/" target="_blank">DPI solutions</a> – High-quality software through multi-purpose IT consulting and professional trainings
+      <a href="https://dpi.solutions/" target="_blank">DPI solutions</a> – High-quality software through multi-purpose IT consulting and professional trainings
     </div>
     
     <hr class="divider"/>
     
-    <a href="http://www.citadele.lv/ru/" target="_blank">
+    <a href="https://www.citadele.lv/ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/citadele-banka.png" style="width: 150px;" alt="Банк Citadele"/>
     </a>
     <br/>
     
     <div class="text-right">
-      <a href="http://www.citadele.lv/ru/" target="_blank">Банк Citadele</a> – латвийский банк, партнёр American Express® в странах Балтии
+      <a href="https://www.citadele.lv/ru/" target="_blank">Банк Citadele</a> – латвийский банк, партнёр American Express® в странах Балтии
     </div>
     
     <hr class="divider"/>
@@ -282,7 +282,7 @@ header-text:
       <img src="{{ BASE_PATH }}/images/bspb_logo.jpg" alt="Банк Санкт-Петербург"/>
     </a>
     
-    <div class="text-right">В <a href="http://markswebb.ru/e-finance/mobile-banking-rank-2012/" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
+    <div class="text-right">В <a href="https://markswebb.ru/report/mobile-banking-rank-2012/#ratings-sites" target="_blank">ТОП-3</a> лучших российских интернет-банков</div>
     
     <hr class="divider"/>
     
@@ -316,7 +316,7 @@ header-text:
     
     
     
-    <a href="http://ru.codeborne.com" target="_blank">
+    <a href="https://codeborne.com/ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/codeborne-logo-small.png" alt="Codeborne" width="240"/>
     </a>
     

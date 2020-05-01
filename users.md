@@ -16,6 +16,29 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="https://www.mastercard.us/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-mastercard.svg" style="width: 160px;" alt="MasterCard"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://www.mastercard.us/" target="_blank">Mastercard</a> - ведущая глобальная платёжная и 
+      технологическая компания, объединяющая потребителей, предприятия, торговцев, эмитентов и правительства по всему миру.
+    </div>
+    
+    <hr class="divider"/>
+    
+    <a href="https://maxilect.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-maxilect.svg" style="width: 200px;" alt="Maxilect"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://maxilect.ru/" target="_blank">Maxilect</a> - Заказная разработка программного обеспечения (Ad Tech, Blockchain, ML, AI)
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="https://bcs.ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/bcs-logo.jpeg" style="width: 200px;" alt="БКС"/>
     </a>

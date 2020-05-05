@@ -53,7 +53,7 @@ void printLog(LogEntries entries) {
 ```java
 BROWSER logs:
 
-Mon Dec 16 19:29:42 EET 2019 SEVERE http://localhost:9126/page/image/payment-promo-capaign-ozon.png - Failed to load resource: the server responded with a status of 404 (Not Found)
+Mon Dec 16 19:29:42 EET 2019 SEVERE http://localhost:9126/page/image/payment-promo-campaign-ozon.png - Failed to load resource: the server responded with a status of 404 (Not Found)
 Mon Dec 16 19:49:14 EET 2019 INFO console-api 19:16 "start loading loans"
 Mon Dec 16 19:49:14 EET 2019 INFO console-api 21:18 "loaded loans"
 ```
@@ -97,7 +97,7 @@ PERFORMANCE logs:
 }
 ``` 
 
-### Мунус:
+### Минус:
 
 * Что-то понять из этих логов сложно. Нужно строить поверх какие-то анализаторы. 
 * Здесь нет тела запроса. 

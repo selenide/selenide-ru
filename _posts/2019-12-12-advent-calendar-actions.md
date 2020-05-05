@@ -49,7 +49,7 @@ tags: []
   import static com.codeborne.selenide.Selenide.*;
 ```
 
-Заметить, чтобы использовать `actions()`, не нужен wedriver! 
+Заметить, чтобы использовать `actions()`, не нужен webdriver! 
  
 ##### Чумачечий drag and drop
 

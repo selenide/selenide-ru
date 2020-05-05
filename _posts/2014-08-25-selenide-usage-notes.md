@@ -97,7 +97,7 @@ Selenium (а значит, и Selenide) его не видит и поэтому
    // Найти элемент `<button>` и `click()` его
    parentDiv.find("button").scrollTo().click();
    
-   // Теперь можете найти нужный элемент выпадаюшего списка по тексту
+   // Теперь можете найти нужный элемент выпадающего списка по тексту
    parentDiv.find(".dropdown-menu").find(withText("Действие")).parent().click();
  ```
 

@@ -133,7 +133,7 @@ tags: [GMail, ajax, examples]
 
 В общем-то, совсем ничего сложного.
 
-И в конце проверяем, что письмо отослалось:
+И в конце проверяем, что письмо отправилось:
 
 ```java
     $(withText("Your message has been sent.")).shouldBe(visible);

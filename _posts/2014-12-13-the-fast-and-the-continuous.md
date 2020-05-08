@@ -21,7 +21,7 @@ tags: [Quality assurance, SQA]
 >
 >Тестирование - это не должно быть сложно!
 
-<iframe src="//player.vimeo.com/video/114339032" width="800" height="256" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/114339032">The fast and the continuous</a> from <a href="http://vimeo.com/orlikov">Vlad Orlikov</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p>Видео доклада Андрея Солнцева на SQA Days-16<br /> 14-15 ноября 2014, Санкт-Петербург, Россия<br /> www.sqadays.com</p>
+<iframe src="//player.vimeo.com/video/114339032" width="800" height="256" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/114339032">The fast and the continuous</a> from <a href="https://vimeo.com/orlikov">Vlad Orlikov</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p>Видео доклада Андрея Солнцева на SQA Days-16<br /> 14-15 ноября 2014, Санкт-Петербург, Россия<br /> www.sqadays.com</p>
 
 Местами слайды отстают от звука, и кое-где это напрягает. :(
 Но в целом я очень доволен выступлением. Подумать только, у меня было 57 слайдов, и я уложился в 30 минут! 

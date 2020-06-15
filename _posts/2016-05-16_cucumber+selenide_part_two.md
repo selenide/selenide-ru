@@ -15,7 +15,7 @@
 ####Структура проекта:
 
 <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_strucure_part_two.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_strucure_part_two.png"/>
 </center>
 
 Используем *Intellij IDEA*, *Maven* и *Junit*.
@@ -229,7 +229,7 @@ public class SmokeTest
 `plugin = {“ html:target/cucumber-report/smoketest”}` создает отчеты в таком виде:
 
 <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber_inner_report.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber_inner_report.png"/>
 </center>
 
 Зеленым обозначены степы, которые прошли успешно, красным – свалились, бирюзовым – не начались выполняться. Еще бывает желтый – это значит, что степ не определен, напоминание для вас. На красном фоне можно найти линк на скриншот и весь остальной *StackTrace*. 
@@ -283,19 +283,19 @@ public class SmokeTest
 Модуль работает только через *mvn clean install*. После исполнения в *target/cucumber-html-reports* откройте *feature-overview.html* и получите такие штуки: 
  
  <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_1.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_1.png"/>
 </center>
 
  <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_2.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_2.png"/>
 </center>
 
  <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_3.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_3.png"/>
 </center>
 
  <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_4.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_cucumber-report-plugin_4.png"/>
 </center>
  
 Во вкладке *Steps* (последний скриншот) оценки по времени для анализа степов на предмет рефакторинга.

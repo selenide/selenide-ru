@@ -70,14 +70,14 @@ Selenide можно запускать с любым браузером, для 
 >Как сказать Selenide использовать браузер с моим кастомным профайлом?
 
 Вы можете подсунуть Selenide любой экземпляр webdriver, который вы можете создать с какими угодно параметрами.
-Смотри примеры на [Wiki](https://github.com/codeborne/selenide/wiki/How-Selenide-creates-WebDriver).
+Смотри примеры на [Wiki](https://github.com/selenide/selenide/wiki/How-Selenide-creates-WebDriver).
 
 ## Билд-скрипты
 
 >Как запустить тесты Selenide на CI - сервере непрерывной интеграции?
 
 Для этого нужно написать билд-скрипт. Скорее всего он у вас уже есть.
-На [Wiki page](https://github.com/codeborne/selenide/wiki/Build-script/) есть несколько примеров на Ant и Gradle.
+На [Wiki page](https://github.com/selenide/selenide/wiki/Build-script/) есть несколько примеров на Ant и Gradle.
 
 
 ## Скриншоты (снимок экрана)
@@ -104,12 +104,12 @@ Selenide можно запускать с любым браузером, для 
 
 > Могу ли я посмотреть исходный код Selenide?
 
-Да. Исходный код Selenide выложен [на гитхабе](https://github.com/codeborne/selenide/).
+Да. Исходный код Selenide выложен [на гитхабе](https://github.com/selenide/selenide/).
 
 > Могу ли я вносить изменения в Selenide?
 
 Конечно! На то он и open source. Если умеете кодить сами, смело создавайте Pull Request, если нет - оформляйте свои
-пожелалки в виде [issue](https://github.com/codeborne/selenide/issues).
+пожелалки в виде [issue](https://github.com/selenide/selenide/issues).
 
 ## Лицензия
 
@@ -117,7 +117,7 @@ Selenide можно запускать с любым браузером, для 
 
 > Если наш заказчик потребует исходный код тестов, позволяет ли лицензия Selenide ему их передать?
 
-Selenide - __бесплатный__ продукт с __открытым исходным кодом__, распространяемый [по лицензии MIT](https://github.com/codeborne/selenide/blob/master/LICENSE).
+Selenide - __бесплатный__ продукт с __открытым исходным кодом__, распространяемый [по лицензии MIT](https://github.com/selenide/selenide/blob/master/LICENSE).
 Проще говоря, это значит, что вы можете делать с ним всё что угодно.
 
 > А точно вы не сделаете Selenide платным?

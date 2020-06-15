@@ -11,7 +11,7 @@
 
 ###Фреймворки
 
-[Selenide](https://selenide.org) – фреймворк (а точнее библиотека), обертывающий Selenium. Чем он отличается, [прекрасно описано автором](http://github.com/codeborne/selenide/wiki/Selenide-vs-Selenium), Андреем Солнцевым. Главное отличие – *Selenide* позволяет сократить кучу строчек кода при написании UI тестов, что является одной из главных задач при создании тестов/написании кода, ибо Вы должны заботиться о том тестере, который придет после Вас и должен будет разбирать Ваше творение.
+[Selenide](https://selenide.org) – фреймворк (а точнее библиотека), обертывающий Selenium. Чем он отличается, [прекрасно описано автором](http://github.com/selenide/selenide/wiki/Selenide-vs-Selenium), Андреем Солнцевым. Главное отличие – *Selenide* позволяет сократить кучу строчек кода при написании UI тестов, что является одной из главных задач при создании тестов/написании кода, ибо Вы должны заботиться о том тестере, который придет после Вас и должен будет разбирать Ваше творение.
 
 [Cucumber](htttps://cucumber.io) – это фреймворк, реализующий подход <strong>BDD/TDD</strong>. Я не претендую на глубокое теоретическое знание *BDD/TDD*, пока что для меня они суть одно и тоже. 
 
@@ -41,7 +41,7 @@
 ####Структура проекта:
 
 <center>
-  <img src="https://github.com/codeborne/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_strucure_part_one.png"/>
+  <img src="https://github.com/selenide/selenide-ru/blob/gh-pages/images/Cucumber_Selenide_Art_strucure_part_one.png"/>
 </center>
 
 Используем Intellij *IDEA*, *Maven* и *Junit*.

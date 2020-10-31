@@ -433,7 +433,7 @@ header-text:
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/jselenide" target="_blank" title="Twitter #jselenide">
+        <a href="https://twitter.com/selenide" target="_blank" title="Twitter #selenide">
           <span class="ql"><h3>Пиши в</h3> <h4>твиттер</h4></span>
         </a>
       </li>

@@ -76,7 +76,7 @@ header-text:
 
 <hr class="divider"/>
 
-<blockquote class="twitter-tweet"><p>If You Use Selenium for Browser-based UI Acceptance Testing, You Might Like Selenide <a href="http://t.co/XDY066eSrP">http://t.co/XDY066eSrP</a> <a href="https://twitter.com/SeleniumHQ">@seleniumhq</a> <a href="https://twitter.com/jselenide">@jselenide</a></p>&mdash; RebelLabs (@RebelLabs) <a href="https://twitter.com/RebelLabs/statuses/390502499863785472">October 16, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>If You Use Selenium for Browser-based UI Acceptance Testing, You Might Like Selenide <a href="http://t.co/XDY066eSrP">http://t.co/XDY066eSrP</a> <a href="https://twitter.com/SeleniumHQ">@seleniumhq</a> <a href="https://twitter.com/selenide">@selenide</a></p>&mdash; RebelLabs (@RebelLabs) <a href="https://twitter.com/RebelLabs/statuses/390502499863785472">October 16, 2013</a></blockquote>
 
 <hr class="divider"/>
 
@@ -84,11 +84,11 @@ header-text:
 
 <hr class="divider"/>
 
-<blockquote class="twitter-tweet"><p>Give Selenium WebDriver a boost with Selenide. Did I mention they are also an Estonian company? :-) <a href="https://twitter.com/jselenide">@jselenide</a> <a href="https://twitter.com/sele">@sele</a>…<a href="http://t.co/4jRxCDN67U">http://t.co/4jRxCDN67U</a></p>&mdash; Oliver White (@TheOTown) <a href="https://twitter.com/TheOTown/statuses/390478286217678848">October 16, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>Give Selenium WebDriver a boost with Selenide. Did I mention they are also an Estonian company? :-) <a href="https://twitter.com/selenide">@selenide</a> <a href="https://twitter.com/sele">@sele</a>…<a href="http://t.co/4jRxCDN67U">http://t.co/4jRxCDN67U</a></p>&mdash; Oliver White (@TheOTown) <a href="https://twitter.com/TheOTown/statuses/390478286217678848">October 16, 2013</a></blockquote>
 
 <hr class="divider"/>
 
-<blockquote class="twitter-tweet"><p>Just found <a href="https://twitter.com/jselenide">@jselenide</a>; wow that&#39;s nice to integrate <a href="https://twitter.com/SeleniumHQ">@SeleniumHQ</a> in your <a href="https://twitter.com/search?q=%23testcases&amp;src=hash">#testcases</a> in <a href="https://twitter.com/search?q=%23Java&amp;src=hash">#Java</a>.</p>&mdash; Henrik Binggl (@HenrikBinggl) <a href="https://twitter.com/HenrikBinggl/statuses/391201227041542145">October 18, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>Just found <a href="https://twitter.com/selenide">@selenide</a>; wow that&#39;s nice to integrate <a href="https://twitter.com/SeleniumHQ">@SeleniumHQ</a> in your <a href="https://twitter.com/search?q=%23testcases&amp;src=hash">#testcases</a> in <a href="https://twitter.com/search?q=%23Java&amp;src=hash">#Java</a>.</p>&mdash; Henrik Binggl (@HenrikBinggl) <a href="https://twitter.com/HenrikBinggl/statuses/391201227041542145">October 18, 2013</a></blockquote>
 
 <hr class="divider"/>
 
@@ -118,7 +118,7 @@ Selenide: удобные тесты на Selenium WebDriver. Есть пароч
 <div class="wrapper-content center">
   <section>
     <br/>
-    <a class="twitter-timeline" href="https://twitter.com/jselenide" data-widget-id="397446026996359168">Tweets by @jselenide</a>
+    <a class="twitter-timeline" href="https://twitter.com/selenide" data-widget-id="397446026996359168">Tweets by @selenide</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </section>
 </div>

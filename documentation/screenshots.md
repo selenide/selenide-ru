@@ -23,7 +23,7 @@ header-text: >
 ### Можно ли сказать Selenide сохранять скриншоты в другую папку?
 
 Да. Для этого используйте ключик `-Dselenide.reportsFolder=test-result/reports` и укажите путь к нужной папке.
-Для версии 4 и ниже используйте `-Dselenide.selenide.reports=test-result/reports`
+Для версии 4 и ниже используйте `-Dselenide.reports=test-result/reports`
 Альтернативный вариант - установить путь к скриншотам прямо в своём коде:
 
 ```java
@@ -33,7 +33,16 @@ Configuration.reportsFolder = "test-result/reports";
 
 ## Поддержка JUnit и TestNG
 
-Для пользователей JUnit и TestNG мы сделали дополнительную поддержку.
+Для пользователей JUnit и TestNG мы сделали дополнительную поддержку.  
+
+Повторюсь: в большинстве случаев вам не надо ничего делать, т.к. Селенид сам делает скриншоты в случае падения 
+проверок типа `$.shouldBe(..)`. 
+
+А вот если вы хотите делать скриншоты
+1. и в случае успешных тестов, или
+2. при падении не-селенидовских проверок (какой-нибудь `assertEquals` или `assertThat`),
+
+то придётся добавить пару строк. 
 
 ### Для JUnit 4:
 
@@ -50,9 +59,7 @@ public class MyTest {
 }
 ```
 
-В общем-то это рудимент, Selenide уже давно делает это автоматически. 
-
-А вот чтобы автоматически делать скриншот после вообще каждого теста (в т.ч. зелёного), можно использовать следующую команду:
+Чтобы автоматически делать скриншот после вообще каждого теста (в т.ч. зелёного):
 
 ```java
 @Rule
@@ -86,11 +93,11 @@ ScreenShooter.captureSuccessfulTests = true;
   }
 ```
 
-Как использовать в (с тонкими настройками):
+Как использовать в Java (с тонкими настройками):
 ```java
   public class MyTest {
     @RegisterExtension
-    static ScreenShooterExtension screenshotEmAll = new ScreenShooterExtension(true);
+    static ScreenShooterExtension screenshotEmAll = new ScreenShooterExtension(true).to("target/screenshots");
   }
 ```
 
@@ -109,7 +116,7 @@ ScreenShooter.captureSuccessfulTests = true;
     companion object {
       @JvmField
       @RegisterExtension
-      val screenshotEmAll: ScreenShooterExtension = ScreenShooterExtension(true);
+      val screenshotEmAll: ScreenShooterExtension = ScreenShooterExtension(true).to("target/screenshots");
     }
   }
 ```
@@ -120,7 +127,15 @@ ScreenShooter.captureSuccessfulTests = true;
 ```java
 import static com.codeborne.selenide.Selenide.screenshot;
 
-screenshot("my_file_name");
+String pngFileName = screenshot("my_file_name");
 ```
 
 При этом Selenide создаст два файла: `my_file_name.png` и `my_file_name.html`
+
+Позже появился альтернативный метод, возвращающий скриншот в желаемом формате (т.е. `BASE64`, `BYTES` или `FILE`):
+
+```java
+String screenshotAsBase64 = Selenide.screenshot(OutputType.BASE64);
+byte[] decoded = Base64.getDecoder().decode(screenshotAsBase64);
+```
+

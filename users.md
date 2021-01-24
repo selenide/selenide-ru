@@ -177,13 +177,13 @@ header-text:
     
     <hr class="divider"/>
     
-    <a href="http://qa3s.com/ru/company/about" target="_blank">
+    <a href="https://softengi.com/expertise/software-testing/" target="_blank">
       <img src="{{ BASE_PATH }}/images/qa3s-logo.png" style="width: 150px;" alt="QA Service"/>
     </a>
     <br/>
     
     <div class="text-right">
-      Департамент <a href="http://qa3s.com/repository/pdf/QA_Service_eng.pdf" target="_blank">QA Service</a> входит в состав компании Softengi – 
+      Департамент <a href="https://softengi.com/expertise/software-testing/" target="_blank">QA Service</a> входит в состав компании Softengi – 
       поставщика услуг в области ИT аутсорсинга на европейских и американских рынках.
     </div>
     
@@ -371,8 +371,8 @@ header-text:
     
     <div>
       YourKit, LLC - создатель инновационных профилировщиков для Java и .NET. Обратите внимание на два главных инструмента YourKit:
-      <a href="http://www.yourkit.com/java/profiler/index.jsp" target="_blank">YourKit Java Profiler</a> и 
-      <a href="http://www.yourkit.com/.net/profiler/index.jsp" target="_blank">YourKit .NET Profiler</a>.
+      <a href="https://www.yourkit.com/java/profiler/features/" target="_blank">YourKit Java Profiler</a> и 
+      <a href="https://www.yourkit.com/.net/profiler/features/" target="_blank">YourKit .NET Profiler</a>.
     </div>
     
     <div class="center">

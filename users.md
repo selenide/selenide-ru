@@ -63,6 +63,17 @@ header-text:
 
     <hr class="divider"/>
 
+    <a href="https://quality-lab.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-quality-lab.png" style="width: 160px; background-color: #65a5c0;" alt="Лаборатория Качества"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://quality-lab.ru/" target="_blank">Лаборатория Качества</a> - Разработка и тестирование программного обеспечения
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://maxilect.ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-maxilect.svg" style="width: 200px;" alt="Maxilect"/>
     </a>

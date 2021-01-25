@@ -38,7 +38,19 @@ header-text:
     </div>
     
     <hr class="divider"/>
+
+    <a href="http://www.bellintegrator.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-bellintegrator.png" style="width: 160px;" alt="Bell Integrator"/>
+    </a>
+    <br/>
     
+    <div class="text-right">
+      <a href="http://www.bellintegrator.ru/" target="_blank">Bell Integrator</a> - международная компания, 
+        специализирующаяся на консалтинге, технологических услугах и аутсорсинге.
+    </div>
+    
+    <hr class="divider"/>
+  
     <a href="https://maxilect.ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-maxilect.svg" style="width: 200px;" alt="Maxilect"/>
     </a>

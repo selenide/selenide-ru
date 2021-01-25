@@ -51,6 +51,18 @@ header-text:
     
     <hr class="divider"/>
   
+    <a href="https://amazinghiring.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-amazinghiring.svg" style="width: 160px;" alt="AmazingHiring"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://amazinghiring.com/" target="_blank">AmazingHiring</a> - 
+            Веб-приложение для поиска технических талантов.
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://maxilect.ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-maxilect.svg" style="width: 200px;" alt="Maxilect"/>
     </a>

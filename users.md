@@ -15,7 +15,18 @@ header-text:
 
 <div class="wrapper-content">
   <section>
-    
+
+    <a href="https://whimstay.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-whimstay.png" style="width: 160px;" alt="Whimstay"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://whimstay.com/" target="_blank">Whimstay</a> - горящие предложения по аренде на время отпуска, Сан-Франциско.
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://www.walletone.com/ru/wallet/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-walletone.png" style="width: 160px;" alt="Wallet One"/>
     </a>

@@ -16,6 +16,17 @@ header-text:
 <div class="wrapper-content">
   <section>
     
+    <a href="https://www.walletone.com/ru/wallet/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-walletone.png" style="width: 160px;" alt="Wallet One"/>
+    </a>
+    <br/>
+    
+    <div class="text-right">
+      <a href="https://www.walletone.com/ru/wallet/" target="_blank">Wallet One</a> - международный платёжный сервис № 1
+    </div>
+    
+    <hr class="divider"/>
+    
     <a href="https://www.mastercard.us/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-mastercard.svg" style="width: 160px;" alt="MasterCard"/>
     </a>

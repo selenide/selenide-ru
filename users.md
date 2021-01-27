@@ -50,6 +50,17 @@ header-text:
     
     <hr class="divider"/>
 
+    <a href="https://www.severstal.com/rus/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-severstal.svg" style="width: 160px; background-color: #002f6c;" alt="Северсталь"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://www.severstal.com/rus/" target="_blank">Северсталь</a> - горнодобывающая и металлургическая компания, Череповец
+    </div>
+
+    <hr class="divider"/>
+
     <a href="http://www.bellintegrator.ru/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-bellintegrator.png" style="width: 160px;" alt="Bell Integrator"/>
     </a>

@@ -10,8 +10,8 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2021/02/11/selenide-5.18.1/">Вышла Selenide 5.18.1:</a></div>
-  <div class="news-line"><i>Локалхост - нежная штучка!</i></div>
+  <div class="news-line"><a href="/2021/02/24/selenide-5.19.0/">Вышла Selenide 5.19.0:</a></div>
+  <div class="news-line"><i>День независимости</i></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

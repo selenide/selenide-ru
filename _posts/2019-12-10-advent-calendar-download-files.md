@@ -51,7 +51,7 @@ Selenide сохранит скачанный файл в папку `build/repor
 Конечно, поменять эту папку тоже можно:
 
 ```java
-Configuration.reportsFolder = <desired location for downloaded files>;
+Configuration.downloadsFolder = <desired location for downloaded files>;
 ```
 
 ### НО:

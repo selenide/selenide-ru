@@ -52,7 +52,10 @@ public void setUp() {
 
 Да.
 Selenide можно запускать с любым браузером, для которого существует webdriver. Самые популярные браузеры
-поддерживаются из коробки (chrome, firefox, ie, phantomjs, htmlunit, safari, opera).
+поддерживаются из коробки (chrome, firefox, edge, ie, safari, opera). 
+Некоторые менее популярные тоже поддерживаются, но требуют пары строк конфигурации (phantomjs, htmlunit).
+См. [Wiki](https://github.com/selenide/selenide/wiki/How-Selenide-creates-WebDriver).
+
 Другие браузеры тоже можно использовать, передав имя класса вебдрайвера.
 
 <br/>
@@ -61,16 +64,31 @@ Selenide можно запускать с любым браузером, для 
 
 <br/>
 
->Можно ли использовать Selenide в связке с Selenium Grid?
-
-Да, Selenide поддерживает Selenium Grid. Просто добавьте проперти `-Dselenide.remote=http://localhost:5678/wd/hub` при запуске тестов.
-
-<br/>
-
 >Как сказать Selenide использовать браузер с моим кастомным профайлом?
 
 Вы можете подсунуть Selenide любой экземпляр webdriver, который вы можете создать с какими угодно параметрами.
 Смотри примеры на [Wiki](https://github.com/selenide/selenide/wiki/How-Selenide-creates-WebDriver).
+
+<br/>
+
+>Можно ли использовать Selenide в связке с Selenium Grid?
+
+Да, Selenide поддерживает Selenium Grid. Просто добавьте проперти `-Dselenide.remote=http://localhost:5678/wd/hub` при запуске тестов.
+
+>Можно ли использовать Selenide в связке с Selenoid?
+
+Да, Selenide поддерживает Selenoid. Просто добавьте проперти `-Dselenide.remote=http://localhost:5678/wd/hub` при запуске тестов.  
+Мы также рекомендуем использовать селенидовский плагин [selenide-selenoid](https://github.com/selenide/selenide-selenoid).
+
+<br/>
+
+>Можно ли использовать Selenide для тестирования мобильных приложений?
+
+Да, Selenide поддерживает тестирование мобильных приложений с помощью библиотеки Appium.
+1. Мы рекомендуем использовать селенидовский плагин [selenide-appium](https://github.com/selenide/selenide-appium).
+2. Вы можете найти рабочие примеры [на гитхабе](https://github.com/selenide-examples/selenide-appium)
+3. Посмотрите презентацию [Selenide для мобилок](https://seleniumcamp.com/talk/selenide-for-web-android-and-ios/)
+
 
 ## Билд-скрипты
 

@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="https://github.com/selenide/selenide/releases/tag/v5.23.3">Вышла Selenide 5.23.3</a></div>
+  <div class="news-line"><a href="/2021/08/29/selenide-5.24.0/">Вышла Selenide 5.24.0</a></div>
 </div>
 
 <h3 style="display:none">Блог</h3>

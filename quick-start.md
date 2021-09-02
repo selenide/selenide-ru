@@ -46,7 +46,7 @@ header-text: >
 
 ```groovy
 dependencies {
-  testCompile 'com.codeborne:selenide:{{site.SELENIDE_VERSION}}'
+  testImplementation 'com.codeborne:selenide:{{site.SELENIDE_VERSION}}'
 }
 ```
 

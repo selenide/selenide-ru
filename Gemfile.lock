@@ -261,7 +261,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  github-pages
+  github-pages (>= 214)
   kramdown (>= 2.3.1)
 
 BUNDLED WITH

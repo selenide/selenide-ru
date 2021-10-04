@@ -124,10 +124,8 @@ header-text:
     <br/>
     
     <div class="text-right">
-      <a href="https://ru.semrush.com/" target="_blank">SEMrush</a> 
-       - это платформа, объединяющая в себе большой набор инструментов для digital-маркетолога, а также для 
-       профессионалов в области SEO, PPC и контент-маркетинга по всему миру. 
-       Входит в ТОП-3 маркетинговых сервисов мира.
+      <a href="https://ru.semrush.com/" target="_blank">Semrush</a> 
+        – ведущая глобальная SaaS-платформа для управления видимостью бизнеса в интернете
     </div>
     
     <hr class="divider"/>

@@ -135,10 +135,10 @@ $("input").shouldHave(exactText("Some text"));
 
 Можно использовать проверки явно - с целью ожиданий нужного состояния у элементов перед действием, например: `$("#submit").shouldBe(enabled).click();`
 
-Есть версии явных ожиданий с указанием таймаута:
+Есть версия явных ожиданий с указанием таймаута:
 
-*  waitUntil(Condition, milliseconds)
-*  waitWhile(Condition, milliseconds)
+*  should(Condition, Duration.ofMillis(25_000))
+*  shouldBe(Condition, Duration.ofSeconds(25))
 
 <h4>
 Методы-действия над элементом
@@ -191,7 +191,7 @@ $("input").shouldHave(exactText("Some text"));
   <a target="_blank" href="https://selenide.org/javadoc/current/com/codeborne/selenide/Condition.html">[javadoc]</a>
 </h3>
 
-Условия используются в конструкциях should / shouldNot / waitUntil / waitWhile. Мы рекомендуем статически импортировать используемые условия, чтобы получить все преимущества читаемого кода.
+Условия используются в конструкциях should / shouldNot. Мы рекомендуем статически импортировать используемые условия, чтобы получить все преимущества читаемого кода.
 
 *   visible / appear   // e.g. $("input").shouldBe(visible)
 *   present / exist    // условия присутствия элемента в DOM 
@@ -320,8 +320,7 @@ $(byXpath("//div[text()='Login']")).shouldBe(visible); // или его анал
 
 Этот класс содержит конфигурации для запуска тестов, например:
 
-*  timeout - время ожидания в миллисекундах, которое используется в явных (should/shouldNot/waitUntil/waitWhile) и неявных ожиданиях для SelenideElement, может быть изменено во время исполнения, e.g. `Configuration.timeout = 6000;`
-*  collectionsTimeout - время ожидания в миллисекундах, которое используется в явных (should/shouldNot) ожиданиях для ElementsCollection, может быть изменено во время исполнения, e.g. `Configuration.collectionsTimeout = 8000;`
+*  timeout - время ожидания в миллисекундах, которое используется в явных (should/shouldNot) и неявных ожиданиях для SelenideElement, может быть изменено во время исполнения, e.g. `Configuration.timeout = 6000;`
 *  browser (e.g. `"chrome"`, `"ie"`, `"firefox"`)
 *  baseUrl
 *  reportsFolder

@@ -28,18 +28,6 @@ header-text: >
 </dependency>
 ```
 
-### Для пользователей Ivy:
-
-Добавь в файл ivy.xml:
-
-```xml
-<ivy-module>
-  <dependencies>
-    <dependency org="com.codeborne" name="selenide" rev="{{site.SELENIDE_VERSION}}"/>
-  </dependencies>
-</ivy-module>
-```
-
 ### Для пользователей Gradle:
 
 Добавь в файл build.gradle:

@@ -10,8 +10,8 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="/2021/10/25/selenide-6.0.1/">Вышла Selenide 6.0.3</a></div>
-  <div class="news-line">Нам 10 лет!</div>
+  <div class="news-line"><a href="/2021/11/23/selenide-6.1.0/">Вышла Selenide 6.1.0</a></div>
+  <div class="news-line">Больше настроек богу настроек!</div>
 </div>
 
 <h3 style="display:none">Блог</h3>

@@ -6,7 +6,7 @@ title : RSS Feed
 <channel>
         <title>{{ site.title }}</title>
         <description>{{ site.title }} - {{ site.author.name }}</description>
-        <link>{{ site.production_url }}/rss.xml</link>
+        <link>{{ site.production_url }}/rss</link>
         <link>{{ site.production_url }}</link>
         <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
         <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>

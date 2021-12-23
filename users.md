@@ -345,7 +345,7 @@ header-text:
     
     <hr class="divider"/>
     
-    <a href="http://bellwood.ru/" target="_blank">
+    <a href="https://hh.ru/employer/593183" target="_blank">
       <img src="{{ BASE_PATH }}/images/bellwood-logo.png" alt="Bellwood systems"/>
     </a>
     

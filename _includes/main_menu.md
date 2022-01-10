@@ -10,7 +10,7 @@
 </ul>
 
 <div class="news">
-  <div class="news-line"><a href="https://github.com/selenide/selenide/milestone/140?closed=1">Вышла Selenide 6.2.0</a></div>
+  <div class="news-line"><a href="/2022/01/10/selenide-6.2.0/">Вышла Selenide 6.2.0</a></div>
   <div class="news-line">Мягкие ассерты, твёрдые итераторы</div>
 </div>
 

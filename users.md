@@ -16,6 +16,17 @@ header-text:
 <div class="wrapper-content">
   <section>
 
+    <a href="https://www.ibm.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/ibm-logo.jpeg" style="width: 140px;" alt="IBM"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://www.ibm.com/ee-en" target="_blank">IBM</a> - "Голубой гигант" - один из крупнейших в мире производителей и поставщиков аппаратного и программного обеспечения, а также IТ-сервисов и консалтинговых услуг.
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://whimstay.com/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-whimstay.png" style="width: 160px;" alt="Whimstay"/>
     </a>

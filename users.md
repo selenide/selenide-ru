@@ -27,6 +27,17 @@ header-text:
 
     <hr class="divider"/>
 
+    <a href="https://www.aledade.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-aledade.jpeg" style="width: 140px;" alt="Aledade"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://www.aledade.com/" target="_blank">Aledade, Inc.</a> - Услуги здравоохранения, Бетесда, Мэриленд, США.
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://whimstay.com/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-whimstay.png" style="width: 160px;" alt="Whimstay"/>
     </a>

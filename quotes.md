@@ -9,14 +9,29 @@ header-text:
 ---
 {% include JB/setup %}
 
+<br>
+
+<blockquote>
+    <p>
+        "I use Selenide for 4 years already and I can't stop praising it. It's much simpler and clearer, adds syntactic sugar, I don't need to reinvent the wheel and create custom methods. I'm very grateful to those who contribute to Selenide!"
+    </p>
+    Lana Petrenko<br/>
+    Senior Software Engineer In Test at Aledade, Inc.  
+    <br>
+    [<a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:6892107657344618497?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A6892107657344618497%2C6893925779655184384%29">source</a>]
+</blockquote>
+
+<hr class="divider"/>
+
 <blockquote>
     <p>
         "Selenide is an open-source library that can make a huge impact on and accelerate software delivery by introducing a concise API, shorter expressions, and many other capabilities. It is a wrapper around Selenium WebDriver and is designed to solve problems that Selenium cannot address."
     </p>
     Hima Bindu Peteti, Senior SDET at Fannie Mae<br/>
     a former developer who moved to test automation to focus on her passion.
-    
-    from https://www.meetup.com/NOVA-Software-Quality-Engineering-and-Automation-Meetup/events/254691657/
+
+    <br>
+    [<a href="https://www.meetup.com/NOVA-Software-Quality-Engineering-and-Automation-Meetup/events/254691657/">source</a>]
 </blockquote>
 
 <hr class="divider"/>

@@ -94,6 +94,17 @@ header-text:
 
     <hr class="divider"/>
 
+    <a href="https://vk.com/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-vk.svg.png" style="width: 220px;" alt="VK Group"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://vk.com/" target="_blank">VK Group</a> - ВКонтакте, Одноклассники, Delivery Club, Ситимобил, GeekBrains, Skillbox - всего более 200 проектов.
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://www.severstal.com/rus/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-severstal.svg" style="width: 160px; background-color: #002f6c;" alt="Северсталь"/>
     </a>

@@ -72,6 +72,17 @@ header-text:
     
     <hr class="divider"/>
 
+    <a href="https://www.tinkoff.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-tinkoff-bank.png" style="width: 160px;" alt="Тинькофф Банк"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://www.tinkoff.ru/" target="_blank">Тинькофф Банк</a> - Крупнейший в мире онлайн-банк (по количеству клиентов)
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://www.severstal.com/rus/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-severstal.svg" style="width: 160px; background-color: #002f6c;" alt="Северсталь"/>
     </a>

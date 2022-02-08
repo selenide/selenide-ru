@@ -83,6 +83,17 @@ header-text:
 
     <hr class="divider"/>
 
+    <a href="https://magenta-technology.ru/" target="_blank">
+      <img src="{{ BASE_PATH }}/images/logo-magenta.png" style="width: 160px;" alt="Magenta Technology"/>
+    </a>
+    <br/>
+
+    <div class="text-right">
+      <a href="https://magenta-technology.ru/" target="_blank">Magenta Technology</a> - лидер в автоматизации логистики в составе международной продуктовой компании с офисами в Самаре и Лондоне
+    </div>
+
+    <hr class="divider"/>
+
     <a href="https://www.severstal.com/rus/" target="_blank">
       <img src="{{ BASE_PATH }}/images/logo-severstal.svg" style="width: 160px; background-color: #002f6c;" alt="Северсталь"/>
     </a>

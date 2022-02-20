@@ -332,13 +332,13 @@ header-text:
     
     <hr class="divider"/>
     
-    <a href="https://dpi.solutions/" target="_blank">
+    <a href="https://www.linkedin.com/company/dpi-solutions-ltd-/" target="_blank">
       <img src="{{ BASE_PATH }}/images/dpi-solutions-logo.png" style="width: 150px;" alt="DPI solutions"/>
     </a>
     <br/>
     
     <div class="text-right">
-      <a href="https://dpi.solutions/" target="_blank">DPI solutions</a> – High-quality software through multi-purpose IT consulting and professional trainings
+      <a href="https://www.linkedin.com/company/dpi-solutions-ltd-/" target="_blank">DPI solutions</a> – High-quality software through multi-purpose IT consulting and professional trainings
     </div>
     
     <hr class="divider"/>

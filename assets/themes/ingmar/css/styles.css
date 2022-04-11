@@ -595,3 +595,7 @@ hr.divider {
 .main .wrapper-content.blog ul li {
   list-style: none;
 }
+
+#selenide-logo img {
+  width: clamp(164px, 30vw, 352px);
+}

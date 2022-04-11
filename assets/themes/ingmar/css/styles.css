@@ -535,9 +535,9 @@ footer div {
 
 .service-links {
   z-index: 1;
-  margin-top: 5px;
-  float: right;
-  width: 605px;
+  position: absolute;
+  top: 5px;
+  right: 0;
 }
 
 .service-links a {

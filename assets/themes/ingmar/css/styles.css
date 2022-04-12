@@ -79,6 +79,10 @@ a small {
   font-size: 16px;
 }
 
+.wrapper-content section {
+  margin: 0 2vw;
+}
+
 .blog_post_content > * {
   padding: 0 clamp(10px, 5vw, 30px);
 }

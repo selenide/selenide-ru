@@ -62,7 +62,7 @@ a small {
 
 .wrapper header {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   margin: 0 1vw;
 }
@@ -274,7 +274,8 @@ th {
 
 header .main-menu-pages {
   margin-top: 42px;
-  padding: 0;
+  padding: 0 3vw;
+  text-align: end;
 }
 
 header .main-menu-pages a {

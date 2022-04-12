@@ -56,12 +56,18 @@ a small {
 }
 
 .wrapper {
-  width: 976px;
-  margin:0 auto;
+  width: clamp(128px, 99vw, 1180px);
+  margin: 0 auto;
+}
+
+.wrapper header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .wrapper-content {
-  width: 776px;
+  width: 99%;
   padding-top: 1px;
   padding-bottom: 30px;
   margin:0 auto;
@@ -265,25 +271,18 @@ th {
   color:#444;
 }
 
-header ul.main-menu-pages {
-    position: absolute;
-    list-style: none;
-    padding: 0 0 0 0;
-    right: 0;
-    top: 44px;
+header .main-menu-pages {
+  margin-top: 42px;
+  padding: 0;
 }
 
-header ul.main-menu-pages li{
-   display: inline;
-}
-
-header ul.main-menu-pages li a {
+header .main-menu-pages a {
   color: #444;
   font-size: 18px;
   margin-left: 15px;
 }
 
-header ul.main-menu-pages li a:hover {
+header .main-menu-pages a:hover {
   color: #46A3D1;
 }
 
@@ -454,30 +453,16 @@ footer div {
 
 
 @media print, screen and (min-width: 1260px) {
-  .wrapper {
-    width: 1180px;
-    margin:0 auto;
-  }
   .wrapper-color-content {
     width: 1180px;
   }
-  ul.main-menu-pages li {
-    display: inline;
-  }
-  ul.main-menu-pages li a {
+  .main-menu-pages a {
     margin-left: 30px;
-  }
-  ul.main-menu-pages li a {
     font-size: 20px;
   }
 }
 
 @media print, screen and (max-width: 980px) {
-
-  div.wrapper {
-    width: 976px;
-    margin:0 auto;
-  }
 
   a small {
     display:inline;
@@ -538,6 +523,7 @@ footer div {
   position: absolute;
   top: 5px;
   right: 0;
+  width: 80px;
 }
 
 .service-links a {

@@ -119,7 +119,7 @@ a small {
 .head {
   background-color: #fff;
   width: 100%;
-  height: 230px;
+  margin-bottom: 1vh;
 }
 
 .foot {

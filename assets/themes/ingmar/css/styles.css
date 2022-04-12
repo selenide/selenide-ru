@@ -68,11 +68,15 @@ a small {
 }
 
 .wrapper-content {
-  width: 99%;
+  width: clamp(100px, 99vw, 776px);
   padding-top: 1px;
   padding-bottom: 30px;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 16px;
+}
+
+.blog_post_content > * {
+  padding: 0 clamp(10px, 5vw, 30px);
 }
 
 .wrapper-content h3 {
@@ -86,17 +90,6 @@ a small {
 .wrapper-content pre {
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-.wrapper-color-content {
-  width: 976px;
-  margin:0 auto;
-  padding-top: 20px;
-  padding-bottom: 15px;
-}
-
-.content-details {
-
 }
 
 .left-menu {
@@ -460,9 +453,6 @@ footer div {
 
 
 @media print, screen and (min-width: 1260px) {
-  .wrapper-color-content {
-    width: 1180px;
-  }
   .main-menu-pages a {
     margin-left: 30px;
     font-size: 20px;

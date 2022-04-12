@@ -64,6 +64,7 @@ a small {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin: 0 1vw;
 }
 
 .wrapper-content {

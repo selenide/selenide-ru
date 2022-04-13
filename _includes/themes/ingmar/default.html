@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="chrome=1" />
@@ -16,77 +16,59 @@
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ BASE_PATH }}/rss.xml" />
 
   <script src="{{ ASSET_PATH }}/js/scale.fix.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/jquery-ui.min.js"></script>
   <script src="{{ ASSET_PATH }}/js/jquery.magnific-popup.min.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
 
   {% include JB/analytics %}
 </head>
 <body>
-<h1 style="display: none">{{ page.title }}</h1>
-<div class="head">
-<div class="wrapper">
-  <header>
+  <h1 style="display: none">{{ page.title }}</h1>
+  <div class="head">
+  <div class="wrapper">
+    <header>
 
-    <a id="selenide-logo" href="{{ BASE_PATH }}/index.html">
-      <img src="{{ BASE_PATH }}/images/selenide-logo-big.png" alt="Selenide logo"/>
-    </a>
+      <a id="selenide-logo" href="{{ BASE_PATH }}/index.html">
+        <img src="{{ BASE_PATH }}/images/selenide-logo-big.png" alt="Selenide logo"/>
+      </a>
 
-    {% if site.ads.google %}
-    <div class="misc ad">
-      <script type="text/javascript"><!--
-      google_ad_client = "{{ site.ads.google.client }}";
-      google_ad_slot = "{{ site.ads.google.slot }}";
-      google_ad_width = {{ site.ads.google.width }};
-      google_ad_height = {{ site.ads.google.height }};
-      //-->
-      </script>
+      {% if site.ads.google %}
+      <div class="misc ad">
+        <script type="text/javascript"><!--
+        google_ad_client = "{{ site.ads.google.client }}";
+        google_ad_slot = "{{ site.ads.google.slot }}";
+        google_ad_width = {{ site.ads.google.width }};
+        google_ad_height = {{ site.ads.google.height }};
+        //-->
+        </script>
+      </div>
+      {% endif %}
+
+      {% include main_menu.md %}
+    </header>
     </div>
-    {% endif %}
-
-    {% include main_menu.md %}
-  </header>
   </div>
-</div>
-<div class="main">
 
-<section>
-    {{ content }}
-</section>
+  <div class="main">
+    <section>
+      {{ content }}
+    </section>
+  </div>
 
- <div class="foot">
-   <div class="wrapper">
-  <footer>
-    <!--<p><small>Hosted on <a href="http://pages.github.com/">GitHub Pages</a> using the <a href="https://github.com/sodabrew/theme-dinky">Dinky theme</a> for <a href="http://jekyllbootstrap.com/">Jekyll Bootstrap</a></small></p>-->
-    <p>
+  <div class="foot">
+    <div class="wrapper">
+      <footer>
+        <p>
+        <div>The project is maintained by</div>
+        <a href="https://github.com/codeborne">
+          <img src="{{ BASE_PATH }}/images/codeborne-logo.png" width="300" height="49"/></a>
+        </p>
+      </footer>
+    </div>
+  </div>
 
-        <div>The project is maintained by</div> <a href="https://github.com/codeborne">
-        <img src="{{ BASE_PATH }}/images/codeborne-logo.png" width="300" height="49"/></a>
-
-    </p>
-  </footer>
-   </div>
- </div>
-
-<!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
-
-<script type="text/javascript"><!--
-document.getElementById('lang_eng').setAttribute("href", window.location.href.replace(/\/\/ru./, '//'));
-document.getElementById('lang_rus').setAttribute("href", window.location.href);
-
-$(function(){
-  $('.video').magnificPopup({
-    type: 'iframe',
-    enableEscapeKey: true
-  });
-});
-
-//-->
-</script>
+  <script src="{{ ASSET_PATH }}/js/selenide.org.js"></script>
 </body>
 </html>

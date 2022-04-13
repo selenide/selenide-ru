@@ -5,21 +5,6 @@ tagline:
 ---
 {% include JB/setup %}
 
-<script>
-  $(function(){
-    function showNewsLine(newsLine) {
-      newsLine.effect( "slide", "slow" );
-      newsLine.effect( "shake", "slow" );
-    }
-
-    $("header .news .news-line").each(function(i, newsLine) {
-      setTimeout(function() {
-        showNewsLine($(newsLine));
-      }, 500 + i * 1000);
-    });
-  });
-</script>
-
 <div class="short wiki">
 <div class="wrapper-color-content">
 

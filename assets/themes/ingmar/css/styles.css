@@ -552,9 +552,7 @@ hr.divider {
   text-align: right;
 }
 
-.main .wrapper-content.blog h2,
-.main .wrapper-content.blog h3
-{
+.main .wrapper-content.blog h3 {
   display: none;
 }
 

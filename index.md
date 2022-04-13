@@ -47,18 +47,7 @@ tagline:
 </div>
 
 
-
-<div class="quicklinks">
-  <div class="wrapper-color-content">
-    <ul class="gray-boxes">
-      <li><a href="https://github.com/selenide/selenide" target="_blank"><span class="ql"><h3>View on</h3> <strong><h4>GitHub</h4></strong></span></a></li>
-      <li><a href="https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.codeborne%22%20AND%20a%3A%22selenide%22" target="_blank"><span class="ql"><h3>Search in</h3> <strong><h4>Maven</h4></strong></span></a></li>
-      <li><a href="{{ BASE_PATH }}/blog.html"><span class="ql"><h3>Read our</h3> <strong><h4>Blog</h4></strong></span></a></li>
-      <li><a href="https://twitter.com/selenide" target="_blank"><span class="ql"><h3>Follow at</h3><strong><h4>Twitter</h4></strong></span></a></li>
-      <li><a href="{{ BASE_PATH }}/rss"><span class="ql"><h3>Subscribe to</h3><strong><h4>RSS</h4></strong></span></a></li>
-    </ul>
-  </div>
-</div>
+{% include themes/ingmar/_quicklinks.html %}
 
 <div class="short howto">
   <div class="wrapper-color-content">

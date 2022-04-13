@@ -390,6 +390,7 @@ header {
 
 header .news {
   text-align: right;
+  height: 52px;
 }
 
 header .news .news-line {
@@ -417,10 +418,6 @@ strong {
   color:#222;
   font-weight:700;   
 }
-
-header img {
-  padding-bottom: 40px;
-  }
 
 header ul.gray-boxes li + li {
   width:88px;

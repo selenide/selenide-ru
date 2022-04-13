@@ -568,3 +568,13 @@ hr.divider {
 #selenide-logo img {
   width: clamp(100px, 30vw, 352px);
 }
+
+.highlight pre {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.highlight .err {
+  color: inherit;
+  background-color: inherit;
+}

@@ -156,6 +156,7 @@ a small {
 .short .highlights a, .short .highlights span {
   margin-left: 10px;
   margin-right: 20px;
+  white-space: nowrap;
 }
 
 .short .highlights a:before, .short .highlights span:before {

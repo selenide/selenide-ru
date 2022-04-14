@@ -8,8 +8,20 @@
   }
 
   function showNews() {
-    showNewsLine($("header .news .news-line.news-title"), 500);
-    showNewsLine($("header .news .news-line.news-link"), 1500);
+    const slogan = $("header .news .news-line.news-link");
+    const title = $("header .news .news-line.news-title");
+    const newsUrl = $("header .news .news-line.news-title a").attr("href");
+    const alreadyShowed = localStorage.getItem('showed-' + newsUrl);
+
+    if (!alreadyShowed) {
+      showNewsLine(title, 500);
+      showNewsLine(slogan, 1500);
+      localStorage.setItem('showed-' + newsUrl, new Date().toLocaleString());
+    }
+    else {
+      title.show();
+      slogan.show();
+    }
   }
 
   function setupLanguageSelector() {

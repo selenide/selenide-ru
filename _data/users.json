@@ -42,6 +42,14 @@
     "description": "международный платёжный сервис № 1."
   },
   {
+    "name": "Iute credit",
+    "link": "https://iute.ee/en/what-is-iutecredit/",
+    "logo": "logo-iute-credit.png",
+    "logoWidth": "200px",
+    "description": "финансовая компания, предлагающая кредиты на Балканах и в Молдове. Основана в Эстонии в 2008 году.",
+    "source": "https://www.linkedin.com/in/risto-porila/"
+  },
+  {
     "name": "Тинькофф Банк",
     "link": "https://www.tinkoff.ru/",
     "logo": "logo-tinkoff-bank.png",

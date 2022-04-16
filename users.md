@@ -25,7 +25,7 @@ header-text:
             </a>
           </div>
           <div class="user-description">
-            <a href="{{ user.link }}" target="_blank">{{ user.name }}</a>  - {{ user.description }}
+            <a href="{{ user.link }}" target="_blank">{{ user.name }}</a> - {{ user.description }}
           </div>
         </div>
         <hr class="divider"/>

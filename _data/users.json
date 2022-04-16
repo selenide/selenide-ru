@@ -211,6 +211,14 @@
     "description": "High-quality software through multi-purpose IT consulting and professional trainings"
   },
   {
+    "name": "Luminor group",
+    "link": "https://luminor.ee/",
+    "logo": "logo-luminor.svg",
+    "logoWidth": "200px",
+    "description": "третий по величине поставщик финансовых услуг в странах Балтии.",
+    "source": "https://www.linkedin.com/in/risto-porila/"
+  },
+  {
     "name": "Банк Citadele",
     "link": "https://www.citadele.lv/ru/",
     "logo": "citadele-banka.png",

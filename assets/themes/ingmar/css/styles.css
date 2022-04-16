@@ -578,3 +578,7 @@ hr.divider {
   color: inherit;
   background-color: inherit;
 }
+
+.user .user-description {
+  text-align: right;
+}

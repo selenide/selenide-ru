@@ -62,6 +62,17 @@
     "description": "международный платёжный сервис № 1."
   },
   {
+    "name": "Unbiased",
+    "link": "https://www.unbiased.co.uk/pro/",
+    "logo": "logo-unbiasedpro.svg",
+    "logoWidth": "240px",
+    "description": "Internet Publishing (London)",
+    "source": "https://www.linkedin.com/in/olga-alferova-66b17a15a/",
+    "tags": [
+      "britain"
+    ]
+  },
+  {
     "name": "Iute credit",
     "link": "https://iute.ee/en/what-is-iutecredit/",
     "logo": "logo-iute-credit.png",

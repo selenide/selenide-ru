@@ -45,6 +45,16 @@
     ]
   },
   {
+    "name": "RealAtom",
+    "link": "https://realatom.com/",
+    "logo": "logo-real-atom.png",
+    "description": "the first online marketplace for commercial real estate loans (Washington, DC)",
+    "source": "https://career.habr.com/bogachevvy",
+    "tags": [
+      "usa"
+    ]
+  },
+  {
     "name": "Wallet One",
     "link": "https://www.walletone.com/ru/wallet/",
     "logo": "logo-walletone.png",

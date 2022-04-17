@@ -93,6 +93,16 @@
     ]
   },
   {
+    "name": "IT Basis",
+    "link": "http://it-basis.com/",
+    "logo": "logo-it-basis.png",
+    "description": "поддержка и развитие существующих CRM решений Заказчиков на базе продукта Microsoft Dynamics CRM.",
+    "source": "https://www.linkedin.com/in/sergei-tolmachev-21732a160/",
+    "tags": [
+      "russia"
+    ]
+  },
+  {
     "name": "Тинькофф Банк",
     "link": "https://www.tinkoff.ru/",
     "logo": "logo-tinkoff-bank.png",

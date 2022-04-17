@@ -11,14 +11,22 @@
     "link": "https://www.mastercard.us/",
     "logo": "logo-mastercard.svg",
     "logoWidth": "160px",
-    "description": "ведущая глобальная платёжная и технологическая компания, объединяющая потребителей, предприятия, торговцев, эмитентов и правительства по всему миру."
+    "description": "ведущая глобальная платёжная и технологическая компания, объединяющая потребителей, предприятия, торговцев, эмитентов и правительства по всему миру.",
+    "tags": [
+      "usa",
+      "finances"
+    ]
   },
   {
     "name": "IBM",
     "link": "https://www.ibm.com/ee-en",
     "logo": "ibm-logo.jpeg",
     "logoWidth": "140px",
-    "description": "\"Голубой гигант\" - один из крупнейших в мире производителей и поставщиков аппаратного и программного обеспечения, а также IТ-сервисов и консалтинговых услуг."
+    "description": "\"Голубой гигант\" - один из крупнейших в мире производителей и поставщиков аппаратного и программного обеспечения, а также IТ-сервисов и консалтинговых услуг.",
+    "tags": [
+      "usa",
+      "it"
+    ]
   },
   {
     "name": "Google",
@@ -27,7 +35,8 @@
     "description": "an American multinational technology company that focuses on artificial intelligence, search engine, online advertising, cloud computing etc.",
     "source": "https://github.com/search?q=org%3Agoogle+selenide&type=code",
     "tags": [
-      "usa"
+      "usa",
+      "it"
     ]
   },
   {
@@ -35,14 +44,21 @@
     "link": "https://www.aledade.com",
     "logo": "logo-aledade.jpeg",
     "logoWidth": "140px",
-    "description": "Услуги здравоохранения, Бетесда, Мэриленд, США."
+    "description": "Услуги здравоохранения, Бетесда, Мэриленд, США.",
+    "tags": [
+      "usa",
+      "healthcare"
+    ]
   },
   {
     "name": "Whimstay",
     "link": "https://whimstay.com",
     "logo": "logo-whimstay.png",
     "logoWidth": "160px",
-    "description": "горящие предложения по аренде на время отпуска, Сан-Франциско."
+    "description": "горящие предложения по аренде на время отпуска, Сан-Франциско.",
+    "tags": [
+      "usa"
+    ]
   },
   {
     "name": "Alyce",
@@ -69,7 +85,11 @@
     "link": "https://www.walletone.com/ru/wallet/",
     "logo": "logo-walletone.png",
     "logoWidth": "160px",
-    "description": "международный платёжный сервис № 1."
+    "description": "международный платёжный сервис № 1.",
+    "tags": [
+      "usa",
+      "finances"
+    ]
   },
   {
     "name": "Unbiased",
@@ -79,7 +99,8 @@
     "description": "Internet Publishing (London)",
     "source": "https://www.linkedin.com/in/olga-alferova-66b17a15a/",
     "tags": [
-      "britain"
+      "britain",
+      "europe"
     ]
   },
   {
@@ -88,7 +109,11 @@
     "logo": "logo-iute-credit.png",
     "logoWidth": "200px",
     "description": "финансовая компания, предлагающая кредиты на Балканах и в Молдове. Основана в Эстонии в 2008 году.",
-    "source": "https://www.linkedin.com/in/risto-porila/"
+    "source": "https://www.linkedin.com/in/risto-porila/",
+    "tags": [
+      "europe",
+      "finances"
+    ]
   },
   {
     "name": "Solid gate",
@@ -120,7 +145,8 @@
     "description": "one of the global leaders in Quality Assurance and Testing",
     "source": "https://www.g2.com/products/deviqa/reviews",
     "tags": [
-      "ukraine"
+      "ukraine",
+      "it"
     ]
   },
   {
@@ -131,6 +157,7 @@
     "source": "",
     "tags": [
       "georgia",
+      "europe",
       "finances"
     ]
   },
@@ -153,7 +180,8 @@
     "description": "поддержка и развитие существующих CRM решений Заказчиков на базе продукта Microsoft Dynamics CRM.",
     "source": "https://www.linkedin.com/in/sergei-tolmachev-21732a160/",
     "tags": [
-      "russia"
+      "russia",
+      "it"
     ]
   },
   {
@@ -161,7 +189,11 @@
     "link": "https://www.tinkoff.ru/",
     "logo": "logo-tinkoff-bank.png",
     "logoWidth": "160px",
-    "description": "Крупнейший в мире онлайн-банк (по количеству клиентов)"
+    "description": "Крупнейший в мире онлайн-банк (по количеству клиентов)",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "T1 Cloud",
@@ -170,7 +202,8 @@
     "description": "Российский облачный провайдер",
     "source": "https://pub.recruitcoders.com/3tn7-injener-po-testirovaniu-qa/",
     "tags": [
-      "russia"
+      "russia",
+      "it"
     ]
   },
   {
@@ -178,154 +211,239 @@
     "link": "https://magenta-technology.ru/",
     "logo": "logo-magenta.png",
     "logoWidth": "160px",
-    "description": "лидер в автоматизации логистики в составе международной продуктовой компании с офисами в Самаре и Лондоне"
+    "description": "лидер в автоматизации логистики в составе международной продуктовой компании с офисами в Самаре и Лондоне",
+    "tags": [
+      "russia",
+      "europe",
+      "logistics"
+    ]
   },
   {
     "name": "VK Group",
     "link": "https://vk.com/",
     "logo": "logo-vk.svg.png",
     "logoWidth": "220px",
-    "description": "ВКонтакте, Одноклассники, Delivery Club, Ситимобил, GeekBrains, Skillbox - всего более 200 проектов."
+    "description": "ВКонтакте, Одноклассники, Delivery Club, Ситимобил, GeekBrains, Skillbox - всего более 200 проектов.",
+    "tags": [
+      "russia"
+    ]
   },
   {
     "name": "Северсталь",
     "link": "https://www.severstal.com/rus/",
     "logo": "logo-severstal.png",
     "logoWidth": "200px",
-    "description": "горнодобывающая и металлургическая компания, Череповец"
+    "description": "горнодобывающая и металлургическая компания, Череповец",
+    "tags": [
+      "russia",
+      "resources"
+    ]
   },
   {
     "name": "Bell Integrator",
     "link": "https://www.bellintegrator.com/",
     "logo": "logo-bellintegrator.png",
     "logoWidth": "160px",
-    "description": "международная компания,  специализирующаяся на консалтинге, технологических услугах и аутсорсинге."
+    "description": "международная компания,  специализирующаяся на консалтинге, технологических услугах и аутсорсинге.",
+    "tags": [
+      "usa",
+      "europe",
+      "it"
+    ]
   },
   {
     "name": "AmazingHiring",
     "link": "https://amazinghiring.com",
     "logo": "logo-amazinghiring.svg",
     "logoWidth": "160px",
-    "description": "Веб-приложение для поиска технических талантов."
+    "description": "Веб-приложение для поиска технических талантов.",
+    "tags": [
+      "usa"
+    ]
   },
   {
     "name": "Лаборатория Качества",
     "link": "https://vk.com/quality_lab",
     "logo": "logo-quality-lab.jpeg",
     "logoWidth": "120px",
-    "description": "Разработка и тестирование программного обеспечения"
+    "description": "Разработка и тестирование программного обеспечения",
+    "tags": [
+      "russia",
+      "it"
+    ]
   },
   {
     "name": "Maxilect",
     "link": "https://maxilect.ru/",
     "logo": "logo-maxilect.svg",
     "logoWidth": "200px",
-    "description": "Заказная разработка программного обеспечения (Ad Tech, Blockchain, ML, AI)"
+    "description": "Заказная разработка программного обеспечения (Ad Tech, Blockchain, ML, AI)",
+    "tags": [
+      "russia",
+      "it"
+    ]
   },
   {
     "name": "БКС",
     "link": "https://bcs.ru",
     "logo": "bcs-logo.jpeg",
     "logoWidth": "200px",
-    "description": "один из лидеров российского рынка брокерских услуг"
+    "description": "один из лидеров российского рынка брокерских услуг",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "SEMrush",
     "link": "https://ru.semrush.com",
     "logo": "semrush-logo.png",
     "logoWidth": "200px",
-    "description": "ведущая глобальная SaaS-платформа для управления видимостью бизнеса в интернете"
+    "description": "ведущая глобальная SaaS-платформа для управления видимостью бизнеса в интернете",
+    "tags": [
+      "russia"
+    ]
   },
   {
     "name": "Propeller Ads",
     "link": "https://propellerads.com/",
     "logo": "propeller-logo.png",
     "logoWidth": "200px",
-    "description": "международная рекламная сеть, основные усилия которой направлены на создание самой удобной, эффективной и надёжной рекламной платформы."
+    "description": "международная рекламная сеть, основные усилия которой направлены на создание самой удобной, эффективной и надёжной рекламной платформы.",
+    "tags": [
+      "russia"
+    ]
   },
   {
     "name": "UBS AG",
     "link": "https://www.ubs.com/global/en.html",
     "logo": "ubs-logo.png",
     "logoWidth": "200px",
-    "description": "крупнейший швейцарский финансовый холдинг, предоставляющий различные финансовые услуги по всему миру."
+    "description": "крупнейший швейцарский финансовый холдинг, предоставляющий различные финансовые услуги по всему миру.",
+    "tags": [
+      "europe",
+      "finances"
+    ]
   },
   {
     "name": "Альфа банк",
     "link": "https://alfabank.ru",
     "logo": "alfa-bank-logo.png",
     "logoWidth": "200px",
-    "description": "один из крупнейших российских коммерческих банков. На основе Selenide создали опен-сорс <a href=\"https://habr.com/ru/company/alfa/blog/350238/\">библиотеку для BDD спецификаций Akita</a>."
+    "description": "один из крупнейших российских коммерческих банков. На основе Selenide создали опен-сорс <a href=\"https://habr.com/ru/company/alfa/blog/350238/\">библиотеку для BDD спецификаций Akita</a>.",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "Pipedrive",
     "link": "https://www.pipedrive.com/ru",
     "logo": "pipedrive-logo.svg",
     "logoWidth": "200px",
-    "description": "инструмент управления продажами, один из самых успешных эстонских стартапов.<br/>  Более 50 000 клиентов, среди них Amazon, SkyScanner, Vimeo."
+    "description": "инструмент управления продажами, один из самых успешных эстонских стартапов.<br/>  Более 50 000 клиентов, среди них Amazon, SkyScanner, Vimeo.",
+    "tags": [
+      "estonia",
+      "europe",
+      "usa"
+    ]
   },
   {
     "name": "Omniva",
     "link": "https://www.omniva.ee",
     "logo": "omniva-logo.png",
     "logoWidth": "100px",
-    "description": "международное логистическое предприятие. Локомотив электронной торговли в странах Балтии."
+    "description": "международное логистическое предприятие. Локомотив электронной торговли в странах Балтии.",
+    "tags": [
+      "estonia",
+      "logistics"
+    ]
   },
   {
     "name": "Pragmatic Coders",
     "link": "https://www.pragmaticcoders.com/",
     "logo": "pragmatic-coders.png",
     "logoWidth": "150px",
-    "description": "a leading software house in the e-commerce and fintech sector.<br>  Dedicated teams of highly qualified developers provide full spectrum of Python and Java development services.<br>  Agile way of thinking at Pragmatic Coders continuously helps startups to grow and corporates to implement innovations."
+    "description": "a leading software house in the e-commerce and fintech sector.<br>  Dedicated teams of highly qualified developers provide full spectrum of Python and Java development services.<br>  Agile way of thinking at Pragmatic Coders continuously helps startups to grow and corporates to implement innovations.",
+    "tags": [
+      "europe",
+      "it"
+    ]
   },
   {
     "name": "SportsTG",
     "link": "",
     "logo": "sportstg-logo.png",
     "logoWidth": "150px",
-    "description": "австралийская компания, ведущий поставщик ПО для индустрии спорта."
+    "description": "австралийская компания, ведущий поставщик ПО для индустрии спорта.",
+    "tags": [
+      "australia"
+    ]
   },
   {
     "name": "Infotech Group",
     "link": "https://infotech.group/ru",
     "logo": "logo-infotech-group.svg",
     "logoWidth": "150px",
-    "description": "российский разработчик программного обеспечения, занимающийся разработкой и построением систем автоматизации управления городом и предприятием."
+    "description": "российский разработчик программного обеспечения, занимающийся разработкой и построением систем автоматизации управления городом и предприятием.",
+    "tags": [
+      "russia",
+      "it"
+    ]
   },
   {
     "name": "КБ «Ренессанс Кредит»",
     "link": "https://rencredit.ru",
     "logo": "rencredit-logo.png",
     "logoWidth": "150px",
-    "description": "входит в ТОП-100 крупнейших банков России и активно развивает собственное IT подразделение."
+    "description": "входит в ТОП-100 крупнейших банков России и активно развивает собственное IT подразделение.",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "QA Service",
     "link": "https://softengi.com/expertise/software-testing/",
     "logo": "qa3s-logo.png",
     "logoWidth": "150px",
-    "description": "Департамент <a href=\"https://softengi.com/expertise/software-testing/\" target=\"_blank\">QA Service</a> входит в состав компании Softengi –\n  поставщика услуг в области ИT аутсорсинга на европейских и американских рынках."
+    "description": "Департамент <a href=\"https://softengi.com/expertise/software-testing/\" target=\"_blank\">QA Service</a> входит в состав компании Softengi –\n  поставщика услуг в области ИT аутсорсинга на европейских и американских рынках.",
+    "tags": [
+      "ukraine",
+      "it"
+    ]
   },
   {
     "name": "XSolve",
     "link": "https://www.xsolve.pl",
     "logo": "xsolve-logo.jpg",
     "logoWidth": "150px",
-    "description": "Agile Software House focused on PHP/Symfony/Java/Mobile (iOS-Android-Windows)"
+    "description": "Agile Software House focused on PHP/Symfony/Java/Mobile (iOS-Android-Windows)",
+    "tags": [
+      "europe",
+      "it"
+    ]
   },
   {
     "name": "Sportradar",
     "link": "https://www.sportradar.com",
     "logo": "sportradar-logo.jpeg",
     "logoWidth": "150px",
-    "description": "a global leader in understanding and leveraging the power of sports data"
+    "description": "a global leader in understanding and leveraging the power of sports data",
+    "tags": [
+      "europe"
+    ]
   },
   {
     "name": "DPI solutions",
     "link": "https://www.linkedin.com/company/dpi-solutions-ltd-/",
     "logo": "dpi-solutions-logo.png",
     "logoWidth": "150px",
-    "description": "High-quality software through multi-purpose IT consulting and professional trainings"
+    "description": "High-quality software through multi-purpose IT consulting and professional trainings",
+    "tags": [
+      "belarus",
+      "it"
+    ]
   },
   {
     "name": "Luminor group",
@@ -333,7 +451,12 @@
     "logo": "logo-luminor.svg",
     "logoWidth": "200px",
     "description": "третий по величине поставщик финансовых услуг в странах Балтии.",
-    "source": "https://www.linkedin.com/in/risto-porila/"
+    "source": "https://www.linkedin.com/in/risto-porila/",
+    "tags": [
+      "estonia",
+      "europe",
+      "finances"
+    ]
   },
   {
     "name": "Swedbank",
@@ -341,7 +464,12 @@
     "logo": "logo-swedbank.png",
     "logoWidth": "240px",
     "description": "крупнейший банк в Эстонии, Латвии и Литве.",
-    "source": "https://www.cvkeskus.ee/software-engineer-quality-assurance-origination-team-tallinnas-swedbank-as-774418"
+    "source": "https://www.cvkeskus.ee/software-engineer-quality-assurance-origination-team-tallinnas-swedbank-as-774418",
+    "tags": [
+      "estonia",
+      "europe",
+      "finances"
+    ]
   },
   {
     "name": "SEB bank",
@@ -352,6 +480,7 @@
     "source": "https://www.linkedin.com/jobs/view/3008104368/",
     "tags": [
       "estonia",
+      "europe",
       "finances"
     ]
   },
@@ -360,28 +489,44 @@
     "link": "https://www.citadele.lv/ru/",
     "logo": "citadele-banka.png",
     "logoWidth": "150px",
-    "description": "Латвийский банк, партнёр American Express® в странах Балтии"
+    "description": "Латвийский банк, партнёр American Express® в странах Балтии",
+    "tags": [
+      "europe",
+      "finances"
+    ]
   },
   {
     "name": "Plumbr",
     "link": "https://plumbr.eu/",
     "logo": "plumbr-logo.jpeg",
     "logoWidth": "150px",
-    "description": "Инструмент для обнаружения утечек памяти в Java приложениях"
+    "description": "Инструмент для обнаружения утечек памяти в Java приложениях",
+    "tags": [
+      "estonia",
+      "it"
+    ]
   },
   {
     "name": "Gilbarco Autotank",
     "link": "",
     "logo": "gilbarco-autotank-logo.jpg",
     "logoWidth": "128px",
-    "description": "система управления автоматическими заправочными станциями, использующаяся практически всеми АЗС в Эстонии."
+    "description": "система управления автоматическими заправочными станциями, использующаяся практически всеми АЗС в Эстонии.",
+    "tags": [
+      "estonia",
+      "resources"
+    ]
   },
   {
     "name": "УБРиР",
     "link": "https://www.ubrr.ru",
     "logo": "ubrr-logo.jpeg",
     "logoWidth": "150px",
-    "description": "Уральский банк реконструкции и развития"
+    "description": "Уральский банк реконструкции и развития",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "Outlines Tech",
@@ -399,51 +544,83 @@
     "link": "https://www.tietoevry.com/ee",
     "logo": "tieto.png",
     "logoWidth": "96px",
-    "description": "крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному и корпоративному сектору. Разработки Tieto находят глобальное применение, а сервисные центры компании расположены в различных уголках мира."
+    "description": "крупнейшая ИТ-компания в Северной Европе, предоставляющая полный спектр ИТ-услуг частному и корпоративному сектору. Разработки Tieto находят глобальное применение, а сервисные центры компании расположены в различных уголках мира.",
+    "tags": [
+      "estonia",
+      "it"
+    ]
   },
   {
     "name": "Bellwood systems",
     "link": "https://hh.ru/employer/593183",
     "logo": "bellwood-logo.png",
     "logoWidth": "px",
-    "description": "разработчик систем скоринга и андеррайтинга для финансовых продуктов."
+    "description": "разработчик систем скоринга и андеррайтинга для финансовых продуктов.",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "Zeroturnaround",
     "link": "https://zeroturnaround.com",
     "logo": "logo-zt.png",
-    "description": "Создатели известных на весь мир продуктов JRebel и LiveRebel,<br/> номинанты премии Jolt Awards."
+    "description": "Создатели известных на весь мир продуктов JRebel и LiveRebel,<br/> номинанты премии Jolt Awards.",
+    "tags": [
+      "estonia",
+      "it"
+    ]
   },
   {
     "name": "Банк Санкт-Петербург",
     "link": "https://i.bspb.ru/home",
     "logo": "bspb_logo.jpg",
-    "description": "В <a href=\"https://markswebb.ru/report/mobile-banking-rank-2012/#ratings-sites\" target=\"_blank\">ТОП-3</a> лучших российских интернет-банков"
+    "description": "В <a href=\"https://markswebb.ru/report/mobile-banking-rank-2012/#ratings-sites\" target=\"_blank\">ТОП-3</a> лучших российских интернет-банков",
+    "tags": [
+      "russia",
+      "finances"
+    ]
   },
   {
     "name": "Eesti Energia",
     "link": "https://www.energia.ee/ru/avaleht",
     "logo": "ee_logo.png",
-    "description": "Крупнейший поставщик электричества в Эстонии"
+    "description": "Крупнейший поставщик электричества в Эстонии",
+    "tags": [
+      "estonia",
+      "resources"
+    ]
   },
   {
     "name": "Proekspert",
     "link": "https://www.proekspert.ee/",
     "logo": "proekspert_logo.png",
     "logoWidth": "350px",
-    "description": "Ведущий разработчик программного обеспечения промышленной автоматизации в Эстонии. Мы вдыхаем жизнь в оборудование."
+    "description": "Ведущий разработчик программного обеспечения промышленной автоматизации в Эстонии. Мы вдыхаем жизнь в оборудование.",
+    "tags": [
+      "estonia",
+      "it"
+    ]
   },
   {
     "name": "Regio",
     "link": "https://www.regio.ee/",
     "logo": "regio-logo.jpg",
-    "description": "A premium provider of location-based solutions in the Eastern Hemisphere for telecom, transport and infrastructure sectors."
+    "description": "A premium provider of location-based solutions in the Eastern Hemisphere for telecom, transport and infrastructure sectors.",
+    "tags": [
+      "estonia",
+      "it"
+    ]
   },
   {
     "name": "Codeborne",
     "link": "https://codeborne.com/ru/",
     "logo": "codeborne-logo-small.png",
     "logoWidth": "240px",
-    "description": "Единственная софтверная компания в Эстонии, использующая TDD и другие практики XP от звонка до звонка. Создатели open-source библиотек <a href=\"http://ru.selenide.org\">Selenide</a>, <a href=\"http://github.com/codeborne/mobileid\" target=\"_blank\">MobileID</a> и др."
+    "description": "Единственная софтверная компания в Эстонии, использующая TDD и другие практики XP от звонка до звонка. Создатели open-source библиотек <a href=\"http://ru.selenide.org\">Selenide</a>, <a href=\"http://github.com/codeborne/mobileid\" target=\"_blank\">MobileID</a> и др.",
+    "tags": [
+      "estonia",
+      "it"
+    ]
   }
 ]

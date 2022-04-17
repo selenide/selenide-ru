@@ -582,3 +582,27 @@ hr.divider {
 .user .user-description {
   text-align: right;
 }
+
+#user-tags {
+  padding: 0 3vw;
+  margin: 0 1vw 6vh auto;
+  text-align: end;
+  width: 35%;
+}
+
+#user-tags a {
+  color: gray;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#selenide-users .user {
+  animation: fadeIn 2s;
+}
+
+.hidden {
+  display: none;
+}

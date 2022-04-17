@@ -11,14 +11,22 @@ header-text:
 {% include themes/ingmar/_title.html %}
 
 <br/>
-<br/>
 
-<div class="wrapper-content">
+<div class="wrapper">
+  <div id="user-tags">
+    <a href="#" class="reset-filter">all</a>
+    {% for tag in site.data.user-tags %}
+      | <a href="#" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="wrapper-content" id="selenide-users">
   <section>
 
     {% for user in site.data.users %}
       {% if user.name != '' %}
-        <div class="user">
+        <div class="user {% for tag in user.tags %} {{ tag }}{% endfor %}">
           <div class="user-logo">
             <a href="{{ user.link }}" target="_blank">
               <img src="{{ BASE_PATH }}/images/{{ user.logo }}" alt="{{ user.name }}" {% if user.logoWidth %}width="{{ user.logoWidth }}"{% endif %}/>
@@ -27,8 +35,8 @@ header-text:
           <div class="user-description">
             <a href="{{ user.link }}" target="_blank">{{ user.name }}</a> - {{ user.description }}
           </div>
+          <hr class="divider"/>
         </div>
-        <hr class="divider"/>
       {% endif %}
     {% endfor %}
 

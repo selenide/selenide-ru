@@ -605,7 +605,8 @@
   {
     "name": "Regio",
     "link": "https://www.regio.ee/",
-    "logo": "regio-logo.jpg",
+    "logo": "logo-regio.jpeg",
+    "logoWidth": "180px",
     "description": "A premium provider of location-based solutions in the Eastern Hemisphere for telecom, transport and infrastructure sectors.",
     "tags": [
       "estonia",

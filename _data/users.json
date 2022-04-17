@@ -35,6 +35,16 @@
     "description": "горящие предложения по аренде на время отпуска, Сан-Франциско."
   },
   {
+    "name": "Alyce",
+    "link": "https://www.alyce.com/careers/",
+    "logo": "logo-alyce.png",
+    "description": "a personal gifting platform (Boston, Massachusetts).",
+    "source": "https://alyce.applytojob.com/apply/lYngDM1QfS/QA-Automation-Engineer-Application-Development-Location-Flexible-US",
+    "tags": [
+      "usa"
+    ]
+  },
+  {
     "name": "Wallet One",
     "link": "https://www.walletone.com/ru/wallet/",
     "logo": "logo-walletone.png",

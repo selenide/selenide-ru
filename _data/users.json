@@ -81,6 +81,18 @@
     ]
   },
   {
+    "name": "МТС",
+    "link": "https://career.habr.com/companies/mts",
+    "logo": "logo-mts.png",
+    "logoWidth": "200px",
+    "description": "крупнейшая телекоммуникационная компания в России и странах СНГ",
+    "source": "https://career.habr.com/feverhowl",
+    "tags": [
+      "russia",
+      "telecom"
+    ]
+  },
+  {
     "name": "Тинькофф Банк",
     "link": "https://www.tinkoff.ru/",
     "logo": "logo-tinkoff-bank.png",

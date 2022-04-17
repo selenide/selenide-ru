@@ -67,6 +67,16 @@
     "description": "Крупнейший в мире онлайн-банк (по количеству клиентов)"
   },
   {
+    "name": "T1 Cloud",
+    "link": "https://t1-cloud.ru",
+    "logo": "logo-t1-cloud.svg",
+    "description": "Российский облачный провайдер",
+    "source": "https://pub.recruitcoders.com/3tn7-injener-po-testirovaniu-qa/",
+    "tags": [
+      "russia"
+    ]
+  },
+  {
     "name": "Magenta Technology",
     "link": "https://magenta-technology.ru/",
     "logo": "logo-magenta.png",

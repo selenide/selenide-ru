@@ -81,6 +81,17 @@
     ]
   },
   {
+    "name": "TBC",
+    "link": "https://www.tbcbank.ge/web/en/web/guest/personal-banking",
+    "logo": "logo-tbc-bank.png",
+    "description": "один из крупнейших банков Грузии (Тбилиси)",
+    "source": "",
+    "tags": [
+      "georgia",
+      "finances"
+    ]
+  },
+  {
     "name": "МТС",
     "link": "https://career.habr.com/companies/mts",
     "logo": "logo-mts.png",

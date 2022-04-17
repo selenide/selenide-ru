@@ -287,6 +287,17 @@
     "description": "Уральский банк реконструкции и развития"
   },
   {
+    "name": "Outlines Tech",
+    "link": "https://outlines.tech/",
+    "logo": "logo-outline-tech.jpeg",
+    "description": "программное обеспечение для банков, страховых компаний, брокеров и бирж.",
+    "source": "https://vc.ru/s/outlines-tech-67935/307949-specialist-po-avtotestirovaniyu-na-java",
+    "tags": [
+      "russia",
+      "finance"
+    ]
+  },
+  {
     "name": "Tieto Eesti AS",
     "link": "https://www.tietoevry.com/ee",
     "logo": "tieto.png",

@@ -21,6 +21,16 @@
     "description": "\"Голубой гигант\" - один из крупнейших в мире производителей и поставщиков аппаратного и программного обеспечения, а также IТ-сервисов и консалтинговых услуг."
   },
   {
+    "name": "Google",
+    "link": "https://en.wikipedia.org/wiki/Google",
+    "logo": "logo-google.png",
+    "description": "an American multinational technology company that focuses on artificial intelligence, search engine, online advertising, cloud computing etc.",
+    "source": "https://github.com/search?q=org%3Agoogle+selenide&type=code",
+    "tags": [
+      "usa"
+    ]
+  },
+  {
     "name": "Aledade",
     "link": "https://www.aledade.com",
     "logo": "logo-aledade.jpeg",

@@ -247,6 +247,18 @@
     "source": "https://www.cvkeskus.ee/software-engineer-quality-assurance-origination-team-tallinnas-swedbank-as-774418"
   },
   {
+    "name": "SEB bank",
+    "link": "https://www.seb.ee/",
+    "logo": "logo-seb.png",
+    "logoWidth": "200px",
+    "description": "SEB Grupp является ведущей группой финансовых услуг в Северной Европе.",
+    "source": "https://www.linkedin.com/jobs/view/3008104368/",
+    "tags": [
+      "estonia",
+      "finance"
+    ]
+  },
+  {
     "name": "Банк Citadele",
     "link": "https://www.citadele.lv/ru/",
     "logo": "citadele-banka.png",

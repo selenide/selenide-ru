@@ -162,6 +162,18 @@
     ]
   },
   {
+    "name": "Мир Plat.Form",
+    "link": "https://mir-platform.ru/",
+    "logo": "logo-mir-platform.svg",
+    "logoWidth": "180px",
+    "description": "Инструменты и сервисы Национальной системы платёжных карт МИР",
+    "source": "https://career.habr.com/vacancies/1000100343",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "МТС",
     "link": "https://career.habr.com/companies/mts",
     "logo": "logo-mts.png",

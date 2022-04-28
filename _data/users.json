@@ -196,6 +196,18 @@
     ]
   },
   {
+    "name": "Газпромбанк Инвестиции",
+    "link": "https://gazprombank.investments/",
+    "logo": "logo-gazprombank-investments.png",
+    "logoWidth": "200px",
+    "description": "сервис для инвестиций на фондовом и валютном рынке",
+    "source": "https://career.habr.com/vacancies/1000103633",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "T1 Cloud",
     "link": "https://t1-cloud.ru",
     "logo": "logo-t1-cloud.svg",

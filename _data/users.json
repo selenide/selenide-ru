@@ -274,6 +274,19 @@
     ]
   },
   {
+    "name": "Aquiva Labs",
+    "link": "https://aquivalabs.com/",
+    "logo": "logo-aquiva-labs.png",
+    "logoWidth": "180px",
+    "description": "Заказная разработка на платформе Salesforce для американских и европейских клиентов (США, Россия, Аргентина, Уругвай, Германия)",
+    "source": "https://career.habr.com/companies/aquivalabs",
+    "tags": [
+      "usa",
+      "russia",
+      "it"
+    ]
+  },
+  {
     "name": "Лаборатория Качества",
     "link": "https://vk.com/quality_lab",
     "logo": "logo-quality-lab.jpeg",

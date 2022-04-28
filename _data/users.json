@@ -577,6 +577,17 @@
     ]
   },
   {
+    "name": "РТЛабс",
+    "link": "https://rtlabs.ru",
+    "logo": "logo-rt-labs.png",
+    "logoWidth": "180px",
+    "description": "Госуслуги — это мы (системы электронного правительства, платформа биометрической идентификации и пр.)",
+    "source": "https://career.habr.com/vacancies/1000100539",
+    "tags": [
+      "russia"
+    ]
+  },
+  {
     "name": "Tieto Eesti AS",
     "link": "https://www.tietoevry.com/ee",
     "logo": "tieto.png",

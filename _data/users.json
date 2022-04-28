@@ -472,6 +472,20 @@
     ]
   },
   {
+    "name": "EPAM",
+    "link": "https://www.epam.com/",
+    "logo": "logo-epam.png",
+    "description": "американская ИТ-компания, основанная в 1993 году. Программное обеспечение на заказ, консалтинг. Представлена более чем в 40 странах мира.",
+    "source": "https://career.habr.com/leoscream",
+    "tags": [
+      "usa",
+      "belarus",
+      "russia",
+      "ukraine",
+      "it"
+    ]
+  },
+  {
     "name": "DPI solutions",
     "link": "https://www.linkedin.com/company/dpi-solutions-ltd-/",
     "logo": "dpi-solutions-logo.png",

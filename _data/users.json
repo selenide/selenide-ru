@@ -497,6 +497,19 @@
     ]
   },
   {
+    "name": "Newmax Technologies",
+    "link": "https://career.habr.com/companies/newmax-url",
+    "logo": "logo-newmax.jpeg",
+    "logoWidth": "150px",
+    "description": "Сервисы в Узбекистане: Express24.uz, MyTaxi.uz, MaxTrack.uz, Workly.uz",
+    "source": "https://career.habr.com/rustam-abduraxmonov",
+    "tags": [
+      "uzbekistan",
+      "asia",
+      "it"
+    ]
+  },
+  {
     "name": "Luminor group",
     "link": "https://luminor.ee/",
     "logo": "logo-luminor.svg",

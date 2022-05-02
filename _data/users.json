@@ -221,6 +221,18 @@
     ]
   },
   {
+    "name": "Банк «Открытие»",
+    "link": "https://www.open.ru/",
+    "logo": "logo-bank-oktrytie.png",
+    "logoWidth": "220px",
+    "description": "в топ-10 крупнейших банков России",
+    "source": "https://career.habr.com/vacancies/1000100441",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "Газпромбанк Инвестиции",
     "link": "https://gazprombank.investments/",
     "logo": "logo-gazprombank-investments.png",

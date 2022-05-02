@@ -288,6 +288,17 @@
     ]
   },
   {
+    "name": "ImmoViewer",
+    "link": "https://www.immoviewer.com/",
+    "logo": "logo-immoviewer.png",
+    "logoWidth": "140px",
+    "description": "Automated video creation & simple, affordable 3D 360° tours",
+    "source": "https://career.habr.com/nastenkomisha",
+    "tags": [
+      "usa"
+    ]
+  },
+  {
     "name": "Bell Integrator",
     "link": "https://www.bellintegrator.com/",
     "logo": "logo-bellintegrator.png",

@@ -162,6 +162,18 @@
     ]
   },
   {
+    "name": "Гринатом",
+    "link": "https://www.greenatom.ru/",
+    "logo": "logo-green-atom.png",
+    "logoWidth": "180px",
+    "description": "ведущий ИТ-интегратор Госкорпорации «Росатом»",
+    "source": "https://career.habr.com/aykoryakin",
+    "tags": [
+      "russia",
+      "it"
+    ]
+  },
+  {
     "name": "Мир Plat.Form",
     "link": "https://mir-platform.ru/",
     "logo": "logo-mir-platform.svg",

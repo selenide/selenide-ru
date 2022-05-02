@@ -265,6 +265,17 @@
     ]
   },
   {
+    "name": "ЛокоТех-Сигнал",
+    "link": "https://tmhsmart.ru/",
+    "logo": "logo-locotech-signal.jpeg",
+    "logoWidth": "200px",
+    "description": "системы управления движением рельсового транспорта в России и СНГ",
+    "source": "https://career.habr.com/nshakirov123",
+    "tags": [
+      "russia"
+    ]
+  },
+  {
     "name": "Северсталь",
     "link": "https://www.severstal.com/rus/",
     "logo": "logo-severstal.png",

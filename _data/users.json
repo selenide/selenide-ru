@@ -56,6 +56,7 @@
     "logo": "logo-whimstay.png",
     "logoWidth": "160px",
     "description": "горящие предложения по аренде на время отпуска, Сан-Франциско.",
+    "source": "https://career.habr.com/igorek9191",
     "tags": [
       "usa"
     ]
@@ -292,6 +293,7 @@
     "logo": "logo-bellintegrator.png",
     "logoWidth": "160px",
     "description": "международная компания,  специализирующаяся на консалтинге, технологических услугах и аутсорсинге.",
+    "source": "https://career.habr.com/igorek9191",
     "tags": [
       "usa",
       "europe",
@@ -327,6 +329,7 @@
     "logo": "logo-quality-lab.jpeg",
     "logoWidth": "120px",
     "description": "Разработка и тестирование программного обеспечения",
+    "source": "https://career.habr.com/igorek9191",
     "tags": [
       "russia",
       "it"
@@ -505,6 +508,19 @@
       "belarus",
       "russia",
       "ukraine",
+      "it"
+    ]
+  },
+  {
+    "name": "Bergmann Infotech",
+    "link": "https://bergmann-infotech.de/en/homepage/",
+    "logo": "logo-bergman-infotech.svg",
+    "logoWidth": "180px",
+    "description": "Software solutions for your business (Germany)",
+    "source": "https://career.habr.com/podnk",
+    "tags": [
+      "europe",
+      "germany",
       "it"
     ]
   },

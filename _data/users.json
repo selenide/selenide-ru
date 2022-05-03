@@ -521,6 +521,19 @@
     ]
   },
   {
+    "name": "Luxoft",
+    "link": "https://career.luxoft.com/",
+    "logo": "logo-luxoft.png",
+    "logoWidth": "180px",
+    "description": "разработка ПО для крупных транснациональных корпораций по всему миру",
+    "source": "https://career.habr.com/jieo",
+    "tags": [
+      "it",
+      "russia",
+      "global"
+    ]
+  },
+  {
     "name": "EPAM",
     "link": "https://www.epam.com/",
     "logo": "logo-epam.png",

@@ -559,6 +559,19 @@
     ]
   },
   {
+    "name": "Soramitsu",
+    "link": "https://soramitsu.co.jp/ru",
+    "logo": "logo-soramitsu.svg",
+    "logoWidth": "220px",
+    "description": "финансовые приложения нового поколения (Япония)",
+    "source": "https://career.habr.com/s3rgh",
+    "tags": [
+      "japan",
+      "asia",
+      "finances"
+    ]
+  },
+  {
     "name": "Newmax Technologies",
     "link": "https://career.habr.com/companies/newmax-url",
     "logo": "logo-newmax.jpeg",

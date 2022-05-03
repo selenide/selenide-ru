@@ -470,7 +470,7 @@
   },
   {
     "name": "SportsTG",
-    "link": "",
+    "link": "https://mygameday.app",
     "logo": "sportstg-logo.png",
     "logoWidth": "150px",
     "description": "австралийская компания, ведущий поставщик ПО для индустрии спорта.",
@@ -672,7 +672,7 @@
   },
   {
     "name": "Gilbarco Autotank",
-    "link": "",
+    "link": "https://www.gilbarco.com/eu/",
     "logo": "gilbarco-autotank-logo.jpg",
     "logoWidth": "128px",
     "description": "система управления автоматическими заправочными станциями, использующаяся практически всеми АЗС в Эстонии.",

@@ -40,6 +40,18 @@
     ]
   },
   {
+    "name": "SecureOffice",
+    "link": "https://secureoffice.com/",
+    "logo": "logo-secure-office.svg",
+    "logoWidth": "160px",
+    "description": "document management cyber security (San Francisco)",
+    "source": "https://career.habr.com/artmelnikov",
+    "tags": [
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "Aledade",
     "link": "https://www.aledade.com",
     "logo": "logo-aledade.jpeg",

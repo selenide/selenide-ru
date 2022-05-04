@@ -251,6 +251,18 @@
     ]
   },
   {
+    "name": "Глонасс мобайл",
+    "link": "https://gmdp.ru/index.html",
+    "logo": "logo-glonass-mobile.png",
+    "logoWidth": "140px",
+    "description": "платформа мобильной дистрибуции ГЛОНАСС (GMDP)",
+    "source": "https://career.habr.com/alexseyprohin",
+    "tags": [
+      "russia",
+      "telecom"
+    ]
+  },
+  {
     "name": "IT Basis",
     "link": "http://it-basis.com/",
     "logo": "logo-it-basis.png",
@@ -469,6 +481,7 @@
     "logo": "alfa-bank-logo.png",
     "logoWidth": "200px",
     "description": "один из крупнейших российских коммерческих банков. На основе Selenide создали опен-сорс <a href=\"https://habr.com/ru/company/alfa/blog/350238/\">библиотеку для BDD спецификаций Akita</a>.",
+    "source": "https://career.habr.com/honorzor",
     "tags": [
       "russia",
       "finances"

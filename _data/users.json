@@ -532,6 +532,19 @@
     ]
   },
   {
+    "name": "Softswiss",
+    "link": "https://www.softswiss.com/",
+    "logo": "logo-softswiss.png",
+    "logoWidth": "160px",
+    "description": "iGaming и крипта в сфере онлайн-развлечений",
+    "source": "https://career.habr.com/evgenii-popovich",
+    "tags": [
+      "belarus",
+      "global",
+      "gaming"
+    ]
+  },
+  {
     "name": "Infotech Group",
     "link": "https://infotech.group/ru",
     "logo": "logo-infotech-group.svg",

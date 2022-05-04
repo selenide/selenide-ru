@@ -52,6 +52,18 @@
     ]
   },
   {
+    "name": "Virtual Health",
+    "link": "https://www.virtualhealth.com/",
+    "logo": "logo-virtual-health.png",
+    "logoWidth": "220px",
+    "description": "Системная интеграция медицинских компаний (Нью-Йорк, США)",
+    "source": "https://career.habr.com/olgachert",
+    "tags": [
+      "usa",
+      "healthcare"
+    ]
+  },
+  {
     "name": "Aledade",
     "link": "https://www.aledade.com",
     "logo": "logo-aledade.jpeg",

@@ -117,6 +117,21 @@
     ]
   },
   {
+    "name": "Valamis",
+    "link": "https://www.valamis.com/",
+    "logo": "logo-valamis.png",
+    "logoWidth": "220px",
+    "description": "цифровые обучающие решения для крупных организаций (Финляндия, Россия, Германия, Нидерланды, Индия, Великобритания, США)",
+    "source": "https://career.habr.com/1001001",
+    "tags": [
+      "finland",
+      "scandinavia",
+      "russia",
+      "global",
+      "education"
+    ]
+  },
+  {
     "name": "Iute credit",
     "link": "https://iute.ee/en/what-is-iutecredit/",
     "logo": "logo-iute-credit.png",

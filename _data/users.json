@@ -105,6 +105,19 @@
     ]
   },
   {
+    "name": "Blueberries Consulting",
+    "link": "https://www.blueberrycs.com/",
+    "logo": "logo-blueberry-consulting.png",
+    "logoWidth": "260px",
+    "description": "full-cycle technology services with niche and emerging technologies (Birmingham, Britain)",
+    "source": "https://career.habr.com/ctac63",
+    "tags": [
+      "britain",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "Unbiased",
     "link": "https://www.unbiased.co.uk/pro/",
     "logo": "logo-unbiasedpro.svg",

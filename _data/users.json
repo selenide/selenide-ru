@@ -215,6 +215,18 @@
     ]
   },
   {
+    "name": "Qiwi",
+    "link": "https://qiwi.com/",
+    "logo": "logo-qiwi.svg.png",
+    "logoWidth": "220px",
+    "description": "Ведущий платёжный сервис в России и странах СНГ",
+    "source": "https://career.habr.com/vacancies/1000098960",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "Гринатом",
     "link": "https://www.greenatom.ru/",
     "logo": "logo-green-atom.png",

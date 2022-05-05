@@ -386,6 +386,19 @@
     ]
   },
   {
+    "name": "PointPay",
+    "link": "https://pointpay.io/",
+    "logo": "logo-point-pay.png",
+    "logoWidth": "200px",
+    "description": "криптовалютная банковская экосистема",
+    "source": "https://career.habr.com/vacancies/1000095358",
+    "tags": [
+      "finances",
+      "global",
+      "central-america"
+    ]
+  },
+  {
     "name": "Bell Integrator",
     "link": "https://www.bellintegrator.com/",
     "logo": "logo-bellintegrator.png",

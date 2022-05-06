@@ -565,6 +565,21 @@
     ]
   },
   {
+    "name": "Tele2",
+    "link": "https://tele2.ru/",
+    "logo": "logo-tele2.jpeg",
+    "logoWidth": "160px",
+    "description": "Телекоммуникации (Швеция, Эстония, Россия)",
+    "source": "https://career.habr.com/vacancies/1000071594",
+    "tags": [
+      "estonia",
+      "sweden",
+      "scandinavia",
+      "russia",
+      "telecom"
+    ]
+  },
+  {
     "name": "Omniva",
     "link": "https://www.omniva.ee",
     "logo": "omniva-logo.png",

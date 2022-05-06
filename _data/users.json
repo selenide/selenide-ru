@@ -117,6 +117,20 @@
     ]
   },
   {
+    "name": "SavvyMatics",
+    "link": "https://savvymatics.com/",
+    "logo": "logo-savvy-matics.jpeg",
+    "logoWidth": "140px",
+    "description": "Разработка мобильных и веб продуктов (Канада, Россия)",
+    "source": "https://savvymatics.com/qa-engineer-bank-a",
+    "tags": [
+      "canada",
+      "russia",
+      "finances",
+      "it"
+    ]
+  },
+  {
     "name": "Blueberries Consulting",
     "link": "https://www.blueberrycs.com/",
     "logo": "logo-blueberry-consulting.png",

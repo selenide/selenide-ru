@@ -743,6 +743,19 @@
     ]
   },
   {
+    "name": "Lazada",
+    "link": "https://www.lazada.com/en/",
+    "logo": "logo-lazada.svg",
+    "logoWidth": "180px",
+    "description": "инновационный E-commerce в Юго-Восточной Азии",
+    "source": "https://career.habr.com/maresko",
+    "tags": [
+      "asia",
+      "finances",
+      "russia"
+    ]
+  },
+  {
     "name": "Newmax Technologies",
     "link": "https://career.habr.com/companies/newmax-url",
     "logo": "logo-newmax.jpeg",

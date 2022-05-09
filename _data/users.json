@@ -277,6 +277,19 @@
     ]
   },
   {
+    "name": "Ростелеком",
+    "link": "https://rtkit.ru/",
+    "logo": "logo-rostelekom.png",
+    "logoWidth": "220px",
+    "description": "Wink, ЕГЭ, «Умный дом» и «Ключ»",
+    "source": "https://career.habr.com/jeckons",
+    "tags": [
+      "russia",
+      "it",
+      "telecom"
+    ]
+  },
+  {
     "name": "Глонасс мобайл",
     "link": "https://gmdp.ru/index.html",
     "logo": "logo-glonass-mobile.png",

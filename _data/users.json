@@ -756,6 +756,18 @@
     ]
   },
   {
+    "name": "G-Plans",
+    "link": "https://g-plans.com/",
+    "logo": "logo-gplans.svg",
+    "logoWidth": "180px",
+    "description": "Трекинг программ питания (Сан-Диего, США)",
+    "source": "https://career.habr.com/alekseyb137",
+    "tags": [
+      "usa",
+      "healthcare"
+    ]
+  },
+  {
     "name": "Newmax Technologies",
     "link": "https://career.habr.com/companies/newmax-url",
     "logo": "logo-newmax.jpeg",

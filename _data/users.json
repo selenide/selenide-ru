@@ -732,6 +732,19 @@
     ]
   },
   {
+    "name": "Accenture",
+    "link": "https://accenture.com/",
+    "logo": "logo-accenture.jpeg",
+    "logoWidth": "160px",
+    "description": "Глобальная компания, предоставляющая услуги в области стратегии, управленческого консалтинга, информационных технологий. Входит в ТОП 500 крупнейших компаний мира.",
+    "source": "https://career.habr.com/johnfrolov",
+    "tags": [
+      "global",
+      "russia",
+      "it"
+    ]
+  },
+  {
     "name": "Bergmann Infotech",
     "link": "https://bergmann-infotech.de/en/homepage/",
     "logo": "logo-bergman-infotech.svg",

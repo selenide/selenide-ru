@@ -337,6 +337,18 @@
     ]
   },
   {
+    "name": "Райффайзенбанк",
+    "link": "https://www.raiffeisen.ru/",
+    "logo": "logo-raiffeisen-bank.svg.png",
+    "logoWidth": "180px",
+    "description": "Ведущий универсальный банк в России",
+    "source": "https://ru.joblum.com/job/regular-qa-automation-engineer/3285163",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "Банк «Открытие»",
     "link": "https://www.open.ru/",
     "logo": "logo-bank-oktrytie.png",

@@ -29,6 +29,18 @@
     ]
   },
   {
+    "name": "General Electric",
+    "link": "https://www.ge.com/",
+    "logo": "logo-general-electric.png",
+    "logoWidth": "160px",
+    "description": "Американская многоотраслевая инжиниринговая корпорация (авиация, энергетика, возобновляемые источники энергии, цифровая промышленность)",
+    "source": "https://career.habr.com/kochetkov-ma",
+    "tags": [
+      "usa",
+      "resources"
+    ]
+  },
+  {
     "name": "Google",
     "link": "https://en.wikipedia.org/wiki/Google",
     "logo": "logo-google.png",

@@ -17,10 +17,10 @@
     <a href="{{ BASE_PATH }}/quotes.html">Отзывы</a>
     <a style="display:none;" href="{{ BASE_PATH }}/thanks.html">Мы говорим спасибо</a>
   </div>
-  
+
   <div class="news">
-    <div class="news-line news-title"><a href="/2022/04/07/selenide-6.4.0/">Вышла Selenide 6.4.0</a></div>
-    <div class="news-line news-link"><i>"Отчёты пустое место"</i></div>
+    <div class="news-line news-title"><a href="/2022/05/17/selenide-6.5.0/">Вышла Selenide 6.5.0</a></div>
+    <div class="news-line news-link"><i>"ремастеринг setValue"</i></div>
   </div>
 
 </div>

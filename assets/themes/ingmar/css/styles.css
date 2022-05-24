@@ -218,6 +218,7 @@ a small {
 .short.donate_header {
   background-color: #55B7E7;
   padding: 2vh 1vw;
+  border-bottom: 1px solid white;
 }
 
 .short.howto, .short.blog, .short.blog_post_header {

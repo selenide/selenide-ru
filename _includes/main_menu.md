@@ -19,8 +19,8 @@
   </div>
 
   <div class="news">
-    <div class="news-line news-title"><a href="/2022/06/12/selenide-6.6.3/">Вышла Selenide 6.6.3</a></div>
-    <div class="news-line news-link"><i>"Зарелизил и точка!"</i></div>
+    <div class="news-line news-title"><a href="/2022/06/20/selenide-6.6.4/">Вышла Selenide 6.6.4</a></div>
+    <div class="news-line news-link"><i>Квазирелиз</i></div>
   </div>
 
 </div>

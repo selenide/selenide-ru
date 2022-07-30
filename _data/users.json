@@ -920,7 +920,7 @@
   },
   {
     "name": "Plumbr",
-    "link": "https://plumbr.eu/",
+    "link": "https://plumbr.io/",
     "logo": "plumbr-logo.jpeg",
     "logoWidth": "150px",
     "description": "Инструмент для обнаружения утечек памяти в Java приложениях",

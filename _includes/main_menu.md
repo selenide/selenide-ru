@@ -20,7 +20,7 @@
 
   <div class="news">
     <div class="news-line news-title"><a href="/2022/08/04/selenide-6.7.0/">Вышла Selenide 6.7.0</a></div>
-    <div class="news-line news-link"><i>Полный текст, полные скриншоты</i></div>
+    <div class="news-line news-link">Полные тексты, полные скриншоты</div>
   </div>
 
 </div>

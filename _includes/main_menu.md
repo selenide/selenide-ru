@@ -19,8 +19,8 @@
   </div>
 
   <div class="news">
-    <div class="news-line news-title"><a href="/2022/08/14/selenide-6.7.2/">Вышла Selenide 6.7.2</a></div>
-    <div class="news-line news-link">Памятное головотяпство</div>
+    <div class="news-line news-title"><a href="/2022/08/22/selenide-puzzler/">Selenide puzzler</a></div>
+    <div class="news-line news-link">Логическое И или ИЛИ?</div>
   </div>
 
 </div>

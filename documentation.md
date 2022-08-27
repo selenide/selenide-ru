@@ -174,8 +174,8 @@ $("input").shouldHave(exactText("Some text"));
 *  text()        // возвращает "видимый текст на странице"
 *  innerText()   // возвращает "текст элемента в DOM"
 *  getSelectedOption()
-*  getSelectedText()
-*  getSelectedValue()
+*  getSelectedOptionText()
+*  getSelectedOptionValue()
 *  isDisplayed() //возвращает false, если элемент либо невидимый, либо его нет в DOM
 *  exists() //возвращает true, если элемент есть в DOM, иначе - false 
 

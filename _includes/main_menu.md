@@ -19,8 +19,8 @@
   </div>
 
   <div class="news">
-    <div class="news-line news-title"><a href="/2022/08/27/selenide-6.7.3/">Вышла Selenide 6.7.3</a></div>
-    <div class="news-line news-link">Душевно, по-домашнему</div>
+    <div class="news-line news-title"><a href="/2022/09/05/selenide-6.7.4/">Вышла Selenide 6.7.4</a></div>
+    <div class="news-line news-link"><i>Опен-сорс - не резиновая попа</i></div>
   </div>
 
 </div>

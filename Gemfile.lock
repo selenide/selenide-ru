@@ -277,7 +277,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (>= 214)
+  github-pages (>= 225)
   kramdown (>= 2.3.1)
 
 BUNDLED WITH

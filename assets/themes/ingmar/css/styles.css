@@ -612,3 +612,20 @@ hr.divider {
 .hidden {
   display: none;
 }
+
+.blog_post_content blockquote {
+  margin: 0 5vw 2vh 5vw;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  background: rgba(15, 221, 175, .15);
+  border-right: 1px solid lightgray;
+  border-radius: 10px;
+  font-family: "Comic Sans MS", serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.blog_post_content .blogpost-menu {
+  font-size: small;
+  margin-left: 2vw;
+}

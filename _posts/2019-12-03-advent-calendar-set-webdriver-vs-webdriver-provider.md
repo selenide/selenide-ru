@@ -69,6 +69,22 @@ public void setUp() {
 
 <br/>
 
+# UPD {#driver-factory}
+Позже в [Selenide 5.16.1](https://ru.selenide.org/2020/11/25/selenide-5.16.2/#selenide-5.16.2) появилась более новая возможность - `DriverFactory`. 
+Теперь это рекомендованный способ создавать кастомный вебдрайвер.
+
+По сути она очень похожа на `WebDriverProvider`, но даёт больше контроля над происходящим. 
+Вам нужно 
+1. либо реализовать интерфейс `DriverFactory`,
+2. либо создать подкласс [ChromeDriverFactory](https://github.com/selenide/selenide/blob/master/src/main/java/com/codeborne/selenide/webdriver/ChromeDriverFactory.java),
+[FirefoxDriverFactory](https://github.com/selenide/selenide/blob/master/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java) 
+или другого похожего класса (которые есть в составе Selenide и реализуют интерфейс `DriverFactory`) и переопределить лишь нужные методы.
+Все методы в них специально сделаны маленькие и объявлены как protected.
+
+Примеры есть в [тестах самого селенида](https://github.com/selenide/selenide/blob/master/statics/src/test/java/integration/ChromeProfileByFactoryTest.java).
+
+См. также этот [пост от Boris Bay](https://mbbaig.blog/selenide-webdriverfactory/).
+
 
 <br>
 

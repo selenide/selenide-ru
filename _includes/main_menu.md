@@ -19,7 +19,7 @@
   </div>
 
   <div class="news">
-    <div class="news-line news-title"><a href="/2022/10/07/selenide-6.9.0/">Вышла Selenide 6.9.0</a></div>
+    <div class="news-line news-title">Вышла Selenide 6.10.0</div>
     <div class="news-line news-link"><i>Подменяем результаты</i></div>
   </div>
 

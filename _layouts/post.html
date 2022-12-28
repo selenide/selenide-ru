@@ -7,12 +7,15 @@ layout: default
 <div class="short" style="color: #222; margin-bottom: 3vh;">
   <h4 style="color: #222;">{{ page.title }}</h4>
   {{ page.header-text }}
+  <h6>{{ page.date | date: "%d.%m.%y" }}</h6>
 </div>
 
 <div class="wrapper-content blog_post">
   <section>
     <div class="blog_post_content">
       {{ content }}
+
+      <p>{{ page.date | date: "%d.%m.%y" }}</p>
     </div>
     {% include JB/comments %}
   </section>

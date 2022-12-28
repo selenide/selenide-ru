@@ -18,9 +18,11 @@
     <a style="display:none;" href="{{ BASE_PATH }}/thanks.html">Мы говорим спасибо</a>
   </div>
 
-  <div class="news">
-    <div class="news-line news-title"><a href="/2022/12/08/selenide-6.10.2/">Вышла Selenide 6.10.3</a></div>
-    <div class="news-line news-link"><i>Ну ивенты и ивенты, чего бухтеть-то</i></div>
-  </div>
+  {% if page.show_news %}
+    <div class="news">
+      <div class="news-line news-title"><a href="/2022/12/08/selenide-6.10.2/">Вышла Selenide 6.10.3</a></div>
+      <div class="news-line news-link"><i>Ну ивенты и ивенты, чего бухтеть-то</i></div>
+    </div>
+  {% endif %}
 
 </div>

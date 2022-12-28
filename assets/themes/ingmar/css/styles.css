@@ -238,8 +238,8 @@ a small {
 }
 
 .short.thanks img {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 1vh 2vw;
+  width: clamp(70px, 20vw, 170px);
 }
 
 

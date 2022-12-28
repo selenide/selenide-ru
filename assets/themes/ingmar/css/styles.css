@@ -221,6 +221,12 @@ a small {
   border-bottom: 1px solid white;
 }
 
+.short.donate_header .link {
+  margin: 0 2vw;
+  white-space: nowrap;
+  color: yellow;
+}
+
 .short.howto, .short.blog, .short.blog_post_header {
   background-color: #E5B755;
   padding-top: 25px;

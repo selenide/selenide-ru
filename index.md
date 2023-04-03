@@ -83,8 +83,10 @@ show_news: true
     <div>Где можно задать вопрос или обсудить любой вопрос насчёт Selenide на русском языке:</div>
     <div class="highlights">
       <a href="mailto:selenide-ru@googlegroups.com">Гуглогруппа</a>
-      <a href="http://automated-testing.info/c/webdriver/selenide">раздел Selenide на automated-testing.info</a>
-      <a href="mailto:info@selenide.org">Email</a>
+      <a href="https://automated-testing.info/c/webdriver/selenide">automated-testing.info</a>
+      <a href="https://gitter.im/codeborne/selenide-ru">Gitter</a>
+      <a href="https://twitter.com/selenide">Твиттер</a>
+      <a href="https://t.me/selenide_ru">Телеграм</a>
     </div>
   
   </div>

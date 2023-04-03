@@ -635,3 +635,7 @@ hr.divider {
   font-size: small;
   margin-left: 2vw;
 }
+
+.blog_post_content .blogpost-menu code {
+  color: inherit;
+}

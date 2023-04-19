@@ -13,9 +13,12 @@ header-text: >
 
 {% include documentation-menu.md %}
 
-#### <a href="#yagni">&gt; YAGNI</a>
-#### <a href="#text-report">&gt; Text report</a>
-#### <a href="#allure-report">&gt; Allure report</a>
+<br>
+
+#### [&gt; YAGNI](#yagni)  
+#### [&gt; Text report](#text-report)  
+#### [&gt; Allure report](#allure-report)  
+{: .blogpost-menu}
 
 <a name="yagni"></a>
 ## YAGNI
@@ -62,7 +65,7 @@ Timeout: 4 s.
 
 Выглядит просто, но он содержит всю необходимую информацию.  
 Чтобы включить такой отчёт, нужно 
-1. Настроить в проекте slf4j (де-факто стандартный инструмент логирования в Java).
+1. [Настроить в своём проекте slf4j](https://github.com/selenide/selenide/wiki/slf4j) (де-факто стандартный инструмент логирования в Java).
 2. Добавить экстенш/рул/листенер, как показано ниже. 
 
 #### Для JUnit 5:
@@ -108,11 +111,11 @@ public class MyTest {
 это лишнее, и менеджмент эти отчёты не читает.  
 
 Но если вы всё-таки очень хотите "красивые" отчёты, можете настроить Allure. Это популярная бесплатная библиотека от 
-компании [Qameta](Qameta Software), которая имеет встроенную интеграцию с Селенидом. И да, она генерирует действительно 
+компании [Qameta Software](https://qameta.io/), которая имеет встроенную интеграцию с Селенидом. И да, она генерирует действительно 
 красивые отчёты.
 
 Для этого вам нужно:
-1. Добавить в проект зависимость `io.qameta.allure:allure-selenide:2.13.6` (или выше).
+1. Добавить в проект зависимость `io.qameta.allure:allure-selenide:2.21.0` (или выше).
 2. Добавить одну строчку в начале тестов:
 
 ```java
@@ -134,6 +137,8 @@ public class MyTest {
 <br/>
 <br/>
 
-P.S. Умоляю, только не берите BDD ради красивых отчётов!
+P.S. Умоляю, только не берите BDD ради красивых отчётов! 
+[BDD вообще не для этого](https://www.youtube.com/watch?v=JnoZbbYZeeI&ab_channel=MikalaiAlimenkou). 
+Только огребёте новых проблем, а свою не решите. 
 
 <br/>

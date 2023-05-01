@@ -230,7 +230,7 @@ $("input").shouldHave(exactText("Some text"));
 
 *   <a href="https://selenide.org/javadoc/current/com/codeborne/selenide/Selectors.html#byText(java.lang.String)">byText</a>     - поиск элемента по точному тексту
 *   <a href="https://selenide.org/javadoc/current/com/codeborne/selenide/Selectors.html#withText(java.lang.String)">withText</a>   - поиск элемента по тексту (подстроке)
-*   <a href="https://selenide.org/javadoc/current/com/codeborne/selenide/Selectors.html#by(java.lang.String, java.lang.String)">by</a>    - поиск элемента по атрибуту
+*   <a href="https://selenide.org/javadoc/current/com/codeborne/selenide/Selectors.html#by(java.lang.String,java.lang.String)">by</a>    - поиск элемента по атрибуту
 *   <a href="https://selenide.org/javadoc/current/com/codeborne/selenide/Selectors.html#byTitle(java.lang.String)">byTitle</a>   - поиск по атрибуту "title"
 *   <a href="https://selenide.org/javadoc/current/com/codeborne/selenide/Selectors.html#byValue(java.lang.String)">byValue</a>   - поиск по атрибуту "value"
 

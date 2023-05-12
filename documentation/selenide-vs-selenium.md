@@ -93,7 +93,7 @@ public void canFillComplexForm() {
 </div>
 
 <div class="wrapper-content center">
-<iframe src="https://docs.google.com/presentation/d/1ZksjuL2vPN_pkhMuon0HH4gm7KNmjU50pByRRGzgVko/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ZksjuL2vPN_pkhMuon0HH4gm7KNmjU50pByRRGzgVko/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allow="fullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
 <br/>

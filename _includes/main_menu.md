@@ -20,8 +20,8 @@
 
   {% if page.show_news %}
     <div class="news">
-      <div class="news-line news-title"><a href="/2023/08/02/selenide-6.17.0/">Вышла Selenide 6.17.0</a></div>
-      <div class="news-line news-link">Прощай, WebDriverManager!</div>
+      <div class="news-line news-title"><a href="/2023/08/20/selenide-6.17.1/">Вышла Selenide 6.17.1</a></div>
+      <div class="news-line news-link">Сим-сим, отвисни!</div>
     </div>
   {% endif %}
 

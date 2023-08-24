@@ -75,7 +75,7 @@ public void userCanLoginByUsername() {
 * для тестирования [почтовика Gmail](https://github.com/selenide-examples/gmail/tree/master/test/org/selenide/examples/gmail),
 * для тестирования [поиска Google](https://github.com/selenide-examples/google/blob/master/test/org/selenide/examples/google/selenide_page_object/GoogleTest.java).
 * для тестирования настоящего [интернет-банка](https://github.com/selenide-examples/selenide-allure-junit/blob/master/src/test/java/org/selenide/examples/InternetBankTest.java)
-* [игра Виселица](https://github.com/selenide-examples/hangman/blob/master/test/uitest/selenide/HangmanSpec.java) - эталонный open-source проект, в котором используется Selenide
+* [игра Виселица](https://github.com/selenide-examples/hangman/blob/main/test/uitest/selenide/HangmanSpec.java) - эталонный open-source проект, в котором используется Selenide
 
 и т.д.
 

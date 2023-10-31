@@ -7,6 +7,17 @@
     "description": ""
   },
   {
+    "name": "Dell Technologies",
+    "link": "https://www.dell.com/",
+    "logo": "logo-dell.svg.png",
+    "logoWidth": "96px",
+    "description": "один из крупнейших в мире производителей вычислительной техники (США)",
+    "tags": [
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "MasterCard",
     "link": "https://www.mastercard.us/",
     "logo": "logo-mastercard.svg",
@@ -126,6 +137,17 @@
     "tags": [
       "usa",
       "finances"
+    ]
+  },
+  {
+    "name": "Transaction Junction",
+    "link": "https://transactionjunction.co.za/",
+    "logo": "logo-transaction-junction.png",
+    "logoWidth": "96px",
+    "description": "Компания по разработке программного обеспечения в Кейптауне (Южная Африка)",
+    "tags": [
+      "africa",
+      "it"
     ]
   },
   {
@@ -877,6 +899,18 @@
     "source": "https://www.linkedin.com/in/risto-porila/",
     "tags": [
       "estonia",
+      "europe",
+      "finances"
+    ]
+  },
+  {
+    "name": "BlurOr bank",
+    "link": "https://www.bluorbank.lv/latvija/en",
+    "logo": "logo-bluor-bank.jpeg",
+    "logoWidth": "96px",
+    "description": "systemically significant Latvian bank",
+    "source": "https://www.linkedin.com/in/julyan-slabko",
+    "tags": [
       "europe",
       "finances"
     ]

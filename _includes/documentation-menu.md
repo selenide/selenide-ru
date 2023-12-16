@@ -3,6 +3,7 @@
   <div>✓ <a href="/documentation.html">API</a></div>
   <div>✓ <a href="/documentation/screenshots.html">Скриншоты</a></div>
   <div>✓ <a href="/documentation/reports.html">Отчёты</a></div>
+  <div>✓ <a href="/documentation/cloud.html">Облака</a></div>
   <div>✓ <a href="/documentation/selenide-vs-selenium.html">Selenide vs Selenium</a></div>
 
   <br/>

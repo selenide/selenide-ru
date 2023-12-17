@@ -84,8 +84,7 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 <a name="saucelabs"></a>
 ## Saucelabs
 
-Компания Saucelabs - та самая, которая спонсирует развитие проекта Selenium. 
-А ещё они предлагают запуск браузеров и мобильников на их серверах. 
+Компания Saucelabs тоже предлагает запуск браузеров и мобильников на их серверах. 
 
 [Пример](https://github.com/markwinspear/selenide-test-2015) (старый, но надеемся вскоре обновить).
 

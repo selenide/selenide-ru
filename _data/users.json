@@ -699,6 +699,21 @@
     ]
   },
   {
+      "name": "Skywind group",
+      "link": "https://www.skywindgroup.com/en-US/home",
+      "logo": "skywind-logo.svg",
+      "logoWidth": "320px",
+      "description": "Online gaming - games, back-office and content management systems, hosting solutions, infrastructure.",
+      "source": "https://www.linkedin.com/in/oleg-dereka-bb88b7119",
+      "tags": [
+        "europe",
+        "asia",
+        "ukraine",
+        "belarus",
+        "gambling"
+      ]
+  },
+  {
     "name": "SportsTG",
     "link": "https://mygameday.app",
     "logo": "sportstg-logo.png",

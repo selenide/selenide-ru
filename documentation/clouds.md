@@ -60,7 +60,8 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 <a name="browserstack"></a>
 ## BrowserStack
 
-Рабочий пример: [selenide-examples/selenide-browserstack](https://github.com/selenide-examples/selenide-browserstack).
+Рабочий пример: [selenide-examples/selenide-browserstack](https://github.com/selenide-examples/selenide-browserstack).  
+Сайт: [BrowserStack.com](https://www.browserstack.com/?utm_source=selenide&utm_medium=partnered)
 
 Это рабочий пример тестов на селениде, которые запускают браузер на серверах BrowserStack.
 Как видно, настройка там минимальная:

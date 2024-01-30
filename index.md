@@ -118,7 +118,7 @@ show_news: true
   <a href="https://www.jetbrains.com/?from=selenide.org" target="_blank">
     <img src="{{BASE_PATH}}/images/jetbrains.svg" alt="JetBrains. Intellij IDEA - лучшая IDE для Java на Млечном Пути!"/>
   </a>
-  <a href="https://www.browserstack.com" target="_blank">
+  <a href="https://www.browserstack.com/?utm_source=selenide&utm_medium=partnered" target="_blank">
     <img src="https://www.browserstack.com/images/mail/browserstack-logo-footer.png" alt="BrowserStack"/>
   </a>
   <a href="http://www.seleniumhq.org/" target="_blank">

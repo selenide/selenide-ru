@@ -160,7 +160,7 @@ a small {
 }
 
 .short .highlights a:before, .short .highlights span:before {
-  content: '✓ '; 
+  content: '✓ ';
 }
 
 .short a:hover {
@@ -217,7 +217,7 @@ a small {
 
 .short.donate_header {
   background-color: #55B7E7;
-  padding: 2vh 1vw;
+  padding: 2vh 0;
   border-bottom: 1px solid white;
 }
 
@@ -425,7 +425,7 @@ header .archive h2, header .archive h3 {
 
 strong {
   color:#222;
-  font-weight:700;   
+  font-weight:700;
 }
 
 header ul.gray-boxes li + li {
@@ -638,4 +638,16 @@ hr.divider {
 
 .blog_post_content .blogpost-menu code {
   color: inherit;
+}
+
+
+#sponsors {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#sponsors > * {
+  vertical-align: bottom;
 }

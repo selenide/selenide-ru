@@ -115,13 +115,26 @@ show_news: true
 <a name="thanks"></a>
 <div class="short thanks">
   <h4>Большое спасибо:</h4>
-  <a href="https://www.jetbrains.com/?from=selenide.org" target="_blank">
-    <img src="{{BASE_PATH}}/images/jetbrains.svg" alt="JetBrains. Intellij IDEA - лучшая IDE для Java на Млечном Пути!"/>
-  </a>
-  <a href="https://www.browserstack.com/?utm_source=selenide&utm_medium=partnered" target="_blank">
-    <img src="https://www.browserstack.com/images/mail/browserstack-logo-footer.png" alt="BrowserStack"/>
-  </a>
-  <a href="http://www.seleniumhq.org/" target="_blank">
-    <img src="{{BASE_PATH}}/images/selenium-logo.png" alt="Selenium WebDriver"/>
-  </a>
+  <div id="sponsors">
+    <div class="sponsor">
+      <a href="https://www.jetbrains.com/?from=selenide.org" target="_blank">
+        <img src="{{BASE_PATH}}/images/jetbrains.svg" height="140px" alt="JetBrains. Intellij IDEA - лучшая IDE для Java на Млечном Пути!"/>
+      </a>
+    </div>
+    <div class="sponsor">
+      <a href="https://www.browserstack.com/?utm_source=selenide&utm_medium=partnered" target="_blank">
+        <img src="https://www.browserstack.com/images/mail/browserstack-logo-footer.png" alt="BrowserStack"/>
+      </a>
+    </div>
+    <div class="sponsor">
+      <a href="http://www.seleniumhq.org/" target="_blank">
+        <img src="{{BASE_PATH}}/images/selenium-logo.png" alt="Selenium WebDriver"/>
+      </a>
+    </div>
+    <div class="sponsor" style="color: black;">
+      Browser testing via <a href="https://www.lambdatest.com/" target="_blank"><br/>
+      <img src="https://www.lambdatest.com/support/img/logo.svg" style="vertical-align: middle;margin-left:5px" width="147" height="26" />
+      </a>
+    </div>
+  </div>
 </div>

@@ -63,6 +63,18 @@
     ]
   },
   {
+    "name": "Spiral Scout",
+    "link": "https://spiralscout.com/",
+    "logo": "spiral-scout-logo.svg",
+    "logoWidth": "180px",
+    "description": "Web Design and Development; creators of Spiral Framework",
+    "source": "https://spiralscout.com/case/software-testing-solution-for-demo-automation-software",
+    "tags": [
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "SecureOffice",
     "link": "https://secureoffice.com/",
     "logo": "logo-secure-office.svg",

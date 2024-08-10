@@ -240,6 +240,19 @@
     ]
   },
   {
+    "name": "SoftServe",
+    "link": "https://www.softserveinc.com/en-us",
+    "logo": "softserve-logo.png",
+    "description": "украинская ИТ компания, работающая в сфере разработки программного обеспечения и предоставления консультационных услуг.",
+    "source": "https://dou.ua/forums/topic/49915/",
+    "tags": [
+      "ukraine",
+      "usa",
+      "global",
+      "it"
+    ]
+  },
+  {
     "name": "Provectus",
     "link": "https://careers.provectus.com/jobs/",
     "logo": "logo-provectus-ua.svg",

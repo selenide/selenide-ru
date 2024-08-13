@@ -20,8 +20,8 @@
 
 {% if page.show_news %}
   <div class="news">
-    <div class="news-line news-title"><a href="https://github.com/selenide/selenide/releases/tag/v7.4.1">Вышла Selenide 7.4.1</a></div>
-    <div class="news-line news-link">И Appium обновили</div>
+    <div class="news-line news-title"><a href="https://github.com/selenide/selenide/releases/tag/v7.4.2">Вышла Selenide 7.4.2</a></div>
+    <div class="news-line news-link">Починили селектики</div>
   </div>
 {% endif %}
 

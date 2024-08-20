@@ -16,6 +16,7 @@ header-text: >
 <br>
 
 #### [&gt; TestContainers](#testcontainers)  
+#### [&gt; LambdaTest](#lambdatest)  
 #### [&gt; BrowserStack](#browserstack)  
 #### [&gt; Saucelabs](#saucelabs)  
 #### [&gt; Selenoid](#selenoid)   
@@ -54,6 +55,31 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 Минусы:
 1. Некоторые фичи селенида не могут работать (clipboard)
 2. Поддерживаются только те браузеры, что в принципе способны работать в докере (Internet Explorer точно нет, насчёт Safari не уверен)
+
+<br>
+
+<a name="lambdatest"></a>
+## LambdaTest
+
+Рабочий пример: [selenide-examples/selenide-lambdatest](https://github.com/selenide-examples/selenide-lambdatest).  
+Сайт: [LambdaTest.com](https://www.lambdatest.com/blog/selenium-testing-with-selenide-using-intellij-maven/?utm_source=selenide&utm_medium=partnered).
+
+Это рабочий пример тестов на селениде, которые запускают браузер на серверах LambdaTest.  
+Как видно, настройка там минимальная:
+
+```java
+  Configuration.remote = "https://hub.lambdatest.com/wd/hub";
+  Configuration.browserCapabilities.setCapability("LT:Options", Map.of(
+    "user", "unclebob",
+    "accessKey", "0123456789001234567890"
+  ));
+```
+
+Плюсы:
+1. Позволяет запускать разные версии браузеров
+
+Минусы:
+1. Некоторые фичи селенида не могут работать (clipboard, прокси, скачивание методом FOLDER)
 
 <br>
 

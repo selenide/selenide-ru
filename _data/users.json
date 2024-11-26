@@ -246,11 +246,25 @@
     "name": "Solid gate",
     "link": "https://solidgate.com/",
     "logo": "logo-solidgate.png",
+    "logoWidth": "200px",
     "description": "Smart Online Payments",
     "source": "https://jobs.dou.ua/companies/solid/vacancies/132145/",
     "tags": [
       "ukraine",
       "finances"
+    ]
+  },
+  {
+    "name": "Skelia",
+    "link": "https://www.skelia.com",
+    "logo": "logo-skelia.png",
+    "logoWidth": "100px",
+    "description": "a global IT company providing software development, quality assurance, consulting and outsourcing services",
+    "source": "https://rubrain.com/profile/EoZznxo",
+    "tags": [
+      "ukraine",
+      "europe",
+      "it"
     ]
   },
   {

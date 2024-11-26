@@ -942,6 +942,19 @@
     ]
   },
   {
+    "name": "Bereke bank",
+    "link": "https://berekebank.kz/ru",
+    "logo": "logo-berekebank.svg",
+    "logoWidth": "200px",
+    "description": "казахстанский коммерческий банк",
+    "source": "https://rubrain.com/profile/d4zrPV4",
+    "tags": [
+      "kazakhstan",
+      "asia",
+      "finances"
+    ]
+  },
+  {
     "name": "Newmax Technologies",
     "link": "https://career.habr.com/companies/newmax-url",
     "logo": "logo-newmax.jpeg",

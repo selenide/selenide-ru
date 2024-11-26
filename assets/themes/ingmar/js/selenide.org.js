@@ -48,7 +48,6 @@
 
   let timeouts = []
   function filterUsersByTag(tag) {
-    resetUsersFilter()
     let i = 0
     timeouts.forEach(timeout => clearTimeout(timeout))
     timeouts = []

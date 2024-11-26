@@ -27,19 +27,21 @@ header-text:
     {% for user in site.data.users %}
       {% if user.name != '' %}
         <div class="user {% for tag in user.tags %} {{ tag }}{% endfor %}">
-          <div class="user-logo">
-            <a href="{{ user.link }}" target="_blank">
-              <img src="{{ BASE_PATH }}/images/{{ user.logo }}" alt="{{ user.name }}" {% if user.logoWidth %}width="{{ user.logoWidth }}"{% endif %}/>
-            </a>
-          </div>
-          <div class="user-description">
-            <a href="{{ user.link }}" target="_blank">{{ user.name }}</a> - {{ user.description }}
-            <div class="user-tags">
-              {% for tag in user.tags %} <span class="tag">/ {{ tag }}</span> {% endfor %}
+          <div class="row">
+            <div class="user-logo">
+              <a href="{{ user.link }}" target="_blank">
+                <img src="{{ BASE_PATH }}/images/{{ user.logo }}" alt="{{ user.name }}" {% if user.logoWidth %}width="{{ user.logoWidth }}"{% endif %}/>
+              </a>
+            </div>
+            <div class="user-description">
+              <a href="{{ user.link }}" target="_blank">{{ user.name }}</a> - {{ user.description }}
+              <div class="user-tags">
+                {% for tag in user.tags %} <span class="tag">/ {{ tag }}</span> {% endfor %}
+              </div>
             </div>
           </div>
+          <hr class="divider"/>
         </div>
-        <hr class="divider"/>
       {% endif %}
     {% endfor %}
 

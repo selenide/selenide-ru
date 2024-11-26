@@ -591,7 +591,10 @@ hr.divider {
   background-color: inherit;
 }
 
-#selenide-users .user {
+#selenide-users {
+  min-height: 300px;
+}
+#selenide-users .user .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -603,11 +606,11 @@ hr.divider {
   margin-top: 20px;
 }
 
-#selenide-users .user .user-description .user-tags {
+#selenide-users .user .user-tags {
   margin-top: 20px;
 }
 
-#selenide-users .user .user-description .user-tags .tag {
+#selenide-users .user .user-tags .tag {
   margin-left: 10px;
   color: #92AC69;
 }

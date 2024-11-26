@@ -1264,9 +1264,11 @@
     "link": "https://codeborne.com/ru/",
     "logo": "codeborne-logo-small.png",
     "logoWidth": "240px",
-    "description": "Единственная софтверная компания в Эстонии, использующая TDD и другие практики XP от звонка до звонка. Создатели open-source библиотек <a href=\"http://ru.selenide.org\">Selenide</a>, <a href=\"http://github.com/codeborne/mobileid\" target=\"_blank\">MobileID</a> и др.",
+    "description": "Единственная софтверная компания в Эстонии, использующая TDD и другие практики XP от звонка до звонка. Создатели open-source библиотек <a href=\"http://ru.selenide.org\">Selenide</a>, <a href=\"http://github.com/codeborne/pdf-test\" target=\"_blank\">pdf-test</a> и др.",
     "tags": [
       "estonia",
+      "europe",
+      "france",
       "it"
     ]
   }

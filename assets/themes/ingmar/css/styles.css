@@ -591,8 +591,25 @@ hr.divider {
   background-color: inherit;
 }
 
-.user .user-description {
+#selenide-users .user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#selenide-users .user .user-description {
   text-align: right;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+#selenide-users .user .user-description .user-tags {
+  margin-top: 20px;
+}
+
+#selenide-users .user .user-description .user-tags .tag {
+  margin-left: 10px;
+  color: #92AC69;
 }
 
 #user-tags {

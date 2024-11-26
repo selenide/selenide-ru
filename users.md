@@ -34,9 +34,12 @@ header-text:
           </div>
           <div class="user-description">
             <a href="{{ user.link }}" target="_blank">{{ user.name }}</a> - {{ user.description }}
+            <div class="user-tags">
+              {% for tag in user.tags %} <span class="tag">/ {{ tag }}</span> {% endfor %}
+            </div>
           </div>
-          <hr class="divider"/>
         </div>
+        <hr class="divider"/>
       {% endif %}
     {% endfor %}
 

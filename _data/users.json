@@ -432,6 +432,18 @@
     ]
   },
   {
+    "name": "ВТБ Банк",
+    "link": "https://www.vtb.ru/",
+    "logo": "logo-vtb-bank.svg",
+    "logoWidth": "120px",
+    "description": "российский универсальный коммерческий банк c государственным участием",
+    "source": "https://rubrain.com/profile/v6mxzj4",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "T1 Cloud",
     "link": "https://t1-cloud.ru",
     "logo": "logo-t1-cloud.svg",

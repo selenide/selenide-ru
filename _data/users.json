@@ -4,7 +4,10 @@
     "link": "",
     "logo": "",
     "logoWidth": "px",
-    "description": ""
+    "description": "",
+    "source": "",
+    "tags": [
+    ]
   },
   {
     "name": "Dell Technologies",
@@ -582,6 +585,18 @@
       "usa",
       "global",
       "russia"
+    ]
+  },
+  {
+    "name": "ntile",
+    "link": "https://ntile.app/user/login",
+    "logo": "logo-ntile.svg",
+    "logoWidth": "180px",
+    "description": "collaborative cloud work with text documents and interactive tables",
+    "source": "https://rubrain.com/profile/EoZznxo",
+    "tags": [
+      "ukraine",
+      "it"
     ]
   },
   {

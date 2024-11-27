@@ -60,7 +60,7 @@ a small {
 }
 
 .wrapper {
-  width: clamp(128px, 99vw, 1180px);
+  width: clamp(128px, 99%, 1180px);
   margin: 0 auto;
 }
 
@@ -72,7 +72,7 @@ a small {
 }
 
 .wrapper-content {
-  width: clamp(100px, 99vw, 776px);
+  width: clamp(100px, 99%, 776px);
   padding-top: 1px;
   padding-bottom: 30px;
   margin: 0 auto;
@@ -554,7 +554,7 @@ footer div {
 }
 
 hr.divider {
-  width: 40%;
+  width: 70%;
   height: 2px;
   text-align: center;
   margin: 30px auto;
@@ -594,10 +594,17 @@ hr.divider {
 #selenide-users {
   min-height: 300px;
 }
+
 #selenide-users .user .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  #selenide-users .user .row {
+    flex-direction: column;
+  }
 }
 
 #selenide-users .user .user-description {

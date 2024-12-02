@@ -104,6 +104,21 @@
     ]
   },
   {
+    "name": "Proxet",
+    "link": "https://www.proxet.com/",
+    "logo": "logo-proxet.svg",
+    "logoWidth": "200px",
+    "description": "Разработка веб-сайтов, мобильных приложений и программного обеспечения",
+    "source": "https://nation.proxet.com/careers/senior-qa-ba-engineer-4",
+    "tags": [
+      "ukraine",
+      "poland",
+      "europe",
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "SecureOffice",
     "link": "https://secureoffice.com/",
     "logo": "logo-secure-office.svg",

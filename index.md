@@ -5,7 +5,7 @@ tagline:
 show_news: true
 ---
 {% include JB/setup %}
-{% include donate %}
+{% include donate.md %}
 
 <div class="short wiki">
 <div class="wrapper-color-content">

@@ -528,12 +528,15 @@ footer div {
   padding: 1px 7px 1px 7px;
 }
 
-#languages {
+.service-links #languages  {
   float: right;
-}
 
-#languages a:hover {
-  color: #46A3D1;
+  a {
+    color: #888;
+  }
+  a:hover {
+    color: #46A3D1;
+  }
 }
 
 .green {

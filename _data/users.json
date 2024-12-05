@@ -66,6 +66,21 @@
     ]
   },
   {
+    "name": "Deloitte Consulting",
+    "link": "https://www.deloitte.com/",
+    "logo": "logo-deloitte.png",
+    "logoWidth": "160px",
+    "description": "Business Consulting and Services",
+    "source": "https://www.linkedin.com/in/varun-bali-891b1985/",
+    "tags": [
+      "it",
+      "usa",
+      "canada",
+      "india",
+      "asia"
+    ]
+  },
+  {
     "name": "Alpega Group",
     "link": "https://www.alpegagroup.com",
     "logo": "logo-alpega.png.webp",

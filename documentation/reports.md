@@ -133,6 +133,9 @@ public class MyTest {
 
 См. пример проекта [Selenide+Allure](https://github.com/selenide-examples/selenide-allure-junit)
 
+NB! Метод `SelenideLogger.addListener` должен быть вызван в том же потоке, в котором и сам тест. 
+Некоторые тестовые фреймворки могут вызывать методы `@BeforeAll` и `@Test` в разных потоках - тогда ваш листенер не будет ловить события из теста.
+В таких случаях, возможно, стоит перенести вышеуказанный блок в метод `@Before` или даже `@Test`.
 
 <br/>
 <br/>

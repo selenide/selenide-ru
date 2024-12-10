@@ -223,6 +223,21 @@
     ]
   },
   {
+    "name": "Elinext",
+    "link": "https://www.elinext.com/",
+    "logo": "logo-elinext.png",
+    "logoWidth": "180px",
+    "description": "Software Development Company",
+    "source": "https://rubrain.com/profile/goQBwQ9",
+    "tags": [
+      "usa",
+      "asia",
+      "europe",
+      "poland",
+      "it"
+    ]
+  },
+  {
     "name": "Transaction Junction",
     "link": "https://transactionjunction.co.za/",
     "logo": "logo-transaction-junction.png",

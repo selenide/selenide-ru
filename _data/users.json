@@ -400,6 +400,20 @@
     ]
   },
   {
+    "name": "VEON",
+    "link": "https://www.veon.com/",
+    "logo": "logo-veon.svg",
+    "logoWidth": "200px",
+    "description": "a global digital operator with ~160 million customers",
+    "source": "https://rubrain.com/profile/e9q2xa4",
+    "tags": [
+      "europe",
+      "netherlands",
+      "ukraine",
+      "asia"
+    ]
+  },
+  {
     "name": "TBC",
     "link": "https://www.tbcbank.ge/web/en/web/guest/personal-banking",
     "logo": "logo-tbc-bank.png",

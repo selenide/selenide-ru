@@ -78,6 +78,20 @@
     ]
   },
   {
+    "name": "Capgemini",
+    "link": "https://www.capgemini.com/",
+    "logo": "logo-capgemini.png",
+    "logoWidth": "240px",
+    "description": "одна из крупнейших в мире консалтинговых компаний в сфере менеджмента и IT",
+    "source": "https://app.theirstack.com/home?search-company=Capgemini",
+    "tags": [
+      "it",
+      "global",
+      "europe",
+      "usa"
+    ]
+  },
+  {
     "name": "Deloitte Consulting",
     "link": "https://www.deloitte.com/",
     "logo": "logo-deloitte.png",

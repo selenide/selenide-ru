@@ -66,6 +66,18 @@
     ]
   },
   {
+    "name": "Natera",
+    "link": "https://www.natera.com/",
+    "logo": "logo-natera.svg",
+    "logoWidth": "200px",
+    "description": "A global leader in cell-free DNA testing",
+    "source": "https://rubrain.com/profile/J95rbY4",
+    "tags": [
+      "usa",
+      "healthcare"
+    ]
+  },
+  {
     "name": "Deloitte Consulting",
     "link": "https://www.deloitte.com/",
     "logo": "logo-deloitte.png",

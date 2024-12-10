@@ -858,10 +858,25 @@
     ]
   },
   {
+    "name": "Uptempo",
+    "link": "https://www.uptempo.io/",
+    "logo": "logo-uptempo.svg",
+    "logoWidth": "180px",
+    "description": "Marketing operations software",
+    "source": "https://rubrain.com/profile/Q9NBmE9",
+    "tags": [
+      "canada",
+      "europe",
+      "germany",
+      "bulgaria",
+      "russia"
+    ]
+  },
+  {
     "name": "UBS AG",
     "link": "https://www.ubs.com/global/en.html",
     "logo": "ubs-logo.png",
-    "logoWidth": "200px",
+    "logoWidth": "180px",
     "description": "крупнейший швейцарский финансовый холдинг, предоставляющий различные финансовые услуги по всему миру.",
     "tags": [
       "europe",

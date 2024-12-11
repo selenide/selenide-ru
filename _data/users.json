@@ -79,6 +79,19 @@
     ]
   },
   {
+    "name": "Inrad Optics",
+    "link": "https://www.inradoptics.com/",
+    "logo": "logo-inrad-optics.jpeg",
+    "logoWidth": "190px",
+    "description": "Advanced optical materials / Defense and Space Manufacturing",
+    "source": "https://app.theirstack.com/home?search-company=Inrad%20Optics",
+    "tags": [
+      "usa",
+      "technology",
+      "military"
+    ]
+  },
+  {
     "name": "Natera",
     "link": "https://www.natera.com/",
     "logo": "logo-natera.svg",
@@ -101,6 +114,7 @@
       "it",
       "global",
       "europe",
+      "france",
       "usa"
     ]
   },

@@ -66,6 +66,19 @@
     ]
   },
   {
+    "name": "BlaBlaCar",
+    "link": "",
+    "logo": "logo-blablacar.png",
+    "logoWidth": "120px",
+    "description": "крупнейший в мире международный онлайн-сервис поиска автомобильных попутчиков",
+    "source": "https://app.theirstack.com/home?search-company=BlaBlaCar",
+    "tags": [
+      "france",
+      "europe",
+      "global"
+    ]
+  },
+  {
     "name": "Natera",
     "link": "https://www.natera.com/",
     "logo": "logo-natera.svg",

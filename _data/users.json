@@ -88,7 +88,8 @@
     "tags": [
       "usa",
       "technology",
-      "military"
+      "military",
+      "manufacturing"
     ]
   },
   {
@@ -111,7 +112,20 @@
     "description": "производство специальных стекол, керамики и передовой оптики для промышленного и научного применения",
     "source": "https://app.theirstack.com/home?search-company=Corning",
     "tags": [
-      "usa"
+      "usa",
+      "manufacturing"
+    ]
+  },
+  {
+    "name": "Luxium Solutions",
+    "link": "https://luxiumsolutions.com/",
+    "logo": "logo-luxium.svg",
+    "logoWidth": "200px",
+    "description": "a worldwide technology leader and provider of high-performance crystals used in photonics and radiation detection applications",
+    "source": "https://app.theirstack.com/home?search-company=Luxium%20Solutions,%20LLC",
+    "tags": [
+      "usa",
+      "manufacturing"
     ]
   },
   {

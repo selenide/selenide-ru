@@ -104,6 +104,17 @@
     ]
   },
   {
+    "name": "Corning",
+    "link": "https://www.corning.com/worldwide/en.html",
+    "logo": "logo-corning.png",
+    "logoWidth": "180px",
+    "description": "производство специальных стекол, керамики и передовой оптики для промышленного и научного применения",
+    "source": "https://app.theirstack.com/home?search-company=Corning",
+    "tags": [
+      "usa"
+    ]
+  },
+  {
     "name": "Capgemini",
     "link": "https://www.capgemini.com/",
     "logo": "logo-capgemini.png",

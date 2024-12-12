@@ -388,6 +388,19 @@
     ]
   },
   {
+    "name": "Unlimit",
+    "link": "https://www.unlimit.com/",
+    "logo": "logo-unlimit.svg",
+    "logoWidth": "140px",
+    "description": "global payment infrastructure for eCommerce",
+    "source": "https://app.theirstack.com/home?search-company=Unlimint",
+    "tags": [
+      "britain",
+      "finances",
+      "it"
+    ]
+  },
+  {
     "name": "SavvyMatics",
     "link": "https://savvymatics.com/",
     "logo": "logo-savvy-matics.jpeg",

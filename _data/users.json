@@ -141,6 +141,17 @@
     ]
   },
   {
+    "name": "Wiley",
+    "link": "https://www.wiley.com/",
+    "logo": "logo-wiley.svg",
+    "logoWidth": "160px",
+    "description": "международное издательство, специализируется на выпуске академических изданий для студентов и преподавателей высших учебных заведений, исследователей, учёных, медиков.",
+    "source": "https://app.theirstack.com/home?search-company=Wiley",
+    "tags": [
+      "usa"
+    ]
+  },
+  {
     "name": "Grid Dynamics",
     "link": "https://www.griddynamics.com/",
     "logo": "logo-grid-dynamics.svg",

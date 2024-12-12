@@ -1293,6 +1293,19 @@
     ]
   },
   {
+    "name": "STRABAG",
+    "link": "https://www.strabag.com/",
+    "logo": "logo-strabag.png",
+    "logoWidth": "160px",
+    "description": "публичная австрийская строительная компания, один из самых крупных строительных концернов Европы.",
+    "source": "https://app.theirstack.com/home?search-company=STRABAG",
+    "tags": [
+      "austria",
+      "europe",
+      "building"
+    ]
+  },
+  {
     "name": "Soramitsu",
     "link": "https://soramitsu.co.jp/ru",
     "logo": "logo-soramitsu.svg",

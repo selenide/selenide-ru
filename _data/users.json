@@ -1256,6 +1256,19 @@
       ]
   },
   {
+    "name": "Deutsche Bank",
+    "link": "https://www.db.com",
+    "logo": "logo-deutsche-bank.png",
+    "logoWidth": "160px",
+    "description": "крупнейший финансовый конгломерат Германии",
+    "source": "",
+    "tags": [
+      "europe",
+      "germany",
+      "finances"
+    ]
+  },
+  {
     "name": "Bergmann Infotech",
     "link": "https://bergmann-infotech.de/en/homepage/",
     "logo": "logo-bergman-infotech.svg",

@@ -375,10 +375,23 @@
     ]
   },
   {
+    "name": "CGI",
+    "link": "https://www.cgi.com/",
+    "logo": "logo-cgi.jpeg",
+    "logoWidth": "100px",
+    "description": "one of the largest IT and business consulting services firms in the world",
+    "source": "https://app.theirstack.com/home?search-company=CGI",
+    "tags": [
+      "canada",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "SavvyMatics",
     "link": "https://savvymatics.com/",
     "logo": "logo-savvy-matics.jpeg",
-    "logoWidth": "140px",
+    "logoWidth": "110px",
     "description": "Разработка мобильных и веб продуктов (Канада, Россия)",
     "source": "https://savvymatics.com/qa-engineer-bank-a",
     "tags": [

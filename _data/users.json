@@ -236,6 +236,19 @@
     ]
   },
   {
+    "name": "GoHealth",
+    "link": "https://www.gohealth.com/",
+    "logo": "logo-go-health.png",
+    "logoWidth": "180px",
+    "description": "marketplace for Medicare plans and health insurance",
+    "source": "https://app.theirstack.com/home?search-company=GoHealth",
+    "tags": [
+      "usa",
+      "healthcare",
+      "insurance"
+    ]
+  },
+  {
     "name": "Virtual Health",
     "link": "https://www.virtualhealth.com/",
     "logo": "logo-virtual-health.png",

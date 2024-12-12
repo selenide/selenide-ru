@@ -197,6 +197,18 @@
     ]
   },
   {
+    "name": "AlphaSense",
+    "link": "https://www.alpha-sense.com/",
+    "logo": "logo-alpha-sense.svg",
+    "logoWidth": "200px",
+    "description": "The market intelligence solution for leading consulting companies",
+    "source": "https://app.theirstack.com/home?search-company=AlphaSense",
+    "tags": [
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "Proxet",
     "link": "https://www.proxet.com/",
     "logo": "logo-proxet.svg",

@@ -67,7 +67,7 @@
   },
   {
     "name": "BlaBlaCar",
-    "link": "",
+    "link": "https://www.blablacar.com/",
     "logo": "logo-blablacar.png",
     "logoWidth": "120px",
     "description": "крупнейший в мире международный онлайн-сервис поиска автомобильных попутчиков",
@@ -126,6 +126,18 @@
     "tags": [
       "usa",
       "manufacturing"
+    ]
+  },
+  {
+    "name": "CPS Energy",
+    "link": "https://www.cpsenergy.com/",
+    "logo": "logo-cps-energy.svg",
+    "logoWidth": "200px",
+    "description": "муниципальная электроэнергетическая компания, Сан-Антонио, Техас.",
+    "source": "https://app.theirstack.com/home?search-company=CPS%20Energy",
+    "tags": [
+      "usa",
+      "resources"
     ]
   },
   {

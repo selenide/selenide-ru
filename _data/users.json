@@ -1295,6 +1295,20 @@
     ]
   },
   {
+    "name": "Rhenus Group",
+    "link": "https://www.rhenus.group/",
+    "logo": "logo-rhenus-logistics.webp",
+    "logoWidth": "200px",
+    "description": "международный поставщик логистических услуг, Германия. Филиалы в Европе, Индии, Америке, Азии, Африке и Океании.",
+    "source": "https://app.theirstack.com/home?search-company=Rhenus%20Group",
+    "tags": [
+      "europe",
+      "germany",
+      "global",
+      "logistics"
+    ]
+  },
+  {
     "name": "Bergmann Infotech",
     "link": "https://bergmann-infotech.de/en/homepage/",
     "logo": "logo-bergman-infotech.svg",

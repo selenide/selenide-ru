@@ -1282,6 +1282,19 @@
     ]
   },
   {
+    "name": "Deutsche Telekom",
+    "link": "https://www.telekom.com/",
+    "logo": "logo-deutsche-telekom.jpeg",
+    "logoWidth": "120px",
+    "description": "немецкая телекоммуникационная компания, крупнейшая в Европе и четвёртая в мире.",
+    "source": "https://app.theirstack.com/home?search-company=Deutsche%20Telekom",
+    "tags": [
+      "europe",
+      "germany",
+      "telecom"
+    ]
+  },
+  {
     "name": "Bergmann Infotech",
     "link": "https://bergmann-infotech.de/en/homepage/",
     "logo": "logo-bergman-infotech.svg",

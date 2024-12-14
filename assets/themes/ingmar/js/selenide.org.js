@@ -89,6 +89,14 @@
     })
   }
 
+  function shuffleUsers() {
+    const users = Array.from(document.querySelectorAll('#selenide-users .user'))
+    for (let i = 2; i < users.length; i++) {
+      const index = Math.floor(Math.random() * i);
+      users[index].parentNode.insertBefore(users[index], users[i]);
+    }
+  }
+
   function showRandomUser() {
     if (timeouts.length > 0) return
 
@@ -103,5 +111,6 @@
   showNews();
   showVideosInPopup();
   setupUserFilter();
+  shuffleUsers();
   showRandomUser();
 })();

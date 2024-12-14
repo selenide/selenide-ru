@@ -270,6 +270,19 @@
     ]
   },
   {
+    "name": "Rohlik Group",
+    "link": "https://www.rohlik.group/",
+    "logo": "logo-rohlik-group.svg",
+    "logoWidth": "100px",
+    "description": "европейский лидер в области технологий электронной торговли продуктами питания",
+    "source": "https://app.theirstack.com/home?search-company=Rohlik%20Group",
+    "tags": [
+      "czech",
+      "europe",
+      "food"
+    ]
+  },
+  {
     "name": "Proxet",
     "link": "https://www.proxet.com/",
     "logo": "logo-proxet.svg",

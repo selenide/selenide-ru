@@ -258,6 +258,18 @@
     ]
   },
   {
+    "name": "Inter Cars S.A.",
+    "link": "https://intercars.com/en",
+    "logo": "logo-inter-cars.webp",
+    "logoWidth": "160px",
+    "description": "ведущий дистрибьютор автомобильных запчастей в Центральной и Восточной Европе",
+    "source": "https://app.theirstack.com/home?search-company=Inter%20Cars%20S.A.",
+    "tags": [
+      "poland",
+      "europe"
+    ]
+  },
+  {
     "name": "Proxet",
     "link": "https://www.proxet.com/",
     "logo": "logo-proxet.svg",

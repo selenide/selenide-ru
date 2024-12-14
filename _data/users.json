@@ -119,6 +119,19 @@
     ]
   },
   {
+    "name": "Brüel & Kjær",
+    "link": "https://www.hbkworld.com/",
+    "logo": "logo-bruel-and-kaer.jpeg",
+    "logoWidth": "100px",
+    "description": "a Danish engineering and electronics company. It was the largest producer in the world of equipment for acoustic and vibrational measurements.",
+    "source": "https://theirstack.com/en/technology/selenide/dk",
+    "tags": [
+      "denmark",
+      "europe",
+      "manufacturing"
+    ]
+  },
+  {
     "name": "Corning",
     "link": "https://www.corning.com/worldwide/en.html",
     "logo": "logo-corning.png",

@@ -46,6 +46,13 @@
     forEach('#selenide-users .user', handler)
   }
 
+  function showUser(element) {
+    element.classList.remove("hidden")
+  }
+  function hideUser(element) {
+    element.classList.add("hidden")
+  }
+
   let timeouts = []
   function filterUsersByTag(tag) {
     let i = 0
@@ -53,9 +60,9 @@
     timeouts = []
 
     forEachTag(element => {
-      element.classList.add("hidden")
+      hideUser(element)
       if (element.classList.contains(tag)) {
-        timeouts.push(setTimeout(() => element.classList.remove("hidden"), i))
+        timeouts.push(setTimeout(() => showUser(element), i))
         i += 100
       }
     })
@@ -63,7 +70,7 @@
 
   function resetUsersFilter() {
     forEachTag(element => {
-      element.classList.remove("hidden");
+      showUser(element);
     })
   }
 
@@ -82,8 +89,19 @@
     })
   }
 
+  function showRandomUser() {
+    if (timeouts.length > 0) return
+
+    const users = Array.from(document.querySelectorAll('#selenide-users .user'))
+    const index = Math.floor(Math.random() * users.length);
+    showUser(users[index])
+    setTimeout(() => hideUser(users[index]), 5050)
+    setTimeout(showRandomUser, 5000)
+  }
+
   setupLanguageSelector();
   showNews();
   showVideosInPopup();
   setupUserFilter();
+  showRandomUser();
 })();

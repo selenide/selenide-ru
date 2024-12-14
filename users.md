@@ -26,7 +26,7 @@ header-text:
 
     {% for user in site.data.users %}
       {% if user.name != '' %}
-        <div class="user {% for tag in user.tags %} {{ tag }}{% endfor %}">
+        <div class="user hidden {% for tag in user.tags %} {{ tag }}{% endfor %}">
           <div class="row">
             <div class="user-logo">
               <a href="{{ user.link }}" target="_blank">

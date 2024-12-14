@@ -79,6 +79,20 @@
     ]
   },
   {
+    "name": "Embention",
+    "link": "https://embention.com/",
+    "logo": "logo-embention.jpeg",
+    "logoWidth": "220px",
+    "description": "производитель автопилотов и компонентов авионики для БПЛА",
+    "source": "https://app.theirstack.com/home?search-company=Embention",
+    "tags": [
+      "spain",
+      "europe",
+      "military",
+      "manufacturing"
+    ]
+  },
+  {
     "name": "Inrad Optics",
     "link": "https://www.inradoptics.com/",
     "logo": "logo-inrad-optics.jpeg",

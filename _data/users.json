@@ -493,6 +493,19 @@
     ]
   },
   {
+    "name": "BetterMe",
+    "link": "https://betterme.world/",
+    "logo": "logo-better-me.png",
+    "logoWidth": "220px",
+    "description": "Health Coaching and Mental Health",
+    "source": "https://app.theirstack.com/home?search-company=BetterMe",
+    "tags": [
+      "ukraine",
+      "europe",
+      "healthcare"
+    ]
+  },
+  {
     "name": "River soft",
     "link": "https://river-soft.net/",
     "logo": "logo-river-soft.png",
@@ -1084,6 +1097,7 @@
     "logoWidth": "180px",
     "description": "крупнейший швейцарский финансовый холдинг, предоставляющий различные финансовые услуги по всему миру.",
     "tags": [
+      "switzerland",
       "europe",
       "finances"
     ]
@@ -1251,6 +1265,8 @@
     "tags": [
       "it",
       "russia",
+      "switzerland",
+      "europe",
       "global"
     ]
   },

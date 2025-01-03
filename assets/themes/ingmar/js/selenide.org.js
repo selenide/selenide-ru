@@ -99,10 +99,12 @@
     if (timeouts.length > 0) return
 
     const users = Array.from(document.querySelectorAll('#selenide-users .user'))
-    const index = Math.floor(Math.random() * users.length);
-    showUser(users[index])
-    setTimeout(() => hideUser(users[index]), 5050)
-    setTimeout(showRandomUser, 5000)
+    if (users.length) {
+      const index = Math.floor(Math.random() * users.length);
+      showUser(users[index])
+      setTimeout(() => hideUser(users[index]), 5050)
+      setTimeout(showRandomUser, 5000)
+    }
   }
 
   setupLanguageSelector();

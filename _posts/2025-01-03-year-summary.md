@@ -116,6 +116,14 @@ tags: []
 {: .after-list-right }
 &nbsp;
 
+#### Amuthan Sakthivel:
+
+{: .list-right }
+- Презентация [Mutated Java Appium Client - Selenide Appium](https://www.youtube.com/watch?v=C8rUqOUhxIo&ab_channel=ConfEngine) на AppiumConf 2024 
+
+{: .after-list-right }
+&nbsp;
+
 
 Ревью пулреквестов, критика изменений, описание багов - это большая работа на самом деле!  
 Эта работа незаметна, но важна. 
@@ -178,10 +186,11 @@ ru.selenide.org
 <style>
   .blog_post_content h4 {
     float: left;
+    max-width: clamp(100px, 20vw, 200px);
   }
   .blog_post_content .list-right {
     float: right;
-    width: 29vw;
+    width: clamp(100px, 32vw, 300px);
   }
   .blog_post_content .after-list-right {
     clear: both;

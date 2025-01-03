@@ -77,14 +77,12 @@
   function setupUserFilter() {
     forEach('#user-tags .tag', element => {
       element.addEventListener("click", (e) => {
-        e.preventDefault()
         filterUsersByTag(element.text)
       })
     })
     forEach('#user-tags .reset-filter', element => {
       element.addEventListener("click", (e) => {
-        e.preventDefault()
-        resetUsersFilter(element.text)
+        resetUsersFilter()
       })
     })
   }
@@ -112,5 +110,13 @@
   showVideosInPopup();
   setupUserFilter();
   shuffleUsers();
-  showRandomUser();
+  if (location.hash === '#all') {
+    resetUsersFilter()
+  }
+  else if (location.hash) {
+    filterUsersByTag(location.hash.substring(1));
+  }
+  else {
+    showRandomUser();
+  }
 })();

@@ -14,9 +14,9 @@ header-text:
 
 <div class="wrapper">
   <div id="user-tags">
-    <a href="#" class="reset-filter">all</a>
+    <a href="#all" class="reset-filter">all</a>
     {% for tag in site.data.user-tags %}
-      | <a href="#" class="tag">{{ tag }}</a>
+      | <a href="#{{tag}}" class="tag">{{ tag }}</a>
     {% endfor %}
   </div>
 </div>

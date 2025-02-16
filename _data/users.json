@@ -296,6 +296,19 @@
     ]
   },
   {
+    "name": "Credit Dnipro Bank",
+    "link": "http://www.creditdnepr.com.ua",
+    "logo": "logo-credit-dnepr-bank.jpeg",
+    "logoWidth": "170px",
+    "description": "Украинский коммерческий банк, в TOP-17 финансовых учреждений по размеру активов.",
+    "source": "https://www.linkedin.com/in/mykhailo-ishchuk-64581423a/",
+    "tags": [
+      "ukraine",
+      "finances",
+      "it"
+    ]
+  },
+  {
     "name": "Proxet",
     "link": "https://www.proxet.com/",
     "logo": "logo-proxet.svg",

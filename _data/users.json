@@ -1115,6 +1115,20 @@
     ]
   },
   {
+    "name": "Xceptance",
+    "link": "https://www.xceptance.com/en/products/",
+    "logo": "logo-xceptance.svg",
+    "logoWidth": "200px",
+    "description": "тестирование и контроль качества ПО. Создатели Neodymium - платформы автоматизации тестирования с открытым исходным кодом на основе Selenide.",
+    "source": "https://www.xceptance.com/en/products/neodymium/",
+    "tags": [
+      "europe",
+      "germany",
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "Uptempo",
     "link": "https://www.uptempo.io/",
     "logo": "logo-uptempo.svg",

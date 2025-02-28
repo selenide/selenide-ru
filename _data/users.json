@@ -1591,6 +1591,21 @@
     ]
   },
   {
+    "name": "Nortal",
+    "link": "https://nortal.com/",
+    "logo": "logo-nortal.png",
+    "logoWidth": "180px",
+    "description": "Многонациональная компания, занимающаяся стратегическими изменениями и технологиями, со штаб-квартирой в Эстонии и операциями в США, Европе, на Ближнем Востоке и в Африке.",
+    "source": "https://www.linkedin.com/in/karltiirik",
+    "tags": [
+      "estonia",
+      "europe",
+      "usa",
+      "africa",
+      "it"
+    ]
+  },
+  {
     "name": "Gilbarco Autotank",
     "link": "https://www.gilbarco.com/eu/",
     "logo": "gilbarco-autotank-logo.jpg",

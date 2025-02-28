@@ -1692,6 +1692,18 @@
     ]
   },
   {
+    "name": "Rouge Wave Software",
+    "link": "http://www.roguewave.com",
+    "logo": "logo-rogue-wave.jpeg",
+    "logoWidth": "120px",
+    "description": "Everything to write, test, and run complex code: from cloud-based-services to native platform applications to portable software libraries.",
+    "source": "https://www.linkedin.com/in/karltiirik/",
+    "tags": [
+      "usa",
+      "it"
+    ]
+  },
+  {
     "name": "Банк Санкт-Петербург",
     "link": "https://i.bspb.ru/home",
     "logo": "bspb_logo.jpg",

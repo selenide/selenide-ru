@@ -1617,6 +1617,17 @@
     ]
   },
   {
+    "name": "Ettevõtluskeskus",
+    "link": "https://www.ettevotluskeskus.ee/",
+    "logo": "logo-evk.jpg",
+    "logoWidth": "160px",
+    "description": "Бизнес-консультации, обучение, рекомендации по финансированию и налаживание связей для предпринимателей и малого бизнеса",
+    "tags": [
+      "estonia",
+      "education"
+    ]
+  },
+  {
     "name": "УБРиР",
     "link": "https://www.ubrr.ru",
     "logo": "ubrr-logo.jpeg",

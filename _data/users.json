@@ -1364,6 +1364,19 @@
       ]
   },
   {
+    "name": "Arrival",
+    "link": "https://arrival.com/",
+    "logo": "logo-arrival.png",
+    "logoWidth": "180px",
+    "description": "британский производитель электромобилей",
+    "source": "https://app.theirstack.com/home?search-company=Arrival",
+    "tags": [
+      "europe",
+      "united-kingdom",
+      "logistics"
+    ]
+  },
+  {
     "name": "Deutsche Bank",
     "link": "https://www.db.com",
     "logo": "logo-deutsche-bank.png",

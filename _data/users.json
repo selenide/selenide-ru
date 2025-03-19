@@ -1377,6 +1377,24 @@
     ]
   },
   {
+    "name": "Ciklum",
+    "link": "https://www.ciklum.com/",
+    "logo": "logo-ciklum.webp",
+    "logoWidth": "200px",
+    "description": "a globally recognized provider of software engineering services. Founded in Denmark, headquarters to London.",
+    "source": "https://jobitt.com/job-openings/senior-automation-qa-java-engineer-3852",
+    "tags": [
+      "europe",
+      "denmark",
+      "united-kingdom",
+      "ukraine",
+      "belarus",
+      "poland",
+      "spain",
+      "it"
+    ]
+  },
+  {
     "name": "Deutsche Bank",
     "link": "https://www.db.com",
     "logo": "logo-deutsche-bank.png",

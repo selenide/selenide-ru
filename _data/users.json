@@ -532,6 +532,18 @@
     ]
   },
   {
+      "name": "Prosper Funding LLC",
+      "link": "https://www.prosper.com/",
+      "logo": "logo-prosper.png",
+      "logoWidth": "180px",
+      "description": "Personal Loans & Other Online Financial Solutions / San Francisco",
+      "source": "https://smartbrain.io/profile/R6AZQbo",
+      "tags": [
+        "usa",
+        "finances"
+      ]
+    },
+  {
     "name": "BetterMe",
     "link": "https://betterme.world/",
     "logo": "logo-better-me.png",

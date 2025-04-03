@@ -1,6 +1,7 @@
 [
   {
     "name": "",
+    "id": "",
     "link": "",
     "logo": "",
     "logoWidth": "px",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Dell Technologies",
+    "id": "dell",
     "link": "https://www.dell.com/",
     "logo": "logo-dell.svg.png",
     "logoWidth": "96px",
@@ -22,6 +24,7 @@
   },
   {
     "name": "MasterCard",
+    "id": "mastercard",
     "link": "https://www.mastercard.us/",
     "logo": "logo-mastercard.svg",
     "logoWidth": "160px",
@@ -33,6 +36,7 @@
   },
   {
     "name": "IBM",
+    "id": "ibm",
     "link": "https://www.ibm.com/us-en/",
     "logo": "ibm-logo.jpeg",
     "logoWidth": "140px",
@@ -44,6 +48,7 @@
   },
   {
     "name": "General Electric",
+    "id": "general-electric",
     "link": "https://www.ge.com/",
     "logo": "logo-general-electric.png",
     "logoWidth": "160px",
@@ -56,6 +61,7 @@
   },
   {
     "name": "Google",
+    "id": "google",
     "link": "https://en.wikipedia.org/wiki/Google",
     "logo": "logo-google.png",
     "description": "an American multinational technology company that focuses on artificial intelligence, search engine, online advertising, cloud computing etc.",
@@ -67,6 +73,7 @@
   },
   {
     "name": "BlaBlaCar",
+    "id": "bla-bla-car",
     "link": "https://www.blablacar.com/",
     "logo": "logo-blablacar.png",
     "logoWidth": "120px",
@@ -80,6 +87,7 @@
   },
   {
     "name": "Embention",
+    "id": "embention",
     "link": "https://embention.com/",
     "logo": "logo-embention.jpeg",
     "logoWidth": "220px",
@@ -94,6 +102,7 @@
   },
   {
     "name": "Inrad Optics",
+    "id": "inrad-optics",
     "link": "https://www.inradoptics.com/",
     "logo": "logo-inrad-optics.jpeg",
     "logoWidth": "190px",
@@ -108,6 +117,7 @@
   },
   {
     "name": "Natera",
+    "id": "natera",
     "link": "https://www.natera.com/",
     "logo": "logo-natera.svg",
     "logoWidth": "200px",
@@ -120,6 +130,7 @@
   },
   {
     "name": "Brüel & Kjær",
+    "id": "bruel-and-kaer",
     "link": "https://www.hbkworld.com/",
     "logo": "logo-bruel-and-kaer.jpeg",
     "logoWidth": "100px",
@@ -133,6 +144,7 @@
   },
   {
     "name": "Corning",
+    "id": "corning",
     "link": "https://www.corning.com/worldwide/en.html",
     "logo": "logo-corning.png",
     "logoWidth": "180px",
@@ -145,6 +157,7 @@
   },
   {
     "name": "Luxium Solutions",
+    "id": "luxium-solutions",
     "link": "https://luxiumsolutions.com/",
     "logo": "logo-luxium.svg",
     "logoWidth": "200px",
@@ -157,6 +170,7 @@
   },
   {
     "name": "CPS Energy",
+    "id": "cps-energy",
     "link": "https://www.cpsenergy.com/",
     "logo": "logo-cps-energy.svg",
     "logoWidth": "200px",
@@ -169,6 +183,7 @@
   },
   {
     "name": "Wiley",
+    "id": "wiley",
     "link": "https://www.wiley.com/",
     "logo": "logo-wiley.svg",
     "logoWidth": "160px",
@@ -180,6 +195,7 @@
   },
   {
     "name": "Grid Dynamics",
+    "id": "grid-dynamics",
     "link": "https://www.griddynamics.com/",
     "logo": "logo-grid-dynamics.svg",
     "logoWidth": "210px",
@@ -192,6 +208,7 @@
   },
   {
     "name": "Capgemini",
+    "id": "capgemini",
     "link": "https://www.capgemini.com/",
     "logo": "logo-capgemini.png",
     "logoWidth": "240px",
@@ -207,6 +224,7 @@
   },
   {
     "name": "Deloitte Consulting",
+    "id": "deloitte",
     "link": "https://www.deloitte.com/",
     "logo": "logo-deloitte.png",
     "logoWidth": "160px",
@@ -222,6 +240,7 @@
   },
   {
     "name": "Alpega Group",
+    "id": "alpega",
     "link": "https://www.alpegagroup.com",
     "logo": "logo-alpega.png.webp",
     "logoWidth": "180px",
@@ -236,6 +255,7 @@
   },
   {
     "name": "Qvalon Inc.",
+    "id": "qvalon",
     "link": "https://qvalon.com/",
     "logo": "logo-qvalon.png",
     "logoWidth": "220px",
@@ -248,6 +268,7 @@
   },
   {
     "name": "Spiral Scout",
+    "id": "spiral-scout",
     "link": "https://spiralscout.com/",
     "logo": "spiral-scout-logo.svg",
     "logoWidth": "180px",
@@ -260,6 +281,7 @@
   },
   {
     "name": "AlphaSense",
+    "id": "alpha-sense",
     "link": "https://www.alpha-sense.com/",
     "logo": "logo-alpha-sense.svg",
     "logoWidth": "200px",
@@ -272,6 +294,7 @@
   },
   {
     "name": "Inter Cars S.A.",
+    "id": "inter-cars",
     "link": "https://intercars.com/en",
     "logo": "logo-inter-cars.webp",
     "logoWidth": "160px",
@@ -284,6 +307,7 @@
   },
   {
     "name": "Rohlik Group",
+    "id": "rohlik",
     "link": "https://www.rohlik.group/",
     "logo": "logo-rohlik-group.svg",
     "logoWidth": "100px",
@@ -297,6 +321,7 @@
   },
   {
     "name": "Credit Dnipro Bank",
+    "id": "credit-dnipro-bank",
     "link": "http://www.creditdnepr.com.ua",
     "logo": "logo-credit-dnepr-bank.jpeg",
     "logoWidth": "170px",
@@ -310,6 +335,7 @@
   },
   {
     "name": "Proxet",
+    "id": "proxet",
     "link": "https://www.proxet.com/",
     "logo": "logo-proxet.svg",
     "logoWidth": "200px",
@@ -325,6 +351,7 @@
   },
   {
     "name": "SecureOffice",
+    "id": "secure-office",
     "link": "https://secureoffice.com/",
     "logo": "logo-secure-office.svg",
     "logoWidth": "160px",
@@ -337,6 +364,7 @@
   },
   {
     "name": "GoHealth",
+    "id": "gohealth",
     "link": "https://www.gohealth.com/",
     "logo": "logo-go-health.png",
     "logoWidth": "180px",
@@ -350,6 +378,7 @@
   },
   {
     "name": "Virtual Health",
+    "id": "virtual-health",
     "link": "https://www.virtualhealth.com/",
     "logo": "logo-virtual-health.png",
     "logoWidth": "220px",
@@ -362,6 +391,7 @@
   },
   {
     "name": "Aledade",
+    "id": "aledade",
     "link": "https://www.aledade.com",
     "logo": "logo-aledade.jpeg",
     "logoWidth": "140px",
@@ -373,6 +403,7 @@
   },
   {
     "name": "Whimstay",
+    "id": "whimstay",
     "link": "https://whimstay.com",
     "logo": "logo-whimstay.png",
     "logoWidth": "160px",
@@ -384,6 +415,7 @@
   },
   {
     "name": "Alyce",
+    "id": "alyce",
     "link": "https://www.alyce.com/careers/",
     "logo": "logo-alyce.png",
     "description": "a personal gifting platform (Boston, Massachusetts).",
@@ -394,6 +426,7 @@
   },
   {
     "name": "RealAtom",
+    "id": "realatom",
     "link": "https://realatom.com/",
     "logo": "logo-real-atom.png",
     "description": "the first online marketplace for commercial real estate loans (Washington, DC)",
@@ -404,6 +437,7 @@
   },
   {
     "name": "Wallet One",
+    "id": "wallet-one",
     "link": "https://www.walletone.com/ru/wallet/",
     "logo": "logo-walletone.png",
     "logoWidth": "160px",
@@ -415,6 +449,7 @@
   },
   {
     "name": "Elinext",
+    "id": "elinext",
     "link": "https://www.elinext.com/",
     "logo": "logo-elinext.png",
     "logoWidth": "180px",
@@ -430,6 +465,7 @@
   },
   {
     "name": "Transaction Junction",
+    "id": "transaction-junction",
     "link": "https://transactionjunction.co.za/",
     "logo": "logo-transaction-junction.png",
     "logoWidth": "96px",
@@ -441,6 +477,7 @@
   },
   {
     "name": "CGI",
+    "id": "cgi",
     "link": "https://www.cgi.com/",
     "logo": "logo-cgi.jpeg",
     "logoWidth": "100px",
@@ -454,6 +491,7 @@
   },
   {
     "name": "Unlimit",
+    "id": "unlimit",
     "link": "https://www.unlimit.com/",
     "logo": "logo-unlimit.svg",
     "logoWidth": "140px",
@@ -467,6 +505,7 @@
   },
   {
     "name": "SavvyMatics",
+    "id": "savvymatics",
     "link": "https://savvymatics.com/",
     "logo": "logo-savvy-matics.jpeg",
     "logoWidth": "110px",
@@ -481,6 +520,7 @@
   },
   {
     "name": "Blueberries Consulting",
+    "id": "blueberries",
     "link": "https://www.blueberrycs.com/",
     "logo": "logo-blueberry-consulting.png",
     "logoWidth": "260px",
@@ -494,6 +534,7 @@
   },
   {
     "name": "Unbiased",
+    "id": "unbiased",
     "link": "https://www.unbiased.co.uk/pro/",
     "logo": "logo-unbiasedpro.svg",
     "logoWidth": "240px",
@@ -506,6 +547,7 @@
   },
   {
     "name": "Valamis",
+    "id": "valamis",
     "link": "https://www.valamis.com/",
     "logo": "logo-valamis.png",
     "logoWidth": "220px",
@@ -521,6 +563,7 @@
   },
   {
     "name": "iute",
+    "id": "iute",
     "link": "https://iute.com/about-us/solutions/",
     "logo": "logo-iute-credit.png",
     "logoWidth": "200px",
@@ -532,19 +575,21 @@
     ]
   },
   {
-      "name": "Prosper Funding LLC",
-      "link": "https://www.prosper.com/",
-      "logo": "logo-prosper.png",
-      "logoWidth": "180px",
-      "description": "Personal Loans & Other Online Financial Solutions / San Francisco",
-      "source": "https://smartbrain.io/profile/R6AZQbo",
-      "tags": [
-        "usa",
-        "finances"
-      ]
-    },
+    "name": "Prosper Funding LLC",
+    "id": "prosper-funding",
+    "link": "https://www.prosper.com/",
+    "logo": "logo-prosper.png",
+    "logoWidth": "180px",
+    "description": "Personal Loans & Other Online Financial Solutions / San Francisco",
+    "source": "https://smartbrain.io/profile/R6AZQbo",
+    "tags": [
+      "usa",
+      "finances"
+    ]
+  },
   {
     "name": "BetterMe",
+    "id": "betterme",
     "link": "https://betterme.world/",
     "logo": "logo-better-me.png",
     "logoWidth": "220px",
@@ -558,6 +603,7 @@
   },
   {
     "name": "River soft",
+    "id": "river-soft",
     "link": "https://river-soft.net/",
     "logo": "logo-river-soft.png",
     "logoWidth": "180px",
@@ -570,6 +616,7 @@
   },
   {
     "name": "Aimprosoft",
+    "id": "aimprosoft",
     "link": "https://www.aimprosoft.com/services/it-outsourcing/",
     "logo": "logo-aimprosoft.svg",
     "logoWidth": "200px",
@@ -582,6 +629,7 @@
   },
   {
     "name": "Solid gate",
+    "id": "solid-gate",
     "link": "https://solidgate.com/",
     "logo": "logo-solidgate.png",
     "logoWidth": "200px",
@@ -594,6 +642,7 @@
   },
   {
     "name": "Skelia",
+    "id": "skelia",
     "link": "https://www.skelia.com",
     "logo": "logo-skelia.png",
     "logoWidth": "100px",
@@ -607,6 +656,7 @@
   },
   {
     "name": "SoftServe",
+    "id": "softserve",
     "link": "https://www.softserveinc.com/en-us",
     "logo": "softserve-logo.png",
     "description": "украинская ИТ компания, работающая в сфере разработки программного обеспечения и предоставления консультационных услуг.",
@@ -620,6 +670,7 @@
   },
   {
     "name": "Provectus",
+    "id": "provectus",
     "link": "https://careers.provectus.com/jobs/",
     "logo": "logo-provectus-ua.svg",
     "logoWidth": "200px",
@@ -632,6 +683,7 @@
   },
   {
     "name": "DeviQA",
+    "id": "deviqa",
     "link": "https://www.deviqa.com/",
     "logo": "logo-deviqa.jpeg",
     "description": "one of the global leaders in Quality Assurance and Testing",
@@ -643,6 +695,7 @@
   },
   {
     "name": "VEON",
+    "id": "veon",
     "link": "https://www.veon.com/",
     "logo": "logo-veon.svg",
     "logoWidth": "200px",
@@ -657,6 +710,7 @@
   },
   {
     "name": "TBC",
+    "id": "tbc",
     "link": "https://www.tbcbank.ge/web/en/web/guest/personal-banking",
     "logo": "logo-tbc-bank.png",
     "description": "один из крупнейших банков Грузии (Тбилиси)",
@@ -669,6 +723,7 @@
   },
   {
     "name": "Qiwi",
+    "id": "qiwi",
     "link": "https://qiwi.com/",
     "logo": "logo-qiwi.svg.png",
     "logoWidth": "220px",
@@ -681,6 +736,7 @@
   },
   {
     "name": "Гринатом",
+    "id": "greenatom",
     "link": "https://www.greenatom.ru/",
     "logo": "logo-green-atom.png",
     "logoWidth": "180px",
@@ -693,6 +749,7 @@
   },
   {
     "name": "Мир Plat.Form",
+    "id": "mir-platform",
     "link": "https://mir-platform.ru/",
     "logo": "logo-mir-platform.svg",
     "logoWidth": "180px",
@@ -705,6 +762,7 @@
   },
   {
     "name": "МТС",
+    "id": "mts",
     "link": "https://career.habr.com/companies/mts",
     "logo": "logo-mts.png",
     "logoWidth": "200px",
@@ -717,6 +775,7 @@
   },
   {
     "name": "Центр Финансовых Технологий (ЦФТ)",
+    "id": "cft",
     "link": "https://team.cft.ru/",
     "logo": "logo-cft.png",
     "logoWidth": "220px",
@@ -730,6 +789,7 @@
   },
   {
     "name": "Ростелеком",
+    "id": "rostelekom",
     "link": "https://rtkit.ru/",
     "logo": "logo-rostelekom.png",
     "logoWidth": "220px",
@@ -743,6 +803,7 @@
   },
   {
     "name": "Глонасс мобайл",
+    "id": "glonass",
     "link": "https://gmdp.ru/index.html",
     "logo": "logo-glonass-mobile.png",
     "logoWidth": "140px",
@@ -755,6 +816,7 @@
   },
   {
     "name": "IT Basis",
+    "id": "it-basis",
     "link": "http://it-basis.com/",
     "logo": "logo-it-basis.png",
     "description": "поддержка и развитие существующих CRM решений Заказчиков на базе продукта Microsoft Dynamics CRM.",
@@ -766,6 +828,7 @@
   },
   {
     "name": "Центробанк",
+    "id": "central-bank-of-russia",
     "link": "https://cbr.ru/",
     "logo": "logo-cbr.png",
     "logoWidth": "120px",
@@ -778,6 +841,7 @@
   },
   {
     "name": "Тинькофф Банк",
+    "id": "tinkoff",
     "link": "https://www.tinkoff.ru/",
     "logo": "logo-tinkoff-bank.png",
     "logoWidth": "160px",
@@ -789,6 +853,7 @@
   },
   {
     "name": "Райффайзенбанк",
+    "id": "raiffeisen",
     "link": "https://www.raiffeisen.ru/",
     "logo": "logo-raiffeisen-bank.svg.png",
     "logoWidth": "180px",
@@ -801,6 +866,7 @@
   },
   {
     "name": "Банк «Открытие»",
+    "id": "otkritie",
     "link": "https://www.open.ru/",
     "logo": "logo-bank-oktrytie.png",
     "logoWidth": "220px",
@@ -813,6 +879,7 @@
   },
   {
     "name": "Газпромбанк Инвестиции",
+    "id": "gazprombank-investments",
     "link": "https://gazprombank.investments/",
     "logo": "logo-gazprombank-investments.png",
     "logoWidth": "200px",
@@ -825,6 +892,7 @@
   },
   {
     "name": "ВТБ Банк",
+    "id": "vtb",
     "link": "https://www.vtb.ru/",
     "logo": "logo-vtb-bank.svg",
     "logoWidth": "120px",
@@ -837,6 +905,7 @@
   },
   {
     "name": "T1 Cloud",
+    "id": "t1",
     "link": "https://t1-cloud.ru",
     "logo": "logo-t1-cloud.svg",
     "description": "Российский облачный провайдер",
@@ -848,6 +917,7 @@
   },
   {
     "name": "Magenta Technology",
+    "id": "magenta",
     "link": "https://magenta-technology.ru/",
     "logo": "logo-magenta.png",
     "logoWidth": "160px",
@@ -860,6 +930,7 @@
   },
   {
     "name": "VK Group",
+    "id": "vk",
     "link": "https://vk.com/",
     "logo": "logo-vk.svg.png",
     "logoWidth": "220px",
@@ -870,6 +941,7 @@
   },
   {
     "name": "ЛокоТех-Сигнал",
+    "id": "locotech",
     "link": "https://tmhsmart.ru/",
     "logo": "logo-locotech-signal.jpeg",
     "logoWidth": "200px",
@@ -881,6 +953,7 @@
   },
   {
     "name": "Детский мир",
+    "id": "children-world",
     "link": "https://www.detmir.ru/",
     "logo": "logo-detskij-mir.png",
     "logoWidth": "180px",
@@ -892,6 +965,7 @@
   },
   {
     "name": "Перекрёсток",
+    "id": "perekrestok",
     "link": "https://career.habr.com/companies/perekrestok-ru",
     "logo": "logo-perekrestok.png",
     "logoWidth": "180px",
@@ -904,6 +978,7 @@
   },
   {
     "name": "Северсталь",
+    "id": "severstal",
     "link": "https://www.severstal.com/rus/",
     "logo": "logo-severstal.png",
     "logoWidth": "200px",
@@ -915,6 +990,7 @@
   },
   {
     "name": "ImmoViewer",
+    "id": "immo-viewer",
     "link": "https://www.immoviewer.com/",
     "logo": "logo-immoviewer.png",
     "logoWidth": "140px",
@@ -926,6 +1002,7 @@
   },
   {
     "name": "The MathWorks Inc",
+    "id": "mathworks",
     "link": "https://www.mathworks.com/",
     "logo": "mathworks-logo.jpeg",
     "logoWidth": "256px",
@@ -937,6 +1014,7 @@
   },
   {
     "name": "Encoding.com",
+    "id": "encoding",
     "link": "https://www.encoding.com/",
     "logo": "logo-encoding.com.png",
     "logoWidth": "220px",
@@ -950,6 +1028,7 @@
   },
   {
     "name": "ntile",
+    "id": "ntile",
     "link": "https://ntile.app/user/login",
     "logo": "logo-ntile.svg",
     "logoWidth": "180px",
@@ -962,6 +1041,7 @@
   },
   {
     "name": "Orange Systems S.A.",
+    "id": "orange-systems",
     "link": "https://www.orangesystem.it/",
     "logo": "logo-orange-system.png",
     "logoWidth": "200px",
@@ -974,6 +1054,7 @@
   },
   {
     "name": "Lean Solutions",
+    "id": "lean",
     "link": "https://www.leangroup.com/",
     "logo": "logo-lean-solutions.svg",
     "logoWidth": "200px",
@@ -987,6 +1068,7 @@
   },
   {
     "name": "PointPay",
+    "id": "pointpay",
     "link": "https://pointpay.io/",
     "logo": "logo-point-pay.png",
     "logoWidth": "200px",
@@ -1000,6 +1082,7 @@
   },
   {
     "name": "Exness",
+    "id": "exness",
     "link": "https://www.exness.uk/",
     "logo": "logo-exness.png",
     "logoWidth": "160px",
@@ -1012,6 +1095,7 @@
   },
   {
     "name": "Bell Integrator",
+    "id": "bell",
     "link": "https://www.bellintegrator.com/",
     "logo": "logo-bellintegrator.png",
     "logoWidth": "160px",
@@ -1025,6 +1109,7 @@
   },
   {
     "name": "AmazingHiring",
+    "id": "amazing-hiring",
     "link": "https://amazinghiring.com",
     "logo": "logo-amazinghiring.svg",
     "logoWidth": "160px",
@@ -1035,6 +1120,7 @@
   },
   {
     "name": "Aquiva Labs",
+    "id": "aquiva-labs",
     "link": "https://aquivalabs.com/",
     "logo": "logo-aquiva-labs.png",
     "logoWidth": "180px",
@@ -1048,6 +1134,7 @@
   },
   {
     "name": "Paysenger",
+    "id": "paysenger",
     "link": "https://paysenger.com/",
     "logo": "logo-paysenger.svg",
     "logoWidth": "300px",
@@ -1059,6 +1146,7 @@
   },
   {
     "name": "Tango Me",
+    "id": "tango-me",
     "link": "https://www.tango.me/live/recommended",
     "logo": "logo-tango-me.png",
     "logoWidth": "120px",
@@ -1074,6 +1162,7 @@
   },
   {
     "name": "Лаборатория Качества",
+    "id": "quality-lab",
     "link": "https://vk.com/quality_lab",
     "logo": "logo-quality-lab.jpeg",
     "logoWidth": "120px",
@@ -1086,6 +1175,7 @@
   },
   {
     "name": "Maxilect",
+    "id": "maxilect",
     "link": "https://maxilect.ru/",
     "logo": "logo-maxilect.svg",
     "logoWidth": "200px",
@@ -1097,6 +1187,7 @@
   },
   {
     "name": "БКС",
+    "id": "bcs",
     "link": "https://bcs.ru",
     "logo": "bcs-logo.jpeg",
     "logoWidth": "200px",
@@ -1108,6 +1199,7 @@
   },
   {
     "name": "SEMrush",
+    "id": "semrush",
     "link": "https://ru.semrush.com",
     "logo": "semrush-logo.png",
     "logoWidth": "200px",
@@ -1118,6 +1210,7 @@
   },
   {
     "name": "Propeller Ads",
+    "id": "propeller-ads",
     "link": "https://propellerads.com/",
     "logo": "propeller-logo.png",
     "logoWidth": "200px",
@@ -1128,6 +1221,7 @@
   },
   {
     "name": "Xceptance",
+    "id": "xceptance",
     "link": "https://www.xceptance.com/en/products/",
     "logo": "logo-xceptance.svg",
     "logoWidth": "200px",
@@ -1142,6 +1236,7 @@
   },
   {
     "name": "Uptempo",
+    "id": "uptempo",
     "link": "https://www.uptempo.io/",
     "logo": "logo-uptempo.svg",
     "logoWidth": "180px",
@@ -1157,6 +1252,7 @@
   },
   {
     "name": "UBS AG",
+    "id": "ubs-ag",
     "link": "https://www.ubs.com/global/en.html",
     "logo": "ubs-logo.png",
     "logoWidth": "180px",
@@ -1169,6 +1265,7 @@
   },
   {
     "name": "Альфа банк",
+    "id": "alfa-bank",
     "link": "https://alfabank.ru",
     "logo": "alfa-bank-logo.png",
     "logoWidth": "200px",
@@ -1181,6 +1278,7 @@
   },
   {
     "name": "Pipedrive",
+    "id": "pipedrive",
     "link": "https://www.pipedrive.com/ru",
     "logo": "pipedrive-logo.svg",
     "logoWidth": "200px",
@@ -1193,6 +1291,7 @@
   },
   {
     "name": "Tele2",
+    "id": "tele2",
     "link": "https://tele2.ee/",
     "logo": "logo-tele2.jpeg",
     "logoWidth": "160px",
@@ -1208,6 +1307,7 @@
   },
   {
     "name": "Omniva",
+    "id": "omniva",
     "link": "https://www.omniva.ee",
     "logo": "omniva-logo.png",
     "logoWidth": "100px",
@@ -1219,6 +1319,7 @@
   },
   {
     "name": "Pragmatic Coders",
+    "id": "pragmatic-coders",
     "link": "https://www.pragmaticcoders.com/",
     "logo": "pragmatic-coders.png",
     "logoWidth": "150px",
@@ -1229,22 +1330,24 @@
     ]
   },
   {
-      "name": "Skywind group",
-      "link": "https://www.skywindgroup.com/en-US/home",
-      "logo": "skywind-logo.svg",
-      "logoWidth": "320px",
-      "description": "Online gaming - games, back-office and content management systems, hosting solutions, infrastructure.",
-      "source": "https://www.linkedin.com/in/oleg-dereka-bb88b7119",
-      "tags": [
-        "europe",
-        "asia",
-        "ukraine",
-        "belarus",
-        "gambling"
-      ]
+    "name": "Skywind group",
+    "id": "skywind",
+    "link": "https://www.skywindgroup.com/en-US/home",
+    "logo": "skywind-logo.svg",
+    "logoWidth": "320px",
+    "description": "Online gaming - games, back-office and content management systems, hosting solutions, infrastructure.",
+    "source": "https://www.linkedin.com/in/oleg-dereka-bb88b7119",
+    "tags": [
+      "europe",
+      "asia",
+      "ukraine",
+      "belarus",
+      "gambling"
+    ]
   },
   {
     "name": "SportsTG",
+    "id": "sportstg",
     "link": "https://mygameday.app",
     "logo": "sportstg-logo.png",
     "logoWidth": "150px",
@@ -1255,6 +1358,7 @@
   },
   {
     "name": "Softswiss",
+    "id": "softswiss",
     "link": "https://www.softswiss.com/",
     "logo": "logo-softswiss.png",
     "logoWidth": "160px",
@@ -1268,6 +1372,7 @@
   },
   {
     "name": "Infotech Group",
+    "id": "infotech",
     "link": "https://infotech.group/ru",
     "logo": "logo-infotech-group.svg",
     "logoWidth": "150px",
@@ -1279,6 +1384,7 @@
   },
   {
     "name": "КБ «Ренессанс Кредит»",
+    "id": "renaissance",
     "link": "https://rencredit.ru",
     "logo": "rencredit-logo.png",
     "logoWidth": "150px",
@@ -1290,6 +1396,7 @@
   },
   {
     "name": "QA Service",
+    "id": "qa-service",
     "link": "https://softengi.com/expertise/software-testing/",
     "logo": "qa3s-logo.png",
     "logoWidth": "150px",
@@ -1301,6 +1408,7 @@
   },
   {
     "name": "XSolve",
+    "id": "xsolve",
     "link": "https://www.xsolve.pl",
     "logo": "xsolve-logo.jpg",
     "logoWidth": "150px",
@@ -1312,6 +1420,7 @@
   },
   {
     "name": "Sportradar",
+    "id": "sportradar",
     "link": "https://www.sportradar.com",
     "logo": "sportradar-logo.jpeg",
     "logoWidth": "150px",
@@ -1322,6 +1431,7 @@
   },
   {
     "name": "Luxoft",
+    "id": "luxoft",
     "link": "https://career.luxoft.com/",
     "logo": "logo-luxoft.png",
     "logoWidth": "180px",
@@ -1337,6 +1447,7 @@
   },
   {
     "name": "EPAM",
+    "id": "epam",
     "link": "https://www.epam.com/",
     "logo": "logo-epam.png",
     "description": "американская ИТ-компания, основанная в 1993 году. Программное обеспечение на заказ, консалтинг. Представлена более чем в 40 странах мира.",
@@ -1351,6 +1462,7 @@
   },
   {
     "name": "Accenture",
+    "id": "accenture",
     "link": "https://www.accenture.com/us-en",
     "logo": "logo-accenture.jpeg",
     "logoWidth": "160px",
@@ -1363,20 +1475,22 @@
     ]
   },
   {
-      "name": "B2B Soft",
-      "link": "https://b2bsoft.com/",
-      "logo": "b2bsoft-logo.svg",
-      "logoWidth": "120px",
-      "description": "Industry Leader of Innovative Software and Hardware Solutions for Telco Retail | POS, Kiosks & Locker Stations",
-      "source": "https://www.linkedin.com/in/oleg-dereka-bb88b7119/",
-      "tags": [
-        "it",
-        "usa",
-        "ukraine"
-      ]
+    "name": "B2B Soft",
+    "id": "b2b-soft",
+    "link": "https://b2bsoft.com/",
+    "logo": "b2bsoft-logo.svg",
+    "logoWidth": "120px",
+    "description": "Industry Leader of Innovative Software and Hardware Solutions for Telco Retail | POS, Kiosks & Locker Stations",
+    "source": "https://www.linkedin.com/in/oleg-dereka-bb88b7119/",
+    "tags": [
+      "it",
+      "usa",
+      "ukraine"
+    ]
   },
   {
     "name": "Arrival",
+    "id": "arrival",
     "link": "https://arrival.com/",
     "logo": "logo-arrival.png",
     "logoWidth": "180px",
@@ -1390,6 +1504,7 @@
   },
   {
     "name": "Ciklum",
+    "id": "ciklum",
     "link": "https://www.ciklum.com/",
     "logo": "logo-ciklum.webp",
     "logoWidth": "200px",
@@ -1408,6 +1523,7 @@
   },
   {
     "name": "Deutsche Bank",
+    "id": "deutsche-bank",
     "link": "https://www.db.com",
     "logo": "logo-deutsche-bank.png",
     "logoWidth": "160px",
@@ -1421,6 +1537,7 @@
   },
   {
     "name": "Deutsche Telekom",
+    "id": "deutsche-telekom",
     "link": "https://www.telekom.com/",
     "logo": "logo-deutsche-telekom.jpeg",
     "logoWidth": "120px",
@@ -1434,6 +1551,7 @@
   },
   {
     "name": "Rhenus Group",
+    "id": "rhenus",
     "link": "https://www.rhenus.group/",
     "logo": "logo-rhenus-logistics.webp",
     "logoWidth": "200px",
@@ -1448,6 +1566,7 @@
   },
   {
     "name": "Bergmann Infotech",
+    "id": "bergmann-infotech",
     "link": "https://bergmann-infotech.de/en/homepage/",
     "logo": "logo-bergman-infotech.svg",
     "logoWidth": "180px",
@@ -1461,6 +1580,7 @@
   },
   {
     "name": "DPI solutions",
+    "id": "dpi",
     "link": "https://www.linkedin.com/company/dpi-solutions-ltd-/",
     "logo": "dpi-solutions-logo.png",
     "logoWidth": "150px",
@@ -1472,6 +1592,7 @@
   },
   {
     "name": "STRABAG",
+    "id": "strabag",
     "link": "https://www.strabag.com/",
     "logo": "logo-strabag.png",
     "logoWidth": "160px",
@@ -1485,6 +1606,7 @@
   },
   {
     "name": "Soramitsu",
+    "id": "soramitsu",
     "link": "https://soramitsu.co.jp/ru",
     "logo": "logo-soramitsu.svg",
     "logoWidth": "220px",
@@ -1498,6 +1620,7 @@
   },
   {
     "name": "Lazada",
+    "id": "lazada",
     "link": "https://www.lazada.com/en/",
     "logo": "logo-lazada.svg",
     "logoWidth": "180px",
@@ -1511,6 +1634,7 @@
   },
   {
     "name": "G-Plans",
+    "id": "g-plans",
     "link": "https://g-plans.com/",
     "logo": "logo-gplans.svg",
     "logoWidth": "180px",
@@ -1523,6 +1647,7 @@
   },
   {
     "name": "Bereke bank",
+    "id": "bereke-bank",
     "link": "https://berekebank.kz/ru",
     "logo": "logo-berekebank.svg",
     "logoWidth": "200px",
@@ -1536,6 +1661,7 @@
   },
   {
     "name": "Newmax Technologies",
+    "id": "newmax",
     "link": "https://career.habr.com/companies/newmax-url",
     "logo": "logo-newmax.jpeg",
     "logoWidth": "150px",
@@ -1549,6 +1675,7 @@
   },
   {
     "name": "Luminor group",
+    "id": "luminor",
     "link": "https://luminor.ee/",
     "logo": "logo-luminor.svg",
     "logoWidth": "200px",
@@ -1562,6 +1689,7 @@
   },
   {
     "name": "BlurOr bank",
+    "id": "bluror-bank",
     "link": "https://www.bluorbank.lv/latvija/en",
     "logo": "logo-bluor-bank.jpeg",
     "logoWidth": "96px",
@@ -1574,6 +1702,7 @@
   },
   {
     "name": "Swedbank",
+    "id": "swedbank",
     "link": "https://www.swedbank.ee/about/careers/work/career",
     "logo": "logo-swedbank.png",
     "logoWidth": "240px",
@@ -1587,6 +1716,7 @@
   },
   {
     "name": "SEB bank",
+    "id": "seb",
     "link": "https://www.seb.ee/",
     "logo": "logo-seb.png",
     "logoWidth": "200px",
@@ -1600,6 +1730,7 @@
   },
   {
     "name": "BigBank",
+    "id": "bigbank",
     "link": "https://www.bigbank.ee/ru",
     "logo": "logo-bigbank.png",
     "logoWidth": "220px",
@@ -1613,6 +1744,7 @@
   },
   {
     "name": "Банк Citadele",
+    "id": "citadele",
     "link": "https://www.citadele.lv/ru/",
     "logo": "citadele-banka.png",
     "logoWidth": "150px",
@@ -1624,6 +1756,7 @@
   },
   {
     "name": "Plumbr",
+    "id": "plumbr",
     "link": "https://www.splunk.com/en_us/newsroom/press-releases/2020/splunk-to-acquire-plumbr-and-rigor-expanding-the-worlds-most-comprehensive-observability-portfolio.html",
     "logo": "plumbr-logo.jpeg",
     "logoWidth": "150px",
@@ -1635,6 +1768,7 @@
   },
   {
     "name": "Nortal",
+    "id": "nortal",
     "link": "https://nortal.com/",
     "logo": "logo-nortal.png",
     "logoWidth": "180px",
@@ -1650,6 +1784,7 @@
   },
   {
     "name": "Gilbarco Autotank",
+    "id": "gilbarco-autotank",
     "link": "https://www.gilbarco.com/eu/",
     "logo": "gilbarco-autotank-logo.jpg",
     "logoWidth": "128px",
@@ -1661,6 +1796,7 @@
   },
   {
     "name": "Ettevõtluskeskus",
+    "id": "ettevotluskeskus",
     "link": "https://www.ettevotluskeskus.ee/",
     "logo": "logo-evk.jpg",
     "logoWidth": "160px",
@@ -1672,6 +1808,7 @@
   },
   {
     "name": "УБРиР",
+    "id": "ubrr",
     "link": "https://www.ubrr.ru",
     "logo": "ubrr-logo.jpeg",
     "logoWidth": "150px",
@@ -1683,6 +1820,7 @@
   },
   {
     "name": "Outlines Tech",
+    "id": "outlines",
     "link": "https://outlines.tech/",
     "logo": "logo-outline-tech.jpeg",
     "description": "программное обеспечение для банков, страховых компаний, брокеров и бирж.",
@@ -1694,6 +1832,7 @@
   },
   {
     "name": "РТЛабс",
+    "id": "rtlabs",
     "link": "https://rtlabs.ru",
     "logo": "logo-rt-labs.png",
     "logoWidth": "180px",
@@ -1705,6 +1844,7 @@
   },
   {
     "name": "Sportmaster Lab",
+    "id": "sportmaster",
     "link": "https://www.sportmaster.ru/",
     "logo": "logo-sportmaster-lab.png",
     "description": "ИТ-подразделение крупнейшей в России сети по продаже спортивных товаров",
@@ -1715,6 +1855,7 @@
   },
   {
     "name": "Tieto Eesti AS",
+    "id": "tieto",
     "link": "https://www.tietoevry.com/ee",
     "logo": "tieto.png",
     "logoWidth": "96px",
@@ -1726,6 +1867,7 @@
   },
   {
     "name": "Bellwood systems",
+    "id": "bellwood",
     "link": "https://hh.ru/employer/593183",
     "logo": "bellwood-logo.png",
     "logoWidth": "px",
@@ -1737,6 +1879,7 @@
   },
   {
     "name": "Zeroturnaround",
+    "id": "zeroturnaround",
     "link": "https://zeroturnaround.com",
     "logo": "logo-zt.png",
     "description": "Создатели известных на весь мир продуктов JRebel и LiveRebel,<br/> номинанты премии Jolt Awards.",
@@ -1747,6 +1890,7 @@
   },
   {
     "name": "Rouge Wave Software",
+    "id": "rouge-wave",
     "link": "http://www.roguewave.com",
     "logo": "logo-rogue-wave.jpeg",
     "logoWidth": "120px",
@@ -1759,6 +1903,7 @@
   },
   {
     "name": "Банк Санкт-Петербург",
+    "id": "bspb",
     "link": "https://i.bspb.ru/home",
     "logo": "bspb_logo.jpg",
     "description": "В <a href=\"https://markswebb.ru/report/mobile-banking-rank-2012/#ratings-sites\" target=\"_blank\">ТОП-3</a> лучших российских интернет-банков",
@@ -1769,6 +1914,7 @@
   },
   {
     "name": "Eesti Energia",
+    "id": "eesti-energia",
     "link": "https://www.energia.ee/ru/avaleht",
     "logo": "ee_logo.png",
     "description": "Крупнейший поставщик электричества в Эстонии",
@@ -1779,6 +1925,7 @@
   },
   {
     "name": "Proekspert",
+    "id": "proekspert",
     "link": "https://www.proekspert.ee/",
     "logo": "proekspert_logo.png",
     "logoWidth": "350px",
@@ -1790,6 +1937,7 @@
   },
   {
     "name": "Regio",
+    "id": "regio",
     "link": "https://www.regio.ee/",
     "logo": "logo-regio.jpeg",
     "logoWidth": "180px",
@@ -1801,6 +1949,7 @@
   },
   {
     "name": "Codeborne",
+    "id": "codeborne",
     "link": "https://codeborne.com/ru/",
     "logo": "codeborne-logo-small.png",
     "logoWidth": "240px",
@@ -1808,7 +1957,6 @@
     "tags": [
       "estonia",
       "europe",
-      "france",
       "it"
     ]
   }

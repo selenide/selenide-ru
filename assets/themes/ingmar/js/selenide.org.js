@@ -61,7 +61,10 @@
 
     forEachTag(element => {
       hideUser(element)
-      if (element.classList.contains(tag)) {
+      if (element.id === tag) {
+        showUser(element)
+      }
+      else if (element.classList.contains(tag)) {
         timeouts.push(setTimeout(() => showUser(element), i))
         i += 100
       }

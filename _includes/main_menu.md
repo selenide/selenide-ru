@@ -20,8 +20,8 @@
 
 {% if page.show_news %}
   <div class="news">
-    <div class="news-line news-title"><a href="/2025/04/02/selenide-7.8.0/">Вышла Selenide 7.8.0</a></div>
-    <div class="news-line news-link">Эспрессо макиато!</div>
+    <div class="news-line news-title"><a href="/2025/04/19/selenide-7.9.0/">Вышла Selenide 7.9.0</a></div>
+    <div class="news-line news-link">Опять скриншоты</div>
   </div>
 {% endif %}
 

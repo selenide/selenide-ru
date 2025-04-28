@@ -19,6 +19,7 @@ header-text: >
 #### [&gt; LambdaTest](#lambdatest)  
 #### [&gt; BrowserStack](#browserstack)  
 #### [&gt; Saucelabs](#saucelabs)  
+#### [&gt; Moon](#moon)
 #### [&gt; Selenoid](#selenoid)   
 #### [&gt; Другие облачные провайдеры](#other)  
 {: .blogpost-menu}
@@ -120,6 +121,27 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 
 Минусы:
 1. Некоторые фичи селенида не могут работать (clipboard, прокси, скачивание методом FOLDER)
+
+<br>
+
+<a name="moon"></a>
+## Moon
+
+Как Selenium Grid, но в докере. И написано на Go, поэтому работает быстро и потребляет мало памяти. 
+
+Рабочий пример: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/moon/src/test/java/it/moon)
+
+Плюсы:
+1. Поддерживается Селенидом напрямую
+
+    1.1. Оформлено как плагин Селенида 'com.codeborne:selenide-moon:{{site.SELENIDE_VERSION}}'  
+    1.2. В нём реализована поддержка некоторых фич для Selenoid: скачивание файлов, буфер обмена.  
+
+2. Позволяет запускать разные версии браузеров
+3. Умеет записывать видео с тестов
+
+Минусы:
+1. Поддерживаются только те браузеры, что в принципе способны работать в докере (Internet Explorer точно нет, насчёт Safari не уверен)
 
 <br>
 

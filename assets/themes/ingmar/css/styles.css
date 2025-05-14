@@ -245,7 +245,7 @@ a small {
 
 .short.thanks img {
   margin: 1vh 2vw;
-  width: clamp(70px, 20vw, 170px);
+  max-width: clamp(70px, 20vw, 170px);
 }
 
 

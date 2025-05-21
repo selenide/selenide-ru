@@ -128,7 +128,7 @@ show_news: true
     </div>
     <div class="sponsor">
       <a href="http://www.seleniumhq.org/" target="_blank">
-        <img src="{{BASE_PATH}}/images/selenium-logo.png" alt="Selenium WebDriver"/>
+        <img src="{{BASE_PATH}}/images/selenium-logo.png" height="90" alt="Selenium WebDriver"/>
       </a>
     </div>
     <div class="sponsor" style="color: black;">

@@ -1535,21 +1535,37 @@
     ]
   },
   {
-      "name": "Social Discovery Group (SDG)",
-      "id": "social-discovery-group",
-      "link": "https://socialdiscoverygroup.com/",
-      "logo": "logo-sdg.jpeg",
-      "logoWidth": "100px",
-      "description": "the world's largest group of social discovery companies which unites more than 50 brands",
-      "source": "https://www.linkedin.com/jobs/view/senior-aqa-engineer-java-at-social-discovery-group-3781191310/",
-      "tags": [
-        "global",
-        "europe",
-        "poland",
-        "serbia",
-        "malta"
-      ]
-    },
+    "name": "Social Discovery Group (SDG)",
+    "id": "social-discovery-group",
+    "link": "https://socialdiscoverygroup.com/",
+    "logo": "logo-sdg.jpeg",
+    "logoWidth": "100px",
+    "description": "the world's largest group of social discovery companies which unites more than 50 brands",
+    "source": "https://www.linkedin.com/jobs/view/senior-aqa-engineer-java-at-social-discovery-group-3781191310/",
+    "tags": [
+      "global",
+      "europe",
+      "poland",
+      "serbia",
+      "malta"
+    ]
+  },
+  {
+    "name": "PrimeXM",
+    "id": "primexm",
+    "link": "https://primexm.com/",
+    "logo": "logo-primexm.png",
+    "logoWidth": "200px",
+    "description": "world-class financial institutions, liquidity partners and prime brokers",
+    "source": "https://www.linkedin.com/in/marian-stasiuk-412a5425a/details/skills/",
+    "tags": [
+      "finances",
+      "dubai",
+      "britain",
+      "cyprus",
+      "asia"
+    ]
+  },
   {
     "name": "Deutsche Bank",
     "id": "deutsche-bank",

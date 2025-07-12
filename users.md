@@ -29,12 +29,12 @@ header-text:
         <div id="{{ user.id }}" class="user hidden {% for tag in user.tags %} {{ tag }}{% endfor %}">
           <div class="row">
             <div class="user-logo">
-              <a href="{{ user.link }}" target="_blank">
+              <a href="{{ user.link }}" target="_blank" class="external-link">
                 <img src="{{ BASE_PATH }}/images/{{ user.logo }}" alt="{{ user.name }}" {% if user.logoWidth %}width="{{ user.logoWidth }}"{% endif %}/>
               </a>
             </div>
             <div class="user-description">
-              <a href="{{ user.link }}" target="_blank">{{ user.name }}</a> - {{ user.description }}
+              <a href="{{ user.link }}" target="_blank" class="external-link">{{ user.name }}</a> - {{ user.description }}
               <div class="user-tags">
                 {% for tag in user.tags %} <span class="tag">/ {{ tag }}</span> {% endfor %}
               </div>

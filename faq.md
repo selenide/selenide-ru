@@ -14,6 +14,14 @@ header-text: Часто задаваемые вопросы
 
 > Зачем понадобилась ещё одна обёртка над Selenium?
 
+Вкратце: короче код, лучше читается, не надо переизобретать велосипед.  
+
+И куча дополнительных фич для тестирования.  
+И автоматические скриншоты и отчёты.  
+И запись видео.  
+И тесты для мобилок.  
+И много чего ещё...
+
 Подробный ответ [здесь](/documentation/selenide-vs-selenium.html)
 
 
@@ -28,6 +36,7 @@ header-text: Часто задаваемые вопросы
 > Где я могу найти все доступные настройки Selenide?
 
 Описание всех настроек и значений по умолчанию можно найти в [javadoc](https://selenide.org/javadoc/current/com/codeborne/selenide/Configuration.html).
+
 > Как задать настройки Selenide?
 
 Selenide имеет очень разумные настройки по умолчанию, которые должны быть 
@@ -47,16 +56,37 @@ public void setUp() {
 }
 ```
 
+Ещё можно создать файл "selenide.properties" в classpath 
+(в типовом проекте это значит создать файл `src/test/resources/selenide.properties`):
+
+```java
+> cat src/test/resources/selenide.properties
+selenide.timeout=6000
+selenide.browser=edge
+selenide.remote=https://hub.lambdatest.com/wd/hub
+selenide.textCheck=FULL_TEXT
+```
+
+Настройки браузера можно задавать не глобально, а каждый раз при открытии браузера:
+```java
+Config config = new SelenideConfig().browser("firefox").browserSize("800x600");
+open("/one", config);
+```
+
+[Используйте вдумчиво!](/2024/09/15/selenide-7.5.0/#new-configuration-for-every-browser)
+
+
 ## Браузеры
 >Можно ли запустить тесты Selenide на Internet Explorer? А headless-браузере?
 
 Да.
 Selenide можно запускать с любым браузером, для которого существует webdriver. Самые популярные браузеры
-поддерживаются из коробки (chrome, firefox, edge, ie, safari, opera). 
-Некоторые менее популярные тоже поддерживаются, но требуют пары строк конфигурации (phantomjs, htmlunit).
+поддерживаются из коробки (chrome, firefox, edge, ie, safari, opera).
+
+Некоторые менее популярные тоже поддерживаются, но требуют пары строк конфигурации (например, htmlunit).
 См. [Wiki](https://github.com/selenide/selenide/wiki/How-Selenide-creates-WebDriver).
 
-Другие браузеры тоже можно использовать, передав имя класса вебдрайвера.
+Другие браузеры тоже можно использовать, передав имя класса вебдрайвера (или фабрики).
 
 <br/>
 Например, чтобы запустить тесты с браузером Firefox:
@@ -73,21 +103,37 @@ Selenide можно запускать с любым браузером, для 
 
 >Можно ли использовать Selenide в связке с Selenium Grid?
 
-Да, Selenide поддерживает Selenium Grid. Просто добавьте проперти `-Dselenide.remote=http://localhost:5678/wd/hub` при запуске тестов.
+Да, Selenide поддерживает Selenium Grid. Просто добавьте настройку при запуске тестов:
+> -Dselenide.remote=https://your.grid.com:5678/wd/hub
+
+Большинство функционала заработает автоматически.
+Но для некоторых фич (в частности, скачивания файлов) потребуется добавить зависимость `com.codeborne:selenide-grid`.
+
+См. [плагин selenide-grid](/2024/02/27/selenide-7.2.0/#download-files-to-folder-in-selenium-grid)
 
 >Можно ли использовать Selenide в связке с Selenoid?
 
-Да, Selenide поддерживает Selenoid. Просто добавьте проперти `-Dselenide.remote=http://localhost:5678/wd/hub` при запуске тестов.  
-Мы также рекомендуем использовать селенидовский плагин [selenide-selenoid](https://github.com/selenide/selenide-selenoid).
+Да, Selenide поддерживает Selenoid. Просто добавьте настройку при запуске тестов:
+> -Dselenide.remote=https://your.selenoid.com:5678/wd/hub  
+
+Но для некоторых фич (в частности, скачивания файлов) потребуется добавить зависимость `com.codeborne:selenide-selenoid`.
+
+См. [плагин selenide-selenoid](https://github.com/selenide/selenide/tree/main/modules/selenoid).
 
 <br/>
+
+>Можно ли использовать Selenide в связке с Selenoid/Moon/BrowserStack/LambdaTest/TestContainers или другими облачными провайдерами?
+
+Да. См. [доку](/documentation/clouds.html)
 
 >Можно ли использовать Selenide для тестирования мобильных приложений?
 
 Да, Selenide поддерживает тестирование мобильных приложений с помощью библиотеки Appium.
-1. Мы рекомендуем использовать селенидовский плагин [selenide-appium](https://github.com/selenide/selenide-appium).
-2. Вы можете найти рабочие примеры [на гитхабе](https://github.com/selenide-examples/selenide-appium)
-3. Посмотрите презентацию [Selenide для мобилок](https://seleniumcamp.com/talk/selenide-for-web-android-and-ios/)
+
+Вот что вам нужно сделать:
+1. Добавить в зависимости селенидовский плагин [selenide-appium](https://github.com/selenide/selenide/tree/main/modules/appium).
+2. Найти рабочие примеры [на гитхабе](https://github.com/selenide-examples/selenide-appium)
+3. Посмотреть презентацию [Selenide для мобилок](https://seleniumcamp.com/talk/selenide-for-web-android-and-ios/)
 
 
 ## Билд-скрипты
@@ -95,7 +141,7 @@ Selenide можно запускать с любым браузером, для 
 >Как запустить тесты Selenide на CI - сервере непрерывной интеграции?
 
 Для этого нужно написать билд-скрипт. Скорее всего он у вас уже есть.
-На [Wiki page](https://github.com/selenide/selenide/wiki/Build-script/) есть несколько примеров на Ant и Gradle.
+На [Wiki page](https://github.com/selenide/selenide/wiki/Build-script/) есть несколько примеров на Maven, Gradle и Ant.
 
 
 ## Скриншоты (снимок экрана)
@@ -126,8 +172,14 @@ Selenide можно запускать с любым браузером, для 
 
 > Могу ли я вносить изменения в Selenide?
 
-Конечно! На то он и open source. Если умеете кодить сами, смело создавайте Pull Request, если нет - оформляйте свои
-пожелалки в виде [issue](https://github.com/selenide/selenide/issues).
+Конечно! На то он и open source. 
+* Если умеете кодить сами, смело создавайте [Pull Request](https://github.com/selenide/selenide/pulls), 
+* если нет - оформляйте свои пожелалки в виде [issue](https://github.com/selenide/selenide/issues).
+
+[Руководствуйтесь](https://github.com/selenide/selenide/blob/main/CONTRIBUTING.md) и
+
+Мотивируйтесь:
+[Как законтрибьютить в опенсорс, чтобы не сгореть со стыда](https://www.youtube.com/watch?v=VtX7IpCHMS8&ab_channel=DEVCLUB.EU).
 
 ## Лицензия
 

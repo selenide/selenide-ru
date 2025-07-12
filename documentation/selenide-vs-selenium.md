@@ -86,7 +86,14 @@ public void canFillComplexForm() {
 
 ## Больше преимуществ!
 
-Это лишь краткий обзор. В этом видео можно узнать узнать больше о преимуществах Selenide:
+Это лишь краткий обзор. Есть ещё
+* Тесты для мобилок
+* Работа с облаками (Grid/Selenoid/Moon/BrowserStack/LambdaTest/...)
+* Скачивание файлов
+* Запись видео
+* и т.д. и т.п.
+
+В этом видео можно узнать больше о преимуществах Selenide:
 
 <div class="wrapper-content center">
 <iframe width="840" height="473" src="https://www.youtube.com/embed/fR8CyLcxBZ0" frameborder="0" allowfullscreen></iframe>

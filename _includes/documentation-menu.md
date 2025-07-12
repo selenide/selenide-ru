@@ -9,9 +9,9 @@
 
   <br/>
   <div>Ресурсы</div>
-  <div>✓ <a href="https://prezi.com/d18jggopjyaj/selenide-shorten-your-code/" target="_blank">Shorten your code!</a></div>
-  <div>✓ <a href="https://www.methodsandtools.com/tools/selenide.php" target="_blank">Methods & Tools</a></div>
-  <div>✓ <a href="https://habrahabr.ru/post/143269/" target="_blank">Хабр</a></div>
+  <div>✓ <a href="https://prezi.com/d18jggopjyaj/selenide-shorten-your-code/" target="_blank" class="external-link">Shorten your code!</a></div>
+  <div>✓ <a href="https://www.methodsandtools.com/tools/selenide.php" target="_blank" class="external-link">Methods & Tools</a></div>
+  <div>✓ <a href="https://habrahabr.ru/post/143269/" target="_blank" class="external-link">Хабр</a></div>
 
   <br/>
   <div>Видео</div>

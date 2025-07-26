@@ -48,7 +48,10 @@
 
   function showUser(element) {
     element.classList.remove("hidden")
+    const logo = element.querySelector('img')
+    logo.setAttribute('src', logo.getAttribute('data-src'))
   }
+
   function hideUser(element) {
     element.classList.add("hidden")
   }

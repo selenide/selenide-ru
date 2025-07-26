@@ -30,7 +30,7 @@ header-text:
           <div class="row">
             <div class="user-logo">
               <a href="{{ user.link }}" target="_blank" class="external-link">
-                <img src="{{ BASE_PATH }}/images/{{ user.logo }}" alt="{{ user.name }}" {% if user.logoWidth %}width="{{ user.logoWidth }}"{% endif %}/>
+                <img data-src="{{ BASE_PATH }}/images/{{ user.logo }}" alt="{{ user.name }}" {% if user.logoWidth %}width="{{ user.logoWidth }}"{% endif %}/>
               </a>
             </div>
             <div class="user-description">

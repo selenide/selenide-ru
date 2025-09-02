@@ -410,6 +410,20 @@
     ]
   },
   {
+    "name": "Upwind",
+    "id": "upwind",
+    "link": "https://www.upwind.io/",
+    "logo": "logo-upwind.svg",
+    "logoWidth": "160px",
+    "description": "The Cloud Native Security Platform",
+    "source": "https://djinni.co/jobs/716164-automation-qa-engineer-java-selenide-selenium/",
+    "tags": [
+      "ukraine",
+      "europe",
+      "usa"
+    ]
+  },
+  {
     "name": "SecureOffice",
     "id": "secure-office",
     "link": "https://secureoffice.com/",

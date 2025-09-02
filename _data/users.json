@@ -362,6 +362,22 @@
     ]
   },
   {
+    "name": "Sii",
+    "id": "sii",
+    "link": "https://sii.pl/en/",
+    "logo": "logo-si.jpg",
+    "logoWidth": "120px",
+    "description": "Technology consulting, digital transformation, engineering and business services",
+    "source": "https://nofluffjobs.com/job/java-developer-in-test-investment-banking-project-sii-polska-cracow",
+    "tags": [
+      "poland",
+      "sweden",
+      "ukraine",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "Proxet",
     "id": "proxet",
     "link": "https://www.proxet.com/",

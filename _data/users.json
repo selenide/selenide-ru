@@ -782,6 +782,19 @@
     ]
   },
   {
+    "name": "HSBC",
+    "id": "hsbc",
+    "link": "https://www.hsbc.com/",
+    "logo": "logo-hsbc.webp",
+    "description": "one of the world’s largest banking and financial services organisations",
+    "source": "https://freakingrocky.com/",
+    "tags": [
+      "poland",
+      "europe",
+      "finances"
+    ]
+  },
+  {
     "name": "Qiwi",
     "id": "qiwi",
     "link": "https://qiwi.com/",

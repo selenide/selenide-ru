@@ -1350,6 +1350,19 @@
     ]
   },
   {
+    "name": "Albedis",
+    "id": "albedis",
+    "link": "https://www.albedis.com/",
+    "logo": "logo-albedis.png",
+    "logoWidth": "180px",
+    "description": "Швейцарское кадровое агентство",
+    "source": "https://www.glassdoor.com/Job/selenium-testing-engineer-jobs-SRCH_IC3289087_KO0,25.htm",
+    "tags": [
+      "switzerland",
+      "europe"
+    ]
+  },
+  {
     "name": "Xceptance",
     "id": "xceptance",
     "link": "https://www.xceptance.com/en/products/",

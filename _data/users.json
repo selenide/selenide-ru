@@ -320,6 +320,21 @@
     ]
   },
   {
+    "name": "PrivatBank",
+    "id": "privat-bank",
+    "link": "https://privatbank.ua/about",
+    "logo": "logo-privat-bank.png",
+    "logoWidth": "220px",
+    "description": "Крупнейший банк Украины",
+    "source": "https://djinni.co/jobs/762628-middle-general-qa-liqpay/",
+    "tags": [
+      "ukraine",
+      "europe",
+      "finances",
+      "it"
+    ]
+  },
+  {
     "name": "Credit Dnipro Bank",
     "id": "credit-dnipro-bank",
     "link": "http://www.creditdnepr.com.ua",

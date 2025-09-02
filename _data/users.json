@@ -348,6 +348,20 @@
     ]
   },
   {
+    "name": "Scalo",
+    "id": "scalo",
+    "link": "https://www.scalosoft.com/",
+    "logo": "logo-scalo.webp",
+    "logoWidth": "160px",
+    "description": "Software Development Company",
+    "source": "https://nofluffjobs.com/job/automation-tester-qa-java-scalo-katowice-4",
+    "tags": [
+      "poland",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "Proxet",
     "id": "proxet",
     "link": "https://www.proxet.com/",

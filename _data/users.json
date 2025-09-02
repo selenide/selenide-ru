@@ -116,6 +116,20 @@
     ]
   },
   {
+    "name": "AVIZVA",
+    "id": "avizva",
+    "link": "https://www.avizva.com/",
+    "logo": "logo-avizva.svg",
+    "logoWidth": "200px",
+    "description": "a Healthcare Technology Organization",
+    "source": "https://www.foundit.in/job/engineer-test-automation-avizva-gurugram-35905327",
+    "tags": [
+      "healthcare",
+      "india",
+      "asia"
+    ]
+  },
+  {
     "name": "Natera",
     "id": "natera",
     "link": "https://www.natera.com/",
@@ -405,6 +419,7 @@
       "india",
       "europe",
       "usa",
+      "asia",
       "it"
     ]
   },

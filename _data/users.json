@@ -2101,6 +2101,21 @@
     ]
   },
   {
+    "name": "FirstLine software",
+    "id": "first-line-software",
+    "link": "https://firstlinesoftware.com/",
+    "logo": "logo-first-line-software.jpeg",
+    "logoWidth": "140px",
+    "description": "Managed AI Services for Business Impact",
+    "source": "https://careers.firstlinesoftware.com/spotlights/ui-test-automation-with-selenide-and-java-for-optimizely-example",
+    "tags": [
+      "it",
+      "usa",
+      "montenegro",
+      "europe"
+    ]
+  },
+  {
     "name": "Bellwood systems",
     "id": "bellwood",
     "link": "https://hh.ru/employer/593183",

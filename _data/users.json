@@ -827,6 +827,20 @@
     ]
   },
   {
+    "name": "DICTU",
+    "id": "dictu",
+    "link": "https://www.dictu.nl/",
+    "logo": "logo-dictu.webp",
+    "logoWidth": "210px",
+    "description": "один из крупнейших поставщиков ИКТ-услуг в системе центрального правительства Нидерландов",
+    "source": "https://app.theirstack.com/home?search-company=DICTU",
+    "tags": [
+      "netherlands",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "TBC",
     "id": "tbc",
     "link": "https://www.tbcbank.ge/web/en/web/guest/personal-banking",

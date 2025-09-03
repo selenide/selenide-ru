@@ -235,6 +235,20 @@
     ]
   },
   {
+    "name": "Oril",
+    "id": "oril",
+    "link": "https://oril.co",
+    "logo": "logo-oril.svg",
+    "logoWidth": "80px",
+    "description": "ПО на заказ: недвижимость, строительство, аналитика данных и экологичные технологии",
+    "source": "https://oril.co/blog/ui-testing-with-selenide/",
+    "tags": [
+      "it",
+      "usa",
+      "ukraine"
+    ]
+  },
+  {
     "name": "Capgemini",
     "id": "capgemini",
     "link": "https://www.capgemini.com/",

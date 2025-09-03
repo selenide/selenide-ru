@@ -813,6 +813,20 @@
     ]
   },
   {
+    "name": "ING",
+    "id": "ing",
+    "link": "https://www.ing.com/",
+    "logo": "logo-ing.svg.png",
+    "logoWidth": "160px",
+    "description": "a Dutch multinational banking and financial services corporation",
+    "source": "https://app.theirstack.com/home?search-company=ING",
+    "tags": [
+      "finances",
+      "netherlands",
+      "europe"
+    ]
+  },
+  {
     "name": "TBC",
     "id": "tbc",
     "link": "https://www.tbcbank.ge/web/en/web/guest/personal-banking",

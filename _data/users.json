@@ -35,6 +35,20 @@
     ]
   },
   {
+    "name": "Paysera",
+    "id": "paysera",
+    "link": "https://paysera.com",
+    "logo": "logo-paysera.png",
+    "logoWidth": "180px",
+    "description": "Credit Cards & Transaction Services",
+    "source": "https://www.cvmarket.lt/qa-automation-engineer-kaunas-paysera-lt-uab-1141529",
+    "tags": [
+      "finances",
+      "lithuania",
+      "europe"
+    ]
+  },
+  {
     "name": "IBM",
     "id": "ibm",
     "link": "https://www.ibm.com/us-en/",

@@ -2129,6 +2129,22 @@
     ]
   },
   {
+    "name": "TestDevLab",
+    "id": "testdevlab",
+    "link": "https://www.testdevlab.com/",
+    "logo": "logo-testdevlab.svg",
+    "logoWidth": "180px",
+    "description": "QA & Software Testing Service Provider",
+    "source": "https://www.testdevlab.com/blog/selenium-or-selenide-which-testing-framework-best-fits-your-needs",
+    "tags": [
+      "latvia",
+      "lithuania",
+      "estonia",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "FirstLine software",
     "id": "first-line-software",
     "link": "https://firstlinesoftware.com/",

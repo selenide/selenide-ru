@@ -1,4 +1,4 @@
-(function () {
+(() => {
 
   function showNewsLine(newsLine, delayMs) {
     setTimeout(function () {
@@ -42,8 +42,17 @@
     })
   }
 
-  function forEachTag(handler) {
+  function forEachUser(handler) {
     forEach('#selenide-users .user', handler)
+  }
+
+  function on(eventName, selector, handler) {
+    document.addEventListener(eventName, (event) => {
+      const element = event.target.closest(selector)
+      if (element) {
+        handler(element)
+      }
+    })
   }
 
   function showUser(element) {
@@ -62,7 +71,7 @@
     timeouts.forEach(timeout => clearTimeout(timeout))
     timeouts = []
 
-    forEachTag(element => {
+    forEachUser(element => {
       hideUser(element)
       if (element.id === tag) {
         showUser(element)
@@ -75,22 +84,14 @@
   }
 
   function resetUsersFilter() {
-    forEachTag(element => {
-      showUser(element);
-    })
+    forEachUser(showUser)
   }
 
   function setupUserFilter() {
-    forEach('#user-tags .tag', element => {
-      element.addEventListener("click", (e) => {
-        filterUsersByTag(element.text)
-      })
+    on('click', '.tag', (element) => {
+      filterUsersByTag(element.text)
     })
-    forEach('#user-tags .reset-filter', element => {
-      element.addEventListener("click", (e) => {
-        resetUsersFilter()
-      })
-    })
+    on('click', '#user-tags .reset-filter', resetUsersFilter)
   }
 
   function shuffleUsers() {

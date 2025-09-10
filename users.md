@@ -36,7 +36,7 @@ header-text:
             <div class="user-description">
               <a href="{{ user.link }}" target="_blank" class="external-link">{{ user.name }}</a> - {{ user.description }}
               <div class="user-tags">
-                {% for tag in user.tags %} <span class="tag">/ {{ tag }}</span> {% endfor %}
+                {% for tag in user.tags %} <a class="tag" href="#{{tag}}">{{ tag }}</a> {% endfor %}
               </div>
             </div>
           </div>

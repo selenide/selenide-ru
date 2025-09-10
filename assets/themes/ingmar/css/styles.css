@@ -626,6 +626,11 @@ hr.divider {
   color: #92AC69;
 }
 
+#selenide-users .user .user-tags .tag:before {
+  content: "»";
+  margin-right: 6px;
+}
+
 #user-tags {
   padding: 0 3vw;
   margin: 0 1vw 6vh auto;

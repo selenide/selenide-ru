@@ -78,7 +78,7 @@
       }
       else if (element.classList.contains(tag)) {
         timeouts.push(setTimeout(() => showUser(element), i))
-        i += 100
+        i = Math.min(i + 100, 1000)
       }
     })
   }

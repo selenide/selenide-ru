@@ -348,6 +348,20 @@
     ]
   },
   {
+    "name": "Sysco",
+    "id": "sysco",
+    "link": "https://en.wikipedia.org/wiki/Sysco",
+    "logo": "logo-sysco.png",
+    "logoWidth": "160px",
+    "description": "American multinational corporation, a global leader in food service, educational facilities, sports stadiums. Houston, Texas.",
+    "source": "https://careers.sysco.com/en/job/texas/mobile-quality-engineer/1105/85961557456",
+    "tags": [
+      "food",
+      "usa",
+      "global"
+    ]
+  },
+  {
     "name": "Rohlik Group",
     "id": "rohlik",
     "link": "https://www.rohlik.group/",

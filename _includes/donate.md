@@ -9,7 +9,7 @@
       <a class="link" href="https://savelife.in.ua/en/donate-en/">
         🔥 Фонд поддержки украинской армии
       </a>
-      <a class="link" href="https://crisisrelief.un.org/en/t/ukraine">
+      <a class="link" href="https://crisisrelief.un.org/en/ukraine-crisis">
         💛 Гуманитарный фонд ООН
       </a>
     </div>

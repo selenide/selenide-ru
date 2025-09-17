@@ -1519,6 +1519,20 @@
     ]
   },
   {
+    "name": "Symantec",
+    "id": "symantec",
+    "link": "https://en.wikipedia.org/wiki/Broadcom#Symantec_Enterprise_Security",
+    "logo": "logo-symantec.svg_.png",
+    "logoWidth": "200px",
+    "description": "Легендарный антивирус и куча другой безопасности",
+    "source": "https://stackoverflow.com/questions/60913724/selenide-test-fails-with-org-openqa-selenium-nosuchsessionexception",
+    "tags": [
+      "it",
+      "estonia",
+      "europe"
+    ]
+  },
+  {
     "name": "Pipedrive",
     "id": "pipedrive",
     "link": "https://www.pipedrive.com/ru",

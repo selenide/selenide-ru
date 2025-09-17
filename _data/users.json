@@ -144,6 +144,19 @@
     ]
   },
   {
+    "name": "Whoop, inc.",
+    "id": "whoop",
+    "link": "https://www.whoop.com/",
+    "logo": "logo-whoop.png",
+    "logoWidth": "180px",
+    "description": "an American wearable technology company headquartered in Boston, Massachusetts.",
+    "source": "https://jobs.lever.co/whoop/71b76796-5544-4700-8852-01b77552e522",
+    "tags": [
+      "usa",
+      "healthcare"
+    ]
+  },
+  {
     "name": "Natera",
     "id": "natera",
     "link": "https://www.natera.com/",

@@ -29,6 +29,15 @@
     document.getElementById('lang_rus').setAttribute("href", window.location.href);
   }
 
+  function toggleDocumentation() {
+    const documentationMenu = document.querySelector('.left-menu')
+    documentationMenu.classList.toggle('shown')
+  }
+
+  function setupDocumentationMenu() {
+    document.querySelector('.left-menu-icon').addEventListener('click', toggleDocumentation);
+  }
+
   function showVideosInPopup() {
     $('.video').magnificPopup({
       type: 'iframe',
@@ -115,6 +124,7 @@
   }
 
   setupLanguageSelector();
+  setupDocumentationMenu();
   showNews();
   showVideosInPopup();
   setupUserFilter();

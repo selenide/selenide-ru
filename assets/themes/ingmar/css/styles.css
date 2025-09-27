@@ -104,11 +104,22 @@ a small {
   margin-top: 10px;
 }
 
-.left-menu {
-  display: none;
+@media screen and (max-width: 1100px) {
+  .left-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+
+  .left-menu.shown {
+    max-height: 800px;
+  }
 }
 
 @media screen and (min-width: 1100px) {
+  .left-menu-icon {
+    display: none;
+  }
   .left-menu {
     display: block;
     position: absolute;

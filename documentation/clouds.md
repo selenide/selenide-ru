@@ -15,6 +15,7 @@ header-text: >
 
 <br>
 
+#### [&gt; Selenium Grid](#selenium-grid)  
 #### [&gt; TestContainers](#testcontainers)  
 #### [&gt; LambdaTest](#lambdatest)  
 #### [&gt; BrowserStack](#browserstack)  
@@ -40,6 +41,28 @@ header-text: >
 ```java
 Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 ```
+
+<a name="selenium-grid"></a>
+## Selenium Grid
+
+Написан на Java командой Selenium.
+
+### Как использовать:
+```xml
+<dependency>
+  <groupId>com.codeborne</groupId>
+  <artifactId>selenide-grid</artifactId>
+  <version>{{site.SELENIDE_VERSION}}</version>
+</dependency>
+```
+
+### Плюсы
+* Работает без докера. Поддерживает все браузеры (для которых есть вебдрайвер) любых версий.
+* Скалируется: можете запускать много нодов на разных ОС с разными версиями браузеров.
+* Можете запускать на своих серверах и локально 
+
+### Минусы
+* Не поддерживает операции с буфером обмена
 
 <a name="testcontainers"></a>
 ## TestContainers
@@ -129,18 +152,25 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 
 Как Selenium Grid, но в докере. И написано на Go, поэтому работает быстро и потребляет мало памяти. 
 
-Рабочий пример: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/moon/src/test/java/it/moon)
+### Как использовать:
+```xml
+<dependency>
+  <groupId>com.codeborne</groupId>
+  <artifactId>selenide-moon</artifactId>
+  <version>{{site.SELENIDE_VERSION}}</version>
+</dependency>
+```
 
-Плюсы:
+* Исходники: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/moon).
+* Рабочий пример: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/moon/src/test/java/it/moon)
+
+### Плюсы:
 1. Поддерживается Селенидом напрямую
+2. Поддерживает скачивание файлов, операции с буфером обмена (фичи, которые не обязательно работают в других облаках).
+3. Позволяет запускать разные версии браузеров
+4. Умеет записывать видео с тестов
 
-    1.1. Оформлено как плагин Селенида 'com.codeborne:selenide-moon:{{site.SELENIDE_VERSION}}'  
-    1.2. В нём реализована поддержка некоторых фич для Selenoid: скачивание файлов, буфер обмена.  
-
-2. Позволяет запускать разные версии браузеров
-3. Умеет записывать видео с тестов
-
-Минусы:
+### Минусы:
 1. Поддерживаются только те браузеры, что в принципе способны работать в докере (Internet Explorer точно нет, насчёт Safari не уверен)
 
 <br>
@@ -150,18 +180,26 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 
 Как Selenium Grid, но в докере. И написано на Go, поэтому работает быстро и потребляет мало памяти. 
 
-Рабочий пример: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/selenoid/src/test/java/it/selenoid)
+### Как использовать:
+```xml
+<dependency>
+  <groupId>com.codeborne</groupId>
+  <artifactId>selenide-selenoid</artifactId>
+  <version>{{site.SELENIDE_VERSION}}</version>
+</dependency>
+```
 
-Плюсы:
+* Исходники: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/selenoid/).
+* Рабочий пример: [на гитхабе](https://github.com/selenide/selenide/tree/main/modules/selenoid/src/test/java/it/selenoid)
+
+
+### Плюсы:
 1. Поддерживается Селенидом напрямую
+2. Поддерживает скачивание файлов, операции с буфером обмена (фичи, которые не обязательно работают в других облаках).  
+3. Позволяет запускать разные версии браузеров
+4. Умеет записывать видео с тестов
 
-    1.1. Оформлено как плагин Селенида 'com.codeborne:selenide-selenoid:{{site.SELENIDE_VERSION}}'  
-    1.2. В нём реализована поддержка некоторых фич для Selenoid: скачивание файлов, буфер обмена.  
-
-2. Позволяет запускать разные версии браузеров
-3. Умеет записывать видео с тестов
-
-Минусы:
+### Минусы:
 1. Поддерживаются только те браузеры, что в принципе способны работать в докере (Internet Explorer точно нет, насчёт Safari не уверен)
 
 <br>

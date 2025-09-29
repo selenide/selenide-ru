@@ -35,7 +35,7 @@
   }
 
   function setupDocumentationMenu() {
-    document.querySelector('.left-menu-icon').addEventListener('click', toggleDocumentation);
+    document.querySelector('.left-menu-icon')?.addEventListener('click', toggleDocumentation);
   }
 
   function showVideosInPopup() {

@@ -1166,6 +1166,20 @@
     ]
   },
   {
+    "name": "Kvando Technologies",
+    "id": "kvando-tech",
+    "link": "https://www.kvando.tech/en",
+    "logo": "logo-kvando-tech.webp",
+    "logoWidth": "180px",
+    "description": "Цифровые решения для финтеха, здравоохранения, торговых площадок и телекоммуникаций",
+    "source": "https://hh.ru/vacancy/121477509",
+    "tags": [
+      "it",
+      "finances",
+      "russia"
+    ]
+  },
+  {
     "name": "Iiko",
     "id": "iiko",
     "link": "https://iiko.ru/",

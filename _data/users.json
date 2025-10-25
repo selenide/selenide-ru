@@ -924,6 +924,19 @@
     ]
   },
   {
+    "name": "Яндекс",
+    "id": "yandex",
+    "link": "https://yandex.ru/",
+    "logo": "logo-yandex.svg",
+    "logoWidth": "100px",
+    "description": "российская транснациональная ИТ компания: поиск информации, навигация, электронная коммерция, развлечения и облачные технологии.",
+    "source": "https://www.linkedin.com/posts/activity-7377287901664923649-tOJG/",
+    "tags": [
+      "russia",
+      "it"
+    ]
+  },
+  {
     "name": "Qiwi",
     "id": "qiwi",
     "link": "https://qiwi.com/",

@@ -1476,6 +1476,21 @@
     ]
   },
   {
+    "name": "ERGO Technology & Services",
+    "id": "ergo",
+    "link": "https://www.ergo.com/en/Unternehmen/ERGO-Technologie",
+    "logo": "logo-ergo.jpeg",
+    "logoWidth": "100px",
+    "description": "one of the major insurance groups in Germany and Europe. Represented in 20+ countries in Europe and Asia.",
+    "source": "https://www.linkedin.com/in/alena-badzilouskaya/details/experience/",
+    "tags": [
+      "insurance",
+      "europe",
+      "germany",
+      "it"
+    ]
+  },
+  {
     "name": "Xceptance",
     "id": "xceptance",
     "link": "https://www.xceptance.com/en/products/",

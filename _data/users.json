@@ -420,6 +420,22 @@
     ]
   },
   {
+    "name": "Digital Turbine",
+    "id": "digital-turbine",
+    "link": "http://www.digitalturbine.com/",
+    "logo": "logo-digital-turbine.jpeg",
+    "logoWidth": "100px",
+    "description": "independent mobile growth platform headquartered in Austin, Texas",
+    "source": "https://www.linkedin.com/in/serge-soloshchenko/",
+    "tags": [
+      "usa",
+      "poland",
+      "europe",
+      "global",
+      "it"
+    ]
+  },
+  {
     "name": "Rohlik Group",
     "id": "rohlik",
     "link": "https://www.rohlik.group/",

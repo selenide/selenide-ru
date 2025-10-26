@@ -736,6 +736,20 @@
     ]
   },
   {
+    "name": "Lingoda GmbH",
+    "id": "lingoda",
+    "link": "https://www.lingoda.com/ru/",
+    "logo": "logo-lingoda.png",
+    "logoWidth": "180px",
+    "description": "online language school founded in Berlin: German, English, French, Spanish, Italian.",
+    "source": "https://www.linkedin.com/in/daria-elfimova/details/experience/",
+    "tags": [
+      "germany",
+      "europe",
+      "education"
+    ]
+  },
+  {
     "name": "Valamis",
     "id": "valamis",
     "link": "https://www.valamis.com/",

@@ -263,6 +263,21 @@
     ]
   },
   {
+    "name": "Perfect Art",
+    "id": "perfect-art",
+    "link": "http://perfectart.com",
+    "logo": "logo-perfect-art.jpeg",
+    "logoWidth": "80px",
+    "description": "IT Services and IT Consulting, London",
+    "source": "https://www.linkedin.com/in/ksadomtsev/details/experience/",
+    "tags": [
+      "britain",
+      "serbia",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "Oril",
     "id": "oril",
     "link": "https://oril.co",

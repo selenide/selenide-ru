@@ -11,6 +11,21 @@
     ]
   },
   {
+    "name": "Amazon",
+    "id": "amazon",
+    "link": "https://www.amazon.com/",
+    "logo": "logo-amazon.svg",
+    "logoWidth": "200px",
+    "description": "American multinational technology company engaged in e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.",
+    "source": "https://www.linkedin.com/in/anatolii-hanziuk/",
+    "tags": [
+      "usa",
+      "global",
+      "logistics",
+      "it"
+    ]
+  },
+  {
     "name": "Dell Technologies",
     "id": "dell",
     "link": "https://www.dell.com/",

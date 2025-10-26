@@ -1605,8 +1605,8 @@
     "name": "Tele2",
     "id": "tele2",
     "link": "https://tele2.ee/",
-    "logo": "logo-tele2.jpeg",
-    "logoWidth": "160px",
+    "logo": "logo-tele2.svg.png",
+    "logoWidth": "100px",
     "description": "Телекоммуникации (Швеция, Эстония, Россия)",
     "source": "https://career.habr.com/vacancies/1000071594",
     "tags": [
@@ -2049,11 +2049,26 @@
     ]
   },
   {
+    "name": "LHV Bank",
+    "id": "lhv",
+    "link": "https://www.lhv.ee/",
+    "logo": "logo-lhv.svg.png",
+    "logoWidth": "100px",
+    "description": "the largest domestic financial group and capital provider in Estonia",
+    "source": "https://www.linkedin.com/in/dea-taur-b61b5753/",
+    "tags": [
+      "estonia",
+      "europe",
+      "britain",
+      "finances"
+    ]
+  },
+  {
     "name": "Luminor group",
     "id": "luminor",
     "link": "https://luminor.ee/",
     "logo": "logo-luminor.svg",
-    "logoWidth": "200px",
+    "logoWidth": "160px",
     "description": "третий по величине поставщик финансовых услуг в странах Балтии.",
     "source": "https://www.linkedin.com/in/risto-porila/",
     "tags": [
@@ -2094,7 +2109,7 @@
     "id": "seb",
     "link": "https://www.seb.ee/",
     "logo": "logo-seb.png",
-    "logoWidth": "200px",
+    "logoWidth": "160px",
     "description": "SEB Grupp является ведущей группой финансовых услуг в Северной Европе.",
     "source": "https://www.linkedin.com/jobs/view/3008104368/",
     "tags": [

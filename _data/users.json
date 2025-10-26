@@ -96,7 +96,22 @@
     "tags": [
       "france",
       "europe",
-      "global"
+      "global",
+      "taxi"
+    ]
+  },
+  {
+    "name": "Gett",
+    "id": "gett",
+    "link": "http://gett.com/",
+    "logo": "logo-gett.png",
+    "logoWidth": "100px",
+    "description": "Gett is one of the leading taxi booking platforms operating in Israel and the United Kingdom",
+    "source": "https://www.linkedin.com/in/ovodenko/details/experience/",
+    "tags": [
+      "israel",
+      "britain",
+      "taxi"
     ]
   },
   {
@@ -1184,7 +1199,9 @@
     "logoWidth": "220px",
     "description": "ВКонтакте, Одноклассники, Delivery Club, Ситимобил, GeekBrains, Skillbox - всего более 200 проектов.",
     "tags": [
-      "russia"
+      "russia",
+      "taxi",
+      "it"
     ]
   },
   {
@@ -2092,7 +2109,8 @@
     "tags": [
       "uzbekistan",
       "asia",
-      "it"
+      "it",
+      "taxi"
     ]
   },
   {

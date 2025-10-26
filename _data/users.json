@@ -725,6 +725,20 @@
     ]
   },
   {
+    "name": "KoronaPay Europe",
+    "id": "korona-pay",
+    "link": "https://koronapay.com/",
+    "logo": "logo-korona-pay.svg.png",
+    "logoWidth": "180px",
+    "description": "online money transfer service",
+    "source": "https://www.linkedin.com/posts/tatsianadavydzenka_qa-%D0%B0qa-vacancy-activity-6876268590065041408-2Lgc/",
+    "tags": [
+      "europe",
+      "cyprus",
+      "finances"
+    ]
+  },
+  {
     "name": "SavvyMatics",
     "id": "savvymatics",
     "link": "https://savvymatics.com/",

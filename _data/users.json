@@ -2173,6 +2173,20 @@
     ]
   },
   {
+    "name": "Home Credit Bank Kazakhstan",
+    "id": "home-credit-bank",
+    "link": "https://home.kz/",
+    "logo": "logo-home-credit-bank.svg.png",
+    "logoWidth": "100px",
+    "description": "a part of international Home Credit Group with 20 years of experience in financial business",
+    "source": "https://www.linkedin.com/in/makarov87/details/experience/",
+    "tags": [
+      "kazakhstan",
+      "asia",
+      "finances"
+    ]
+  },
+  {
     "name": "Newmax Technologies",
     "id": "newmax",
     "link": "https://career.habr.com/companies/newmax-url",

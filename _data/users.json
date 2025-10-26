@@ -1083,6 +1083,19 @@
     ]
   },
   {
+    "name": "Банк «Кубань Кредит»",
+    "id": "bank-kuban-kredit",
+    "link": "https://kb.kk.bank/",
+    "logo": "logo-kuban-kredit.png",
+    "logoWidth": "160px",
+    "description": "один из самых активных и растущих банков Краснодарского края. Постоянно внедряет новые компьютерные технологии!",
+    "source": "https://www.linkedin.com/in/verakosheleva/",
+    "tags": [
+      "russia",
+      "finances"
+    ]
+  },
+  {
     "name": "Банк «Открытие»",
     "id": "otkritie",
     "link": "https://www.open.ru/",

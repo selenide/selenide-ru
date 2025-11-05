@@ -187,6 +187,21 @@
     ]
   },
   {
+    "name": "Atlys",
+    "id": "atlys",
+    "link": "https://www.atlys.com/",
+    "logo": "logo-atlys.png",
+    "logoWidth": "200px",
+    "description": "the world’s most delightful way to get your visas on time, guaranteed.",
+    "source": "https://in.indeed.com/q-selenide-jobs.html?vjk=b51d1efa15c1c393",
+    "tags": [
+      "travel",
+      "visa",
+      "india",
+      "usa"
+    ]
+  },
+  {
     "name": "Whoop, inc.",
     "id": "whoop",
     "link": "https://www.whoop.com/",

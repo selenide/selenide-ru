@@ -320,6 +320,20 @@
     ]
   },
   {
+    "name": "DataArt",
+    "id": "data-art",
+    "link": "https://www.dataart.com/",
+    "logo": "logo-dataart.png",
+    "logoWidth": "250px",
+    "description": "a global software engineering firm with customers including Nasdaq, Travelport, Ocado, Centrica/Hive, Paddy Power Betfair, IWG, Univision, Meetup and Apple Leisure Group.",
+    "source": "https://www.dataart.team/vacancies/QAA00162?utm_source=selenide.org",
+    "tags": [
+      "usa",
+      "ukraine",
+      "it"
+    ]
+  },
+  {
     "name": "Capgemini",
     "id": "capgemini",
     "link": "https://www.capgemini.com/",

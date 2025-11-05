@@ -1515,13 +1515,27 @@
   {
     "name": "Valor Software",
     "id": "valor",
-    "link": "https://valor-software.com//",
+    "link": "https://valor-software.com/",
     "logo": "logo-valor-software.png",
     "logoWidth": "150px",
     "description": "a custom software development company and IT solutions provider",
     "source": "https://remotive.com/remote/jobs/qa/qa-automation-engineer-2356173",
     "tags": [
       "czech",
+      "europe",
+      "it"
+    ]
+  },
+  {
+    "name": "Faptic Technology",
+    "id": "faptic",
+    "link": "https://faptic.com/",
+    "logo": "logo-faptic.webp",
+    "logoWidth": "200px",
+    "description": "Award winning transformation partner specialising in Software/AI, Data/AI, Cloud, Security and Business Change.",
+    "source": "https://remotive.com/remote/jobs/qa/senior-qa-software-test-automation-engineer-2474923",
+    "tags": [
+      "united-kingdom",
       "europe",
       "it"
     ]

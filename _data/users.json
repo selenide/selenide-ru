@@ -160,6 +160,19 @@
     ]
   },
   {
+    "name": "OpenText",
+    "id": "opentext",
+    "link": "https://www.opentext.com/",
+    "logo": "logo-opentext.png",
+    "logoWidth": "200px",
+    "description": "a global AI software company. Canada's fourth-largest software company.",
+    "source": "https://careers.opentext.com/us/en/job/49641?source=selenide.org",
+    "tags": [
+      "canada",
+      "it"
+    ]
+  },
+  {
     "name": "AVIZVA",
     "id": "avizva",
     "link": "https://www.avizva.com/",

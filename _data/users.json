@@ -195,10 +195,23 @@
     "description": "the world’s most delightful way to get your visas on time, guaranteed.",
     "source": "https://in.indeed.com/q-selenide-jobs.html?vjk=b51d1efa15c1c393",
     "tags": [
-      "travel",
+      "tourism",
       "visa",
       "india",
       "usa"
+    ]
+  },
+  {
+    "name": "Recruise",
+    "id": "recruise",
+    "link": "https://recruise.io/",
+    "logo": "logo-recruise.png",
+    "logoWidth": "160px",
+    "description": "end-to-end AI powered talent acquisition platform",
+    "source": "https://in.indeed.com/q-selenide-jobs.html?vjk=cd939a88bc3f796c",
+    "tags": [
+      "india",
+      "hr"
     ]
   },
   {
@@ -1537,7 +1550,8 @@
     "logoWidth": "160px",
     "description": "Веб-приложение для поиска технических талантов.",
     "tags": [
-      "usa"
+      "usa",
+      "hr"
     ]
   },
   {

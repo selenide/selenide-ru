@@ -1513,6 +1513,20 @@
     ]
   },
   {
+    "name": "Valor Software",
+    "id": "valor",
+    "link": "https://valor-software.com//",
+    "logo": "logo-valor-software.png",
+    "logoWidth": "150px",
+    "description": "a custom software development company and IT solutions provider",
+    "source": "https://remotive.com/remote/jobs/qa/qa-automation-engineer-2356173",
+    "tags": [
+      "czech",
+      "europe",
+      "it"
+    ]
+  },
+  {
     "name": "Paysenger",
     "id": "paysenger",
     "link": "https://paysenger.com/",

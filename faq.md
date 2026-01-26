@@ -122,7 +122,7 @@ Selenide можно запускать с любым браузером, для 
 
 <br/>
 
->Можно ли использовать Selenide в связке с Selenoid/Moon/BrowserStack/LambdaTest/TestContainers или другими облачными провайдерами?
+>Можно ли использовать Selenide в связке с Selenoid/Moon/BrowserStack/LambdaTest/TestMu AI/TestContainers или другими облачными провайдерами?
 
 Да. См. [доку](/documentation/clouds.html)
 

@@ -132,8 +132,8 @@ show_news: true
       </a>
     </div>
     <div class="sponsor" style="color: black;">
-      Browser testing via <a href="https://www.lambdatest.com/" target="_blank"><br/>
-      <img src="https://www.lambdatest.com/support/img/logo.svg" style="vertical-align: middle;margin-left:5px" width="147" height="26" />
+      Browser testing via <a href="https://www.testmu.ai" target="_blank"><br/>
+      <img src="https://www.testmu.ai/support/img/logo.svg" style="vertical-align: middle;margin-left:5px" width="160" />
       </a>
     </div>
   </div>

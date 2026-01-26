@@ -88,7 +88,7 @@ public void canFillComplexForm() {
 
 Это лишь краткий обзор. Есть ещё
 * Тесты для мобилок
-* Работа с облаками (Grid/Selenoid/Moon/BrowserStack/LambdaTest/...)
+* Работа с облаками (Grid/Selenoid/Moon/BrowserStack/LambdaTest/TestMu AI/...)
 * Скачивание файлов
 * Запись видео
 * и т.д. и т.п.

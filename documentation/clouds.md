@@ -17,7 +17,7 @@ header-text: >
 
 #### [&gt; Selenium Grid](#selenium-grid)  
 #### [&gt; TestContainers](#testcontainers)  
-#### [&gt; LambdaTest](#lambdatest)  
+#### [&gt; TestMu AI (ex. LambdaTest)](#testmu-ai)  
 #### [&gt; BrowserStack](#browserstack)  
 #### [&gt; Saucelabs](#saucelabs)  
 #### [&gt; Moon](#moon)
@@ -82,13 +82,13 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 
 <br>
 
-<a name="lambdatest"></a>
-## LambdaTest
+<a name="testmu-ai"></a>
+## TestMu AI (ex. LambdaTest)
 
 Рабочий пример: [selenide-examples/selenide-lambdatest](https://github.com/selenide-examples/selenide-lambdatest).  
-Сайт: [LambdaTest.com](https://www.lambdatest.com/blog/selenium-testing-with-selenide-using-intellij-maven/?utm_source=selenide&utm_medium=partnered).
+Сайт: [testmu.ai](https://www.testmu.ai/blog/selenium-testing-with-selenide-using-intellij-maven/?utm_source=selenide&utm_medium=partnered).
 
-Это рабочий пример тестов на селениде, которые запускают браузер на серверах LambdaTest.  
+Это рабочий пример тестов на селениде, которые запускают браузер на серверах TestMu AI (ex. LambdaTest).  
 Как видно, настройка там минимальная:
 
 ```java

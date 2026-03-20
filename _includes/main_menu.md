@@ -20,8 +20,8 @@
 
 {% if page.show_news %}
   <div class="news">
-    <div class="news-line news-title"><a href="/2026/01/21/selenide-{{site.SELENIDE_VERSION}}/">Вышла Selenide {{site.SELENIDE_VERSION}}</a></div>
-    <div class="news-line news-link">Невероятная концепция исправления загрузки файлов с грида</div>
+    <div class="news-line news-title"><a href="/2026/03/11/selenide-{{site.SELENIDE_VERSION}}/">Вышла Selenide {{site.SELENIDE_VERSION}}</a></div>
+    <div class="news-line news-link">Эпическая Ява</div>
   </div>
 {% endif %}
 

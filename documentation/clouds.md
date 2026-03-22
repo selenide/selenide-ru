@@ -77,7 +77,7 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 3. Большинство фич селенида продолжают работать (скриншоты, прокси, CDP и т.д.)
 
 Минусы:
-1. Некоторые фичи селенида не могут работать (clipboard)
+1. Некоторые фичи селенида могут не работать (clipboard)
 2. Поддерживаются только те браузеры, что в принципе способны работать в докере (Internet Explorer точно нет, насчёт Safari не уверен)
 
 <br>
@@ -103,7 +103,7 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 1. Позволяет запускать разные версии браузеров
 
 Минусы:
-1. Некоторые фичи селенида не могут работать (clipboard, прокси, скачивание методом FOLDER)
+1. Некоторые фичи селенида могут не работать (clipboard, прокси)
 
 <br>
 
@@ -128,7 +128,7 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 1. Позволяет запускать разные версии браузеров
 
 Минусы:
-1. Некоторые фичи селенида не могут работать (clipboard, прокси, скачивание методом FOLDER)
+1. Некоторые фичи селенида могут не работать (clipboard, прокси)
 
 <br> 
 
@@ -137,13 +137,14 @@ Configuration.remote = "https://your-cloud-provider.com/wd/hub";
 
 Компания Saucelabs тоже предлагает запуск браузеров и мобильников на их серверах. 
 
-[Пример](https://github.com/markwinspear/selenide-test-2015) (старый, но надеемся вскоре обновить).
+Рабочий пример: [selenide-examples/selenide-saucelabs](https://github.com/selenide-examples/selenide-saucelabs).  
+Сайт: [saucelabs.com](https://saucelabs.com/)
 
 Плюсы:
 1. Позволяет запускать разные версии браузеров
 
 Минусы:
-1. Некоторые фичи селенида не могут работать (clipboard, прокси, скачивание методом FOLDER)
+1. Некоторые фичи селенида могут не работать (clipboard, прокси)
 
 <br>
 

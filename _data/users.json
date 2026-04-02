@@ -1399,6 +1399,19 @@
     ]
   },
   {
+    "name": "Группа «М.Видео-Эльдорадо»",
+    "id": "mvideo-eldorado",
+    "link": "https://mvideoeldorado.ru/ru/",
+    "logo": "logo-mvideo-eldorado.jpg",
+    "logoWidth": "350px",
+    "description": "Крупнейший продавец бытовой техники и электроники в России",
+    "source": "https://www.linkedin.com/in/ivsvetlana/",
+    "tags": [
+      "russia",
+      "retail"
+    ]
+  },
+  {
     "name": "Северсталь",
     "id": "severstal",
     "link": "https://www.severstal.com/rus/",

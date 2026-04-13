@@ -17,11 +17,11 @@ tags: []
 IE 11 x32/x64. В некоторых случаях после действий с HTML элементами (например, `click()`) вы можете получить ошибку. <br />
 Проблема в использовании синтетических событиях. Решение - использовать нативные события для IE:
  
- ```java
-   capabilities.setCapability("nativeEvents", "true");
- ```
+```java
+capabilities.setCapability("nativeEvents", "true");
+```
  
- См. https://code.google.com/p/selenium/wiki/InternetExplorerDriver
+См. https://code.google.com/p/selenium/wiki/InternetExplorerDriver
 
 <br/>
 
@@ -37,19 +37,19 @@ IE 11 x32/x64. В некоторых случаях после действий 
 
 Поэтому вы пишете нечто подобное:
 
- ```java
-   @Test(...)
-   public void Test1() {
-    ...
-    try {
-      // Кусок теста с известным багом
-    } catch(...) {
-      // Некоторые действия
-    } finally {
-      // Действия, чтобы обеспечить корректные условия для запуска Test2
-    }
-   }
- ```
+```java
+@Test
+public void Test1() {
+  ...
+  try {
+    // Кусок теста с известным багом
+  } catch(...) {
+    // Некоторые действия
+  } finally {
+    // Действия, чтобы обеспечить корректные условия для запуска Test2
+  }
+}
+```
 
 Допустим, вы используете свой тест листенер, который наследует `TestListenerAdapter`.
 И вы переопределили метод `onTestFailure(ITestResult result)`, чтобы собирать дополнительную информацию в HTML отчёт - например, ваши собственные скриншоты.
@@ -71,35 +71,35 @@ IE 11 x32/x64. В некоторых случаях после действий 
 К примеру, бутстраповский выпадающий список (dropdown) реализован как набор HTML элементов. 
 Обычно это выглядит как-то так:
 
- ```html
-  <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-      Dropdown
-      <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Действие</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Другое действие</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Что-то ещё</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Отдельная ссылка</a></li>
-    </ul>
-  </div>
- ```
+```html
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Действие</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Другое действие</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Что-то ещё</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Отдельная ссылка</a></li>
+  </ul>
+</div>
+```
 
 Проблема в том, что элемент `<ul>` изначально невидимый. 
 Selenium (а значит, и Selenide) его не видит и поэтому не может кликнуть.
 Чтобы выбрать элемент выпадающего списка, вам нужно:
 
- ```java
-   SelenideElement parentDiv = $(".dropdown");
+```java
+SelenideElement parentDiv = $(".dropdown");
    
-   // Найти элемент `<button>` и `click()` его
-   parentDiv.find("button").scrollTo().click();
+// Найти элемент `<button>` и `click()` его
+parentDiv.find("button").scrollTo().click();
    
-   // Теперь можете найти нужный элемент выпадающего списка по тексту
-   parentDiv.find(".dropdown-menu").find(withText("Действие")).parent().click();
- ```
+// Теперь можете найти нужный элемент выпадающего списка по тексту
+parentDiv.find(".dropdown-menu").find(withText("Действие")).parent().click();
+```
 
 <br/>
 В следующем посте я поделюсь опытом автоматической инсталляции а тестовую среду (основанной на Grid2).

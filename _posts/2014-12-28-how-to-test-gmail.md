@@ -38,15 +38,15 @@ tags: [GMail, ajax, examples]
 мне и этого не хватало. 
 
 ```java
-  @BeforeClass
-  public static void openInbox() {
-    timeout = 10000;
-    baseUrl = "http://gmail.com";
-    
-    open("/");
-    $(byText("Loading")).should(disappear);
-    login();
-  }
+@BeforeClass
+public static void openInbox() {
+  timeout = 10000;
+  baseUrl = "http://gmail.com";
+  
+  open("/");
+  $(byText("Loading")).should(disappear);
+  login();
+}
 ```
 
 Обратили внимание, как мы ждём окончания загрузки страницы? В этом вся мощь Selenide: элемент легко найти по тексту,
@@ -57,12 +57,12 @@ tags: [GMail, ajax, examples]
 Логин происходит очень просто:
 
 ```java
-  private static void login() {
-    $("#Email").val(System.getProperty("gmail.username", "enter-your-gmail-username"));
-    $("#Passwd").val(System.getProperty("gmail.password", "enter-your-gmail-password"));
-    $("#signIn").click();
-    $(".error-msg").waitUntil(disappears, 2000);
-  }
+private static void login() {
+  $("#Email").val(System.getProperty("gmail.username", "enter-your-gmail-username"));
+  $("#Passwd").val(System.getProperty("gmail.password", "enter-your-gmail-password"));
+  $("#signIn").click();
+  $(".error-msg").waitUntil(disappears, 2000);
+}
 ```
 
 Последняя строчка нужна для того, чтобы тест быстро упал, если вы ввели неверный пароль.
@@ -73,10 +73,10 @@ tags: [GMail, ajax, examples]
 И тогда я бы в тесте проверил наличие надписи "Inbox (4)":
 
 ```java
-  @Test
-  public void showsNumberOfUnreadMessages() {
-    $(By.xpath("//div[@role='navigation']")).find(withText("Inbox (4)")).shouldBe(visible);
-  }
+@Test
+public void showsNumberOfUnreadMessages() {
+  $(By.xpath("//div[@role='navigation']")).find(withText("Inbox (4)")).shouldBe(visible);
+}
 ```
 
 (Но тут у нас случай сложнее, нам приходится тестировать с реальными данными, которые непостоянны. 
@@ -89,12 +89,12 @@ tags: [GMail, ajax, examples]
 быть в моём инбоксе:
 
 ```java
-  @Test
-  public void inboxShowsUnreadMessages() {
-    $$(byText("Gmail Team")).filter(visible).shouldHave(size(1));
-    $$(byText("LastPass")).filter(visible).shouldHave(size(3));
-    $$(byText("Pivotal Tracker")).filter(visible).shouldHave(size(3));
-  }
+@Test
+public void inboxShowsUnreadMessages() {
+  $$(byText("Gmail Team")).filter(visible).shouldHave(size(1));
+  $$(byText("LastPass")).filter(visible).shouldHave(size(3));
+  $$(byText("Pivotal Tracker")).filter(visible).shouldHave(size(3));
+}
 ```
 
 ### Обновление инбокса
@@ -102,12 +102,12 @@ tags: [GMail, ajax, examples]
 В интерфейсе GMail есть кнопка обновления "Refresh". Ищем её по атрибуту `title`=`Refresh` - другого способа я не нашёл.
 
 ```java
-  @Test
-  public void userCanRefreshMessages() {
-    // В реальной жизни: INSERT INTO messages ...
-    $(by("title", "Refresh")).click();
-    // В реальной жизни: проверить, что новое письмо появилось в инбоксе
-  }
+@Test
+public void userCanRefreshMessages() {
+  // В реальной жизни: INSERT INTO messages ...
+  $(by("title", "Refresh")).click();
+  // В реальной жизни: проверить, что новое письмо появилось в инбоксе
+}
 ```
 
 В настоящих тестах я до нажатия добавил бы новое письмо в базу данных, и после нажатия "Refresh" проверил бы, что 
@@ -118,17 +118,17 @@ tags: [GMail, ajax, examples]
 Для составления нового письма нажимаем кнопку "COMPOSE":
 
 ```java
-    $(byText("COMPOSE")).click();
+$(byText("COMPOSE")).click();
 ```
 
 И вбиваем адрес, тему и текст:
 
 ```java
-    $(By.name("to")).val("andrei.solntsev@gmail.com").pressTab();
-    $(by("placeholder", "Subject")).val("ConfetQA demo!").pressTab();
+$(By.name("to")).val("andrei.solntsev@gmail.com").pressTab();
+$(by("placeholder", "Subject")).val("ConfetQA demo!").pressTab();
 
-    $(".editable").val("Hello braza!").pressEnter();
-    $(byText("Send")).click();
+$(".editable").val("Hello braza!").pressEnter();
+$(byText("Send")).click();
 ```
 
 В общем-то, совсем ничего сложного.
@@ -136,7 +136,7 @@ tags: [GMail, ajax, examples]
 И в конце проверяем, что письмо отправилось:
 
 ```java
-    $(withText("Your message has been sent.")).shouldBe(visible);
+$(withText("Your message has been sent.")).shouldBe(visible);
 ```
 
 ### Undo - redo
@@ -148,24 +148,28 @@ tags: [GMail, ajax, examples]
 Итак, попробуем это протестировать. В конце предыдущего теста добавляем:
 
 ```java
-    $(byText("Undo")).click();
-    highlight($(byText("Sending has been undone.")).should(appear));
+$(byText("Undo")).click();
+highlight($(byText("Sending has been undone.")).should(appear));
 ```
 
 Подправляем текст письма:
 
 ```java
-    $(".editable").should(appear).append("Hello from ConfetQA Selen").pressEnter().pressEnter();
+$(".editable")
+  .should(appear)
+  .append("Hello from ConfetQA Selen")
+  .pressEnter()
+  .pressEnter();
 
-    $(byText("Send")).click();
+$(byText("Send")).click();
 ```
 
 И ждём 10 секунд, пока кнопка "Undo" пропадёт:
 
 ```java
-    highlight($(withText("Your message has been sent.")).should(appear));
-    highlight($(byText("Undo")).should(appear)).waitUntil(disappears, 12000);
-    $(byText("Sent Mail")).click();
+highlight($(withText("Your message has been sent.")).should(appear));
+highlight($(byText("Undo")).should(appear)).waitUntil(disappears, 12000);
+$(byText("Sent Mail")).click();
 ```
 
 Письмо окончательно отослано адресату.

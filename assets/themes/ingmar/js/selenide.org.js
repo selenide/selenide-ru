@@ -25,8 +25,8 @@
   }
 
   function setupLanguageSelector() {
-    document.getElementById('lang_eng').setAttribute("href", window.location.href.replace(/\/\/ru./, '//'));
-    document.getElementById('lang_rus').setAttribute("href", window.location.href);
+    document.getElementById('lang_eng').setAttribute("href", window.location.href);
+    document.getElementById('lang_rus').setAttribute("href", window.location.href.replace(/\/\//, '//ru.'));
   }
 
   function toggleDocumentation() {
@@ -123,6 +123,13 @@
     }
   }
 
+  function redirectToDomainPage() {
+    console.log(window.location.href, ' : ', window.location.pathname)
+    if (window.location.href.startsWith('https://test.selenide.org') && !window.location.pathname.startsWith('/test-page')) {
+      window.location = 'https://test.selenide.org/test-page'
+    }
+  }
+
   setupLanguageSelector();
   setupDocumentationMenu();
   showNews();
@@ -138,4 +145,5 @@
   else {
     showRandomUser();
   }
+  redirectToDomainPage();
 })();

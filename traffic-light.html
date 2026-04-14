@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Traffic lights</title>
+  <meta charset="UTF-8">
+  <style>
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      margin: 35vh 0;
+    }
+
+    .box * {
+      align-self: center;
+      background-color: #eeeeee;
+    }
+
+    #light {
+      width: 200px;
+      border-radius: 50px;
+      color: white;
+      font-size: 96pt;
+      padding: 10px 50px;
+    }
+
+    .green {
+      background-color: green
+    }
+
+    #timer {
+      margin: 5vh;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <div id="light">&nbsp;</div>
+  <div id="timer"></div>
+</div>
+<script>
+  (() => {
+    const light = document.getElementById('light')
+    const start = new Date().getTime()
+
+    function turnGreen() {
+      light.classList.remove('red')
+      light.classList.add('green')
+    }
+
+    function showText() {
+      light.innerText = "GO!"
+    }
+
+    function updateTimer() {
+      document.getElementById('timer').innerText = `${Math.round((new Date().getTime() - start) / 1000)} s.`
+    }
+
+    setTimeout(turnGreen, 2500)
+    setTimeout(showText, 5000)
+    setInterval(updateTimer, 100)
+  })()
+</script>
+</body>
+</html>

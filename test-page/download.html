@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File download</title>
+</head>
+<body>
+<ul>
+  <li>
+    <a id="download-text" href="download/hello-world.txt" download="hello-world.txt">hello-world.txt</a>
+  </li>
+  <li>
+    <a id="download-pdf" href="download/hello-world.pdf" download="hello-world.pdf">hello-world.pdf</a>
+  </li>
+</ul>
+
+<div style="margin: 20px; padding: 10px; background-color: #fafafa">
+<h4>Delay (ms):</h4>
+<div>
+   <input id="delay" name="delay" type="number" value="2000">
+</div>
+<h4>Text for file:</h4>
+<div>
+  <textarea id="lore-ipsum">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </textarea>
+</div>
+<br>
+<div>
+  <input type="button" id="slow-download" value="Slow download"/>
+</div>
+</div>
+
+<script>
+  (function() {
+    function downloadGeneratedFile() {
+      const loreIpsum = document.getElementById('lore-ipsum').value;
+      const a = window.document.createElement('a');
+      a.href = window.URL.createObjectURL(new Blob([loreIpsum], {type: 'plain/text'}));
+      a.download = 'hello.txt';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    function downloadFile(link) {
+      const a = window.document.createElement('a')
+      a.href = link.getAttribute('href')
+      a.download = link.getAttribute('download');
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+    
+    function delayMs() {
+      return parseInt(document.getElementById('delay').value)
+    }
+    
+    document.getElementById('slow-download').addEventListener('click', function (e) {
+      e.preventDefault();
+      setTimeout(downloadGeneratedFile, delayMs());
+    })
+
+    document.getElementById('download-text').addEventListener('click', function (e) {
+      e.preventDefault();
+      setTimeout(() => downloadFile(e.target), delayMs());
+    })
+    
+    document.getElementById('download-pdf').addEventListener('click', function (e) {
+      e.preventDefault();
+      setTimeout(() => downloadFile(e.target), delayMs());
+    })
+
+    const searchParams = new URLSearchParams(window.location.search);
+    document.getElementById('delay').value = searchParams.get('delay') || 2000
+  })()
+</script>
+</body>
+</html>

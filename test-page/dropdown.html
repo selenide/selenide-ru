@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dropdown</title>
+  <style>
+    body {
+      padding: 10px;
+    }
+    select {
+      width: 200px;
+    }
+    .summary {
+      margin: 20px; padding: 10px; background-color: #fafafa; display: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Your favorite hero</h1>
+<div id="hero-selection">
+<select id="hero">
+  <option value=""> - - - select - - - </option>
+  <option value="john-mcclane">John McClane</option>
+  <option value="sarah-connor">Sarah Connor</option>
+  <option value="ellen-ripley">Ellen Ripley</option>
+  <option value="samwise-gamgee">Samwise Gamgee</option>
+</select>
+</div>
+
+<div id="hero-summary" class="summary">
+</div>
+
+<div id="cars-selection">
+  <h2>Choose your cars:</h2>
+  <select name="cars" id="cars" multiple style="height: 115px; padding: 5px;">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+    <option value="zhiguli" disabled>Zhiguli</option>
+    <option value="lada" disabled>Lada</option>
+  </select>
+  <div id="cars-summary" class="summary">
+  </div>
+</div>
+
+<script>
+  (function() {
+    document.getElementById('hero-selection').addEventListener('change', () => {
+      const select = document.getElementById('hero');
+      const heroName = select.selectedOptions[0].text;
+      const heroId = select.selectedOptions[0].value;
+
+      const result = document.getElementById('hero-summary');
+      if (heroId) {
+        result.style.display = 'block';
+        result.innerText = `Your hero is: ${heroName} (id: ${heroId})`
+      }
+      else {
+        result.style.display = 'none';
+      }
+    })
+
+    document.getElementById('cars-selection').addEventListener('input', () => {
+      const select = document.getElementById('cars');
+      const description = Array.from(select.selectedOptions).map(option => option.value).join(' & ')
+
+      const result = document.getElementById('cars-summary');
+      if (description) {
+        result.style.display = 'block';
+        result.innerText = description
+      }
+      else {
+        result.style.display = 'none';
+      }
+    })
+  })()
+</script>
+</body>
+</html>

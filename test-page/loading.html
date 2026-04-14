@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <style>
+  </style>
+  <title>Loading demo</title>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      const button = document.querySelector('#load');
+
+      function initButon() {
+        button.addEventListener('click', (e) => {
+          e.preventDefault();
+          showProgress();
+          button.setAttribute('disabled', 'disabled');
+        });
+      }
+
+      function showProgress() {
+        const progress = document.getElementById('progress')
+        for (let i = 0; i < 5; i++) {
+          setTimeout(() => {
+            const el = document.createElement('li')
+            el.textContent = `${1 + i}...`
+            progress.appendChild(el)
+          }, 1000 * i);
+        }
+
+        setTimeout(() => {
+          document.getElementById('result').style.visibility = 'visible';
+          button.style.visibility = 'hidden';
+        }, 5000);
+      }
+
+      initButon();
+    })
+  </script>
+</head>
+<body>
+
+<h1>Loading demo</h1>
+
+<button id="load">Load report</button>
+
+<div id="progress">
+</div>
+
+<div id="result" style="visibility: hidden;">
+  <h3>Report loaded</h3>
+</div>
+
+</body>
+</html>

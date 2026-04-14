@@ -1,0 +1,3 @@
+User-agent: *
+Host: selenide.org
+Sitemap: https://selenide.org/sitemap

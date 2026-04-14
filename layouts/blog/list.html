@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+{{ partial "title.html" . }}
+
+<div class="wrapper-content {{ .Params.cssClass }}">
+  <section>
+    {{ $pages := .Pages }}
+    {{ $prevYear := "" }}
+    {{ $prevMonth := "" }}
+    {{ $first := true }}
+
+    {{ range $pages }}
+      {{ $thisYear := .Date.Format "2006" }}
+      {{ $thisMonth := .Date.Format "January" }}
+
+      {{ if $first }}
+        <h2>{{ $thisYear }}</h2>
+        <h3>{{ $thisMonth }}</h3>
+        <ul>
+        {{ $first = false }}
+      {{ else }}
+        {{ if ne $thisYear $prevYear }}
+          </ul>
+          <h2>{{ $thisYear }}</h2>
+          <h3>{{ $thisMonth }}</h3>
+          <ul>
+        {{ else if ne $thisMonth $prevMonth }}
+          </ul>
+          <h3>{{ $thisMonth }}</h3>
+          <ul>
+        {{ end }}
+      {{ end }}
+
+      <li>
+        <span>{{ .Date.Format "02.01.06" }}</span>
+        &raquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.headerText }}{{ . | replaceRE "<br/?>" " " | safeHTML }}{{ end }}
+      </li>
+
+      {{ $prevYear = $thisYear }}
+      {{ $prevMonth = $thisMonth }}
+    {{ end }}
+
+    {{ if not $first }}
+      </ul>
+    {{ end }}
+
+    <br/>
+    <br/>
+  </section>
+</div>
+
+{{ end }}

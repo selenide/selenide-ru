@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+{{ partial "donate.html" . }}
+
+<div class="short {{ .Params.cssClass }}">
+  <div class="wrapper-color-content">
+    <h3>{{ .Title }}</h3>
+    {{ .Params.headerText | safeHTML }}
+  </div>
+</div>
+
+<br/>
+
+<div class="wrapper">
+  <div id="user-tags">
+    <a href="#all" class="reset-filter">all</a>
+    {{ range hugo.Data.user_tags }}
+      | <a href="#{{ . }}" class="tag">{{ . }}</a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="wrapper-content" id="selenide-users">
+
+  <section>
+
+    {{ range hugo.Data.users }}
+      {{ if ne .name "" }}
+        <div id="{{ .id }}" class="user hidden {{ range .tags }} {{ . }}{{ end }}">
+          <div class="row">
+            <div class="user-logo">
+              <a href="{{ .link }}" target="_blank" class="external-link">
+                <img data-src="/images/{{ .logo }}" alt="{{ .name }}" {{ with .logoWidth }}width="{{ . }}"{{ end }}/>
+              </a>
+            </div>
+            <div class="user-description">
+              <a href="{{ .link }}" target="_blank" class="external-link">{{ .name }}</a> - {{ .description | safeHTML }}
+              <div class="user-tags">
+                {{ range .tags }} <a class="tag" href="#{{ . }}">{{ . }}</a> {{ end }}
+              </div>
+            </div>
+          </div>
+          <hr class="divider"/>
+        </div>
+      {{ end }}
+    {{ end }}
+
+  </section>
+</div>
+
+<div class="vspace"></div>
+
+<a name="contact"></a>
+
+<div class="short howto">
+  <div class="wrapper-color-content">
+    <h3>Сообщи о себе!</h3>
+    <h4>Поделись с нами опытом!</h4>
+  </div>
+</div>
+
+<div class="wrapper-content center">
+  <section>
+    <br/>
+    <div>Хотите увидеть здесь и свой логотип? <a href="mailto:andrei.solntsev@gmail.com">Напишите нам!</a></div>
+    <div>Нам чертовски интересно узнать про вас: что пробовали, что получилось, какие встретили проблемы.</div>
+    <br/>
+    <div>Задай свои вопросы или оставь отзыв!</div>
+  </section>
+</div>
+
+<div class="quicklinks">
+  <div class="wrapper-color-content">
+    <ul class="gray-boxes">
+      <li>
+        <a href="mailto:selenide@googlegroups.com" target="_blank">
+          <span class="ql"><h3>Спроси у</h3> <strong><h4>людей</h4></strong></span>
+        </a>
+      </li>
+      <li>
+        <a href="https://groups.google.com/forum/?fromgroups#!forum/selenide-ru" target="_blank" title="Архив гуглогруппы selenide-ru">
+          <span class="ql"><h3>Читай</h3> <strong><h4>ГГруппу</h4></strong></span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:andrei.solntsev@gmail.com" target="_blank">
+          <span class="ql"><h3>Напиши</h3> <strong><h4>мне</h4></strong></span>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/selenide" target="_blank" title="Twitter #selenide">
+          <span class="ql"><h3>Пиши в</h3> <h4>твиттер</h4></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{{ end }}

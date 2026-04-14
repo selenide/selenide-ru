@@ -1,7 +1,4 @@
 *.iml
-_site/*
-jekyll.log
-.jekyll-metadata
 
 Thumbs.db
 .DS_Store
@@ -12,3 +9,8 @@ Thumbs.db
 .rvmrc
 
 /.claude/settings.local.json
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock

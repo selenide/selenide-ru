@@ -1,0 +1,49 @@
+baseURL = "https://ru.selenide.org"
+languageCode = "ru"
+title = "Selenide"
+
+# Build future-dated posts (matching Jekyll --future flag)
+buildFuture = true
+
+# Disable unused built-in pages
+disableKinds = ["taxonomy", "term"]
+
+# Allow raw HTML in Markdown content
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Use CSS classes for syntax highlighting (not inline styles)
+[markup.highlight]
+  noClasses = false
+
+[params]
+  tagline = "Лаконичные и стабильные UI тесты на Java"
+  selenideVersion = "7.16.0"
+  seleniumChangelog = "https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG"
+  googleAnalyticsId = "UA-39031927-1"
+
+[params.author]
+  name = "Andrei Solntsev"
+  email = "andrei.solntsev@gmail.com"
+  github = "asolntsev"
+  twitter = "selenide"
+
+# Blog post permalinks match old Jekyll URLs: /YYYY/MM/DD/title/
+[permalinks]
+  blog = "/:year/:month/:day/:slug/"
+
+# Built-in RSS feed
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "rss"
+  isPlainText = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+# Local dev server: redirect /rss to /rss.xml
+[[server.redirects]]
+  from = "/rss"
+  to = "/rss.xml"
+  status = 200

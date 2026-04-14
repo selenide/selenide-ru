@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+{{ partial "donate.html" . }}
+
+<div class="short" style="color: #222; margin-bottom: 3vh;">
+  <h4 style="color: #222;">{{ .Title }}</h4>
+  {{ .Params.headerText | safeHTML }}
+  <h6>{{ .Date.Format "02.01.06" }}</h6>
+</div>
+
+<div class="wrapper-content blog_post">
+  <section>
+    <div class="blog_post_content">
+      {{ .Content }}
+
+      <p>{{ .Date.Format "02.01.06" }}</p>
+    </div>
+  </section>
+</div>
+
+{{ end }}

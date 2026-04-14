@@ -1,76 +1,77 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# CLAUDE.md — selenide-ru
 
 ## Project Overview
 
-Russian-language website for the Selenide test automation framework, hosted at ru.selenide.org. Built with Jekyll 3.9.5 on GitHub Pages. All content is in Russian.
+Russian-language website for the Selenide test automation framework, hosted at ru.selenide.org. Built with Hugo static site generator on GitHub Pages. All content is in Russian.
 
-The English counterpart lives at selenide.org (separate repository).
+The English counterpart lives at selenide.org (separate repository: selenide-web).
+
+## Tech stack
+
+- **Hugo** static site generator
+- **Goldmark** for Markdown rendering (with `unsafe: true` for raw HTML in content)
+- **Go templates** for layouts
+- **jQuery 3.6.0** + jQuery UI 1.13.1 (from CDN)
+- Custom theme "Ingmar" (inlined in `layouts/` and `assets/themes/ingmar/`)
 
 ## Development Commands
 
 ```bash
-# Start local dev server (requires RVM with Ruby 2.7)
+# Install Hugo (macOS)
+brew install hugo
+
+# Start local dev server
 ./start.sh
-# Serves at http://0.0.0.0:4002 with LiveReload on port 40002
-
-# Or manually:
-bundle exec jekyll serve --future --incremental --safe --strict_front_matter \
-  --host=0.0.0.0 --port=4002 --livereload --livereload-port=40002 --watch
-
-# Create a new blog post:
-rake post title="Post Title" date="2026-04-12" tags="[tag1, tag2]"
-
-# Create a new page:
-rake page name="page-name.md"
-
-# Install dependencies:
-bundle install
+# or manually:
+hugo server --buildFuture --port 4002
 ```
 
 ## Content Structure
 
-**Blog posts** (`_posts/`): Markdown files named `YYYY-MM-DD-slug.md` with this frontmatter:
+```
+hugo.toml            Main Hugo config
+content/
+  _index.md          Homepage (content in layouts/index.html)
+  blog/              Blog posts (185+ files), _index.md is the blog list
+  documentation/     _index.md + sub-pages (page-objects, screenshots, reports, clouds, selenide-vs-selenium)
+  quick-start.md, faq.md, users.md, quotes.md, contacts.md, javadoc.md, thanks.md
+layouts/
+  _default/          baseof.html, single.html, list.html, users.html
+  blog/              single.html (post), list.html (blog index with year/month grouping)
+  partials/          donate.html, main-menu.html, documentation-menu.html, quicklinks.html, title.html, analytics.html
+  shortcodes/        selenide-version.html, selenium-changelog.html, documentation-menu.html
+  index.html         Homepage template
+  404.html           Custom 404
+assets/
+  themes/ingmar/css/ CSS files (processed via Hugo Pipes for fingerprinting)
+static/
+  images/            Logos, screenshots
+  assets/themes/ingmar/js/  JavaScript files
+  CNAME, favicon.ico, robots.txt
+data/
+  users.json         Companies using Selenide
+  user_tags.json     Tags for filtering users page
+```
+
+**Blog posts** (`content/blog/`): Markdown files named `YYYY-MM-DD-slug.md` with this frontmatter:
 ```yaml
 ---
-layout: post
+slug: "slug-name"
+date: YYYY-MM-DD
 title: "Title in Russian"
 description: ""
 category:
-header-text: "Short header text"
+headerText: "Short header text"
 tags: []
 ---
-{% include JB/setup %}
 ```
-
-**Documentation pages** (`documentation/`): Standalone Markdown pages for Selenide features, anti-patterns (`donts/`), etc.
-
-**Top-level pages**: `index.md`, `quick-start.md`, `documentation.md`, `faq.md`, `users.md`, `quotes.md`, etc.
-
-**Data files** (`_data/`): `users.json` (companies using Selenide), `user-tags.json`.
-
-## Theme & Layout Architecture
-
-Uses Jekyll Bootstrap with a custom "ingmar" theme:
-- `_includes/themes/ingmar/default.html` - main page template (header, footer, analytics)
-- `_includes/themes/ingmar/post.html` - blog post template
-- `_includes/themes/ingmar/_quicklinks.html` - sidebar quick links
-- `_layouts/default.html`, `post.html`, `page.html` - thin wrappers that delegate to the theme
-- `_includes/main_menu.md` - site navigation
-- `_includes/documentation-menu.md` - docs sidebar menu
-- `_includes/donate.md` - donation widget (included in multiple layouts)
-- `assets/themes/ingmar/` - CSS, JS, images for the theme
-
-Frontend dependencies are loaded from CDNs (jQuery, jQuery UI, Magnific Popup, Google Fonts).
 
 ## Key Configuration
 
-- `_config.yml`: Jekyll config. `SELENIDE_VERSION` variable used in quick-start code snippets. Update it when releasing a new Selenide version.
-- `CNAME`: Points to `ru.selenide.org`.
-- Permalink format: `/:categories/:year/:month/:day/:title/`
-- Markdown processor: kramdown.
+- `hugo.toml`: Hugo config. `params.selenideVersion` variable used in quick-start code snippets via `{{</* selenide-version */>}}` shortcode. Update it when releasing a new Selenide version.
+- `static/CNAME`: Points to `ru.selenide.org`.
+- Permalink format: `/:year/:month/:day/:slug/`
 
 ## Deployment
 
-Push to `gh-pages` branch triggers automatic GitHub Pages deployment. No CI/CD pipeline — GitHub Pages builds Jekyll directly.
+A GitHub Actions workflow runs `hugo` and deploys the `public/` directory to GitHub Pages.

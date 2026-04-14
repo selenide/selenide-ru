@@ -1,0 +1,5 @@
+{{- if .Type -}}
+  {{- highlight (printf "%s\n" .Inner) .Type .Options -}}
+{{- else -}}
+  <div class="highlight"><pre><code>{{ .Inner }}</code></pre></div>
+{{- end -}}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ partial "title.html" . }}
+
+<div class="wrapper-content {{ .Params.cssClass }}">
+  <section>
+    {{ .Content }}
+    <br/>
+    <br/>
+  </section>
+</div>
+
+{{ end }}

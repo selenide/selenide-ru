@@ -24,11 +24,6 @@
     }
   }
 
-  function setupLanguageSelector() {
-    document.getElementById('lang_eng').setAttribute("href", window.location.href);
-    document.getElementById('lang_rus').setAttribute("href", window.location.href.replace(/\/\//, '//ru.'));
-  }
-
   function toggleDocumentation() {
     const documentationMenu = document.querySelector('.left-menu')
     documentationMenu.classList.toggle('shown')
@@ -130,7 +125,6 @@
     }
   }
 
-  setupLanguageSelector();
   setupDocumentationMenu();
   showNews();
   showVideosInPopup();

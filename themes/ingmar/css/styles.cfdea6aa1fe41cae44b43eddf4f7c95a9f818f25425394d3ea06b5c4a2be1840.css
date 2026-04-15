@@ -297,6 +297,10 @@ a small {
   padding-bottom: 35px;
 }
 
+.short.blog_post_header h6 {
+  color: #fff;
+}
+
 .short.thanks {
   padding-top: 25px;
   padding-bottom: 35px;

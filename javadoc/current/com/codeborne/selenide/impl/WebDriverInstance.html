@@ -83,7 +83,7 @@ loadScripts(document, 'script');</script>
 <dd><code><a href="Disposable.html" title="interface in com.codeborne.selenide.impl">Disposable</a></code></dd>
 </dl>
 <hr>
-<div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">WebDriverInstance</span>(long&nbsp;threadId, <a href="../Config.html" title="interface in com.codeborne.selenide">Config</a>&nbsp;config, org.openqa.selenium.WebDriver&nbsp;webDriver, @Nullable <a href="../proxy/SelenideProxyServer.html" title="class in com.codeborne.selenide.proxy">SelenideProxyServer</a>&nbsp;proxy, @Nullable <a href="../DownloadsFolder.html" title="interface in com.codeborne.selenide">DownloadsFolder</a>&nbsp;downloadsFolder, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;org.openqa.selenium.logging.LogEntry&gt;&nbsp;browserLogs)
+<div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">WebDriverInstance</span>(long&nbsp;threadId, <a href="../Config.html" title="interface in com.codeborne.selenide">Config</a>&nbsp;config, org.openqa.selenium.WebDriver&nbsp;webDriver, @Nullable <a href="../proxy/SelenideProxyServer.html" title="class in com.codeborne.selenide.proxy">SelenideProxyServer</a>&nbsp;proxy, @Nullable <a href="../DownloadsFolder.html" title="interface in com.codeborne.selenide">DownloadsFolder</a>&nbsp;downloadsFolder, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;org.openqa.selenium.logging.LogEntry&gt;&nbsp;browserLogs, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;source)
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a>
 implements <a href="Disposable.html" title="interface in com.codeborne.selenide.impl">Disposable</a></span></div>
 <div class="block">An instance of webdriver with its resources: config, proxy and downloads folder.</div>
@@ -98,12 +98,13 @@ implements <a href="Disposable.html" title="interface in com.codeborne.selenide.
 <div class="summary-table two-column-summary">
 <div class="table-header col-first">Constructor</div>
 <div class="table-header col-last">Description</div>
-<div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(long,com.codeborne.selenide.Config,org.openqa.selenium.WebDriver,com.codeborne.selenide.proxy.SelenideProxyServer,com.codeborne.selenide.DownloadsFolder,java.util.List)" class="member-name-link">WebDriverInstance</a><wbr>(long&nbsp;threadId,
+<div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(long,com.codeborne.selenide.Config,org.openqa.selenium.WebDriver,com.codeborne.selenide.proxy.SelenideProxyServer,com.codeborne.selenide.DownloadsFolder,java.util.List,java.lang.String)" class="member-name-link">WebDriverInstance</a><wbr>(long&nbsp;threadId,
  <a href="../Config.html" title="interface in com.codeborne.selenide">Config</a>&nbsp;config,
  org.openqa.selenium.WebDriver&nbsp;webDriver,
  @Nullable <a href="../proxy/SelenideProxyServer.html" title="class in com.codeborne.selenide.proxy">SelenideProxyServer</a>&nbsp;proxy,
  @Nullable <a href="../DownloadsFolder.html" title="interface in com.codeborne.selenide">DownloadsFolder</a>&nbsp;downloadsFolder,
- <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;org.openqa.selenium.logging.LogEntry&gt;&nbsp;browserLogs)</code></div>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;org.openqa.selenium.logging.LogEntry&gt;&nbsp;browserLogs,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;source)</code></div>
 <div class="col-last even-row-color">
 <div class="block">Creates an instance of a <code>WebDriverInstance</code> record class.</div>
 </div>
@@ -159,19 +160,24 @@ implements <a href="Disposable.html" title="interface in com.codeborne.selenide.
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Returns the value of the <code>proxy</code> record component.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>long</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#threadId()" class="member-name-link">threadId</a>()</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#source()" class="member-name-link">source</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Returns the value of the <code>source</code> record component.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>long</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#threadId()" class="member-name-link">threadId</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Returns the value of the <code>threadId</code> record component.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>final <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#toString()" class="member-name-link">toString</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>final <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#toString()" class="member-name-link">toString</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Returns a string representation of this record class.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>org.openqa.selenium.WebDriver</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#webDriver()" class="member-name-link">webDriver</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>org.openqa.selenium.WebDriver</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#webDriver()" class="member-name-link">webDriver</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Returns the value of the <code>webDriver</code> record component.</div>
 </div>
 </div>
@@ -201,14 +207,15 @@ implements <a href="Disposable.html" title="interface in com.codeborne.selenide.
 </section>
 </li>
 <li>
-<section class="detail" id="&lt;init&gt;(long,com.codeborne.selenide.Config,org.openqa.selenium.WebDriver,com.codeborne.selenide.proxy.SelenideProxyServer,com.codeborne.selenide.DownloadsFolder,java.util.List)">
+<section class="detail" id="&lt;init&gt;(long,com.codeborne.selenide.Config,org.openqa.selenium.WebDriver,com.codeborne.selenide.proxy.SelenideProxyServer,com.codeborne.selenide.DownloadsFolder,java.util.List,java.lang.String)">
 <h3>WebDriverInstance</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">WebDriverInstance</span><wbr><span class="parameters">(long&nbsp;threadId,
  <a href="../Config.html" title="interface in com.codeborne.selenide">Config</a>&nbsp;config,
  org.openqa.selenium.WebDriver&nbsp;webDriver,
  @Nullable <a href="../proxy/SelenideProxyServer.html" title="class in com.codeborne.selenide.proxy">SelenideProxyServer</a>&nbsp;proxy,
  @Nullable <a href="../DownloadsFolder.html" title="interface in com.codeborne.selenide">DownloadsFolder</a>&nbsp;downloadsFolder,
- <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;org.openqa.selenium.logging.LogEntry&gt;&nbsp;browserLogs)</span></div>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;org.openqa.selenium.logging.LogEntry&gt;&nbsp;browserLogs,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;source)</span></div>
 <div class="block">Creates an instance of a <code>WebDriverInstance</code> record class.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -218,6 +225,7 @@ implements <a href="Disposable.html" title="interface in com.codeborne.selenide.
 <dd><code>proxy</code> - the value for the <code>proxy</code> record component</dd>
 <dd><code>downloadsFolder</code> - the value for the <code>downloadsFolder</code> record component</dd>
 <dd><code>browserLogs</code> - the value for the <code>browserLogs</code> record component</dd>
+<dd><code>source</code> - the value for the <code>source</code> record component</dd>
 </dl>
 </section>
 </li>
@@ -343,6 +351,17 @@ implements <a href="Disposable.html" title="interface in com.codeborne.selenide.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>the value of the <code>browserLogs</code> record component</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="source()">
+<h3>source</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">source</span>()</div>
+<div class="block">Returns the value of the <code>source</code> record component.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the value of the <code>source</code> record component</dd>
 </dl>
 </section>
 </li>

@@ -1,0 +1,11 @@
+  @Test
+  void canDownloadImage() throws URISyntaxException, IOException {
+    open("https://tallinn.kdmid.ru/queue/orderinfo.aspx?id=56831&cd=a403e161&ems=2C444843");
+    SelenideElement img = $("#ctl00_MainContent_imgSecNum").shouldBe(visible);
+    String src = img.attr("src");
+    File file = Selenide.download(src, 8000);
+    log.info("Downloaded image: {}", file);
+    BufferedImage image = ImageIO.read(file);
+    assertThat(image.getWidth()).isGreaterThan(100);
+    assertThat(image.getHeight()).isGreaterThan(20);
+  }

@@ -1,0 +1,29 @@
+Ну что, котаны, с Новым Годом!
+
+Подведём итоги. В ушедшем 2023 году мы
+- отпраздновали 12-летие Селенида
+- мы запилили 19 релизов с кучей фич
+- обновились аж сразу на Java 17
+- переименовали ветку master в main
+- Влили проект selenide-selenoid в selenide
+- Влили проект selenide-appium в selenide
+- Заменили WebDriverManager на SeleniumManager
+- Исторический момент: обнаружился первый мем про селенид - https://pikabu.ru/story/selenium_selenide_i_selenoid_8376039
+
+Количество скачиваний селенида выросла с 500K в январе до 800K в ноябре:
+
+
+Playwright+Selenide
+
+
+Лично мои
+- Я запилил первый видос после 9-летнего перерыва: "Как скачать файл в Selenide: спросим у ChatGPT" - https://youtu.be/k0A8HFWV_iE
+- Наконец-то у меня появился доклад про Flaky tests на английском с конференции JFokus - https://www.youtube.com/watch?v=18J2_4a4Cl4&ab_channel=Jfokus
+
+
+
+
+
+
+
+

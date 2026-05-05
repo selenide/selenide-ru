@@ -2684,7 +2684,41 @@ classpath. Нам всегда казалось, что держать тест�
 &lt;h3 id="почему-понадобился-ещё-один-враппер-для-selenium"&gt;Почему понадобился ещё один враппер для Selenium?&lt;/h3&gt;
 &lt;p&gt;Да, есть и другие &amp;ldquo;обёртки&amp;rdquo; для Selenium webdriver. Но нам кажется, что все они не решают главные проблемы UI тестов.
 А именно, нестабильность тестов, веб-приложения с динамическим контентом, JavaScript, Ajax, таймауты и т.д.
-Selenide был создан для решения этих проблем.&lt;/p&gt;</description></item><item><title>javadoc</title><link>https://ru.selenide.org/javadoc.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/javadoc.html</guid><description>&lt;iframe src="https://ru.selenide.org/javadoc/current/" style="width: 100%" height="600px" seamless="true"&gt;&lt;/iframe&gt;</description></item><item><title>Кто использует Selenide</title><link>https://ru.selenide.org/users.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/users.html</guid><description/></item><item><title>Мы говорим СПАСИБО</title><link>https://ru.selenide.org/thanks.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/thanks.html</guid><description>&lt;script&gt;
+Selenide был создан для решения этих проблем.&lt;/p&gt;</description></item><item><title/><link>https://ru.selenide.org/todo-contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/todo-contributing/</guid><description>&lt;h2 id="а-ты-помог-selenide"&gt;А ты помог Selenide?&lt;/h2&gt;
+&lt;p&gt;Дорогой друг! И ты тоже можешь помочь проекту Selenide. Для этого даже не надо быть семи пядей во лбу или иметь 20 лет опыта в разработке.&lt;/p&gt;
+&lt;p&gt;Вот что ты можешь сделать:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Просмотреть открытые &lt;a href="https://github.com/selenide/selenide/pulls"&gt;пуллреквесты&lt;/a&gt; и дать свою оценку в комментариях, можно ли мержить эти изменения в Selenide&lt;/li&gt;
+&lt;li&gt;Просмотреть открытые &lt;a href="https://github.com/selenide/selenide/issues"&gt;тикеты&lt;/a&gt; и дать свою оценку в комментариях:
+&lt;ul&gt;
+&lt;li&gt;не фигню ли просят&lt;/li&gt;
+&lt;li&gt;не сделано ли это уже&lt;/li&gt;
+&lt;li&gt;стоит ли это делать&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Дописать недостающую документацию&lt;/li&gt;
+&lt;li&gt;Написать блог-пост&lt;/li&gt;
+&lt;li&gt;Дописать недостающие тесты&lt;/li&gt;
+&lt;li&gt;Добавить свои примеры использования Selenide с другими инструментами на &lt;a href="https://github.com/selenide-examples"&gt;github.com/selenide-examples&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Найти добровольца-дизайнера для редизайна сайта (в первую очередь под мобильники)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Любая помощь приветствуется. Как говорится, нас - рать!&lt;/p&gt;</description></item><item><title/><link>https://ru.selenide.org/todo-medvedev/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/todo-medvedev/</guid><description>&lt;p&gt;post medvedeva ot 04.11.2022:
+ПОЧЕМУ НАШЕ ДЕЛО ПРАВОЕ
+Ответы на простые вопросы
+в День народного единства&lt;/p&gt;
+&lt;p&gt;За что мы воюем? Россия – огромная и богатая страна. Нам не нужны чужие территории, у нас всего в достатке. Но есть наша земля, которая для нас священна, на которой жили наши предки и на которой сегодня живут наши люди. И которую мы никому не отдадим. Мы защищаем наших людей. Мы воюем за всех своих, за свою землю, за свою тысячелетнюю историю.&lt;/p&gt;</description></item><item><title/><link>https://ru.selenide.org/todo-simonjan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/todo-simonjan/</guid><description>&lt;p&gt;post simonjan ot 04.11.2022:
+Автор Маргарита Симоньян.&lt;/p&gt;
+&lt;p&gt;Настанет день, и мы снова приедем в гостеприимный, веселый, светлый и сытый Киев. Наши мужья будут снова сворачивать шеи, заглядываясь на чернобровых Оксан. Мы все будем снова хором спевать в шинке тремя незнакомыми друг с другом столами песню &amp;lsquo;Ніч яка місячна&amp;rsquo;, самую красивую на земле, украинскую песню, которую знает каждый русский, песню из великого советского фильма о нашей общей войне, общем горе и общей гордости.&lt;/p&gt;</description></item><item><title/><link>https://ru.selenide.org/todo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/todo/</guid><description>&lt;h3 id="news"&gt;News&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;У меня было много выступлений про нестабильные UI тесты.
+А теперь пришла очередь юнит-тестов!
+&amp;ldquo;Flaky unit-tests&amp;rdquo;: &lt;a href="https://www.youtube.com/watch?v=qwfKHfSAqyk"&gt;https://www.youtube.com/watch?v=qwfKHfSAqyk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;21.01.2026
+&amp;ldquo;Если вас нет за столом - то вы в меню&amp;rdquo;. Премьер Канады фактически процитировал Вацлава Гавела и объявил о наступлении нового мира&lt;/p&gt;
+&lt;p&gt;11.01.2026
+«Я в одиночку завершил восемь войн, но Норвегия, член НАТО, по глупости не дала мне Нобелевскую премию, но это неважно. Важно, что я спас миллионы жизней», — написал Трамп в своей соцсети Truth Social 7 января.
+&lt;a href="https://ircity.ru/text/world/2026/01/10/76209472/"&gt;https://ircity.ru/text/world/2026/01/10/76209472/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>javadoc</title><link>https://ru.selenide.org/javadoc.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/javadoc.html</guid><description>&lt;iframe src="https://ru.selenide.org/javadoc/current/" style="width: 100%" height="600px" seamless="true"&gt;&lt;/iframe&gt;</description></item><item><title>Кто использует Selenide</title><link>https://ru.selenide.org/users.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/users.html</guid><description/></item><item><title>Мы говорим СПАСИБО</title><link>https://ru.selenide.org/thanks.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/thanks.html</guid><description>&lt;script&gt;
  window.location = '/users.html#thanks';
 &lt;/script&gt;</description></item><item><title>С чего начать?</title><link>https://ru.selenide.org/quick-start.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/quick-start.html</guid><description>&lt;a class="video right" href="https://vimeo.com/106867878"&gt;
  Как написать UI тест за 10 минут

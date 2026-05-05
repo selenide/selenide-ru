@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
+
   --sel-accent:      #46A3D1;  /* selenide.org link color */
   --sel-text:        #777;     /* selenide.org body color */
   --sel-text-soft:   #999;
@@ -184,4 +185,50 @@ pre {
   background-color: #ffffff;
   color: var(--sel-text);
   font-family: inherit;
+}
+
+/* Search autocomplete dropdown — matches selenide.org theme */
+ul.ui-autocomplete {
+  border: 1px solid var(--sel-border);
+  border-radius: 5px;
+  background-color: var(--sel-bg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 4px 0;
+}
+.ui-autocomplete-category {
+  background-color: var(--sel-nav-bg);
+  color: var(--sel-nav-fg);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: 6px 12px;
+  border: none;
+}
+.ui-autocomplete .result-item {
+  padding: 0;
+}
+.ui-autocomplete .ui-menu-item-wrapper {
+  padding: 4px 12px;
+  color: var(--sel-text);
+  border: 1px solid transparent;
+  background: transparent;
+}
+.ui-autocomplete .ui-menu-item-wrapper.ui-state-active,
+.ui-autocomplete .ui-state-focus,
+.ui-autocomplete .ui-state-hover {
+  background-color: var(--sel-accent);
+  border: 1px solid var(--sel-accent);
+  color: var(--sel-nav-fg);
+  margin: 0;
+}
+.ui-autocomplete .result-highlight {
+  font-weight: 600;
+  color: var(--sel-accent);
+}
+.ui-autocomplete .ui-state-active .result-highlight,
+.ui-autocomplete .ui-state-focus .result-highlight,
+.ui-autocomplete .ui-state-hover .result-highlight {
+  color: var(--sel-nav-fg);
 }

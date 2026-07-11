@@ -9,6 +9,7 @@ com.codeborne.selenide.commands
 com.codeborne.selenide.commands.ancestor
 com.codeborne.selenide.conditions
 com.codeborne.selenide.conditions.clipboard
+com.codeborne.selenide.conditions.cookiestore
 com.codeborne.selenide.conditions.datetime
 com.codeborne.selenide.conditions.localstorage
 com.codeborne.selenide.conditions.sessionstorage

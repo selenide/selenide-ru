@@ -82,7 +82,7 @@ loadScripts(document, 'script');</script>
 </dl>
 <dl class="notes">
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="ElementsCollection.html" title="class in com.codeborne.selenide">ElementsCollection</a></code>, <code><a href="appium/SelenideAppiumCollection.html" title="class in com.codeborne.selenide.appium">SelenideAppiumCollection</a></code></dd>
+<dd><code><a href="ElementsCollection.html" title="class in com.codeborne.selenide">ElementsCollection</a></code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public abstract class </span><span class="element-name type-name-label">BaseElementsCollection&lt;T extends <a href="SelenideElement.html" title="interface in com.codeborne.selenide">SelenideElement</a>,<wbr>SELF extends BaseElementsCollection&lt;T,<wbr>SELF&gt;&gt;</span>
@@ -131,9 +131,17 @@ implements <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base
  <a href="BaseElementsCollection.html" title="type parameter in BaseElementsCollection">T</a>...&nbsp;clazz)</code></div>
 <div class="col-last even-row-color">&nbsp;</div>
 <div class="col-first odd-row-color"><code>protected </code></div>
-<div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.impl.CollectionSource,T...)" class="member-name-link">BaseElementsCollection</a><wbr>(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
+<div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.impl.CollectionSource,java.lang.Class)" class="member-name-link">BaseElementsCollection</a><wbr>(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;? extends <a href="BaseElementsCollection.html" title="type parameter in BaseElementsCollection">T</a>&gt;&nbsp;elementClass)</code></div>
+<div class="col-last odd-row-color">
+<div class="block">Lets a subclass build elements of a more specific class than <code>T</code>,
+ without changing the declared generic parameter <code>T</code> (and therefore
+ without changing the return type of any inherited method).</div>
+</div>
+<div class="col-first even-row-color"><code>protected </code></div>
+<div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.impl.CollectionSource,T...)" class="member-name-link">BaseElementsCollection</a><wbr>(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
  <a href="BaseElementsCollection.html" title="type parameter in BaseElementsCollection">T</a>...&nbsp;clazz)</code></div>
-<div class="col-last odd-row-color">&nbsp;</div>
+<div class="col-last even-row-color">&nbsp;</div>
 </div>
 </section>
 </li>
@@ -335,6 +343,20 @@ implements <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base
 <div class="member-signature"><span class="annotations"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/SafeVarargs.html" title="class or interface in java.lang" class="external-link">@SafeVarargs</a>
 </span><span class="modifiers">protected</span>&nbsp;<span class="element-name">BaseElementsCollection</span><wbr><span class="parameters">(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
  <a href="BaseElementsCollection.html" title="type parameter in BaseElementsCollection">T</a>...&nbsp;clazz)</span></div>
+</section>
+</li>
+<li>
+<section class="detail" id="&lt;init&gt;(com.codeborne.selenide.impl.CollectionSource,java.lang.Class)">
+<h3>BaseElementsCollection</h3>
+<div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="element-name">BaseElementsCollection</span><wbr><span class="parameters">(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;? extends <a href="BaseElementsCollection.html" title="type parameter in BaseElementsCollection">T</a>&gt;&nbsp;elementClass)</span></div>
+<div class="block">Lets a subclass build elements of a more specific class than <code>T</code>,
+ without changing the declared generic parameter <code>T</code> (and therefore
+ without changing the return type of any inherited method).</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>elementClass</code> - the actual class of elements this collection should produce</dd>
+</dl>
 </section>
 </li>
 <li>

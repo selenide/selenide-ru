@@ -82,6 +82,10 @@ loadScripts(document, 'script');</script>
 <dt>All Implemented Interfaces:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Iterable.html" title="class or interface in java.lang" class="external-link">Iterable</a>&lt;<a href="SelenideElement.html" title="interface in com.codeborne.selenide">SelenideElement</a>&gt;</code></dd>
 </dl>
+<dl class="notes">
+<dt>Direct Known Subclasses:</dt>
+<dd><code><a href="appium/SelenideAppiumCollection.html" title="class in com.codeborne.selenide.appium">SelenideAppiumCollection</a></code></dd>
+</dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">ElementsCollection</span>
 <span class="extends-implements">extends <a href="BaseElementsCollection.html" title="class in com.codeborne.selenide">BaseElementsCollection</a>&lt;<a href="SelenideElement.html" title="interface in com.codeborne.selenide">SelenideElement</a>,<wbr><a href="ElementsCollection.html" title="class in com.codeborne.selenide">ElementsCollection</a>&gt;</span></div>
@@ -102,20 +106,32 @@ loadScripts(document, 'script');</script>
 <section class="constructor-summary" id="constructor-summary">
 <h2>Constructor Summary</h2>
 <div class="caption"><span>Constructors</span></div>
-<div class="summary-table two-column-summary">
-<div class="table-header col-first">Constructor</div>
+<div class="summary-table three-column-summary">
+<div class="table-header col-first">Modifier</div>
+<div class="table-header col-second">Constructor</div>
 <div class="table-header col-last">Description</div>
+<div class="col-first even-row-color"><code>&nbsp;</code></div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.Driver,java.lang.String)" class="member-name-link">ElementsCollection</a><wbr>(<a href="Driver.html" title="interface in com.codeborne.selenide">Driver</a>&nbsp;driver,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;cssSelector)</code></div>
 <div class="col-last even-row-color">&nbsp;</div>
+<div class="col-first odd-row-color"><code>&nbsp;</code></div>
 <div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.Driver,java.util.Collection)" class="member-name-link">ElementsCollection</a><wbr>(<a href="Driver.html" title="interface in com.codeborne.selenide">Driver</a>&nbsp;driver,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;? extends org.openqa.selenium.WebElement&gt;&nbsp;elements)</code></div>
 <div class="col-last odd-row-color">&nbsp;</div>
+<div class="col-first even-row-color"><code>&nbsp;</code></div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.Driver,org.openqa.selenium.By)" class="member-name-link">ElementsCollection</a><wbr>(<a href="Driver.html" title="interface in com.codeborne.selenide">Driver</a>&nbsp;driver,
  org.openqa.selenium.By&nbsp;seleniumSelector)</code></div>
 <div class="col-last even-row-color">&nbsp;</div>
+<div class="col-first odd-row-color"><code>&nbsp;</code></div>
 <div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.impl.CollectionSource)" class="member-name-link">ElementsCollection</a><wbr>(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection)</code></div>
 <div class="col-last odd-row-color">&nbsp;</div>
+<div class="col-first even-row-color"><code>protected </code></div>
+<div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(com.codeborne.selenide.impl.CollectionSource,java.lang.Class)" class="member-name-link">ElementsCollection</a><wbr>(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;? extends <a href="SelenideElement.html" title="interface in com.codeborne.selenide">SelenideElement</a>&gt;&nbsp;elementClass)</code></div>
+<div class="col-last even-row-color">
+<div class="block">Lets a subclass produce elements of a more specific class than <a href="SelenideElement.html" title="interface in com.codeborne.selenide"><code>SelenideElement</code></a>,
+ e.g.</div>
+</div>
 </div>
 </section>
 </li>
@@ -181,6 +197,17 @@ loadScripts(document, 'script');</script>
 <h3>ElementsCollection</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">ElementsCollection</span><wbr><span class="parameters">(<a href="Driver.html" title="interface in com.codeborne.selenide">Driver</a>&nbsp;driver,
  org.openqa.selenium.By&nbsp;seleniumSelector)</span></div>
+</section>
+</li>
+<li>
+<section class="detail" id="&lt;init&gt;(com.codeborne.selenide.impl.CollectionSource,java.lang.Class)">
+<h3>ElementsCollection</h3>
+<div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="element-name">ElementsCollection</span><wbr><span class="parameters">(<a href="impl/CollectionSource.html" title="interface in com.codeborne.selenide.impl">CollectionSource</a>&nbsp;collection,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;? extends <a href="SelenideElement.html" title="interface in com.codeborne.selenide">SelenideElement</a>&gt;&nbsp;elementClass)</span></div>
+<div class="block">Lets a subclass produce elements of a more specific class than <a href="SelenideElement.html" title="interface in com.codeborne.selenide"><code>SelenideElement</code></a>,
+ e.g. a plugin module's own element interface, while keeping this class' own generic parameter
+ (and therefore the declared return type of <code>get()</code>/<code>first()</code>/<code>last()</code>/<code>find()</code>/
+ <code>findBy()</code>/<code>iterator()</code>/<code>stream()</code>) unchanged.</div>
 </section>
 </li>
 </ul>

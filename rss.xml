@@ -2525,7 +2525,7 @@ JavaScript отказывался работать.&lt;/p&gt;</description></ite
 &lt;/ul&gt;
 &lt;h2 id="updated-documentation"&gt;Мы обновили документацию&lt;/h2&gt;
 &lt;p&gt;Мы дополнили и исправили &lt;a href="https://ru.selenide.org/documentation.html"&gt;документацию&lt;/a&gt; на сайте.&lt;/p&gt;
-&lt;p&gt;Спасибо &lt;a href="https://github.com/vinogradoff"&gt;Алексею Виноградову&lt;/a&gt; и Эрику Халимову за проделанную работу!&lt;/p&gt;</description></item><item><title>Вышла Selenide 3.0</title><link>https://ru.selenide.org/2015/11/30/selenide-3.0/</link><pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2015/11/30/selenide-3.0/</guid><description>&lt;p&gt;Привет!&lt;/p&gt;
+&lt;p&gt;Спасибо &lt;a href="https://github.com/vinogradoff"&gt;Алексею Виноградову&lt;/a&gt; и Эрику Халимову за проделанную работу!&lt;/p&gt;</description></item><item><title>Вышла Selenide 3.0</title><link>https://ru.selenide.org/2015/11/30/selenide-3.0/</link><pubDate>Mon, 30 Nov 2015 18:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2015/11/30/selenide-3.0/</guid><description>&lt;p&gt;Привет!&lt;/p&gt;
 &lt;p&gt;Наконец-то мы выпустили Selenide 3.0. Уффф. Свершилось.&lt;/p&gt;
 &lt;p&gt;Внимание, версия 3.0 - это полный апгрейдец, то есть кое-что может перестать работать.&lt;/p&gt;
 &lt;p&gt;Не пугайтесь, если вы использовали только публичный API и не использовали @Deprecated методы, то для вас ничего не изменится.
@@ -2541,7 +2541,7 @@ JavaScript отказывался работать.&lt;/p&gt;</description></ite
 &lt;h2 id="historical-notes"&gt;Исторический экскурс&lt;/h2&gt;
 &lt;p&gt;Версия Selenide 1.0 была создана в 2011 году в казематах Codeborne и широко не рекламировалась.
 Примерно год Selenide мариновался и зрел. Мы пробовали использовать его в разных проектах - на Java, Scala, Groovy.
-Каждый раз обнаруживали, что API опять неудобен и требует доработок. :)&lt;/p&gt;</description></item><item><title>Изменения в Selenide 2.25</title><link>https://ru.selenide.org/2015/11/30/selenide-2.25/</link><pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2015/11/30/selenide-2.25/</guid><description>&lt;p&gt;Привет!&lt;/p&gt;
+Каждый раз обнаруживали, что API опять неудобен и требует доработок. :)&lt;/p&gt;</description></item><item><title>Изменения в Selenide 2.25</title><link>https://ru.selenide.org/2015/11/30/selenide-2.25/</link><pubDate>Mon, 30 Nov 2015 09:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2015/11/30/selenide-2.25/</guid><description>&lt;p&gt;Привет!&lt;/p&gt;
 &lt;p&gt;Мы выпустили Selenide 2.25. Это последняя версия в линейке 2.*, даже будет большой рефакторинг, чистка deprecated и релиз Selenide 3.0.&lt;/p&gt;
 &lt;p&gt;Пожалуйста, пробегитесь по своим тестам и убедитесь, что вы не используете @Deprecated методы. Мы планируем их удалить в Selenide 3.0.&lt;/p&gt;
 &lt;p&gt;А пока - новинки в Selenide 2.25:&lt;/p&gt;

@@ -4,6 +4,7 @@ com.codeborne.selenide.appium.commands
 com.codeborne.selenide.appium.conditions
 com.codeborne.selenide.appium.selector
 com.codeborne.selenide.clearwithshortcut
+com.codeborne.selenide.cli
 com.codeborne.selenide.collections
 com.codeborne.selenide.commands
 com.codeborne.selenide.commands.ancestor

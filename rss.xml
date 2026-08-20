@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selenide: лаконичные и стабильные UI тесты на Java on Selenide</title><link>https://ru.selenide.org/</link><description>Recent content in Selenide: лаконичные и стабильные UI тесты на Java on Selenide</description><generator>Hugo</generator><language>ru</language><managingEditor>andrei.solntsev@gmail.com (Andrei Solntsev)</managingEditor><webMaster>andrei.solntsev@gmail.com (Andrei Solntsev)</webMaster><lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ru.selenide.org/rss.xml" rel="self" type="application/rss+xml"/><item><title>Вышла Selenide 7.17.0</title><link>https://ru.selenide.org/2026/07/12/selenide-7.17.0/</link><pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/07/12/selenide-7.17.0/</guid><description>&lt;p&gt;Буэнос приветос!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selenide: лаконичные и стабильные UI тесты на Java on Selenide</title><link>https://ru.selenide.org/</link><description>Recent content in Selenide: лаконичные и стабильные UI тесты на Java on Selenide</description><generator>Hugo</generator><language>ru</language><managingEditor>andrei.solntsev@gmail.com (Andrei Solntsev)</managingEditor><webMaster>andrei.solntsev@gmail.com (Andrei Solntsev)</webMaster><lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ru.selenide.org/rss.xml" rel="self" type="application/rss+xml"/><item><title>Вышла Selenide 7.18.0</title><link>https://ru.selenide.org/2026/08/12/selenide-7.18.0/</link><pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/08/12/selenide-7.18.0/</guid><description>&lt;p&gt;TODO!&lt;/p&gt;
+&lt;p&gt;Отвлекитесь на секундочку от футбола и зацените, какой у нас тут релиз подъехал:&lt;br&gt;
+&lt;a href="https://github.com/selenide/selenide/milestone/243?closed=1"&gt;Selenide 7.18.0&lt;/a&gt;!&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/08/12/selenide-7.18.0/#update-to-selenium-4.47.0"&gt;Обновили Selenium с 4.46.0 на 4.47.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Configuration&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;savePageSourceWithResources&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Сравним размеры файлов для &lt;a href="https://selenide.org"&gt;https://selenide.org&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Было:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-rw-r--r-- &lt;span class="m"&gt;1&lt;/span&gt; andrei staff &lt;span class="m"&gt;12042&lt;/span&gt; Aug &lt;span class="m"&gt;11&lt;/span&gt; 22:47 1786477661496.0.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-rw-r--r-- &lt;span class="m"&gt;1&lt;/span&gt; andrei staff &lt;span class="m"&gt;244198&lt;/span&gt; Aug &lt;span class="m"&gt;11&lt;/span&gt; 22:47 1786477661496.0.png
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Стало:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-rw-r--r-- &lt;span class="m"&gt;1&lt;/span&gt; andrei staff &lt;span class="m"&gt;190104&lt;/span&gt; Aug &lt;span class="m"&gt;11&lt;/span&gt; 22:48 1786477680222.0.mhtml
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-rw-r--r-- &lt;span class="m"&gt;1&lt;/span&gt; andrei staff &lt;span class="m"&gt;244198&lt;/span&gt; Aug &lt;span class="m"&gt;11&lt;/span&gt; 22:48 1786477680222.0.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="update-to-selenium-4.47.0"&gt;Обновили Selenium с 4.46.0 на 4.47.0&lt;/h3&gt;
+&lt;p&gt;И подняли версию CDP с v150 до v151.&lt;/p&gt;</description></item><item><title>Вышла Selenide 7.17.0</title><link>https://ru.selenide.org/2026/07/12/selenide-7.17.0/</link><pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/07/12/selenide-7.17.0/</guid><description>&lt;p&gt;Буэнос приветос!&lt;/p&gt;
+&lt;p&gt;Отвлекитесь на секундочку от футбола и зацените, какой у нас тут релиз подъехал:&lt;br&gt;
+&lt;a href="https://github.com/selenide/selenide/milestone/242?closed=1"&gt;Selenide 7.17.0&lt;/a&gt;!&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Наконец-то завезли локатор &lt;code&gt;byRole&lt;/code&gt;!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#by-role-locator"&gt;Локатор &lt;code&gt;byRole&lt;/code&gt; — поиск элемента по ARIA-роли&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#more-mcp-tools"&gt;Ещё MCP-тулзов для вашего ИИ-раба!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#download-multiple-files"&gt;Скачивание нескольких файлов разом&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#appium-element-return-type"&gt;Типа типы SelenideAppiumElement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#cookies-api"&gt;&lt;code&gt;Selenide.cookies()&lt;/code&gt; — новый API для печенек&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#element-aliases-kotlin"&gt;&lt;code&gt;element()&lt;/code&gt;/&lt;code&gt;elements()&lt;/code&gt; для котлин-разработчиков в Appium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/07/12/selenide-7.17.0/#update-to-selenium-4.46.0"&gt;Обновили Selenium с 4.44.0 на 4.46.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id="by-role-locator"&gt;Локатор &lt;code&gt;byRole&lt;/code&gt; — поиск элемента по ARIA-роли&lt;/h3&gt;
+&lt;p&gt;В последнее время стали модными &amp;ldquo;accessibility locators&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Вышла Selenide 7.17.0</title><link>https://ru.selenide.org/2026/07/12/selenide-7.17.0/</link><pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/07/12/selenide-7.17.0/</guid><description>&lt;p&gt;Буэнос приветос!&lt;/p&gt;
 &lt;p&gt;Отвлекитесь на секундочку от футбола и зацените, какой у нас тут релиз подъехал:&lt;br&gt;
 &lt;a href="https://github.com/selenide/selenide/milestone/242?closed=1"&gt;Selenide 7.17.0&lt;/a&gt;!&lt;/p&gt;
 &lt;br&gt;

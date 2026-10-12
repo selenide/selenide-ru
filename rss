@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selenide: лаконичные и стабильные UI тесты на Java on Selenide</title><link>https://ru.selenide.org/</link><description>Recent content in Selenide: лаконичные и стабильные UI тесты на Java on Selenide</description><generator>Hugo</generator><language>ru</language><managingEditor>andrei.solntsev@gmail.com (Andrei Solntsev)</managingEditor><webMaster>andrei.solntsev@gmail.com (Andrei Solntsev)</webMaster><lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ru.selenide.org/rss.xml" rel="self" type="application/rss+xml"/><item><title>Вышла Selenide 7.18.0</title><link>https://ru.selenide.org/2026/08/20/selenide-7.18.0/</link><pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/08/20/selenide-7.18.0/</guid><description>&lt;p&gt;Tere õhtust!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selenide: лаконичные и стабильные UI тесты на Java on Selenide</title><link>https://ru.selenide.org/</link><description>Recent content in Selenide: лаконичные и стабильные UI тесты на Java on Selenide</description><generator>Hugo</generator><language>ru</language><managingEditor>andrei.solntsev@gmail.com (Andrei Solntsev)</managingEditor><webMaster>andrei.solntsev@gmail.com (Andrei Solntsev)</webMaster><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ru.selenide.org/rss.xml" rel="self" type="application/rss+xml"/><item><title>Вышла Selenide 7.19.0</title><link>https://ru.selenide.org/2026/10/10/selenide-7.19.0/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/10/10/selenide-7.19.0/</guid><description>&lt;p&gt;Добрый вечер!&lt;/p&gt;
+&lt;p&gt;Голубиной почтой нам доставили &lt;a href="https://github.com/selenide/selenide/milestone/246?closed=1"&gt;Selenide 7.19.0&lt;/a&gt;!&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#browser-state"&gt;Сохранение и восстановление состояния браузера&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#mock-clock"&gt;Эмуляция времени и часового пояса&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#visible-text"&gt;Условия &lt;code&gt;visibleText&lt;/code&gt; и &lt;code&gt;exactVisibleText&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#htmlunit"&gt;HtmlUnit вернулся&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#mcp-cli-capabilities"&gt;Capabilities браузера в MCP и CLI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#stale-download-files"&gt;Старые временные файлы больше не ломают скачивание&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#unique-file-names"&gt;Уникальные имена файлов для скриншотов и логов&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#appium-scroll-inside"&gt;Appium: &lt;code&gt;scroll()&lt;/code&gt; и &lt;code&gt;swipe()&lt;/code&gt; внутри элемента&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#appium-chainable-methods"&gt;Appium: цепочечные методы возвращают &lt;code&gt;SelenideAppiumElement&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#appium-custom-collection"&gt;Appium: свой класс элемента в &lt;code&gt;SelenideAppiumCollection&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#update-to-appium-11"&gt;Обновили Appium java-client с 10.1.1 до 11.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/10/selenide-7.19.0/#update-to-selenium-4.51.0"&gt;Обновили Selenium с 4.49.0 до 4.51.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id="browser-state"&gt;Сохранение и восстановление состояния браузера&lt;/h3&gt;
+&lt;p&gt;Многие тесты начинаются с логина. А логин занимает время.
+Ну знаете, открыть логин-форму, ввести пароль, получить как-то email или SMS и т.д.&lt;/p&gt;</description></item><item><title>Вышла Selenide 7.18.0</title><link>https://ru.selenide.org/2026/08/20/selenide-7.18.0/</link><pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/08/20/selenide-7.18.0/</guid><description>&lt;p&gt;Tere õhtust!&lt;/p&gt;
 &lt;p&gt;20 августа у нас в Эстонии День Восстановления Независимости, и по сему случаю выпускаем праздничный
 &lt;a href="https://github.com/selenide/selenide/milestone/243?closed=1"&gt;Selenide 7.18.0&lt;/a&gt;!&lt;/p&gt;
 &lt;br&gt;
@@ -3174,13 +3194,13 @@ Selenide был создан для решения этих проблем.&lt;/
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-xml" data-lang="xml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.codeborne&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;selenide&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;7.18.2&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;7.19.0&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;scope&amp;gt;&lt;/span&gt;test&lt;span class="nt"&gt;&amp;lt;/scope&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="для-пользователей-gradle"&gt;Для пользователей Gradle:&lt;/h3&gt;
 &lt;p&gt;Добавь в файл build.gradle:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;dependencies&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;testImplementation&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;com.codeborne:selenide:7.18.2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;testImplementation&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;com.codeborne:selenide:7.19.0&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="начинай-писать-тест"&gt;Начинай писать тест&lt;/h2&gt;
 &lt;p&gt;Вот так просто! Больше никакой волокиты, начинай писать тест.&lt;/p&gt;

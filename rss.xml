@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selenide: лаконичные и стабильные UI тесты на Java on Selenide</title><link>https://ru.selenide.org/</link><description>Recent content in Selenide: лаконичные и стабильные UI тесты на Java on Selenide</description><generator>Hugo</generator><language>ru</language><managingEditor>andrei.solntsev@gmail.com (Andrei Solntsev)</managingEditor><webMaster>andrei.solntsev@gmail.com (Andrei Solntsev)</webMaster><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ru.selenide.org/rss.xml" rel="self" type="application/rss+xml"/><item><title>Вышла Selenide 7.19.0</title><link>https://ru.selenide.org/2026/10/10/selenide-7.19.0/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/10/10/selenide-7.19.0/</guid><description>&lt;p&gt;Добрый вечер!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selenide: лаконичные и стабильные UI тесты на Java on Selenide</title><link>https://ru.selenide.org/</link><description>Recent content in Selenide: лаконичные и стабильные UI тесты на Java on Selenide</description><generator>Hugo</generator><language>ru</language><managingEditor>andrei.solntsev@gmail.com (Andrei Solntsev)</managingEditor><webMaster>andrei.solntsev@gmail.com (Andrei Solntsev)</webMaster><lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ru.selenide.org/rss.xml" rel="self" type="application/rss+xml"/><item><title>Вышла Selenide 7.19.1</title><link>https://ru.selenide.org/2026/10/25/selenide-7.19.1/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/10/25/selenide-7.19.1/</guid><description>&lt;br&gt;
+&lt;h1 id="день-рождения"&gt;День рождения!&lt;/h1&gt;
+&lt;p&gt;Ура! Сегодня Селениду исполняется&amp;hellip; 15 лет!&lt;/p&gt;
+&lt;p&gt;Ровно 15 лет назад, 25 октября 2011 года, был сделан &lt;a href="https://github.com/selenide/selenide/commit/3716078fc7fda8c5da01d871882d513cbd97cd0e"&gt;первый коммит&lt;/a&gt; в репозитории.
+&lt;a href="https://ru.selenide.org/2021/10/25/selenide-6.0.1/"&gt;Пять лет назад&lt;/a&gt; мы отмечали 10-летие мажорным релизом Selenide 6.0.1.
+А теперь нам уже 15. Как летит время! :)&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;В честь юбилея мы зарелизили &lt;a href="https://github.com/selenide/selenide/milestone/247?closed=1"&gt;Selenide 7.19.1&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/25/selenide-7.19.1/#java-11"&gt;Подарок на день рождения: поддержка Java 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/25/selenide-7.19.1/#timezone"&gt;Настройка &lt;code&gt;Configuration.timezone&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/25/selenide-7.19.1/#cli-mcp-timezone"&gt;Опция &lt;code&gt;--timezone&lt;/code&gt; в Selenide CLI и MCP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/25/selenide-7.19.1/#cli-skill-html-dumps"&gt;Selenide CLI skill: дампы HTML-страниц&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/25/selenide-7.19.1/#selenide-logger-leak"&gt;Подчищаем память в &lt;code&gt;SelenideLogger&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ru.selenide.org/2026/10/25/selenide-7.19.1/#download-statistics"&gt;Статистика скачиваний Селенида&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id="java-11"&gt;Подарок на день рождения: поддержка Java 11&lt;/h3&gt;
+&lt;p&gt;В подарок на день рождения Selenide 7.19.1 скомпилирована под Java 11.&lt;/p&gt;</description></item><item><title>Вышла Selenide 7.19.0</title><link>https://ru.selenide.org/2026/10/10/selenide-7.19.0/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><author>andrei.solntsev@gmail.com (Andrei Solntsev)</author><guid>https://ru.selenide.org/2026/10/10/selenide-7.19.0/</guid><description>&lt;p&gt;Добрый вечер!&lt;/p&gt;
 &lt;p&gt;Голубиной почтой нам доставили &lt;a href="https://github.com/selenide/selenide/milestone/246?closed=1"&gt;Selenide 7.19.0&lt;/a&gt;!&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;
@@ -3194,13 +3213,13 @@ Selenide был создан для решения этих проблем.&lt;/
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-xml" data-lang="xml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.codeborne&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;selenide&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;7.19.0&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;7.19.1&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;lt;scope&amp;gt;&lt;/span&gt;test&lt;span class="nt"&gt;&amp;lt;/scope&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="для-пользователей-gradle"&gt;Для пользователей Gradle:&lt;/h3&gt;
 &lt;p&gt;Добавь в файл build.gradle:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;dependencies&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;testImplementation&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;com.codeborne:selenide:7.19.0&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;testImplementation&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;com.codeborne:selenide:7.19.1&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="начинай-писать-тест"&gt;Начинай писать тест&lt;/h2&gt;
 &lt;p&gt;Вот так просто! Больше никакой волокиты, начинай писать тест.&lt;/p&gt;
